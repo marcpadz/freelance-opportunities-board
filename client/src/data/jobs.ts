@@ -5,59 +5,239 @@ export type Job = { title: string; description: string; category: string; date: 
 export const jobs: Job[] = 
 [
   {
-    "title": "SureHost",
-    "description": "(US) needs a founding full-time product manager ($90-$110/hour)",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://app.usebraintrust.com/jobs/17854/",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Braintrust | Transforming Hiring with AI Recruiting Braintrust is the new model for how work gets done. We connect organizations with top technical talent to complete strategic projects and drive innovation. Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$90-$110/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://d1m1s6un1a8qgj.cloudfront.net/static/logo-symbol.png",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://app.usebraintrust.com/jobs/17854/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$90-$110/hour"
-  },
-  {
-    "title": "Impact Teen Drivers",
-    "description": "(Sacramento, CA) needs a part-time administrative and executive assistant ($35/hour)",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.idealist.org/en/nonprofit-job/b27cac724b2f4d2cb648d121525a3198-administrative-executive-assistant-part-time-impact-teen-drivers-sacramento",
-    "newsletter": "",
+    "title": "Mothership — gaming pitches through a queer/gender lens",
+    "description": "Gaming site seeking pitches exploring the intersection of gaming with gender, sexuality and the body: investigative reporting, games criticism, news analysis and personal essays amplifying marginalized voices. Pay starts at $250/piece.",
+    "category": "Journalists",
+    "date": "2026-10-02",
+    "source": "https://www.mothership.blog/write-for-us/",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
     "verified": false,
     "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
+      "summary": "TWJN Pro 182 (Oct 2, 2026) — free preview only; full issue behind premium",
       "responsibilities": [],
       "requirements": [],
       "location": "",
-      "compensation": "$35/hour",
+      "compensation": "$250+/piece",
+      "deadline": "",
+      "application": "Email team@mothership.blog with word count, proposed headline/lede and past writing links. Pitch guide: https://www.mothership.blog/write-for-us/"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.mothership.blog/write-for-us/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$250+/piece"
+  },
+  {
+    "title": "GURU Conference — free virtual email marketing conference (Nov 12–13)",
+    "description": "Free 100% virtual email marketing conference by Constant Contact, Nov 12–13; speakers include Molly Ringwald, Dan Levy, Amy Porterfield and Frank Vella.",
+    "category": "Other",
+    "date": "2026-10-02",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN Pro 182 (Oct 2, 2026) — free preview only; full issue behind premium",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Virtual",
+      "compensation": "Free",
+      "deadline": "Nov 12–13",
+      "application": "Save a spot at https://www.guruconfrence.com/lp9/"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Other",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": "Free"
+  },
+  {
+    "title": "Eurogamer — gaming pitches (limited budget)",
+    "description": "Accepting gaming pitches; budget currently limited and not committing many pieces.",
+    "category": "Journalists",
+    "date": "2026-10-02",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN Pro 182 (Oct 2, 2026) — free preview only; full issue behind premium",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": "Email pitches@eurogamer.net"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Other",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Aftermath — gaming & tech pitches",
+    "description": "Gaming/tech outlet open to pitches from established and new writers: investigative and reported stories on players, workers and community; no reviews, lists, guides or service posts. Shorter pieces $300, in-depth reporting $500.",
+    "category": "Journalists",
+    "date": "2026-10-02",
+    "source": "https://aftermath.site/aftermath-freelance-pitch-guide/",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN Pro 182 (Oct 2, 2026) — free preview only; full issue behind premium",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$300–500",
+      "deadline": "",
+      "application": "Email freelance@aftermath.site with a \"PITCH:\" subject, short summary and anticipated length. Pitch guide: https://aftermath.site/aftermath-freelance-pitch-guide/"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://aftermath.site/aftermath-freelance-pitch-guide/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$300–500"
+  },
+  {
+    "title": "Business Insider — fresh pitches (Conz Preti)",
+    "description": "Seeking new holiday takes, parenting US vs other countries, family travel essays, soft retirement, intentional \"leaning out\" experiences and multigenerational living; first-person essays welcome.",
+    "category": "Journalists",
+    "date": "2026-10-02",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN Pro 182 (Oct 2, 2026) — free preview only; full issue behind premium",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "from ~$240/600 words",
+      "deadline": "",
+      "application": "Email cpreti@businessinsider.com"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Other",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "from ~$240/600 words"
+  },
+  {
+    "title": "Business Insider — \"Village for Hire\" series pitches",
+    "description": "Business Insider series \"Village for Hire\" wants first-person stories on creative ways working parents solve life's problems — sourcing, optimizing busy lives, the \"modern paid village\".",
+    "category": "Journalists",
+    "date": "2026-10-02",
+    "source": "https://docs.google.com/forms/d/e/1FAIpQLSdHJoGKxMOymsnq6qh-kXyIySVbBXYzTGTG3L9Bq9QxhReXuQ/viewform",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-182-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN Pro 182 (Oct 2, 2026) — free preview only; full issue behind premium",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "from ~$240 for 600 words",
+      "deadline": "",
+      "application": "Submit via pitch form: https://docs.google.com/forms/d/e/1FAIpQLSdHJoGKxMOymsnq6qh-kXyIySVbBXYzTGTG3L9Bq9QxhReXuQ/viewform"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Other",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdHJoGKxMOymsnq6qh-kXyIySVbBXYzTGTG3L9Bq9QxhReXuQ/viewform",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "from ~$240 for 600 words"
+  },
+  {
+    "title": "Ring — social media managers, content creators, video editors, influencer managers",
+    "description": "Hiring social media managers, content creators, video editors and influencer managers.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Lantern Sol — remote Shopify virtual assistant",
+    "description": "Remote virtual assistant for Shopify stores.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.lanternsol.com/open-positions/virtual-assistant-shopify",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
       "deadline": "",
       "application": ""
     },
@@ -65,60 +245,277 @@ export const jobs: Job[] =
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://www.idealist.org/en/nonprofit-job/b27cac724b2f4d2cb648d121525a3198-administrative-executive-assistant-part-time-impact-teen-drivers-sacramento",
+      "url": "https://www.lanternsol.com/open-positions/virtual-assistant-shopify",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "We are PF — freelance SEO specialists, paid ads experts, VAs, web designers",
+    "description": "Seeking freelance SEO specialists, paid ads experts, virtual assistants and web designers.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Kickstarter Culture Fund — grants for independent creators",
+    "description": "Funding for independent creators' projects in art, fashion, film and music.",
+    "category": "Grants",
+    "date": "2026-10-03",
+    "source": "https://share.hsforsms.com/2qcklPPrhOQ9i5jagl5DpFaaSq0dl",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Other",
+      "url": "https://share.hsforsms.com/2qcklPPrhOQ9i5jagl5DpFaaSq0dl",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": ""
+  },
+  {
+    "title": "Fumb Games — freelance marketing artists, devs, video editors, designers",
+    "description": "Mobile games studio hiring freelance marketing artists, playable devs, video editors, 2D/3D designers, Unity devs and AI prompters.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Two Circles — freelance post-production audio & video pros",
+    "description": "Sports agency seeking freelance post-production audio and video professionals.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Mass Cultural Council — grants for creative individuals",
+    "description": "$5k grants for artists and culture bearers in Massachusetts.",
+    "category": "Grants",
+    "date": "2026-10-03",
+    "source": "https://massculturalcouncil.org/artists-art/grants-for-creative-individuals/application-process/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Massachusetts",
+      "compensation": "$5k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://massculturalcouncil.org/artists-art/grants-for-creative-individuals/application-process/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": "$5k"
+  },
+  {
+    "title": "League of Geeks — remote contract engineer",
+    "description": "Remote contract engineer at a games studio, $120k.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://www.workwithindies.com/careers/league-of-geeks-engineer",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Australia, remote",
+      "compensation": "$120k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.workwithindies.com/careers/league-of-geeks-engineer",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": "$120k"
+  },
+  {
+    "title": "VC Lab — remote Ruby on Rails engineer with frontend skills",
+    "description": "Remote Ruby on Rails engineer with frontend skills.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://jobs.lever.co/decilegroup/3a1e9b3d-37b0-47d8-a40e-4e5ac16d06c1",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://jobs.lever.co/decilegroup/3a1e9b3d-37b0-47d8-a40e-4e5ac16d06c1",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": ""
+  },
+  {
+    "title": "Erik's Technology Solutions — part-time junior software developer",
+    "description": "Part-time junior software developer, $75–97k/yr.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Stafford, VA",
+      "compensation": "$75–97k/yr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Other",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "$35/hour"
+    "pay": "$75–97k/yr"
   },
   {
-    "title": "Girls Inc. of Long Island",
-    "description": "(NYC) needs a part-time development operations and grant administrator ($25-$30/hour, 15 hours/week)",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.idealist.org/en/nonprofit-job/45a4f448f5ce4868b892cba6fa03302a-development-operations-and-grant-administrator-girls-inc-of-long-island-deer-park",
-    "newsletter": "",
+    "title": "Beachshort Design — part-time website developer",
+    "description": "Part-time website developer in the UK.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://uk.indeed.com/viewjob?jk=6b0d4afe3d9867c5",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
     "verified": false,
     "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "$25-$30/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.idealist.org/en/nonprofit-job/45a4f448f5ce4868b892cba6fa03302a-development-operations-and-grant-administrator-girls-inc-of-long-island-deer-park",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Grant",
-    "pay": "$25-$30/hour"
-  },
-  {
-    "title": "The Marie and John Zimmermann Fund",
-    "description": "is open to early- and mid-career metalsmiths",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://snagmetalsmith.org/zimmermann-legacy-grants/",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Source could not be fetched automatically: HTTPError.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
+      "location": "UK",
       "compensation": "",
       "deadline": "",
       "application": ""
@@ -127,742 +524,534 @@ export const jobs: Job[] =
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://snagmetalsmith.org/zimmermann-legacy-grants/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "The Yéego Action Grant",
-    "description": "is open to Native artists and culture bearers ($2.5k)",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.firstpeoplesfund.org/programs/yeego-action-grant",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Yéego Action Grant - First Peoples Fund The Yéego Action Grant provides support for the growing landscape of Native artists and culture bearers who need financial assistance with a professional development opportunity or towards a hardship that is hindering their creative practice. Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$2500",
-      "deadline": "3:00pm MT on the 10th of every month Grant application FUNDING USAGE GUIDELINES",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://cdn.prod.website-files.com/6480bea85e3e83bf0ca0fefd/64daad2982082a96ece73abd_FPF-Open-Graph.jpg",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.firstpeoplesfund.org/programs/yeego-action-grant",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Grant",
-    "pay": "$2500"
-  },
-  {
-    "title": "Melissa Ryan-Hillman",
-    "description": "needs a virtual assistant",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.threads.com/@melissaryanhillman/post/DdrFwQpDXTa?xmt=AQG07pBWpr9y9Z59WOwMahi3BWW8q46E5XsyyEN-GjGnzFwouvnWV9bcIaU9GDX7JOKABNg",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Threads • Log in Join Threads to share ideas, ask questions, post random thoughts, find your people and more. Log in with your Instagram. Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://static.cdninstagram.com/rsrc.php/yd/r/kHwIMM5b8PW.webp",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": true,
-      "platform": "Threads",
-      "url": "https://www.threads.com/@melissaryanhillman/post/DdrFwQpDXTa?xmt=AQG07pBWpr9y9Z59WOwMahi3BWW8q46E5XsyyEN-GjGnzFwouvnWV9bcIaU9GDX7JOKABNg",
-      "embedUrl": "https://www.threads.com/@melissaryanhillman/post/DdrFwQpDXTa?xmt=AQG07pBWpr9y9Z59WOwMahi3BWW8q46E5XsyyEN-GjGnzFwouvnWV9bcIaU9GDX7JOKABNg"
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "The Asian Cultural Council",
-    "description": "(US/Asia) is open to scholars, artists, and arts professionals",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.asianculturalcouncil.org/grant-opportunities",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Source could not be fetched automatically: RemoteDisconnected.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.asianculturalcouncil.org/grant-opportunities",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "The Southern Artist Spotlight Grant",
-    "description": "is open to Southern artists working in literary arts, film, performing arts, visual arts, and traditional arts",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.southarts.org/grants-opportunities/southern-artist-spotlight-grant",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Southern Artist Spotlight Grant | South Arts Southern Artist Spotlight Grants provide funding for arts and community organizations to present Southern artists from the South Arts roster through public performances, screenings, exhibitions, and community engagement activities. Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$8,000",
-      "deadline": "for this program will not be considered for funding from this grant program unti",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://www.southarts.org/themes/custom/sarts/img/south_arts_default_og.jpg",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.southarts.org/grants-opportunities/southern-artist-spotlight-grant",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Grant",
-    "pay": "$8,000"
-  },
-  {
-    "title": "Wide Eye",
-    "description": "needs freelance engineers",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.wideeye.co/job/engineering-freelance-pool",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Engineering Freelance PoolWide Eye CreativeCloseWide Eye Creative Wide Eye is a full-service creative agency specializing in interactive design, web development, and digital communications for brands that change the world. Headquartered in Washington, DC. Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://mediacdn.wideeyecreative.com/images/s3wtzeqm/production/80863e114f274c64f74a4fc939b081fd24470dfd-1200x630.png?w=1200&h=630",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.wideeye.co/job/engineering-freelance-pool",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "Code the Dream",
-    "description": "(US) needs a remote full-time senior data engineer",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.idealist.org/en/nonprofit-job/45dc48c85db84746a42e84172eb2ea39-senior-data-engineer-tech-equity-fellowship-code-the-dream-durham",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.idealist.org/en/nonprofit-job/45dc48c85db84746a42e84172eb2ea39-senior-data-engineer-tech-equity-fellowship-code-the-dream-durham",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": ""
-  },
-  {
-    "title": "KUER",
-    "description": "(Salt Lake City, Utah) needs a full-time local host of All Things Considered ($61k-$65k)",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://utah.peopleadmin.com/postings/209631",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Creative Media Producers KUER is looking for a broadcaster and journalist ready to connect with Utahns as local host of NPR’s “All Things Considered.” The host serves as a trusted guide to NPR’s national and international reporting and storytelling. They also give the station its uniquely Utah lens by offering local information to help people navigate their afternoon, sharing KUER’s service-oriented reporting and facilitating conversations that help everyone understand the Beehive State and meet their neighbors.About us:KUER serves Utahns with trustworthy news and information, expertly crafted stories, plus conversations and voices from around our state. To provide this essential public service, we’re dedicated to building an organizational culture that prioritizes collaboration. We seek a team that reflects our entire community, and we encourage contributions from people of varied experiences. We are committed to attracting and retaining a staff whose perspectives are heard and valued. This is essential to our success.Benefits:● Health, dental, and wellness coverage● Employer contribution to personal retirement● Free public transportation pass (Utah Transit Authority)● Paid leave time● Tuition reduction for employee and family membersLearn more about the great benefits of working for University of Utah: benefits.utah.edu Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$61,000 - $65,000",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "social_share.jpg",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://utah.peopleadmin.com/postings/209631",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$61,000 - $65,000"
-  },
-  {
-    "title": "WFMT",
-    "description": "(Chicago, IL) needs a radio producer ($62k-$80k/year)",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://phe.tbe.taleo.net/phe03/ats/careers/v2/viewRequisition?org=WWCI&cws=46&rid=369",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Hiring Producer - Radio Content, - Chicago, IL View job details and apply now Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$62,700 - $80,000",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://phe.tbe.taleo.net/phe03/ats/careers/v2/viewRequisition?org=WWCI&cws=46&rid=369",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$62,700 - $80,000"
-  },
-  {
-    "title": "American University",
-    "description": "needs a full-time podcast producer",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://american.wd1.myworkdayjobs.com/AU/job/4401-Connecticut-Campus-Washington-DC/XMLNAME-1A-Plus-Podcast-Producer--Producer-I-_R4939",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://american.wd1.myworkdayjobs.com/AU/job/4401-Connecticut-Campus-Washington-DC/XMLNAME-1A-Plus-Podcast-Producer--Producer-I-_R4939",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": ""
-  },
-  {
-    "title": "Chorus America",
-    "description": "Music Education Partnership Grants are open now",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://chorusamerica.org/music-ed-grants",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Music Education Partnership Grants | Chorus America We are now accepting proposals for the next grant cycle, and applications are due November 20, 2026.Singing with others in a group is a powerful tool for cross-cultural learning, developing empathy, and building community.Chorus America invites nonprofit organizations and fiscally sponsored projects Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$750",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://chorusamerica.org/music-ed-grants",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Grant",
-    "pay": "$750"
-  },
-  {
-    "title": "The Cutting Room Floor",
-    "description": "(NYC) needs a creative video editor ($75k)",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://thecuttingroomfloor.typeform.com/video-creative",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Video Editor, Creative Video Editor, Creative at The Cutting Room Floor Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$75",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://images.typeform.com/images/MiKFBoQREqiv/image/default",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://thecuttingroomfloor.typeform.com/video-creative",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$75"
-  },
-  {
-    "title": "ESPN",
-    "description": "(Bristol, CT) needs a full-time associate video editor",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.disneycareers.com/en/job/bristol/associate-video-editor/391/101091611616",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.disneycareers.com/en/job/bristol/associate-video-editor/391/101091611616",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": ""
-  },
-  {
-    "title": "Noah Altink",
-    "description": "needs a short-form video editor who edits in Premiere Pro, DaVinci Resolve, or VideoLeap",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.threads.com/share/FwBq3EV_C/",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Noah Altink (@noahaltink) on Threads HIRING: High-Level Short-Form Video Editor 🎬 I’m looking for an editor to work with me long-term on fixed, repeatable fashion and creator video formats. You should edit in VideoLeap, Premiere Pro or DaVinci Resolve, understand retention and watch time, and deliver fast without sacrificing quality. You’re detail-oriented, open to feedback and genuinely driven to keep improving. Interested? Send your portfolio, software and availability to info@noah-altink.com Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://instagram.fskt14-1.fna.fbcdn.net/v/t51.82787-15/817742282_17944432470342956_6696145833932006704_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5MTkwNjU1MDcwNzkzNjMxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTY3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9FxP4WX3dTkQ7kNvwGokf3m&_nc_oc=Adq9VEB3K03KDp7ZoaOjbMK3EvbB-p9XhE0xnX9KVNXXZyqg4b9uSkYbSs-9yp3vTlM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fskt14-1.fna&_nc_gid=kIVgzJwibTcZ6UqzHdOcMA&_nc_ss=7a22e&oh=00_AQNvBl1xMaDm48OZ7KWZbFePXqbbWVnnTqkiqfic1xoKQA&oe=6ABF9EB4",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": true,
-      "platform": "Threads",
-      "url": "https://www.threads.com/share/FwBq3EV_C/",
-      "embedUrl": "https://www.threads.com/share/FwBq3EV_C/"
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "VML Health",
-    "description": "...new-york) (NYC) needs a part-time social video producer and editor ($50/hour)",
-    "category": "Other",
-    "date": "2026-09-25",
-    "source": "https://www.vml.com/careers/job/8844462002-u...(content truncated",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "The source URL in the imported newsletter data is incomplete or malformed.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$50/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.vml.com/careers/job/8844462002-u...(content truncated",
+      "url": "https://uk.indeed.com/viewjob?jk=6b0d4afe3d9867c5",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "$50/hour"
-  },
-  {
-    "title": "Scientific American",
-    "description": "also needs pitches on space, health, chemistry, news, etc.",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://www.linkedin.com/posts/robin-lloyd-b5a320_update-scientific-american-is-alive-and-share-7508182638873038848-gqGI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Pitch SciAm Editors: Cameron, Frasier, Parshall, Thompson, Billings, Sullivan, Howlett, Satyanarayana | Robin Lloyd posted on the topic | LinkedIn Update: Scientific American is alive and well (post-layoffs and post-sale to LabX). As always, they are taking pitches for online and mag, same freelance budget, same rates. Key editors to pitch: Claire.Cameron@sciam.com (health, breaking online news), Sarah.Frasier@sciam.com (print news, FOB), Allison.Parshall@sciam.com (mind/brain, cognitive sci), Andrea.Thompson@sciam.com (environment, energy, climate), Lee Billings LBillings@sciam.com (space, physics, planetary, physical sciences), Eric Sullivan (tech), Joe Howlett (math), Megha Satyanarayana (health, med, chemistry - meghas@sciam.com. ( Allison Parshall Joseph Howlett, Andrea Thompson, Sarah Lewin Frasier, Claire Cameron) (I'm a contributing ed., got OK to share all this. Don't pitch me, but I'm available to answer some SciAm q's.) Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "is met, the postdoc remains at the bench, and the paper enters the literature wi",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": true,
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/posts/robin-lloyd-b5a320_update-scientific-american-is-alive-and-share-7508182638873038848-gqGI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
-      "embedUrl": "https://www.linkedin.com/posts/robin-lloyd-b5a320_update-scientific-american-is-alive-and-share-7508182638873038848-gqGI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw"
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
     "pay": ""
   },
   {
-    "title": "The Work/Shift Fellowship",
-    "description": "will now close applications on October 9",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://r2i-lab.org/work-shift-fellowship/",
-    "newsletter": "",
+    "title": "UK Logistics — remote part-time web developer",
+    "description": "Remote part-time web developer, 10–15 hours a week.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://uk.indeed.com/viewjob?jk=99c8cd0c0edf8e64",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: Work//Shift Fellowship We’re reimagining America’s social safety net to support all people — regardless of work status or wealth — so that diverse communities can thrive with economic resilience, creative freedom, and democratic engagement. Discover our research, investments, experiments, and policy advocacy. Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "$30,000",
-      "deadline": "October 26, 2026 Interviews : November 2-16, 2026 Notification of Decisions: Dec",
+      "location": "London, remote",
+      "compensation": "£17–22/hr, 10–15 hrs/wk",
+      "deadline": "",
       "application": ""
     },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://r2i-lab.org/wp-content/uploads/2025/08/undefined.png",
-        "alt": "Media from source"
-      }
-    ],
+    "media": [],
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://r2i-lab.org/work-shift-fellowship/",
+      "url": "https://uk.indeed.com/viewjob?jk=99c8cd0c0edf8e64",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Fellowship",
-    "pay": "$30,000"
+    "type": "Part-time",
+    "pay": "£17–22/hr, 10–15 hrs/wk"
   },
   {
-    "title": "The Stack",
-    "description": "(UK) needs reporters for breaking news with business reporting experience for flexible shifts (“competitive rates” and “full-time equivalent” are red flags here)",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://www.linkedin.com/posts/edwardtargett_journojobs-enterpriseit-tech-share-7508878920377597952-kdLO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
-    "newsletter": "",
+    "title": "Zurich (Bath) — part-time associate software engineer",
+    "description": "Part-time associate software engineer in Bath, £35k/yr.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://www.careers.zurich.com/job/Bath-Associate-Software-Engineer-GB-E/1367510657",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: #journojobs #enterpriseit #tech #reporter #journalism #flexiwork #moneyawaits | Edward Targett Jobs Jobs Jobs! We're looking for two more experienced news hounds at The Stack. Freelance basis, full-time-equivalent. Flexible shifts. Join an energetic, growing team! Enterprise technology or business reporting strongly preferred; willingness to geek out about virtual machines/containers/IaaS/infosec/\"digital transformation\" more broadly, without getting sucked into the vendor-hype slipstream greatly favoured. Ability to work independently and with initiative warmly welcomed; openness to feedback likewise. I'd particularly welcome one person willing to work a 4pm - 11pm shift UK time, regularly, reporting in to Tom Krazit, who's on a PT clock. Great features writers with deep technical chops always welcomed, but I'd love to grab someone with a nous and a nose for news, who likes breaking stories, moving stories on, building a solid contacts book and hates being scooped. Don't care where you work, but availability for events at short notice preferred and a willingness and desire to get to them from your own initiative are important. Competitive rates/salary. The Stack is a bootstrapped, journalist-owned media startup: It's scrappy, but that means there is always scope to carve out an important role for yourself and frankly, when you've proved yourself, earn more money, so throw your hat into the ring! DMs open or CV and cover letter to ed at thestack dot technology please #journojobs #enterpriseIT #tech #reporter #journalism #flexiwork #moneyawaits Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
+      "location": "Bath",
+      "compensation": "£35,000/yr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.careers.zurich.com/job/Bath-Associate-Software-Engineer-GB-E/1367510657",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "£35,000/yr"
+  },
+  {
+    "title": "N2 Animation — full-time intermediate sound engineer",
+    "description": "Full-time intermediate sound engineer at an animation studio.",
+    "category": "Audio",
+    "date": "2026-10-03",
+    "source": "https://m2animation-2.careers-page.com/jobs/e1933057-f13c-471e-8ab7-a5467202b440",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Bangkok",
       "compensation": "",
       "deadline": "",
       "application": ""
     },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://media.licdn.com/dms/image/v2/D4E22AQE9zL-sEMJC7g/feedshare-shrink_1280/B4EaDTlllcIIAQ-/0/1790256241289?e=2147483647&v=beta&t=sLD5sXx6SzAkJPd5kBqnMcw1OxHM1m8-inAEqbnVcJw",
-        "alt": "Media from source"
-      }
-    ],
+    "media": [],
     "embed": {
-      "supported": true,
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/posts/edwardtargett_journojobs-enterpriseit-tech-share-7508878920377597952-kdLO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
-      "embedUrl": "https://www.linkedin.com/posts/edwardtargett_journojobs-enterpriseit-tech-share-7508878920377597952-kdLO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw"
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://m2animation-2.careers-page.com/jobs/e1933057-f13c-471e-8ab7-a5467202b440",
+      "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
     "pay": ""
   },
   {
-    "title": "The New Transsexual",
-    "description": "needs op-eds and essays from trans and allied writers ($150/essay)",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://www.thenewtranssexual.com/p/write-for-the-new-transsexual",
-    "newsletter": "",
+    "title": "Lantern Sol — remote Shopify developer",
+    "description": "Remote Shopify developer.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://www.lanternsol.com/open-positions/shopify-developer-96yujk",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: Write for The New Transsexual We pay for published essays. Pitch us. Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "$150",
+      "location": "Remote",
+      "compensation": "",
       "deadline": "",
-      "application": "https://www.thenewtranssexual.com/p/write-for-the-new-transsexual"
+      "application": ""
     },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://substackcdn.com/image/fetch/$s_!4JUh!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44352fde-2b29-4a47-915a-c99641d6e559_1456x764.png https://substackcdn.com/image/fetch/$s_!azt3!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Faridrennen.substack.com%2Fapi%2Fv1%2Fpost_preview%2F214358653%2Ftwitter.jpg%3Fversion%3D4",
-        "alt": "Media from source"
-      }
-    ],
+    "media": [],
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://www.thenewtranssexual.com/p/write-for-the-new-transsexual",
+      "url": "https://www.lanternsol.com/open-positions/shopify-developer-96yujk",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "$150"
+    "pay": ""
   },
   {
-    "title": "The Equality Fund Journalism Fellowship",
-    "description": "(ODA-eligible countries) is open to working journalists in text, digital, video, and audio ($4k CAD, $500 for reporting expenses)",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://equalityfund.ca/en/posts/journalism-fellowship",
-    "newsletter": "",
+    "title": "Tigerless — frontend software development engineer",
+    "description": "Frontend software engineer at a Jerusalem-based startup, $23–35/hr.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: Equality Fund launches inaugural Equality Fund Journalism Fellowship | Equality Fund New opportunity for journalists in Global South countries Equality Fund partners with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM) Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "$4000",
+      "location": "Remote (Jerusalem-based)",
+      "compensation": "$23–35/hr",
       "deadline": "",
       "application": ""
     },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://assets.equalityfund.ca/images/v49loltj/production/921defa7028a90f1c083aa846b89d3eea9824777-1536x550.png?rect=244,0,1048,550&w=1200&h=630&q=80&fit=crop",
-        "alt": "Media from source"
-      }
-    ],
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Other",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$23–35/hr"
+  },
+  {
+    "title": "web IT — custom WordPress developer",
+    "description": "Custom WordPress developer (ACF Pro, PHP).",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://jobs.wordpress.net/job/custom-wordpress-developer-acf-pro-php/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Bangladesh",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://equalityfund.ca/en/posts/journalism-fellowship",
+      "url": "https://jobs.wordpress.net/job/custom-wordpress-developer-acf-pro-php/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Cat Labs Show — contract supervising producer",
+    "description": "Contract supervising producer for a four-month production in Los Angeles.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://docs.google.com/forms/d/e/1FAIpQLSdHqlPIVrJJ20z2qyCBkPV_R3TYFe-hfECi5BdyGTFx9BGJQ/viewform",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Los Angeles",
+      "compensation": "",
+      "deadline": "4-month contract",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdHqlPIVrJJ20z2qyCBkPV_R3TYFe-hfECi5BdyGTFx9BGJQ/viewform",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": ""
+  },
+  {
+    "title": "NPR — temporary remote information specialist",
+    "description": "Remote temporary information specialist at NPR, $39.66/hr, six months.",
+    "category": "Audio",
+    "date": "2026-10-03",
+    "source": "https://job-boards.greenhouse.io/nationalpublicradio/jobs/4434754005",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$39.66/hr",
+      "deadline": "6-month contract",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://job-boards.greenhouse.io/nationalpublicradio/jobs/4434754005",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": "$39.66/hr"
+  },
+  {
+    "title": "LeanTeams — freelance video editor & motion designer (AI research startup)",
+    "description": "AI research startup seeking a video editor and motion designer, 10–20 hours a week.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Wave Farm — residency work proposals",
+    "description": "Open call for residency work proposals.",
+    "category": "Audio",
+    "date": "2026-10-03",
+    "source": "https://wavefarm.org/residency-program/info-apply",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://wavefarm.org/residency-program/info-apply",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": ""
+  },
+  {
+    "title": "NYP Opinion — freelance temporary video & audio producers",
+    "description": "Temporary freelance video and audio producers.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Sound Scene — interactive sound art installations",
+    "description": "Call for proposals for interactive sound art installations, $500–1.5k.",
+    "category": "Audio",
+    "date": "2026-10-03",
+    "source": "https://www.soundscene.org/rfp",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$500–1.5k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.soundscene.org/rfp",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$500–1.5k"
+  },
+  {
+    "title": "Radio Diaries — Seattle Fellowship",
+    "description": "Fellowship for unscripted audio diaries of ordinary life, $12k.",
+    "category": "Audio",
+    "date": "2026-10-03",
+    "source": "https://www.radiodiaries.org/seattle-fellowship",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "$12k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.radiodiaries.org/seattle-fellowship",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Fellowship",
-    "pay": "$4000"
+    "pay": "$12k"
   },
   {
-    "title": "The New York Times",
-    "description": "(US) needs a remote local investigations fellow",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4706618005",
-    "newsletter": "",
+    "title": "MONTAYA — voiceover artists (ages 20–50)",
+    "description": "Casting voiceovers for people ages 20–50.",
+    "category": "Audio",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: Local Investigations Fellow Remote - USA Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
       "location": "",
-      "compensation": "$85,262.84 - $85,262.84",
+      "compensation": "",
       "deadline": "",
       "application": ""
     },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://s5-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/378/700/original/NYT-WMK-K-RGB_64.png?1769105477",
-        "alt": "Media from source"
-      }
-    ],
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Dreamloid Studios — contract sound effects creator",
+    "description": "Contract sound effects creator for games.",
+    "category": "Audio",
+    "date": "2026-10-03",
+    "source": "https://www.workwithindies.com/careers/dreamloid-studios-sound-effects-creator",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4706618005",
+      "url": "https://www.workwithindies.com/careers/dreamloid-studios-sound-effects-creator",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Fellowship",
-    "pay": "$85,262.84 - $85,262.84"
+    "type": "Other",
+    "pay": ""
   },
   {
-    "title": "Asterisk Magazine",
-    "description": "needs pitches for its secrets issue",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://asteriskmag.substack.com/p/write-for-us-now-accepting-pitches-702",
-    "newsletter": "",
+    "title": "Camerado — composer/sound designer",
+    "description": "Composer/sound designer for audio production; $75 for a 45-second demo.",
+    "category": "Audio",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: Write for us! Now accepting pitches for Issue 17: Secrets It’s a dark and confusing world out there, and sometimes the hardest part is trying to figure out what’s going on. Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
       "location": "",
-      "compensation": "",
+      "compensation": "$75 for 45-sec demo",
       "deadline": "",
-      "application": "https://asteriskmag.substack.com/p/write-for-us-now-accepting-pitches-702"
+      "application": ""
     },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://substackcdn.com/image/fetch/$s_!Q3LH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe06ccd1-cdf3-48ad-aed9-63edbf3fe13d_2106x2600.jpeg https://substackcdn.com/image/fetch/$s_!yCUE!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fasteriskmag.substack.com%2Fapi%2Fv1%2Fpost_preview%2F216055999%2Ftwitter.jpg%3Fversion%3D4",
-        "alt": "Media from source"
-      }
-    ],
+    "media": [],
     "embed": {
       "supported": false,
-      "platform": "Substack",
-      "url": "https://asteriskmag.substack.com/p/write-for-us-now-accepting-pitches-702",
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$75 for 45-sec demo"
+  },
+  {
+    "title": "FLINTQ — freelance video generalists & colour grade artists",
+    "description": "Freelance video generalists and colour grading artists.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "London or remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
@@ -870,185 +1059,111 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "The Media Co-op",
-    "description": "(Canada) needs pitches on labour struggles, housing, Indigenous land, Palestine solidarity, disability, etc.",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://mediacoop.ca/node/119373",
-    "newsletter": "",
+    "title": "Seven Scapirus — remote video editor",
+    "description": "Remote video editor, $800–1.2k per project.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44833",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: Call for Pitches! The Media Co-op is a grassroots media outlet that has been publishing in so-called Canada for more than 20 years. We publish (and pay for) grassroots journalism focused on important issues and struggles based in or related to the Canadian context. Learn how to pitch to us and check out our guidelines, then send your pitch to info@mediacoop.ca. Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "",
+      "location": "Remote",
+      "compensation": "$800–1.2k/project",
       "deadline": "",
       "application": ""
     },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://mediacoop.ca/sites/mediacoop.ca/files/field/image/MC_logo_orange_1.png",
-        "alt": "Media from source"
-      }
-    ],
+    "media": [],
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://mediacoop.ca/node/119373",
+      "url": "https://ytjobs.co/job/44833",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": ""
+    "pay": "$800–1.2k/project"
   },
   {
-    "title": "This Magazine",
-    "description": "(Canada) needs features, opinion pieces, news, and arts pieces",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://bsky.app/profile/thismagazine.bsky.social/post/3mwbdnw3xvk23",
-    "newsletter": "",
+    "title": "TransferGo — freelance product video creators",
+    "description": "London fintech seeking freelance product video creators.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: This Magazine (@thismagazine.bsky.social) Attention writers! This Magazine is open for pitches for our next print issue! We're looking for features, opinion and memoir columns, and news and arts pieces. The deadline to get your pitches in is September 30! More information below: this.org/contribute/ https://this.org/contribute/ Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "to get your pitches in is September 30! More information below: this",
-      "application": "https://bsky.app/profile/thismagazine.bsky.social/post/3mwbdnw3xvk23"
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Bluesky",
-      "url": "https://bsky.app/profile/thismagazine.bsky.social/post/3mwbdnw3xvk23",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "The Washingtonian",
-    "description": "always needs new features ($1/word)",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://bsky.app/profile/patrickhruby.bsky.social/post/3mu5xvpbdvc2o",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Patrick Hruby (@patrickhruby.bsky.social) Reminder that I'm always looking for new feature story pitches for @washingtonian.com, and currently assigning pieces for the coming months. If you have a great idea and want to work together, reach out! Email is in my bio. Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$1/word",
-      "deadline": "",
-      "application": "https://bsky.app/profile/patrickhruby.bsky.social/post/3mu5xvpbdvc2o"
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Bluesky",
-      "url": "https://bsky.app/profile/patrickhruby.bsky.social/post/3mu5xvpbdvc2o",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$1/word"
-  },
-  {
-    "title": "Scientific American",
-    "description": "needs enterprise and news stories on health, mind, brain, tech, and archeology",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://bsky.app/profile/clairehcameron.bsky.social/post/3mw7hiqxrm225",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Claire Cameron (@clairehcameron.bsky.social) Call for pitches! @sciam.bsky.social is commissioning stories of all lengths on all areas of science, but in particular I'd love to hear from journalists with enterprising or newsy stories in: health; mind and brain; technology; and archaeology. claire.cameron@sciam.com, no PR please! Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": "https://bsky.app/profile/clairehcameron.bsky.social/post/3mw7hiqxrm225"
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Bluesky",
-      "url": "https://bsky.app/profile/clairehcameron.bsky.social/post/3mw7hiqxrm225",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "The Cut",
-    "description": "needs pitches from writers",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://www.threads.com/@stephemcneal/post/DdrNDeykWnI?xmt=AQG0oT1lX4Ri0A4bvjqxyT0cK7RCqGDk1jBDQc5venbPApM5bihMmbuRu3649ZrrXN5loGU",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Stephanie McNeal (@stephemcneal) on Threads Some fun news—I am editing at @thecut for the next 6ish weeks as a maternity leave fill-in! Writers, publicists, etc please pitch me! Let's work together: stephanie.mcneal@voxmedia.com Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
+      "location": "London",
       "compensation": "",
       "deadline": "",
       "application": ""
     },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://instagram.fskt14-1.fna.fbcdn.net/v/t51.82787-15/822036178_17988875499107506_7212041464736264469_n.jpg?stp=cp6_dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5MzM0MjkwODQxNzc5NjU1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjM0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=682dSrAtBZIQ7kNvwGfY4Nx&_nc_oc=AdpLz9vw5faghR4egcaqqHghrQ18Ms3qNxge3pCSIq--9BTuAGCHVgYz7EZy8cb10ts&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fskt14-1.fna&_nc_gid=y3bwVLPn0YYY3ddT75LSpg&_nc_ss=7a22e&oh=00_AQO1X5no065Z6TSjEB5lHrAWNvgU-5otcFzkTgbY6rCx2A&oe=6ABFA326",
-        "alt": "Media from source"
-      }
-    ],
+    "media": [],
     "embed": {
-      "supported": true,
-      "platform": "Threads",
-      "url": "https://www.threads.com/@stephemcneal/post/DdrNDeykWnI?xmt=AQG0oT1lX4Ri0A4bvjqxyT0cK7RCqGDk1jBDQc5venbPApM5bihMmbuRu3649ZrrXN5loGU",
-      "embedUrl": "https://www.threads.com/@stephemcneal/post/DdrNDeykWnI?xmt=AQG0oT1lX4Ri0A4bvjqxyT0cK7RCqGDk1jBDQc5venbPApM5bihMmbuRu3649ZrrXN5loGU"
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
     "pay": ""
   },
   {
-    "title": "Stylist Magazine UK",
-    "description": "needs first-person pieces and articles for its mistakes series",
-    "category": "Journalists",
-    "date": "2026-09-25",
-    "source": "https://x.com/alipantony/status/2103065408362475841",
-    "newsletter": "",
+    "title": "Mica and Michelle — remote video editor",
+    "description": "Remote video editor, $500–1k per project.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44706",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: Ali Pantony (@alipantony) on X I'm helping out on the @StylistMagazine features desk and I'm looking to commission: • Emotive first-person pieces, particularly with a timely October hook. • Articles for their 'Learn From My Mistakes' series: https://t.co/UGaSQLCTv3 Email alirosepantony@gmail.com. Thanks! Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$500–1k/project",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://ytjobs.co/job/44706",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$500–1k/project"
+  },
+  {
+    "title": "M+C Satchi Sport & Entertainment — freelance video editors",
+    "description": "Agency hiring freelance video editors.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
       "location": "",
@@ -1058,69 +1173,404 @@ export const jobs: Job[] =
     },
     "media": [],
     "embed": {
-      "supported": true,
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Ballinfluence — remote NBA documentary video editor",
+    "description": "Remote editor for NBA documentary content.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44802",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://ytjobs.co/job/44802",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "All Sports Culture — short/long-form video editors",
+    "description": "Video editors for short and long-form sports content, fast turnarounds.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Podcast Academy — freelance senior podcast producer/editor (video)",
+    "description": "Freelance senior podcast producer/editor with video skills.",
+    "category": "Audio",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Ecom Growth Collective — Meta Ads video editor",
+    "description": "Remote Meta Ads video editor, 15–20 hours a week.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "New Zealand, remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Salmon — freelance short-form video editor",
+    "description": "Short-form video editor focused on hooks, retention and pacing.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "I'm Triggys — remote video editor",
+    "description": "Remote video editor, $800 per project.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44860",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$800/project",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://ytjobs.co/job/44860",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$800/project"
+  },
+  {
+    "title": "Gary — remote YouTube editor",
+    "description": "Remote YouTube editor, $400–750 per project.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44934",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$400–750/project",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://ytjobs.co/job/44934",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$400–750/project"
+  },
+  {
+    "title": "LIQUID — freelance motion designer",
+    "description": "Freelance motion designer.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Lantern Sol — freelance thumbnail designer",
+    "description": "Freelance or part-time thumbnail designer.",
+    "category": "Designers",
+    "date": "2026-10-03",
+    "source": "https://www.lanternsol.com/open-positions/thumbnail-designer-freelance-or-part-time",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.lanternsol.com/open-positions/thumbnail-designer-freelance-or-part-time",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Fort Worth Star-Telegram — freelance videographers, high school football",
+    "description": "Hiring freelance videographers to shoot high school football games.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://x.com/swaggart/status/2105757736050806820",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Texas",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
       "platform": "X / Twitter",
-      "url": "https://x.com/alipantony/status/2103065408362475841",
-      "embedUrl": "https://platform.twitter.com/embed/Tweet.html?id=2103065408362475841"
+      "url": "https://x.com/swaggart/status/2105757736050806820",
+      "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
     "pay": ""
   },
   {
-    "title": "Creative Niche",
-    "description": "(Toronto/Canada) needs designers, producers, strategists, etc.",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://www.linkedin.com/posts/brianne-bokla-422b60175_calling-all-torontocanada-freelance-share-7503507862027939840-Z_Wy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
-    "newsletter": "",
+    "title": "Adobe University Talent — event photographer (Oct 13–14)",
+    "description": "Event photographer for an Adobe event Oct 13–14, $2.5k budget.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.behance.net/resources/commissions/540229",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: 🎙️ Calling all Toronto/Canada freelance creatives who are looking to connect/reconnect and are looking for new opportunities, now, soon or later! ⚡art directors ⚡copywriters ⚡designers of all… | Brianne Bokla | 109 comments 🎙️ Calling all Toronto/Canada freelance creatives who are looking to connect/reconnect and are looking for new opportunities, now, soon or later! ⚡art directors ⚡copywriters ⚡designers of all kinds ⚡project managers ⚡producers ⚡accounts people ⚡socials ⚡strategists and beyondddddd! | 109 comments on LinkedIn Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
+      "location": "San Jose, CA",
+      "compensation": "$2.5k budget",
+      "deadline": "Oct 13–14",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.behance.net/resources/commissions/540229",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$2.5k budget"
+  },
+  {
+    "title": "Raised Media Co. — freelance video editors",
+    "description": "NYC video production company hiring freelance video editors.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "NYC",
       "compensation": "",
       "deadline": "",
       "application": ""
     },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://media.licdn.com/dms/image/v2/D5622AQEHBb2kgrun1A/feedshare-shrink_1280/B56aCHQpIoJgAM-/0/1788975682345?e=2147483647&v=beta&t=H4CNg6a1w4cECLd2mcWIPexrRaKETIasCDE-X78wjb8",
-        "alt": "Media from source"
-      }
-    ],
+    "media": [],
     "embed": {
-      "supported": true,
+      "supported": false,
       "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/posts/brianne-bokla-422b60175_calling-all-torontocanada-freelance-share-7503507862027939840-Z_Wy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
-      "embedUrl": "https://www.linkedin.com/posts/brianne-bokla-422b60175_calling-all-torontocanada-freelance-share-7503507862027939840-Z_Wy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw"
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
     "pay": ""
   },
   {
-    "title": "Movement CFO",
-    "description": "(US) needs a remote fractional CFO ($2.5k/month)",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://www.idealist.org/en/consultant-job/1678a0d41c9e480facbbd18630b440cd-fractional-cfo-movement-cfo-tampa",
-    "newsletter": "",
+    "title": "Heart Media Production Group — freelance video audience development manager",
+    "description": "Freelance video audience development manager.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
     "verified": false,
     "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "$2.5",
+      "location": "US",
+      "compensation": "",
       "deadline": "",
       "application": ""
     },
@@ -1128,30 +1578,30 @@ export const jobs: Job[] =
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://www.idealist.org/en/consultant-job/1678a0d41c9e480facbbd18630b440cd-fractional-cfo-movement-cfo-tampa",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "$2.5"
+    "pay": ""
   },
   {
-    "title": "The Editorial Freelancers Association",
-    "description": "(US) needs a remote part-time community manager ($63k-$67k/year, 30 hours/week)",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://www.idealist.org/en/nonprofit-job/03fed5e3fe0f495d800284c474809ed0-community-manager-part-time-editorial-freelancers-association-new-york",
-    "newsletter": "",
+    "title": "Dylan Cantley — remote part-time video editor",
+    "description": "Remote part-time video editor, $100–750.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44902",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
     "verified": false,
     "sourceDetails": {
-      "summary": "Source could not be fetched automatically: HTTPError.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "$63; $67",
+      "location": "US/UK, remote",
+      "compensation": "$100–750",
       "deadline": "",
       "application": ""
     },
@@ -1159,30 +1609,30 @@ export const jobs: Job[] =
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://www.idealist.org/en/nonprofit-job/03fed5e3fe0f495d800284c474809ed0-community-manager-part-time-editorial-freelancers-association-new-york",
+      "url": "https://ytjobs.co/job/44902",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "$63; $67"
+    "pay": "$100–750"
   },
   {
-    "title": "The Editorial Freelancers Association",
-    "description": "(US) needs a remote part-time director of professional development ($72k-$75k/year, 30 hours/week)",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://www.idealist.org/en/nonprofit-job/8a257a4c05e343e99f49bb745153fc5b-director-of-professional-development-part-time-editorial-freelancers-association-new-york",
-    "newsletter": "",
+    "title": "Wanderlust Videos — freelance remote video editor",
+    "description": "Remote freelance video editor.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.wanderlust-videos.com/job-freelance-video-editor/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
     "verified": false,
     "sourceDetails": {
-      "summary": "Source could not be fetched automatically: HTTPError.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "$72; $75",
+      "location": "Remote",
+      "compensation": "",
       "deadline": "",
       "application": ""
     },
@@ -1190,57 +1640,57 @@ export const jobs: Job[] =
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://www.idealist.org/en/nonprofit-job/8a257a4c05e343e99f49bb745153fc5b-director-of-professional-development-part-time-editorial-freelancers-association-new-york",
+      "url": "https://www.wanderlust-videos.com/job-freelance-video-editor/",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "$72; $75"
+    "type": "Freelance",
+    "pay": ""
   },
   {
-    "title": "More Perfect Union",
-    "description": "(Alexandria, VA) needs an operations fellow ($25/hour)",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://ats.rippling.com/more-perfect-union-action/jobs/2c0b1970-0104-40b1-83fb-5ea434e80e12",
-    "newsletter": "",
+    "title": "iBETTES — freelance website designer (DevOps)",
+    "description": "Freelance website designer with DevOps skills, $17.91/hr.",
+    "category": "Developers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: Operations Fellow | Career Opportunities About the Position We are seeking a dynamic and results-driven individual to provide administrative support to our COO and the broader Oper... Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "25 USD",
+      "location": "Remote",
+      "compensation": "$17.91/hr",
       "deadline": "",
       "application": ""
     },
     "media": [],
     "embed": {
       "supported": false,
-      "platform": "Web page",
-      "url": "https://ats.rippling.com/more-perfect-union-action/jobs/2c0b1970-0104-40b1-83fb-5ea434e80e12",
+      "platform": "Other",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Fellowship",
-    "pay": "25 USD"
+    "type": "Freelance",
+    "pay": "$17.91/hr"
   },
   {
-    "title": "Earth Day Initiative",
-    "description": "(NYC) needs a remote freelance part-time bookkeeper for a nonprofit (45-50 hours/year)",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://www.idealist.org/en/nonprofit-job/99ae67ba329b4c82a6f24cdbc16e6aed-freelance-part-time-bookkeeper-for-small-nonprofit-earth-day-initiative-new-york",
-    "newsletter": "",
+    "title": "Buffer — freelance motion designer for product launches",
+    "description": "Motion designer for product launches.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
     "verified": false,
     "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
       "location": "",
@@ -1251,136 +1701,31 @@ export const jobs: Job[] =
     "media": [],
     "embed": {
       "supported": false,
-      "platform": "Web page",
-      "url": "https://www.idealist.org/en/nonprofit-job/99ae67ba329b4c82a6f24cdbc16e6aed-freelance-part-time-bookkeeper-for-small-nonprofit-earth-day-initiative-new-york",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": ""
-  },
-  {
-    "title": "Double Twizzle Games",
-    "description": "needs a remote contract QA tester",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://www.workwithindies.com/careers/double-twizzle-games-qa-tester",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Double Twizzle Games is hiring a QA Tester Double Twizzle Games is looking for a contract QA Tester to help test new features and content for our mobile merge puzzle game Ashe Cove. Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "clicking the apply button and filling out the application form",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://cdn.prod.website-files.com/5e94aac2cae3653ce1e66354/6aa202523128f36a831757ed_W9NG1rou0VeYqC3zLqfPqBfzhdno71Zv3V6o8Hu0kUM.webp",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.workwithindies.com/careers/double-twizzle-games-qa-tester",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "America’s Preferred Home Warranty",
-    "description": "(US) needs a full-time assistant web dev ($50k)",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a497c781-4e7e-453f-a304-1abe25a3607c&ccId=19000101_000001&jobId=726658&source=IN&lang=en_US&ittk=0KYDHXB0KX",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Recruitment Recruitment Please switch to a supported browser listed here , or some features may not work correctly. Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$50",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a497c781-4e7e-453f-a304-1abe25a3607c&ccId=19000101_000001&jobId=726658&source=IN&lang=en_US&ittk=0KYDHXB0KX",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$50"
-  },
-  {
-    "title": "EmPower You Psychological Services",
-    "description": "needs a web developer",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://www.linkedin.com/posts/empower-you-psychological-services_we-need-your-help-recommendations-activity-7504056679777517568-EfBO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: 🖥️ We need your help / recommendations!! 🛜 We’re looking for an experienced website designer / developer or agency to help us develop the website for our health and wellbeing business. We offer… | EmPower You Psychological Services | 43 comments 🖥️ We need your help / recommendations!! 🛜 We’re looking for an experienced website designer / developer or agency to help us develop the website for our health and wellbeing business. We offer a number of different services under one brand umbrella, so we’re looking for someone who has experience creating websites for multi-service businesses and can help us make the overall offer feel clear, cohesive and easy to navigate. SEO is a priority for us, so we’re not looking for design alone. Ideally, we’d like someone who can bring expertise across: • Website strategy, structure and user journey • Design and development • SEO and search strategy • Communicating multiple services clearly under one brand • Performance, analytics and conversion • Ongoing website maintenance and optimisation Experience within health, wellbeing, psychology, coaching or professional services would be a real bonus. We’re looking for someone who can advise us on what we should be doing (and provide us with some challenge!), not just what we ask for! 😊 If you know someone brilliant – or this sounds like you – please comment and tag them below 👍 Emma is out of the office from 11th-23rd September so we won't be able to make any decisions until later in September / early October - so please don't think we're ignoring you if you don't hear from us straight away. Thanks in advance for your help, Em & Em 🌿 | 43 comments on LinkedIn Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": true,
       "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/posts/empower-you-psychological-services_we-need-your-help-recommendations-activity-7504056679777517568-EfBO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
-      "embedUrl": "https://www.linkedin.com/posts/empower-you-psychological-services_we-need-your-help-recommendations-activity-7504056679777517568-EfBO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw"
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
     "pay": ""
   },
   {
-    "title": "Blue Squared",
-    "description": "(Perrysburg, OH) needs an on-site WordPress and Elementor designer/developer ($25-$40/hour)",
+    "title": "s651 ARTS — part-time social media manager",
+    "description": "Part-time social media manager, $22–24/hr.",
     "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://www.indeed.com/viewjob?jk=80edcd14d15a29cf&from=shareddesktop_copy",
-    "newsletter": "",
+    "date": "2026-10-03",
+    "source": "https://www.idealist.org/en/nonprofit-job/f70b759f89024c248bbf8fa9c6f97ea8",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
     "verified": false,
     "sourceDetails": {
-      "summary": "Source could not be fetched automatically: HTTPError.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
-      "location": "",
-      "compensation": "$25-$40/hour",
+      "location": "Kings County",
+      "compensation": "$22–24/hr",
       "deadline": "",
       "application": ""
     },
@@ -1388,92 +1733,30 @@ export const jobs: Job[] =
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://www.indeed.com/viewjob?jk=80edcd14d15a29cf&from=shareddesktop_copy",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Hourly",
-    "pay": "$25-$40/hour"
-  },
-  {
-    "title": "Geoux Teche",
-    "description": "needs a senior full-stack developer ($20-$25/hour)",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://www.indeed.com/viewjob?jk=acb94a3d62aa53ea&from=shareddesktop_copy",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Source could not be fetched automatically: HTTPError.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$20-$25/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.indeed.com/viewjob?jk=acb94a3d62aa53ea&from=shareddesktop_copy",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Hourly",
-    "pay": "$20-$25/hour"
-  },
-  {
-    "title": "Claim Academy",
-    "description": "(St. Louis, MO) needs a part-time WordPress web development and business instructor",
-    "category": "Other",
-    "date": "2026-09-18",
-    "source": "https://claimacademy.org/jobs/wordpress-web-development-business-instructor-part-time-in-person/",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://claimacademy.org/jobs/wordpress-web-development-business-instructor-part-time-in-person/",
+      "url": "https://www.idealist.org/en/nonprofit-job/f70b759f89024c248bbf8fa9c6f97ea8",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": ""
+    "pay": "$22–24/hr"
   },
   {
-    "title": "Kemmerer Gazette",
-    "description": "nee...(content truncated)...oAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw) (Qatar) needs a full-time head of podcast",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://www.journalismjobs.com/1693665-reporter-kemmerer-gazette",
-    "newsletter": "",
+    "title": "We Need Diverse Books — Walter Myers Grant (illustrators)",
+    "description": "$2k grant open to unpublished illustrators.",
+    "category": "Designers",
+    "date": "2026-10-03",
+    "source": "https://www.diversebooks.org/programs/waltergrants",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
     "verified": false,
     "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
       "location": "",
-      "compensation": "",
+      "compensation": "$2k",
       "deadline": "",
       "application": ""
     },
@@ -1481,224 +1764,1824 @@ export const jobs: Job[] =
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://www.journalismjobs.com/1693665-reporter-kemmerer-gazette",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": ""
-  },
-  {
-    "title": "MPR News",
-    "description": "needs a full-time temporary reporter for a one-year position ($35.70-$42.84/hour)",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://recruiting2.ultipro.com/AME1098APMG/JobBoard/4b7ae4eb-a67b-4318-80fc-6d9467f9c542/OpportunityDetail?opportunityId=5536a27a-83c7-45e0-a885-332ef4a94fd4",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: MPR News Post : : : : : : : : : . : : ManyVoices|OneWavelength You are using an unsupported browser. To use this site, please use a supported browser. Download Firefox Download Chrome Download Internet Explorer Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$35.70-$42.84/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://recruiting2.ultipro.com/AME1098APMG/JobBoard/4b7ae4eb-a67b-4318-80fc-6d9467f9c542/OpportunityDetail?opportunityId=5536a27a-83c7-45e0-a885-332ef4a94fd4",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$35.70-$42.84/hour"
-  },
-  {
-    "title": "Nelson Media Company",
-    "description": "needs a freelance newspaper writer/reporter ($10-$15/hour)",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://www.indeed.com/viewjob?jk=627d780eaab963d0&from=shareddesktop_copy",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Source could not be fetched automatically: HTTPError.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$10-$15/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.indeed.com/viewjob?jk=627d780eaab963d0&from=shareddesktop_copy",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Hourly",
-    "pay": "$10-$15/hour"
-  },
-  {
-    "title": "Brookline.News",
-    "description": "needs a part-time housing reporter ($35-$40k/year)",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://www.journalismjobs.com/1693792-part-time-housing-reporter-brooklinenews",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Source could not be fetched automatically: TypeError.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$35-$40",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.journalismjobs.com/1693792-part-time-housing-reporter-brooklinenews",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "$35-$40"
-  },
-  {
-    "title": "The Detroit Free Press",
-    "description": "needs a grant-funded education reporter (union)",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://jobs.dayforcehcm.com/en-US/gannett/CANDIDATEPORTAL/jobs/90987",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Job Details | Dayforce Jobs Find your next adventure Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://jobs.dayforcehcm.com/en-US/gannett/CANDIDATEPORTAL/jobs/90987",
+      "url": "https://www.diversebooks.org/programs/waltergrants",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Grant",
-    "pay": ""
+    "pay": "$2k"
   },
   {
-    "title": "CBS Boston",
-    "description": "needs a freelance web producer",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://careers.paramount.com/job/Boston-Freelance-Web-Producer%2C-CBS-Boston-MA-02134/1409218500/",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Freelance Web Producer, CBS Boston Freelance Web Producer, CBS Boston Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://rmkcdn.successfactors.com/44ea18da/237f2670-c032-4ca9-9123-7.png",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://careers.paramount.com/job/Boston-Freelance-Web-Producer%2C-CBS-Boston-MA-02134/1409218500/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "CBS 62/CW50",
-    "description": "(Southfield, MI) needs a freelance sports reporter",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://careers.paramount.com/job/Southfield-Sports-Reporter-%28Freelance%29-MI-48033/1391892900/",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Sports Reporter (Freelance) Sports Reporter (Freelance) Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://rmkcdn.successfactors.com/44ea18da/237f2670-c032-4ca9-9123-7.png",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://careers.paramount.com/job/Southfield-Sports-Reporter-%28Freelance%29-MI-48033/1391892900/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "Green Central Banking",
-    "description": "needs pitches from freelance journalists",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://greencentralbanking.com/write-for-us/",
-    "newsletter": "",
+    "title": "BeMultilingual — remote thumbnail editor",
+    "description": "Remote thumbnail editor for YouTube.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44928",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
     "verified": false,
     "sourceDetails": {
-      "summary": "Source could not be fetched automatically: HTTPError.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://ytjobs.co/job/44928",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "We Are Rosie — freelance senior illustration designer",
+    "description": "Freelance senior illustration designer, $3.8–4k per week.",
+    "category": "Designers",
+    "date": "2026-10-03",
+    "source": "https://linkinbio.niceboard.co/job/2557029",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Los Angeles, CA",
+      "compensation": "$3.8–4k/wk",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://linkinbio.niceboard.co/job/2557029",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$3.8–4k/wk"
+  },
+  {
+    "title": "Nutrabolt — freelance packaging designer",
+    "description": "Beverage company seeking a freelance packaging designer.",
+    "category": "Designers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Doing Things Media — freelance content creator (dating/relationship content)",
+    "description": "Freelance remote content creator making dating and relationship content.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.indeed.com/viewjob?jk=585e354cf44a1d37&tk=1k3tg0nafgbhu800",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.indeed.com/viewjob?jk=585e354cf44a1d37&tk=1k3tg0nafgbhu800",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Dylan Sigley Business — thumbnail designer",
+    "description": "Remote thumbnail designer.",
+    "category": "Designers",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44905",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://ytjobs.co/job/44905",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Rare Reminder — part-time graphic designer",
+    "description": "Part-time graphic designer at a Connecticut newspaper.",
+    "category": "Designers",
+    "date": "2026-10-03",
+    "source": "https://www.journalismjobs.com/1693899-graphic-designer-rare-reminder",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Rocky Hill, CT",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.journalismjobs.com/1693899-graphic-designer-rare-reminder",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "The Australian Women's Weekly — freelance social and content producers",
+    "description": "Magazine seeking freelance social and content producers.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Australia",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "GiveDirectly — part-time video content producer",
+    "description": "Part-time video content producer, 10 hours a week.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Biscuiters — temporary fractional digital marketing manager",
+    "description": "Temporary fractional digital marketing manager in England.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.linkedin.com/jobs/view/4466672972/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "England",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4466672972/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": ""
+  },
+  {
+    "title": "The Gist — part-time freelance integrated marketing manager",
+    "description": "Part-time freelance integrated marketing manager for a sports media brand.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.thegistsports.com/job/integrated-marketing-manager-freelance/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.thegistsports.com/job/integrated-marketing-manager-freelance/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Butternut Box — freelance PR specialist",
+    "description": "Pet food brand seeking a freelance PR specialist in Sweden/Denmark.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Sweden/Denmark",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Modern Treasty — freelance content creator, short-form video",
+    "description": "Freelance content creator for short-form video.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Fathers — freelance social media and content manager",
+    "description": "Freelance social media and content manager in Los Angeles.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://linkinbio.niceboard.co/job/2555833",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Los Angeles, CA",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://linkinbio.niceboard.co/job/2555833",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "So.Gay — content & social media intern",
+    "description": "Content and social media intern, $17/hr, 16–24 hours a week.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://so.gay/everything-else/news/so-gay-is-hiring-a-content-social-media-intern-apply-now",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "NYC",
+      "compensation": "$17/hr, 16–24 hrs/wk",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://so.gay/everything-else/news/so-gay-is-hiring-a-content-social-media-intern-apply-now",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$17/hr, 16–24 hrs/wk"
+  },
+  {
+    "title": "Project Beauty Expo — part-time freelance social media content coordinator",
+    "description": "Part-time freelance social media content coordinator.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US, remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Zoom — full-time content marketing specialist",
+    "description": "Remote full-time content marketing specialist, $65–115k/yr.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.careers.zoom.us/job-details/content-marketing-specialist-in-marketing-jobs-1740237",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$65–115k/yr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.careers.zoom.us/job-details/content-marketing-specialist-in-marketing-jobs-1740237",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$65–115k/yr"
+  },
+  {
+    "title": "Untangld — freelance culture-first qualitative researcher & strategist",
+    "description": "Freelance culture-first qualitative researcher and strategist.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://outsideperspective.co/gigs/20260928-untangld-research.html",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://outsideperspective.co/gigs/20260928-untangld-research.html",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "alan — freelance senior thought leader/managing editor",
+    "description": "London-based project seeking a senior thought leadership/managing editor, project or full-time.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://outsideperspective.co/gigs/20260929-alan-thoughtleadership.html",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "London",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://outsideperspective.co/gigs/20260929-alan-thoughtleadership.html",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Bleacher Report — remote assistant editor/writer",
+    "description": "Remote assistant editor/writer at $32–35.73/hr.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://flextalent.wbd.com/job/7258214",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "NY/SF, remote",
+      "compensation": "$32–35.73/hr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://flextalent.wbd.com/job/7258214",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": "$32–35.73/hr"
+  },
+  {
+    "title": "Marzaur Law P.A. — part-time fractional search & AI visibility strategist",
+    "description": "Part-time fractional search and AI visibility strategist for a law firm.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.linkedin.com/jobs/view/4465068021/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US, remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4465068021/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "BlueSuit — remote part-time chief marketing officer",
+    "description": "Remote part-time fractional CMO.",
+    "category": "Other",
+    "date": "2026-10-03",
+    "source": "https://www.linkedin.com/jobs/view/4470463763/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4470463763/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "MeanPug Digital — full-time content specialist",
+    "description": "Remote full-time content specialist at a digital agency, $70–90k/yr.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.linkedin.com/jobs/view/4474332995/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$70–90k/yr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4474332995/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$70–90k/yr"
+  },
+  {
+    "title": "The SLAPP Back Initiative — part-time managing editor",
+    "description": "Part-time managing editor, 20 hours a week at $50/hr.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://apply.interfolio.com/193886",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "NYC",
+      "compensation": "$50/hr, 20 hrs/wk",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://apply.interfolio.com/193886",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$50/hr, 20 hrs/wk"
+  },
+  {
+    "title": "The Architect's Newspaper — full-time senior editor",
+    "description": "Full-time senior editor in New York.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://jobs.archpaper.com/job/senior-editor/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "NYC",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://jobs.archpaper.com/job/senior-editor/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Creators Corner — junior YouTube strategist",
+    "description": "Junior YouTube strategist for a creator.",
+    "category": "Video",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44831",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://ytjobs.co/job/44831",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Society for Science — full-time executive editor",
+    "description": "Full-time executive editor, $143–161k/yr.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.societyforscience.org/jobs-and-internships/executive-editor/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$143–161k/yr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.societyforscience.org/jobs-and-internships/executive-editor/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$143–161k/yr"
+  },
+  {
+    "title": "CollegeSpring — remote science QA/proofreader",
+    "description": "Remote science QA/proofreader, $35/hr, 5–10 hours a week.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.paycomonline.net/v4/ats/web.php/portal/50E08C5B2A6EEAE8281652970956FE50/jobs/367218",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$35/hr, 5–10 hrs/wk",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.paycomonline.net/v4/ats/web.php/portal/50E08C5B2A6EEAE8281652970956FE50/jobs/367218",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": "$35/hr, 5–10 hrs/wk"
+  },
+  {
+    "title": "Asian Arts Initiative of Philadelphia — part-time managing editor",
+    "description": "Part-time temporary managing editor at $50/hr.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.idealist.org/en/nonprofit-job/75f70a52fc2e4fb18297876b9c692b4c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Philadelphia",
+      "compensation": "$50/hr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.idealist.org/en/nonprofit-job/75f70a52fc2e4fb18297876b9c692b4c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$50/hr"
+  },
+  {
+    "title": "West Virginia University — full-time technical/grant writer",
+    "description": "Full-time technical/grant writer at WVU.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://wvu.talent.net/careersection/staff/jobdetail.ftl?job=30258",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "West Virginia",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://wvu.talent.net/careersection/staff/jobdetail.ftl?job=30258",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "The Lockwood Group — freelance editorial supervisor (Market Access)",
+    "description": "Remote freelance editorial supervisor for market-access content.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://job-boards.greenhouse.io/lockwood/jobs/5241358007",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US, remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://job-boards.greenhouse.io/lockwood/jobs/5241358007",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Orion Magazine — part-time engagement & operations assistant",
+    "description": "Part-time engagement and operations assistant, $22–25/hr.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.idealist.org/en/nonprofit-job/08acf0a5ca6242feba922f84e4333270",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Great Barrington, MA",
+      "compensation": "$22–25/hr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.idealist.org/en/nonprofit-job/08acf0a5ca6242feba922f84e4333270",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$22–25/hr"
+  },
+  {
+    "title": "Backcountry — full-time marketing copywriter",
+    "description": "Full-time marketing copywriter in Utah.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://jobs.lever.co/cscgeneration-2/11b7b3fa-00e1-4dbf-bb82-86c6dfcdb688",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Utah",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://jobs.lever.co/cscgeneration-2/11b7b3fa-00e1-4dbf-bb82-86c6dfcdb688",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "American Heart Association — web content writer",
+    "description": "Web content writer role, $70–80k/yr, in Dallas.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Dallas, TX",
+      "compensation": "$70–80k/yr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$70–80k/yr"
+  },
+  {
+    "title": "The Independent — editors, optimization team",
+    "description": "The Independent hiring editors for its optimization team.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": ""
+  },
+  {
+    "title": "August One — freelance sub-editor",
+    "description": "Australian agency seeking a freelance sub-editor.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Australia",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Microsoft — contract remote content writer",
+    "description": "Contract remote content writer at Microsoft.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://us.microsoft.talentnetcommunity.com/jobs/8cab3146-0f94-4377-b918-4f2d3c45a272",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://us.microsoft.talentnetcommunity.com/jobs/8cab3146-0f94-4377-b918-4f2d3c45a272",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": ""
+  },
+  {
+    "title": "Very Tall (chess.com) — chess writer",
+    "description": "Chess.com-affiliated project seeking a chess writer.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "We Need Diverse Books — Walter Myers Grant (writers)",
+    "description": "$2k grant open to unpublished writers for career development.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.diversebooks.org/programs/waltergrants",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$2k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.diversebooks.org/programs/waltergrants",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": "$2k"
+  },
+  {
+    "title": "Pace — writer with supply chain expertise",
+    "description": "Seeking a writer with supply chain expertise.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "KAGU — creative copywriters, writers and comedians",
+    "description": "Looking for creative copywriters, writers and comedians.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Compound Content Studio — remote writers",
+    "description": "Content studio hiring remote writers in the US and Canada.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://jobs.ashbyhq.com/compoundcontentstudio/d92c3a2a-d9df-4568-97df-0ee1c285e698",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US/Canada, remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://jobs.ashbyhq.com/compoundcontentstudio/d92c3a2a-d9df-4568-97df-0ee1c285e698",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Princeton 10 — remote freelance copywriter",
+    "description": "Remote freelance copywriter, $70–85/hr.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://jobs.lever.co/princeton10/cef9c3d0-8ec4-40a0-8bec-1c8012ef8a7c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$70–85/hr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://jobs.lever.co/princeton10/cef9c3d0-8ec4-40a0-8bec-1c8012ef8a7c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$70–85/hr"
+  },
+  {
+    "title": "Staive — remote freelance K-5 curriculum writer",
+    "description": "Remote freelance K-5 curriculum writer.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.linkedin.com/jobs/view/4473087833",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4473087833",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "l33d — freelance technical writer",
+    "description": "Freelance technical writer in Dearborn, Michigan.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.linkedin.com/jobs/view/4471713614/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Dearborn, MI",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4471713614/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "POV Beauty — part-time commercial copywriter",
+    "description": "Part-time commercial copywriter for a beauty brand.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.talented.so/agency/72ikd3fm0gyr/pov-beauty/1ffiaqxix9s",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Los Angeles, CA",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.talented.so/agency/72ikd3fm0gyr/pov-beauty/1ffiaqxix9s",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "One Story — Adina Taltz-Goodman Fellowship",
+    "description": "$2k fellowship for early-career fiction writers inhabiting bodies of difference.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://one-story.org/learn/fellowship",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$2k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://one-story.org/learn/fellowship",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Fellowship",
+    "pay": "$2k"
+  },
+  {
+    "title": "Launchpoint Travel — freelance travel writer, Southcentral Alaska",
+    "description": "Travel company in Homer, Alaska seeking a freelance travel writer for Southcentral Alaska.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.indeed.com/viewjob?jk=05df27aeb471a6ae",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Homer, AK",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.indeed.com/viewjob?jk=05df27aeb471a6ae",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "MarketFully Group — French-speaking freelance SEO copywriter",
+    "description": "Remote French-speaking SEO copywriter.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://careers.marketfully.com/jobs/8468405-freelance-seo-copywriter-french",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://careers.marketfully.com/jobs/8468405-freelance-seo-copywriter-french",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Travel Handmade — travel stories with photos (India)",
+    "description": "Seeking stories with photos on culture, history and food in India.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "India",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "PUSH Buffalo — freelance copywriter",
+    "description": "Buffalo nonprofit seeking a freelance copywriter.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Buffalo, NY",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Grist — temporary food & agriculture reporter",
+    "description": "Temporary (6-month) remote reporter covering food and agriculture.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://job-boards.greenhouse.io/grist/jobs/5254337007",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$65–72k/yr",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://job-boards.greenhouse.io/grist/jobs/5254337007",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$65–72k/yr"
+  },
+  {
+    "title": "Tremg News Corp — freelance writer, entertainment section",
+    "description": "Remote freelance writer for the entertainment section.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.indeed.com/viewjob?jk=443d8805406c8c7e",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.indeed.com/viewjob?jk=443d8805406c8c7e",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Minnow Pond Tarot — scriptwriter",
+    "description": "Remote scriptwriter for a tarot YouTube channel.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://ytjobs.co/job/44602",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://ytjobs.co/job/44602",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "USA Today — election-night stringers",
+    "description": "Hiring election-night stringers (contractor) for Nov 3, 2026; flat $125 for 3–4 hours, with potential for a regular role.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "flat $125",
+      "deadline": "Nov 3, 2026",
+      "application": "Email kmartin@usatodayco.com with name, phone, zip code and 1–2 sentences."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Other",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": "flat $125"
+  },
+  {
+    "title": "Lillith Games — part-time narrative writers / story consultants",
+    "description": "Game company hiring part-time narrative writers and story consultants.",
+    "category": "Writers",
+    "date": "2026-10-03",
+    "source": "https://www.linkedin.com/jobs/view/4446731887/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US, remote",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4446731887/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Yardbarker — freelance writers, US sports",
+    "description": "Looking for freelance writers covering US sports.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Dow Jones News Fund — paid summer internships for college students",
+    "description": "Paid summer internships for college students, $1.5k.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://docs.google.com/forms/d/e/1FAIpQLScfYtGQRST-xdJBvLlbKOHERVV83XHet0xhBMLRpUDnEBUivw/viewform",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "$1.5k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScfYtGQRST-xdJBvLlbKOHERVV83XHet0xhBMLRpUDnEBUivw/viewform",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Other",
+    "pay": "$1.5k"
+  },
+  {
+    "title": "The Chelsea Magazine Company — freelance journalist (art knowledge)",
+    "description": "Seeking a freelance journalist with art knowledge.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "SJN/MIT — Climate Journalism Fellowship",
+    "description": "Climate journalism fellowship, open for applications now.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://climateproject.mit.edu/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
       "location": "",
@@ -1710,7 +3593,38 @@ export const jobs: Job[] =
     "embed": {
       "supported": false,
       "platform": "Web page",
-      "url": "https://greencentralbanking.com/write-for-us/",
+      "url": "https://climateproject.mit.edu/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Fellowship",
+    "pay": ""
+  },
+  {
+    "title": "Hayden Capital — freelance business investigative reporter",
+    "description": "US investment firm seeking a freelance business investigative reporter.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.journalismjobs.com/1693884-freelance-business-investigative-reporter-hayden-capital",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.journalismjobs.com/1693884-freelance-business-investigative-reporter-hayden-capital",
       "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
@@ -1718,18 +3632,142 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Jezebel",
-    "description": "needs a celebrity and pop culture freelancer to cover celeb news",
+    "title": "Euronews — freelance journalists, business & financial markets",
+    "description": "Brussels bureau seeking freelance journalists covering business and financial markets.",
     "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://x.com/Jezebel/status/2097701048739610924",
-    "newsletter": "",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
     "newsletterSubject": "",
     "sourceTitle": "",
     "sourceStatus": "Active",
-    "verified": true,
+    "verified": false,
     "sourceDetails": {
-      "summary": "Source title: Jezebel (@Jezebel) on X Got some hot takes, juicy gossip, and an eye for dirt to dish? 🗣️ Jezebel is looking for a celebrity and pop culture freelancer to join our fast-paced news team! If interested, send a short intro and a few pitches to submissions[at]jezebel[dot]com with “Celeb News” in the subject line. Metadata and structured data extracted from the source page.",
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Brussels",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "British American World Times — freelance writer",
+    "description": "Looking for a freelance writer; pays $200 per article.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.journalismjobs.com/1693880-freelance-writer-british-american-world-times",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$200/article",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.journalismjobs.com/1693880-freelance-writer-british-american-world-times",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$200/article"
+  },
+  {
+    "title": "Disability Debrief — open call: disability rights personal essays",
+    "description": "Open call for 500-word personal perspectives on disability rights; five pieces will be published at £100 each.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.disabilitydebrief.org/writing-disability-rights/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "£100 per piece",
+      "deadline": "Nov 2",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.disabilitydebrief.org/writing-disability-rights/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "£100 per piece"
+  },
+  {
+    "title": "The Nation Fund for Independent Journalism — paid interns",
+    "description": "Paid internships at 35 hours per week, $700 per week.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://thenationfund.org/internship-application/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "$700/wk",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://thenationfund.org/internship-application/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$700/wk"
+  },
+  {
+    "title": "CISO Series — cybersecurity journalists (contract)",
+    "description": "Hiring contract cybersecurity journalists.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://cisoseries.com/now-hiring-cybersecurity-journalists-contract/",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
       "responsibilities": [],
       "requirements": [],
       "location": "",
@@ -1739,82 +3777,76 @@ export const jobs: Job[] =
     },
     "media": [],
     "embed": {
-      "supported": true,
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://cisoseries.com/now-hiring-cybersecurity-journalists-contract/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Sun (UK) — freelance journalist, 3-day feature assignment",
+    "description": "UK tabloid hiring a freelance journalist for a three-day feature assignment.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "UK",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "LinkedIn",
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Gizmodo — freelance consumer tech reviewers",
+    "description": "Gizmodo is looking for freelance reviewers covering consumer tech.",
+    "category": "Journalists",
+    "date": "2026-10-03",
+    "source": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance Opportunities! newsletter, issue of October 3, 2026",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
       "platform": "X / Twitter",
-      "url": "https://x.com/Jezebel/status/2097701048739610924",
-      "embedUrl": "https://platform.twitter.com/embed/Tweet.html?id=2097701048739610924"
+      "url": "https://www.findfreelanceopportunities.com/p/write-about-disability-rights-provide-election-coverage-edit-sports-videos-record-audio-diaries-work-690c",
+      "embedUrl": ""
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
     "pay": ""
-  },
-  {
-    "title": "Lazo Magazine",
-    "description": "needs quirky international stories and essays w/a multicultural angle (Rates range from $300 to $200, depending on length. Pitch: ==**[lazomag@proton.me](mailto:lazomag@proton.me)**)",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://bsky.app/profile/cmaza.bsky.social/post/3mva2o76egs2e",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: Cristina Maza (@cmaza.bsky.social) Here to announce that Lazo Magazine has a new #callforpitches open. We're looking for quirky international stories and essays w/a multicultural angle. Rates range from $300 to $200, depending on length. Pitch: lazomag@proton.me. And please share this post widely! lazomagazine.com https://lazomagazine.com/ Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$300",
-      "deadline": "",
-      "application": "https://bsky.app/profile/cmaza.bsky.social/post/3mva2o76egs2e"
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Bluesky",
-      "url": "https://bsky.app/profile/cmaza.bsky.social/post/3mva2o76egs2e",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$300"
-  },
-  {
-    "title": "Queer & Trans Wealth",
-    "description": "needs personal essays by two queer and trans writers on freelancing and gig work, navigating money in romantic relationships, worker-owned co-ops, and trans folks living in red states",
-    "category": "Journalists",
-    "date": "2026-09-18",
-    "source": "https://www.queerandtranswealth.org/paid-write-for-queer-trans-wealth/",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "Source title: 💰[PAID] Write for Queer & Trans Wealth! My sweet community, I have the best news! Queer & Trans Wealth is now accepting pitches for personal essays by queer & trans writers. I’m looking for essays about: * Trans folks who live in red states — especially if you can’t afford to move, or are deliberately building safe spaces where Metadata and structured data extracted from the source page.",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$300",
-      "deadline": "",
-      "application": "https://www.queerandtranswealth.org/paid-write-for-queer-trans-wealth/"
-    },
-    "media": [
-      {
-        "type": "image",
-        "url": "https://storage.ghost.io/c/af/2e/af2e9e1d-dbd0-4ff0-b88a-e0fbdd237cd5/content/images/2026/08/People-Power.jpg",
-        "alt": "Media from source"
-      }
-    ],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.queerandtranswealth.org/paid-write-for-queer-trans-wealth/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$300"
   },
   {
     "title": "Craft",
@@ -4157,6 +6189,1818 @@ export const jobs: Job[] =
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
     "pay": "$50,000"
+  },
+  {
+    "title": "Creative Niche",
+    "description": "(Toronto/Canada) needs designers, producers, strategists, etc.",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://www.linkedin.com/posts/brianne-bokla-422b60175_calling-all-torontocanada-freelance-share-7503507862027939840-Z_Wy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: 🎙️ Calling all Toronto/Canada freelance creatives who are looking to connect/reconnect and are looking for new opportunities, now, soon or later! ⚡art directors ⚡copywriters ⚡designers of all… | Brianne Bokla | 109 comments 🎙️ Calling all Toronto/Canada freelance creatives who are looking to connect/reconnect and are looking for new opportunities, now, soon or later! ⚡art directors ⚡copywriters ⚡designers of all kinds ⚡project managers ⚡producers ⚡accounts people ⚡socials ⚡strategists and beyondddddd! | 109 comments on LinkedIn Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQEHBb2kgrun1A/feedshare-shrink_1280/B56aCHQpIoJgAM-/0/1788975682345?e=2147483647&v=beta&t=H4CNg6a1w4cECLd2mcWIPexrRaKETIasCDE-X78wjb8",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": true,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/brianne-bokla-422b60175_calling-all-torontocanada-freelance-share-7503507862027939840-Z_Wy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
+      "embedUrl": "https://www.linkedin.com/posts/brianne-bokla-422b60175_calling-all-torontocanada-freelance-share-7503507862027939840-Z_Wy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw"
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Movement CFO",
+    "description": "(US) needs a remote fractional CFO ($2.5k/month)",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://www.idealist.org/en/consultant-job/1678a0d41c9e480facbbd18630b440cd-fractional-cfo-movement-cfo-tampa",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$2.5",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.idealist.org/en/consultant-job/1678a0d41c9e480facbbd18630b440cd-fractional-cfo-movement-cfo-tampa",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$2.5"
+  },
+  {
+    "title": "The Editorial Freelancers Association",
+    "description": "(US) needs a remote part-time community manager ($63k-$67k/year, 30 hours/week)",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://www.idealist.org/en/nonprofit-job/03fed5e3fe0f495d800284c474809ed0-community-manager-part-time-editorial-freelancers-association-new-york",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: HTTPError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$63; $67",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.idealist.org/en/nonprofit-job/03fed5e3fe0f495d800284c474809ed0-community-manager-part-time-editorial-freelancers-association-new-york",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$63; $67"
+  },
+  {
+    "title": "The Editorial Freelancers Association",
+    "description": "(US) needs a remote part-time director of professional development ($72k-$75k/year, 30 hours/week)",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://www.idealist.org/en/nonprofit-job/8a257a4c05e343e99f49bb745153fc5b-director-of-professional-development-part-time-editorial-freelancers-association-new-york",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: HTTPError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$72; $75",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.idealist.org/en/nonprofit-job/8a257a4c05e343e99f49bb745153fc5b-director-of-professional-development-part-time-editorial-freelancers-association-new-york",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$72; $75"
+  },
+  {
+    "title": "More Perfect Union",
+    "description": "(Alexandria, VA) needs an operations fellow ($25/hour)",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://ats.rippling.com/more-perfect-union-action/jobs/2c0b1970-0104-40b1-83fb-5ea434e80e12",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Operations Fellow | Career Opportunities About the Position We are seeking a dynamic and results-driven individual to provide administrative support to our COO and the broader Oper... Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "25 USD",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://ats.rippling.com/more-perfect-union-action/jobs/2c0b1970-0104-40b1-83fb-5ea434e80e12",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Fellowship",
+    "pay": "25 USD"
+  },
+  {
+    "title": "Earth Day Initiative",
+    "description": "(NYC) needs a remote freelance part-time bookkeeper for a nonprofit (45-50 hours/year)",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://www.idealist.org/en/nonprofit-job/99ae67ba329b4c82a6f24cdbc16e6aed-freelance-part-time-bookkeeper-for-small-nonprofit-earth-day-initiative-new-york",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.idealist.org/en/nonprofit-job/99ae67ba329b4c82a6f24cdbc16e6aed-freelance-part-time-bookkeeper-for-small-nonprofit-earth-day-initiative-new-york",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Double Twizzle Games",
+    "description": "needs a remote contract QA tester",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://www.workwithindies.com/careers/double-twizzle-games-qa-tester",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Double Twizzle Games is hiring a QA Tester Double Twizzle Games is looking for a contract QA Tester to help test new features and content for our mobile merge puzzle game Ashe Cove. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "clicking the apply button and filling out the application form",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://cdn.prod.website-files.com/5e94aac2cae3653ce1e66354/6aa202523128f36a831757ed_W9NG1rou0VeYqC3zLqfPqBfzhdno71Zv3V6o8Hu0kUM.webp",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.workwithindies.com/careers/double-twizzle-games-qa-tester",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "America’s Preferred Home Warranty",
+    "description": "(US) needs a full-time assistant web dev ($50k)",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a497c781-4e7e-453f-a304-1abe25a3607c&ccId=19000101_000001&jobId=726658&source=IN&lang=en_US&ittk=0KYDHXB0KX",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Recruitment Recruitment Please switch to a supported browser listed here , or some features may not work correctly. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$50",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a497c781-4e7e-453f-a304-1abe25a3607c&ccId=19000101_000001&jobId=726658&source=IN&lang=en_US&ittk=0KYDHXB0KX",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$50"
+  },
+  {
+    "title": "EmPower You Psychological Services",
+    "description": "needs a web developer",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://www.linkedin.com/posts/empower-you-psychological-services_we-need-your-help-recommendations-activity-7504056679777517568-EfBO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: 🖥️ We need your help / recommendations!! 🛜 We’re looking for an experienced website designer / developer or agency to help us develop the website for our health and wellbeing business. We offer… | EmPower You Psychological Services | 43 comments 🖥️ We need your help / recommendations!! 🛜 We’re looking for an experienced website designer / developer or agency to help us develop the website for our health and wellbeing business. We offer a number of different services under one brand umbrella, so we’re looking for someone who has experience creating websites for multi-service businesses and can help us make the overall offer feel clear, cohesive and easy to navigate. SEO is a priority for us, so we’re not looking for design alone. Ideally, we’d like someone who can bring expertise across: • Website strategy, structure and user journey • Design and development • SEO and search strategy • Communicating multiple services clearly under one brand • Performance, analytics and conversion • Ongoing website maintenance and optimisation Experience within health, wellbeing, psychology, coaching or professional services would be a real bonus. We’re looking for someone who can advise us on what we should be doing (and provide us with some challenge!), not just what we ask for! 😊 If you know someone brilliant – or this sounds like you – please comment and tag them below 👍 Emma is out of the office from 11th-23rd September so we won't be able to make any decisions until later in September / early October - so please don't think we're ignoring you if you don't hear from us straight away. Thanks in advance for your help, Em & Em 🌿 | 43 comments on LinkedIn Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": true,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/empower-you-psychological-services_we-need-your-help-recommendations-activity-7504056679777517568-EfBO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
+      "embedUrl": "https://www.linkedin.com/posts/empower-you-psychological-services_we-need-your-help-recommendations-activity-7504056679777517568-EfBO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw"
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Blue Squared",
+    "description": "(Perrysburg, OH) needs an on-site WordPress and Elementor designer/developer ($25-$40/hour)",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://www.indeed.com/viewjob?jk=80edcd14d15a29cf&from=shareddesktop_copy",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: HTTPError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$25-$40/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.indeed.com/viewjob?jk=80edcd14d15a29cf&from=shareddesktop_copy",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$25-$40/hour"
+  },
+  {
+    "title": "Geoux Teche",
+    "description": "needs a senior full-stack developer ($20-$25/hour)",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://www.indeed.com/viewjob?jk=acb94a3d62aa53ea&from=shareddesktop_copy",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: HTTPError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$20-$25/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.indeed.com/viewjob?jk=acb94a3d62aa53ea&from=shareddesktop_copy",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$20-$25/hour"
+  },
+  {
+    "title": "Claim Academy",
+    "description": "(St. Louis, MO) needs a part-time WordPress web development and business instructor",
+    "category": "Other",
+    "date": "2026-09-18",
+    "source": "https://claimacademy.org/jobs/wordpress-web-development-business-instructor-part-time-in-person/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://claimacademy.org/jobs/wordpress-web-development-business-instructor-part-time-in-person/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Kemmerer Gazette",
+    "description": "nee...(content truncated)...oAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw) (Qatar) needs a full-time head of podcast",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://www.journalismjobs.com/1693665-reporter-kemmerer-gazette",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.journalismjobs.com/1693665-reporter-kemmerer-gazette",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "MPR News",
+    "description": "needs a full-time temporary reporter for a one-year position ($35.70-$42.84/hour)",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://recruiting2.ultipro.com/AME1098APMG/JobBoard/4b7ae4eb-a67b-4318-80fc-6d9467f9c542/OpportunityDetail?opportunityId=5536a27a-83c7-45e0-a885-332ef4a94fd4",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: MPR News Post : : : : : : : : : . : : ManyVoices|OneWavelength You are using an unsupported browser. To use this site, please use a supported browser. Download Firefox Download Chrome Download Internet Explorer Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$35.70-$42.84/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://recruiting2.ultipro.com/AME1098APMG/JobBoard/4b7ae4eb-a67b-4318-80fc-6d9467f9c542/OpportunityDetail?opportunityId=5536a27a-83c7-45e0-a885-332ef4a94fd4",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$35.70-$42.84/hour"
+  },
+  {
+    "title": "Nelson Media Company",
+    "description": "needs a freelance newspaper writer/reporter ($10-$15/hour)",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://www.indeed.com/viewjob?jk=627d780eaab963d0&from=shareddesktop_copy",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: HTTPError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$10-$15/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.indeed.com/viewjob?jk=627d780eaab963d0&from=shareddesktop_copy",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$10-$15/hour"
+  },
+  {
+    "title": "Brookline.News",
+    "description": "needs a part-time housing reporter ($35-$40k/year)",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://www.journalismjobs.com/1693792-part-time-housing-reporter-brooklinenews",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$35-$40",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.journalismjobs.com/1693792-part-time-housing-reporter-brooklinenews",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$35-$40"
+  },
+  {
+    "title": "The Detroit Free Press",
+    "description": "needs a grant-funded education reporter (union)",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://jobs.dayforcehcm.com/en-US/gannett/CANDIDATEPORTAL/jobs/90987",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Job Details | Dayforce Jobs Find your next adventure Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://jobs.dayforcehcm.com/en-US/gannett/CANDIDATEPORTAL/jobs/90987",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": ""
+  },
+  {
+    "title": "CBS Boston",
+    "description": "needs a freelance web producer",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://careers.paramount.com/job/Boston-Freelance-Web-Producer%2C-CBS-Boston-MA-02134/1409218500/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Freelance Web Producer, CBS Boston Freelance Web Producer, CBS Boston Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://rmkcdn.successfactors.com/44ea18da/237f2670-c032-4ca9-9123-7.png",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://careers.paramount.com/job/Boston-Freelance-Web-Producer%2C-CBS-Boston-MA-02134/1409218500/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "CBS 62/CW50",
+    "description": "(Southfield, MI) needs a freelance sports reporter",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://careers.paramount.com/job/Southfield-Sports-Reporter-%28Freelance%29-MI-48033/1391892900/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Sports Reporter (Freelance) Sports Reporter (Freelance) Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://rmkcdn.successfactors.com/44ea18da/237f2670-c032-4ca9-9123-7.png",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://careers.paramount.com/job/Southfield-Sports-Reporter-%28Freelance%29-MI-48033/1391892900/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Green Central Banking",
+    "description": "needs pitches from freelance journalists",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://greencentralbanking.com/write-for-us/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: HTTPError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://greencentralbanking.com/write-for-us/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Jezebel",
+    "description": "needs a celebrity and pop culture freelancer to cover celeb news",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://x.com/Jezebel/status/2097701048739610924",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Jezebel (@Jezebel) on X Got some hot takes, juicy gossip, and an eye for dirt to dish? 🗣️ Jezebel is looking for a celebrity and pop culture freelancer to join our fast-paced news team! If interested, send a short intro and a few pitches to submissions[at]jezebel[dot]com with “Celeb News” in the subject line. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": true,
+      "platform": "X / Twitter",
+      "url": "https://x.com/Jezebel/status/2097701048739610924",
+      "embedUrl": "https://platform.twitter.com/embed/Tweet.html?id=2097701048739610924"
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Lazo Magazine",
+    "description": "needs quirky international stories and essays w/a multicultural angle (Rates range from $300 to $200, depending on length. Pitch: ==**[lazomag@proton.me](mailto:lazomag@proton.me)**)",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://bsky.app/profile/cmaza.bsky.social/post/3mva2o76egs2e",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Cristina Maza (@cmaza.bsky.social) Here to announce that Lazo Magazine has a new #callforpitches open. We're looking for quirky international stories and essays w/a multicultural angle. Rates range from $300 to $200, depending on length. Pitch: lazomag@proton.me. And please share this post widely! lazomagazine.com https://lazomagazine.com/ Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$300",
+      "deadline": "",
+      "application": "https://bsky.app/profile/cmaza.bsky.social/post/3mva2o76egs2e"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Bluesky",
+      "url": "https://bsky.app/profile/cmaza.bsky.social/post/3mva2o76egs2e",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$300"
+  },
+  {
+    "title": "Queer & Trans Wealth",
+    "description": "needs personal essays by two queer and trans writers on freelancing and gig work, navigating money in romantic relationships, worker-owned co-ops, and trans folks living in red states",
+    "category": "Journalists",
+    "date": "2026-09-18",
+    "source": "https://www.queerandtranswealth.org/paid-write-for-queer-trans-wealth/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: 💰[PAID] Write for Queer & Trans Wealth! My sweet community, I have the best news! Queer & Trans Wealth is now accepting pitches for personal essays by queer & trans writers. I’m looking for essays about: * Trans folks who live in red states — especially if you can’t afford to move, or are deliberately building safe spaces where Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$300",
+      "deadline": "",
+      "application": "https://www.queerandtranswealth.org/paid-write-for-queer-trans-wealth/"
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://storage.ghost.io/c/af/2e/af2e9e1d-dbd0-4ff0-b88a-e0fbdd237cd5/content/images/2026/08/People-Power.jpg",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.queerandtranswealth.org/paid-write-for-queer-trans-wealth/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$300"
+  },
+  {
+    "title": "SureHost",
+    "description": "(US) needs a founding full-time product manager ($90-$110/hour)",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://app.usebraintrust.com/jobs/17854/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Braintrust | Transforming Hiring with AI Recruiting Braintrust is the new model for how work gets done. We connect organizations with top technical talent to complete strategic projects and drive innovation. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$90-$110/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://d1m1s6un1a8qgj.cloudfront.net/static/logo-symbol.png",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://app.usebraintrust.com/jobs/17854/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$90-$110/hour"
+  },
+  {
+    "title": "Impact Teen Drivers",
+    "description": "(Sacramento, CA) needs a part-time administrative and executive assistant ($35/hour)",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.idealist.org/en/nonprofit-job/b27cac724b2f4d2cb648d121525a3198-administrative-executive-assistant-part-time-impact-teen-drivers-sacramento",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$35/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.idealist.org/en/nonprofit-job/b27cac724b2f4d2cb648d121525a3198-administrative-executive-assistant-part-time-impact-teen-drivers-sacramento",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$35/hour"
+  },
+  {
+    "title": "Girls Inc. of Long Island",
+    "description": "(NYC) needs a part-time development operations and grant administrator ($25-$30/hour, 15 hours/week)",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.idealist.org/en/nonprofit-job/45a4f448f5ce4868b892cba6fa03302a-development-operations-and-grant-administrator-girls-inc-of-long-island-deer-park",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$25-$30/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.idealist.org/en/nonprofit-job/45a4f448f5ce4868b892cba6fa03302a-development-operations-and-grant-administrator-girls-inc-of-long-island-deer-park",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": "$25-$30/hour"
+  },
+  {
+    "title": "The Marie and John Zimmermann Fund",
+    "description": "is open to early- and mid-career metalsmiths",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://snagmetalsmith.org/zimmermann-legacy-grants/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: HTTPError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://snagmetalsmith.org/zimmermann-legacy-grants/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Yéego Action Grant",
+    "description": "is open to Native artists and culture bearers ($2.5k)",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.firstpeoplesfund.org/programs/yeego-action-grant",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Yéego Action Grant - First Peoples Fund The Yéego Action Grant provides support for the growing landscape of Native artists and culture bearers who need financial assistance with a professional development opportunity or towards a hardship that is hindering their creative practice. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$2500",
+      "deadline": "3:00pm MT on the 10th of every month Grant application FUNDING USAGE GUIDELINES",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://cdn.prod.website-files.com/6480bea85e3e83bf0ca0fefd/64daad2982082a96ece73abd_FPF-Open-Graph.jpg",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.firstpeoplesfund.org/programs/yeego-action-grant",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": "$2500"
+  },
+  {
+    "title": "Melissa Ryan-Hillman",
+    "description": "needs a virtual assistant",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.threads.com/@melissaryanhillman/post/DdrFwQpDXTa?xmt=AQG07pBWpr9y9Z59WOwMahi3BWW8q46E5XsyyEN-GjGnzFwouvnWV9bcIaU9GDX7JOKABNg",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Threads • Log in Join Threads to share ideas, ask questions, post random thoughts, find your people and more. Log in with your Instagram. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://static.cdninstagram.com/rsrc.php/yd/r/kHwIMM5b8PW.webp",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": true,
+      "platform": "Threads",
+      "url": "https://www.threads.com/@melissaryanhillman/post/DdrFwQpDXTa?xmt=AQG07pBWpr9y9Z59WOwMahi3BWW8q46E5XsyyEN-GjGnzFwouvnWV9bcIaU9GDX7JOKABNg",
+      "embedUrl": "https://www.threads.com/@melissaryanhillman/post/DdrFwQpDXTa?xmt=AQG07pBWpr9y9Z59WOwMahi3BWW8q46E5XsyyEN-GjGnzFwouvnWV9bcIaU9GDX7JOKABNg"
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Asian Cultural Council",
+    "description": "(US/Asia) is open to scholars, artists, and arts professionals",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.asianculturalcouncil.org/grant-opportunities",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: RemoteDisconnected.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.asianculturalcouncil.org/grant-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Southern Artist Spotlight Grant",
+    "description": "is open to Southern artists working in literary arts, film, performing arts, visual arts, and traditional arts",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.southarts.org/grants-opportunities/southern-artist-spotlight-grant",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Southern Artist Spotlight Grant | South Arts Southern Artist Spotlight Grants provide funding for arts and community organizations to present Southern artists from the South Arts roster through public performances, screenings, exhibitions, and community engagement activities. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$8,000",
+      "deadline": "for this program will not be considered for funding from this grant program unti",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://www.southarts.org/themes/custom/sarts/img/south_arts_default_og.jpg",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.southarts.org/grants-opportunities/southern-artist-spotlight-grant",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": "$8,000"
+  },
+  {
+    "title": "Wide Eye",
+    "description": "needs freelance engineers",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.wideeye.co/job/engineering-freelance-pool",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Engineering Freelance PoolWide Eye CreativeCloseWide Eye Creative Wide Eye is a full-service creative agency specializing in interactive design, web development, and digital communications for brands that change the world. Headquartered in Washington, DC. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://mediacdn.wideeyecreative.com/images/s3wtzeqm/production/80863e114f274c64f74a4fc939b081fd24470dfd-1200x630.png?w=1200&h=630",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.wideeye.co/job/engineering-freelance-pool",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Code the Dream",
+    "description": "(US) needs a remote full-time senior data engineer",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.idealist.org/en/nonprofit-job/45dc48c85db84746a42e84172eb2ea39-senior-data-engineer-tech-equity-fellowship-code-the-dream-durham",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.idealist.org/en/nonprofit-job/45dc48c85db84746a42e84172eb2ea39-senior-data-engineer-tech-equity-fellowship-code-the-dream-durham",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "KUER",
+    "description": "(Salt Lake City, Utah) needs a full-time local host of All Things Considered ($61k-$65k)",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://utah.peopleadmin.com/postings/209631",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Creative Media Producers KUER is looking for a broadcaster and journalist ready to connect with Utahns as local host of NPR’s “All Things Considered.” The host serves as a trusted guide to NPR’s national and international reporting and storytelling. They also give the station its uniquely Utah lens by offering local information to help people navigate their afternoon, sharing KUER’s service-oriented reporting and facilitating conversations that help everyone understand the Beehive State and meet their neighbors.About us:KUER serves Utahns with trustworthy news and information, expertly crafted stories, plus conversations and voices from around our state. To provide this essential public service, we’re dedicated to building an organizational culture that prioritizes collaboration. We seek a team that reflects our entire community, and we encourage contributions from people of varied experiences. We are committed to attracting and retaining a staff whose perspectives are heard and valued. This is essential to our success.Benefits:● Health, dental, and wellness coverage● Employer contribution to personal retirement● Free public transportation pass (Utah Transit Authority)● Paid leave time● Tuition reduction for employee and family membersLearn more about the great benefits of working for University of Utah: benefits.utah.edu Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$61,000 - $65,000",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "social_share.jpg",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://utah.peopleadmin.com/postings/209631",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$61,000 - $65,000"
+  },
+  {
+    "title": "WFMT",
+    "description": "(Chicago, IL) needs a radio producer ($62k-$80k/year)",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://phe.tbe.taleo.net/phe03/ats/careers/v2/viewRequisition?org=WWCI&cws=46&rid=369",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Hiring Producer - Radio Content, - Chicago, IL View job details and apply now Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$62,700 - $80,000",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://phe.tbe.taleo.net/phe03/ats/careers/v2/viewRequisition?org=WWCI&cws=46&rid=369",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$62,700 - $80,000"
+  },
+  {
+    "title": "American University",
+    "description": "needs a full-time podcast producer",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://american.wd1.myworkdayjobs.com/AU/job/4401-Connecticut-Campus-Washington-DC/XMLNAME-1A-Plus-Podcast-Producer--Producer-I-_R4939",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://american.wd1.myworkdayjobs.com/AU/job/4401-Connecticut-Campus-Washington-DC/XMLNAME-1A-Plus-Podcast-Producer--Producer-I-_R4939",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Chorus America",
+    "description": "Music Education Partnership Grants are open now",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://chorusamerica.org/music-ed-grants",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Music Education Partnership Grants | Chorus America We are now accepting proposals for the next grant cycle, and applications are due November 20, 2026.Singing with others in a group is a powerful tool for cross-cultural learning, developing empathy, and building community.Chorus America invites nonprofit organizations and fiscally sponsored projects Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$750",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://chorusamerica.org/music-ed-grants",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": "$750"
+  },
+  {
+    "title": "The Cutting Room Floor",
+    "description": "(NYC) needs a creative video editor ($75k)",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://thecuttingroomfloor.typeform.com/video-creative",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Video Editor, Creative Video Editor, Creative at The Cutting Room Floor Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$75",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://images.typeform.com/images/MiKFBoQREqiv/image/default",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://thecuttingroomfloor.typeform.com/video-creative",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$75"
+  },
+  {
+    "title": "ESPN",
+    "description": "(Bristol, CT) needs a full-time associate video editor",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.disneycareers.com/en/job/bristol/associate-video-editor/391/101091611616",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Source could not be fetched automatically: TypeError.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.disneycareers.com/en/job/bristol/associate-video-editor/391/101091611616",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Noah Altink",
+    "description": "needs a short-form video editor who edits in Premiere Pro, DaVinci Resolve, or VideoLeap",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.threads.com/share/FwBq3EV_C/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Noah Altink (@noahaltink) on Threads HIRING: High-Level Short-Form Video Editor 🎬 I’m looking for an editor to work with me long-term on fixed, repeatable fashion and creator video formats. You should edit in VideoLeap, Premiere Pro or DaVinci Resolve, understand retention and watch time, and deliver fast without sacrificing quality. You’re detail-oriented, open to feedback and genuinely driven to keep improving. Interested? Send your portfolio, software and availability to info@noah-altink.com Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://instagram.fskt14-1.fna.fbcdn.net/v/t51.82787-15/817742282_17944432470342956_6696145833932006704_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5MTkwNjU1MDcwNzkzNjMxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTY3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9FxP4WX3dTkQ7kNvwGokf3m&_nc_oc=Adq9VEB3K03KDp7ZoaOjbMK3EvbB-p9XhE0xnX9KVNXXZyqg4b9uSkYbSs-9yp3vTlM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fskt14-1.fna&_nc_gid=kIVgzJwibTcZ6UqzHdOcMA&_nc_ss=7a22e&oh=00_AQNvBl1xMaDm48OZ7KWZbFePXqbbWVnnTqkiqfic1xoKQA&oe=6ABF9EB4",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": true,
+      "platform": "Threads",
+      "url": "https://www.threads.com/share/FwBq3EV_C/",
+      "embedUrl": "https://www.threads.com/share/FwBq3EV_C/"
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "VML Health",
+    "description": "...new-york) (NYC) needs a part-time social video producer and editor ($50/hour)",
+    "category": "Other",
+    "date": "2026-09-25",
+    "source": "https://www.vml.com/careers/job/8844462002-u...(content truncated",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "The source URL in the imported newsletter data is incomplete or malformed.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$50/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.vml.com/careers/job/8844462002-u...(content truncated",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$50/hour"
+  },
+  {
+    "title": "Scientific American",
+    "description": "also needs pitches on space, health, chemistry, news, etc.",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://www.linkedin.com/posts/robin-lloyd-b5a320_update-scientific-american-is-alive-and-share-7508182638873038848-gqGI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Pitch SciAm Editors: Cameron, Frasier, Parshall, Thompson, Billings, Sullivan, Howlett, Satyanarayana | Robin Lloyd posted on the topic | LinkedIn Update: Scientific American is alive and well (post-layoffs and post-sale to LabX). As always, they are taking pitches for online and mag, same freelance budget, same rates. Key editors to pitch: Claire.Cameron@sciam.com (health, breaking online news), Sarah.Frasier@sciam.com (print news, FOB), Allison.Parshall@sciam.com (mind/brain, cognitive sci), Andrea.Thompson@sciam.com (environment, energy, climate), Lee Billings LBillings@sciam.com (space, physics, planetary, physical sciences), Eric Sullivan (tech), Joe Howlett (math), Megha Satyanarayana (health, med, chemistry - meghas@sciam.com. ( Allison Parshall Joseph Howlett, Andrea Thompson, Sarah Lewin Frasier, Claire Cameron) (I'm a contributing ed., got OK to share all this. Don't pitch me, but I'm available to answer some SciAm q's.) Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "is met, the postdoc remains at the bench, and the paper enters the literature wi",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": true,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/robin-lloyd-b5a320_update-scientific-american-is-alive-and-share-7508182638873038848-gqGI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
+      "embedUrl": "https://www.linkedin.com/posts/robin-lloyd-b5a320_update-scientific-american-is-alive-and-share-7508182638873038848-gqGI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw"
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Work/Shift Fellowship",
+    "description": "will now close applications on October 9",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://r2i-lab.org/work-shift-fellowship/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Work//Shift Fellowship We’re reimagining America’s social safety net to support all people — regardless of work status or wealth — so that diverse communities can thrive with economic resilience, creative freedom, and democratic engagement. Discover our research, investments, experiments, and policy advocacy. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$30,000",
+      "deadline": "October 26, 2026 Interviews : November 2-16, 2026 Notification of Decisions: Dec",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://r2i-lab.org/wp-content/uploads/2025/08/undefined.png",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://r2i-lab.org/work-shift-fellowship/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Fellowship",
+    "pay": "$30,000"
+  },
+  {
+    "title": "The Stack",
+    "description": "(UK) needs reporters for breaking news with business reporting experience for flexible shifts (“competitive rates” and “full-time equivalent” are red flags here)",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://www.linkedin.com/posts/edwardtargett_journojobs-enterpriseit-tech-share-7508878920377597952-kdLO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: #journojobs #enterpriseit #tech #reporter #journalism #flexiwork #moneyawaits | Edward Targett Jobs Jobs Jobs! We're looking for two more experienced news hounds at The Stack. Freelance basis, full-time-equivalent. Flexible shifts. Join an energetic, growing team! Enterprise technology or business reporting strongly preferred; willingness to geek out about virtual machines/containers/IaaS/infosec/\"digital transformation\" more broadly, without getting sucked into the vendor-hype slipstream greatly favoured. Ability to work independently and with initiative warmly welcomed; openness to feedback likewise. I'd particularly welcome one person willing to work a 4pm - 11pm shift UK time, regularly, reporting in to Tom Krazit, who's on a PT clock. Great features writers with deep technical chops always welcomed, but I'd love to grab someone with a nous and a nose for news, who likes breaking stories, moving stories on, building a solid contacts book and hates being scooped. Don't care where you work, but availability for events at short notice preferred and a willingness and desire to get to them from your own initiative are important. Competitive rates/salary. The Stack is a bootstrapped, journalist-owned media startup: It's scrappy, but that means there is always scope to carve out an important role for yourself and frankly, when you've proved yourself, earn more money, so throw your hat into the ring! DMs open or CV and cover letter to ed at thestack dot technology please #journojobs #enterpriseIT #tech #reporter #journalism #flexiwork #moneyawaits Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://media.licdn.com/dms/image/v2/D4E22AQE9zL-sEMJC7g/feedshare-shrink_1280/B4EaDTlllcIIAQ-/0/1790256241289?e=2147483647&v=beta&t=sLD5sXx6SzAkJPd5kBqnMcw1OxHM1m8-inAEqbnVcJw",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": true,
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/edwardtargett_journojobs-enterpriseit-tech-share-7508878920377597952-kdLO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw",
+      "embedUrl": "https://www.linkedin.com/posts/edwardtargett_journojobs-enterpriseit-tech-share-7508878920377597952-kdLO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA2pXugBmA42lRdIvVTivTyaCLV2BZZO_bw"
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "The New Transsexual",
+    "description": "needs op-eds and essays from trans and allied writers ($150/essay)",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://www.thenewtranssexual.com/p/write-for-the-new-transsexual",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Write for The New Transsexual We pay for published essays. Pitch us. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$150",
+      "deadline": "",
+      "application": "https://www.thenewtranssexual.com/p/write-for-the-new-transsexual"
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://substackcdn.com/image/fetch/$s_!4JUh!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44352fde-2b29-4a47-915a-c99641d6e559_1456x764.png https://substackcdn.com/image/fetch/$s_!azt3!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Faridrennen.substack.com%2Fapi%2Fv1%2Fpost_preview%2F214358653%2Ftwitter.jpg%3Fversion%3D4",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://www.thenewtranssexual.com/p/write-for-the-new-transsexual",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$150"
+  },
+  {
+    "title": "The Equality Fund Journalism Fellowship",
+    "description": "(ODA-eligible countries) is open to working journalists in text, digital, video, and audio ($4k CAD, $500 for reporting expenses)",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://equalityfund.ca/en/posts/journalism-fellowship",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Equality Fund launches inaugural Equality Fund Journalism Fellowship | Equality Fund New opportunity for journalists in Global South countries Equality Fund partners with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM) Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$4000",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://assets.equalityfund.ca/images/v49loltj/production/921defa7028a90f1c083aa846b89d3eea9824777-1536x550.png?rect=244,0,1048,550&w=1200&h=630&q=80&fit=crop",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://equalityfund.ca/en/posts/journalism-fellowship",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Fellowship",
+    "pay": "$4000"
+  },
+  {
+    "title": "The New York Times",
+    "description": "(US) needs a remote local investigations fellow",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4706618005",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Local Investigations Fellow Remote - USA Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$85,262.84 - $85,262.84",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://s5-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/378/700/original/NYT-WMK-K-RGB_64.png?1769105477",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4706618005",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Fellowship",
+    "pay": "$85,262.84 - $85,262.84"
+  },
+  {
+    "title": "Asterisk Magazine",
+    "description": "needs pitches for its secrets issue",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://asteriskmag.substack.com/p/write-for-us-now-accepting-pitches-702",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Write for us! Now accepting pitches for Issue 17: Secrets It’s a dark and confusing world out there, and sometimes the hardest part is trying to figure out what’s going on. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": "https://asteriskmag.substack.com/p/write-for-us-now-accepting-pitches-702"
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://substackcdn.com/image/fetch/$s_!Q3LH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe06ccd1-cdf3-48ad-aed9-63edbf3fe13d_2106x2600.jpeg https://substackcdn.com/image/fetch/$s_!yCUE!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fasteriskmag.substack.com%2Fapi%2Fv1%2Fpost_preview%2F216055999%2Ftwitter.jpg%3Fversion%3D4",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Substack",
+      "url": "https://asteriskmag.substack.com/p/write-for-us-now-accepting-pitches-702",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Media Co-op",
+    "description": "(Canada) needs pitches on labour struggles, housing, Indigenous land, Palestine solidarity, disability, etc.",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://mediacoop.ca/node/119373",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Call for Pitches! The Media Co-op is a grassroots media outlet that has been publishing in so-called Canada for more than 20 years. We publish (and pay for) grassroots journalism focused on important issues and struggles based in or related to the Canadian context. Learn how to pitch to us and check out our guidelines, then send your pitch to info@mediacoop.ca. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://mediacoop.ca/sites/mediacoop.ca/files/field/image/MC_logo_orange_1.png",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": false,
+      "platform": "Web page",
+      "url": "https://mediacoop.ca/node/119373",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "This Magazine",
+    "description": "(Canada) needs features, opinion pieces, news, and arts pieces",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://bsky.app/profile/thismagazine.bsky.social/post/3mwbdnw3xvk23",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: This Magazine (@thismagazine.bsky.social) Attention writers! This Magazine is open for pitches for our next print issue! We're looking for features, opinion and memoir columns, and news and arts pieces. The deadline to get your pitches in is September 30! More information below: this.org/contribute/ https://this.org/contribute/ Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "to get your pitches in is September 30! More information below: this",
+      "application": "https://bsky.app/profile/thismagazine.bsky.social/post/3mwbdnw3xvk23"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Bluesky",
+      "url": "https://bsky.app/profile/thismagazine.bsky.social/post/3mwbdnw3xvk23",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Washingtonian",
+    "description": "always needs new features ($1/word)",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://bsky.app/profile/patrickhruby.bsky.social/post/3mu5xvpbdvc2o",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Patrick Hruby (@patrickhruby.bsky.social) Reminder that I'm always looking for new feature story pitches for @washingtonian.com, and currently assigning pieces for the coming months. If you have a great idea and want to work together, reach out! Email is in my bio. Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$1/word",
+      "deadline": "",
+      "application": "https://bsky.app/profile/patrickhruby.bsky.social/post/3mu5xvpbdvc2o"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Bluesky",
+      "url": "https://bsky.app/profile/patrickhruby.bsky.social/post/3mu5xvpbdvc2o",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$1/word"
+  },
+  {
+    "title": "Scientific American",
+    "description": "needs enterprise and news stories on health, mind, brain, tech, and archeology",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://bsky.app/profile/clairehcameron.bsky.social/post/3mw7hiqxrm225",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Claire Cameron (@clairehcameron.bsky.social) Call for pitches! @sciam.bsky.social is commissioning stories of all lengths on all areas of science, but in particular I'd love to hear from journalists with enterprising or newsy stories in: health; mind and brain; technology; and archaeology. claire.cameron@sciam.com, no PR please! Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": "https://bsky.app/profile/clairehcameron.bsky.social/post/3mw7hiqxrm225"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Bluesky",
+      "url": "https://bsky.app/profile/clairehcameron.bsky.social/post/3mw7hiqxrm225",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Cut",
+    "description": "needs pitches from writers",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://www.threads.com/@stephemcneal/post/DdrNDeykWnI?xmt=AQG0oT1lX4Ri0A4bvjqxyT0cK7RCqGDk1jBDQc5venbPApM5bihMmbuRu3649ZrrXN5loGU",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Stephanie McNeal (@stephemcneal) on Threads Some fun news—I am editing at @thecut for the next 6ish weeks as a maternity leave fill-in! Writers, publicists, etc please pitch me! Let's work together: stephanie.mcneal@voxmedia.com Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "https://instagram.fskt14-1.fna.fbcdn.net/v/t51.82787-15/822036178_17988875499107506_7212041464736264469_n.jpg?stp=cp6_dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5MzM0MjkwODQxNzc5NjU1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNjM0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=682dSrAtBZIQ7kNvwGfY4Nx&_nc_oc=AdpLz9vw5faghR4egcaqqHghrQ18Ms3qNxge3pCSIq--9BTuAGCHVgYz7EZy8cb10ts&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fskt14-1.fna&_nc_gid=y3bwVLPn0YYY3ddT75LSpg&_nc_ss=7a22e&oh=00_AQO1X5no065Z6TSjEB5lHrAWNvgU-5otcFzkTgbY6rCx2A&oe=6ABFA326",
+        "alt": "Media from source"
+      }
+    ],
+    "embed": {
+      "supported": true,
+      "platform": "Threads",
+      "url": "https://www.threads.com/@stephemcneal/post/DdrNDeykWnI?xmt=AQG0oT1lX4Ri0A4bvjqxyT0cK7RCqGDk1jBDQc5venbPApM5bihMmbuRu3649ZrrXN5loGU",
+      "embedUrl": "https://www.threads.com/@stephemcneal/post/DdrNDeykWnI?xmt=AQG0oT1lX4Ri0A4bvjqxyT0cK7RCqGDk1jBDQc5venbPApM5bihMmbuRu3649ZrrXN5loGU"
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Stylist Magazine UK",
+    "description": "needs first-person pieces and articles for its mistakes series",
+    "category": "Journalists",
+    "date": "2026-09-25",
+    "source": "https://x.com/alipantony/status/2103065408362475841",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "Source title: Ali Pantony (@alipantony) on X I'm helping out on the @StylistMagazine features desk and I'm looking to commission: • Emotive first-person pieces, particularly with a timely October hook. • Articles for their 'Learn From My Mistakes' series: https://t.co/UGaSQLCTv3 Email alirosepantony@gmail.com. Thanks! Metadata and structured data extracted from the source page.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": true,
+      "platform": "X / Twitter",
+      "url": "https://x.com/alipantony/status/2103065408362475841",
+      "embedUrl": "https://platform.twitter.com/embed/Tweet.html?id=2103065408362475841"
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
   }
 ];
 export const coverageNotes = [
