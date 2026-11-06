@@ -17890,6 +17890,285 @@ export const jobs: Job[] =
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
     "pay": "SGD 1,000+ monthly (with performance bon"
+  },
+  {
+    "title": "Inciter Art — Open Call for Pitches (tending to the hearth)",
+    "description": "Inciter Art is now accepting pitches year-round. They are drawn to pitches that come from personal experience as an artist or arts worker, tell something new or say a familiar thing in a new way, and fit with what they're already publishing. Current quarterly theme: \"tending to the hearth\" — exploring generosity, solidarity, and collective investment in the invisible infrastructure behind creative work. Deadline for the themed open call is November 2 at 11:59pm ET; pitches submitted after that are reviewed on a rolling basis. Selected writers receive a $750 stipend and have 4 weeks to submit a first draft.",
+    "category": "Writers",
+    "date": "2026-10-30",
+    "source": "https://link.mail.beehiiv.com/v2/c/5e0f0d511d3bb7c027352897f7ebe7aa47aac61ab6831f0486d4e073b3e2d503f07d1ce2f69efe03546f7bebf450ea550ef2868cfad5fe43b28809043b097a4be95521d1f72a8b2a8831837f9ad851ce250c03e18eb6a31097225d8a329c80d675a0a58f6002150d3769c86619765601cb0b8fb47f0f5028bb4685f6d86aa19afdbe8d651c3c28ad68a8e81dc5378be26cc795c2b6cf48344e73a6d6f36f1730/53a5e3cb02ef8249",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN 286 (Oct 30)",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$750 stipend",
+      "deadline": "November 2, 2026 at 11:59 PM ET",
+      "application": "Submit your pitch through the pitch form."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Substack",
+      "url": "https://link.mail.beehiiv.com/v2/c/5e0f0d511d3bb7c027352897f7ebe7aa47aac61ab6831f0486d4e073b3e2d503f07d1ce2f69efe03546f7bebf450ea550ef2868cfad5fe43b28809043b097a4be95521d1f72a8b2a8831837f9ad851ce250c03e18eb6a31097225d8a329c80d675a0a58f6002150d3769c86619765601cb0b8fb47f0f5028bb4685f6d86aa19afdbe8d651c3c28ad68a8e81dc5378be26cc795c2b6cf48344e73a6d6f36f1730/53a5e3cb02ef8249",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$750 stipend"
+  },
+  {
+    "title": "The BREAK—DOWN — Open Call: ISSUE #5 REPAIR",
+    "description": "The BREAK—DOWN is open to pitches for ISSUE #5: REPAIR. They are looking for pitches that examine climate adaptation, intervention and repair: argumentative essays, geopolitical or political-economic analysis, reportage, photojournalism and dispatches from around the world. Written pieces are paid at £650 for around 3,000 words (more possible for on-the-ground reporting). Digital-only pieces are accepted on a rolling basis (20p per word, up to £350) — need not be theme-specific but must relate to climate or ecology. More details in the pitch guide.",
+    "category": "Writers",
+    "date": "2026-10-30",
+    "source": "https://link.mail.beehiiv.com/v2/c/250797af9dba336dfafb369a2f353c59b0ae2c39750bb60dad5181f5d195c39dddb9bed2bafcc2e531177bf154af12441bea65687630eabaf70be135f38e4038ca31574c33e1a58016287b67458c9d410d8505f38992bb0eed02682da0962535a1fda7fc4d48121833c69ec88d00e7fa122f0c63a017aecb347a218e6aa155e113520709fde2c668283d4ee92c1d53a5221755e081fd681a0c1689f21328e337/2f6c27c49aee0bab",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN 286 (Oct 30)",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "£650 for ~3,000 words (20p per word online)",
+      "deadline": "November 12, 2026 at 11:59 PM ET",
+      "application": "Send pitches to pitching@break-down.org with \"ISSUE 5\" in the subject line."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Substack",
+      "url": "https://link.mail.beehiiv.com/v2/c/250797af9dba336dfafb369a2f353c59b0ae2c39750bb60dad5181f5d195c39dddb9bed2bafcc2e531177bf154af12441bea65687630eabaf70be135f38e4038ca31574c33e1a58016287b67458c9d410d8505f38992bb0eed02682da0962535a1fda7fc4d48121833c69ec88d00e7fa122f0c63a017aecb347a218e6aa155e113520709fde2c668283d4ee92c1d53a5221755e081fd681a0c1689f21328e337/2f6c27c49aee0bab",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "£650 for ~3,000 words (20p per word online)"
+  },
+  {
+    "title": "Prism — Freelance Pitches",
+    "description": "Prism is an independent, nonprofit newsroom led by journalists of color, focused on grassroots perspectives and stories that fill gaps left by mainstream media. They encourage pitches from BIPOC, women, LGBTQIA+ people, and others from historically oppressed communities, covering issues across the U.S., U.S. territories, and wherever U.S. policy and imperialism are felt. More details in the pitch guide.",
+    "category": "Journalists",
+    "date": "2026-10-30",
+    "source": "https://link.mail.beehiiv.com/v2/c/0b62f49c2ea694768c78ab30d785b2466bd606571e0cca1ff29b0356997a41c97cd8c448569821c364de3ccbdecafab536fe66bcf6e55826adb3c24f6321de0f0fbae6552dceb658a39933363e076e3d362046a52c48957a4277c8fe80ad812b7b8bb966ea08738c6dc3a363682bb8147f7b01798c8dfd2f75ca9d36753fd77c124afe0c9364af627918ad5915ac751f59dfe649ec1e199b00817e59d364739e/5e445b0ef17a8bc0",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN 286 (Oct 30)",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "News Stories $600 / Features $800 / Investigative News Stories $900 / Investigations $1,500 / Op-eds, Q&As, Explainers, Personal Essays, Right to Write $400",
+      "deadline": "",
+      "application": "Submit pitches via the pitch form."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Substack",
+      "url": "https://link.mail.beehiiv.com/v2/c/0b62f49c2ea694768c78ab30d785b2466bd606571e0cca1ff29b0356997a41c97cd8c448569821c364de3ccbdecafab536fe66bcf6e55826adb3c24f6321de0f0fbae6552dceb658a39933363e076e3d362046a52c48957a4277c8fe80ad812b7b8bb966ea08738c6dc3a363682bb8147f7b01798c8dfd2f75ca9d36753fd77c124afe0c9364af627918ad5915ac751f59dfe649ec1e199b00817e59d364739e/5e445b0ef17a8bc0",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "News Stories $600 / Features $800 / Investigative News Stories $900 / Investigations $1,500 / Op-eds, Q&As, Explainers, Personal Essays, Right to Write $400"
+  },
+  {
+    "title": "Nonprofit Quarterly — We Stood Up first-person submissions",
+    "description": "Nonprofit Quarterly is seeking first-person submissions from workers, builders, activists, and organizers for their biweekly series We Stood Up. Pieces share personal stories of small wins, solidarity, joy, and community-built solutions from the frontlines of social change. Submissions can be written essays, visual, oral, or multilingual storytelling — no prior journalism or writing experience is required. Submissions accepted on a rolling basis.",
+    "category": "Writers",
+    "date": "2026-10-30",
+    "source": "https://link.mail.beehiiv.com/v2/c/41ab3e8206b2e24096aff7bc1f737c87b1d82f3b056fa7a2729cda7e02489b18aca3127bcb22cdeca9ef3098c77c686b3f42fb732a614df6cfa0d17d28bbc57c51ee50f242fb6abcf5081c03ee67d2fe6c5229a83f5e0203d0df1eefcd7fc9b5eec89db6193aa017677dba27e694f8e3b3143c438c7086439a34a111fef4762e383e298069838e226d10784ce4a82a837556958ee525264e7a91fd66acd2dc63/fd75727b1817f637",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN 286 (Oct 30)",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$300 per published piece",
+      "deadline": "",
+      "application": "Submit pitches via the form on the call-for-pitches page."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "Substack",
+      "url": "https://link.mail.beehiiv.com/v2/c/41ab3e8206b2e24096aff7bc1f737c87b1d82f3b056fa7a2729cda7e02489b18aca3127bcb22cdeca9ef3098c77c686b3f42fb732a614df6cfa0d17d28bbc57c51ee50f242fb6abcf5081c03ee67d2fe6c5229a83f5e0203d0df1eefcd7fc9b5eec89db6193aa017677dba27e694f8e3b3143c438c7086439a34a111fef4762e383e298069838e226d10784ce4a82a837556958ee525264e7a91fd66acd2dc63/fd75727b1817f637",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$300 per published piece"
+  },
+  {
+    "title": "VTCS Gaming Mice Brand — Press Release & Blog Article Writer",
+    "description": "We need to hire someone who is good at writing blog content, which will be published as a press release on official website and social media channel. The content is about the VTCS technology for gaming mice.",
+    "category": "Content",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board — AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$32–$40 per output (fixed)",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$32–$40 per output (fixed)"
+  },
+  {
+    "title": "GoHighLevel & Automation Agency — Project Manager",
+    "description": "We are a GoHighLevel-focused agency specializing in CRM implementation, workflow automation, and AI solutions. We help businesses streamline their operations, automate processes, and build systems that improve efficiency and drive growth. Looking for an experienced, organized project manager.",
+    "category": "Automation",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board — AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$10.5/hr–$20/hr",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$10.5/hr–$20/hr"
+  },
+  {
+    "title": "Educational Math Game Studio — Game & App Developer / Project Lead",
+    "description": "We are seeking an experienced, creative Game Developer and Project Lead with a passion for math to help bring an educational math game from concept to completion within 12 weeks. The ideal freelancer will have hands-on experience in game development, app development, and UI/UX.",
+    "category": "Developers",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board — AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$8/hr–$12/hr",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$8/hr–$12/hr"
+  },
+  {
+    "title": "Streetwear Brand — Head of Product & Trend Strategy",
+    "description": "We are a seven-figure streetwear brand for Gen Z and Gen Alpha, built on baggy denim, thermals, and hoodies. We are repositioning from an alt/emo label into a Gen Z brand with dark roots, expanding into blanks, gym wear, and lighter graphics. Looking for a Head of Product & Trend Strategy.",
+    "category": "Marketing",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board — AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$800–$1,600/month (fixed)",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$800–$1,600/month (fixed)"
+  },
+  {
+    "title": "Showit Client — Website Launch & Fixes (Web Designer/Developer)",
+    "description": "Showit troubleshooting, domain, and security: I have a Showit website that is mostly built, but it is not displaying as expected and needs troubleshooting before launch. Please review the existing site, identify and correct display issues across desktop and mobile, connect it to the domain, and handle Google visibility and Moxie integration.",
+    "category": "Web Design",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board — AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$80–$240 one-time (fixed)",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$80–$240 one-time (fixed)"
   }
 ];
 export const coverageNotes = [
