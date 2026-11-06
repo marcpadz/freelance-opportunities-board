@@ -1,14 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties } from "react";
 import {
-  ArrowLeft,
   ArrowUpRight,
   BookOpen,
   BriefcaseBusiness,
   CalendarDays,
   ChevronDown,
   ExternalLink,
-  Hash,
   LayoutGrid,
   List,
   Linkedin,
@@ -19,6 +17,7 @@ import {
 } from "lucide-react";
 import { jobs, coverageNotes, type Job } from "./data/jobs";
 import { trpc } from "./lib/trpc";
+import JobDetailPage from "./pages/JobDetailPage";
 
 const newsletterDates = Array.from(new Set(jobs.map((job) => job.date))).sort().reverse();
 const categories = Array.from(new Set(jobs.map((job) => job.category))).sort();
@@ -120,11 +119,11 @@ function App() {
     <div className="site-shell">
       <SiteHeader onBoardClick={backToBoard} detail={selected !== null} />
       {selected !== null && displayedJobs[selected] ? (
-        <DetailPage job={displayedJobs[selected]} onBack={backToBoard} />
+        <JobDetailPage job={displayedJobs[selected]} onBack={backToBoard} />
       ) : (
         <BoardPage jobs={displayedJobs} onOpenJob={openJob} />
       )}
-      <SiteFooter />
+      <SiteFooter detail={selected !== null} />
     </div>
   );
 }
@@ -302,42 +301,8 @@ function JobCard({ job, index, onOpen, cardIndex, viewMode }: { job: Job; index:
   </button>;
 }
 
-function DetailPage({ job, onBack }: { job: Job; onBack: () => void }) {
-  const details = job.sourceDetails;
-  const hasSourceDetails = Boolean(job.verified && details && (details.summary || details.responsibilities?.length || details.requirements?.length || details.location || details.compensation || details.deadline || details.application));
-  return <main className="detail-page"><div className="container detail-container"><button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Back to all opportunities</button><div className="detail-layout"><article className="detail-main"><div className="eyebrow"><span className="eyebrow-line" />{job.category}</div><h1>{job.title}</h1><p className="detail-description">{job.description}</p><div className="detail-facts"><span><CalendarDays size={15} />From the {formatDate(job.date)} issue</span><span><Hash size={15} />{job.embed?.platform || sourceLabel(job)}</span></div>{hasSourceDetails && <SourceDetailsBlock details={details!} sourceTitle={job.sourceTitle} />}{job.media?.length ? <MediaGallery media={job.media} /> : null}<div className="detail-rule" /><div className="detail-source-block"><p className="small-label">Original source</p><a className="source-link" href={job.source || job.newsletter} target="_blank" rel="noreferrer">Open the source listing <ArrowUpRight size={16} /></a><p className="source-url">{job.source || job.newsletter}</p>{job.sourceNotes && <p className="source-note">{job.sourceNotes}</p>}</div>{job.embed?.platform && job.embed.platform !== "Web page" && <SocialEmbed embed={job.embed} title={job.title} />}</article><aside className="detail-aside"><div className="aside-label">FIELD NOTE</div><div className="aside-number">05<span>/26</span></div><p>{job.verified ? "Details below were extracted from the linked source page. Check the original source for the latest availability and instructions." : "Listings are reproduced from the newsletter text. The source could not be fully verified automatically, so check the original listing for availability and instructions."}</p>{job.newsletter && <a href={job.newsletter} target="_blank" rel="noreferrer" className="newsletter-link"><BookOpen size={16} />Read the full newsletter <ExternalLink size={14} /></a>}</aside></div></div></main>;
-}
-function SourceDetailsBlock({ details, sourceTitle }: { details: NonNullable<Job["sourceDetails"]>; sourceTitle?: string }) {
-  return <section className="source-details"><div className="source-details-heading"><div><p className="small-label">Verified source details</p><h2>{sourceTitle || "What the source says"}</h2></div><span className="verified-chip">Source checked</span></div><p className="source-summary">{details.summary}</p><div className="source-fact-grid">{details.location && <div><span>Location</span><strong>{details.location}</strong></div>}{details.compensation && <div><span>Compensation</span><strong>{details.compensation}</strong></div>}{details.deadline && <div><span>Deadline</span><strong>{details.deadline}</strong></div>}{details.application && <div><span>How to apply</span><strong>{details.application.startsWith("http") ? <a href={details.application} target="_blank" rel="noreferrer">Application link <ExternalLink size={12} /></a> : details.application}</strong></div>}</div>{details.responsibilities?.length ? <div className="source-list"><h3>Responsibilities</h3><ul>{details.responsibilities.map((item) => <li key={item}>{item}</li>)}</ul></div> : null}{details.requirements?.length ? <div className="source-list"><h3>Requirements / eligibility</h3><ul>{details.requirements.map((item) => <li key={item}>{item}</li>)}</ul></div> : null}</section>;
-}
-function MediaGallery({ media }: { media: NonNullable<Job["media"]> }) {
-  return <section className="media-gallery"><p className="small-label">Media from source</p><div className="media-grid">{media.map((item) => item.type === "video" ? <video key={item.url} src={item.url} controls preload="metadata" aria-label={item.alt} /> : <a key={item.url} href={item.url} target="_blank" rel="noreferrer"><img src={item.url} alt={item.alt} loading="lazy" /></a>)}</div></section>;
-}
-function SocialEmbed({ embed, title }: { embed: NonNullable<Job["embed"]>; title: string }) {
-  const source = embed.url || "";
-  const cleanSource = source.split("?")[0];
-  const frameSource = embed.platform === "Threads" ? `${cleanSource}/embed` : embed.embedUrl || source;
-  const isX = embed.platform === "X / Twitter";
-  useEffect(() => {
-    if (!isX) return;
-    const scriptId = "twitter-widgets-js";
-    const existing = document.getElementById(scriptId) as HTMLScriptElement | null;
-    if (existing) {
-      const twitterWindow = window as typeof window & { twttr?: { widgets?: { load?: () => void } } };
-      twitterWindow.twttr?.widgets?.load?.();
-      return;
-    }
-    const script = document.createElement("script");
-    script.id = scriptId;
-    script.src = "https://platform.twitter.com/widgets.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }, [isX]);
-  return <section className="linkedin-section social-section"><div className="embed-heading"><span><Hash size={17} /> {embed.platform || "Social"} source post</span>{source && <a href={source} target="_blank" rel="noreferrer">Open directly <ExternalLink size={14} /></a>}</div>{isX ? <div className="social-blockquote"><blockquote className="twitter-tweet"><a href={source}>View this post on X</a></blockquote><div className="embed-fallback">If X blocks the widget, <a href={source} target="_blank" rel="noreferrer">open the post directly</a>.</div></div> : frameSource ? <div className="linkedin-frame"><iframe src={frameSource} title={`${embed.platform || "Social"} post about ${title}`} loading="lazy" allow="fullscreen" /><div className="embed-fallback">If {embed.platform || "this platform"} blocks the embedded view, <a href={source} target="_blank" rel="noreferrer">open the post directly</a>.</div></div> : <p className="embed-fallback standalone">This platform does not expose a stable embed URL. <a href={source} target="_blank" rel="noreferrer">Open the source post directly</a>.</p>}</section>;
-}
-
-function SiteFooter() {
-  return <footer className="site-footer"><div className="container footer-inner"><div><div className="brand footer-brand"><span className="brand-mark"><Sparkles size={15} /></span><span>field notes<span className="brand-dot">.</span></span></div><p>Good work is out there. Keep looking.</p></div><div className="footer-meta"><span>Compiled from 5 newsletters</span><span>September 2026</span></div></div></footer>;
+function SiteFooter({ detail }: { detail: boolean }) {
+  return <footer className="site-footer"><div className="container footer-inner"><div><div className="brand footer-brand"><span className="brand-mark"><Sparkles size={15} /></span><span>field notes<span className="brand-dot">.</span></span></div><p>Good work is out there. Keep looking.</p></div>{!detail && <div className="footer-meta"><span>Compiled from 5 newsletters</span><span>September 2026</span></div>}</div></footer>;
 }
 
 export default App;
