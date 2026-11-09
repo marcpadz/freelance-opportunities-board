@@ -2,10 +2,9 @@ export type SourceDetails = { summary: string; responsibilities: string[]; requi
 export type SourceMedia = { type: string; url: string; alt: string };
 export type SourceEmbed = { supported: boolean; platform: string; url: string; embedUrl: string };
 export type Job = { title: string; description: string; category: string; date: string; source: string; newsletter: string; newsletterSubject: string; sourceTitle?: string; sourceStatus?: string; verified?: boolean; sourceDetails?: Partial<SourceDetails>; media?: SourceMedia[]; embed?: Partial<SourceEmbed>; sourceNotes?: string; type?: string; pay?: string };
-export const jobs: Job[] = 
-[
+export const jobs: Job[] = [
   {
-    "title": "Fab Daily (The Sun) — Personal & Confessional Stories",
+    "title": "Fab Daily (The Sun) \u2014 Personal & Confessional Stories",
     "description": "Commissioning editor Lara Olszowska is seeking personal, confessional stories by or about women for Fab Daily, The Sun's women's lifestyle section. Priorities: UK print; relationships between childfree daughters (25-40) and mothers (50-70) who wanted kids; housewives recovering from cocaine addiction; women scammed; women's health, love, sex, beauty, parenting. Include links to published work, location and social proof. Send to lara.olszowska@news.co.uk.",
     "category": "Writers",
     "date": "2026-11-03",
@@ -20,7 +19,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "",
-      "compensation": "Up to £400 for 1,000-1,400 words",
+      "compensation": "Up to \u00a3400 for 1,000-1,400 words",
       "deadline": "",
       "application": ""
     },
@@ -33,10 +32,10 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "Up to £400 for 1,000-1,400 words"
+    "pay": "Up to \u00a3400 for 1,000-1,400 words"
   },
   {
-    "title": "MIT Technology Review — Automation Issue Pitches",
+    "title": "MIT Technology Review \u2014 Automation Issue Pitches",
     "description": "MIT Tech Review is seeking feature-length pitches on automation for an upcoming issue: narrative features, sharp reported essays, and profiles. Pitches due November 13; article drafts early February. Rates $1-$2/word by experience. Send to pitch-news@technologyreview.com.",
     "category": "Writers",
     "date": "2026-11-03",
@@ -67,7 +66,7 @@ export const jobs: Job[] =
     "pay": "$1-$2/word"
   },
   {
-    "title": "Economic Hardship Reporting Project — Grants for Economic Inequality Reporting",
+    "title": "Economic Hardship Reporting Project \u2014 Grants for Economic Inequality Reporting",
     "description": "Nonpartisan nonprofit producing journalism on economic inequality in America, offering grants to freelance journalists. Especially interested in economic precarity during election season, transgender rights and economic inequality, and working-class labor stories in Chicago and Southern California. Rates: news stories $750-$1,500, narrative features $0.40-$1.25/word capped at $1,500, investigative $0.70-$1.25/word capped at $1,700, short documentaries up to $5,000, nonfiction comics $500-$2,500, photo essays $500/day (5-day cap), audio $800-$4,000.",
     "category": "Writers",
     "date": "2026-11-03",
@@ -98,8 +97,8 @@ export const jobs: Job[] =
     "pay": "$750-$5,000 (story type dependent)"
   },
   {
-    "title": "Inciter Art — Open Call for Pitches (tending to the hearth)",
-    "description": "Inciter Art is now accepting pitches year-round. They are drawn to pitches that come from personal experience as an artist or arts worker, tell something new or say a familiar thing in a new way, and fit with what they're already publishing. Current quarterly theme: \"tending to the hearth\" — exploring generosity, solidarity, and collective investment in the invisible infrastructure behind creative work. Deadline for the themed open call is November 2 at 11:59pm ET; pitches submitted after that are reviewed on a rolling basis. Selected writers receive a $750 stipend and have 4 weeks to submit a first draft.",
+    "title": "Inciter Art \u2014 Open Call for Pitches (tending to the hearth)",
+    "description": "Inciter Art is now accepting pitches year-round. They are drawn to pitches that come from personal experience as an artist or arts worker, tell something new or say a familiar thing in a new way, and fit with what they're already publishing. Current quarterly theme: \"tending to the hearth\" \u2014 exploring generosity, solidarity, and collective investment in the invisible infrastructure behind creative work. Deadline for the themed open call is November 2 at 11:59pm ET; pitches submitted after that are reviewed on a rolling basis. Selected writers receive a $750 stipend and have 4 weeks to submit a first draft.",
     "category": "Writers",
     "date": "2026-10-30",
     "source": "https://link.mail.beehiiv.com/v2/c/5e0f0d511d3bb7c027352897f7ebe7aa47aac61ab6831f0486d4e073b3e2d503f07d1ce2f69efe03546f7bebf450ea550ef2868cfad5fe43b28809043b097a4be95521d1f72a8b2a8831837f9ad851ce250c03e18eb6a31097225d8a329c80d675a0a58f6002150d3769c86619765601cb0b8fb47f0f5028bb4685f6d86aa19afdbe8d651c3c28ad68a8e81dc5378be26cc795c2b6cf48344e73a6d6f36f1730/53a5e3cb02ef8249",
@@ -129,7 +128,7 @@ export const jobs: Job[] =
     "pay": "$750 stipend"
   },
   {
-    "title": "Prism — Freelance Pitches",
+    "title": "Prism \u2014 Freelance Pitches",
     "description": "Prism is an independent, nonprofit newsroom led by journalists of color, focused on grassroots perspectives and stories that fill gaps left by mainstream media. They encourage pitches from BIPOC, women, LGBTQIA+ people, and others from historically oppressed communities, covering issues across the U.S., U.S. territories, and wherever U.S. policy and imperialism are felt. More details in the pitch guide.",
     "category": "Journalists",
     "date": "2026-10-30",
@@ -160,8 +159,8 @@ export const jobs: Job[] =
     "pay": "News Stories $600 / Features $800 / Investigative News Stories $900 / Investigations $1,500 / Op-eds, Q&As, Explainers, Personal Essays, Right to Write $400"
   },
   {
-    "title": "The BREAK—DOWN — Open Call: ISSUE #5 REPAIR",
-    "description": "The BREAK—DOWN is open to pitches for ISSUE #5: REPAIR. They are looking for pitches that examine climate adaptation, intervention and repair: argumentative essays, geopolitical or political-economic analysis, reportage, photojournalism and dispatches from around the world. Written pieces are paid at £650 for around 3,000 words (more possible for on-the-ground reporting). Digital-only pieces are accepted on a rolling basis (20p per word, up to £350) — need not be theme-specific but must relate to climate or ecology. More details in the pitch guide.",
+    "title": "The BREAK\u2014DOWN \u2014 Open Call: ISSUE #5 REPAIR",
+    "description": "The BREAK\u2014DOWN is open to pitches for ISSUE #5: REPAIR. They are looking for pitches that examine climate adaptation, intervention and repair: argumentative essays, geopolitical or political-economic analysis, reportage, photojournalism and dispatches from around the world. Written pieces are paid at \u00a3650 for around 3,000 words (more possible for on-the-ground reporting). Digital-only pieces are accepted on a rolling basis (20p per word, up to \u00a3350) \u2014 need not be theme-specific but must relate to climate or ecology. More details in the pitch guide.",
     "category": "Writers",
     "date": "2026-10-30",
     "source": "https://link.mail.beehiiv.com/v2/c/250797af9dba336dfafb369a2f353c59b0ae2c39750bb60dad5181f5d195c39dddb9bed2bafcc2e531177bf154af12441bea65687630eabaf70be135f38e4038ca31574c33e1a58016287b67458c9d410d8505f38992bb0eed02682da0962535a1fda7fc4d48121833c69ec88d00e7fa122f0c63a017aecb347a218e6aa155e113520709fde2c668283d4ee92c1d53a5221755e081fd681a0c1689f21328e337/2f6c27c49aee0bab",
@@ -175,7 +174,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "",
-      "compensation": "£650 for ~3,000 words (20p per word online)",
+      "compensation": "\u00a3650 for ~3,000 words (20p per word online)",
       "deadline": "November 12, 2026 at 11:59 PM ET",
       "application": "Send pitches to pitching@break-down.org with \"ISSUE 5\" in the subject line."
     },
@@ -188,11 +187,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "£650 for ~3,000 words (20p per word online)"
+    "pay": "\u00a3650 for ~3,000 words (20p per word online)"
   },
   {
-    "title": "Nonprofit Quarterly — We Stood Up first-person submissions",
-    "description": "Nonprofit Quarterly is seeking first-person submissions from workers, builders, activists, and organizers for their biweekly series We Stood Up. Pieces share personal stories of small wins, solidarity, joy, and community-built solutions from the frontlines of social change. Submissions can be written essays, visual, oral, or multilingual storytelling — no prior journalism or writing experience is required. Submissions accepted on a rolling basis.",
+    "title": "Nonprofit Quarterly \u2014 We Stood Up first-person submissions",
+    "description": "Nonprofit Quarterly is seeking first-person submissions from workers, builders, activists, and organizers for their biweekly series We Stood Up. Pieces share personal stories of small wins, solidarity, joy, and community-built solutions from the frontlines of social change. Submissions can be written essays, visual, oral, or multilingual storytelling \u2014 no prior journalism or writing experience is required. Submissions accepted on a rolling basis.",
     "category": "Writers",
     "date": "2026-10-30",
     "source": "https://link.mail.beehiiv.com/v2/c/41ab3e8206b2e24096aff7bc1f737c87b1d82f3b056fa7a2729cda7e02489b18aca3127bcb22cdeca9ef3098c77c686b3f42fb732a614df6cfa0d17d28bbc57c51ee50f242fb6abcf5081c03ee67d2fe6c5229a83f5e0203d0df1eefcd7fc9b5eec89db6193aa017677dba27e694f8e3b3143c438c7086439a34a111fef4762e383e298069838e226d10784ce4a82a837556958ee525264e7a91fd66acd2dc63/fd75727b1817f637",
@@ -222,7 +221,7 @@ export const jobs: Job[] =
     "pay": "$300 per published piece"
   },
   {
-    "title": "Circle — Remote Portuguese Translator",
+    "title": "Circle \u2014 Remote Portuguese Translator",
     "description": "Circle is looking for a remote Portuguese translator.",
     "category": "Other",
     "date": "2026-10-30",
@@ -253,7 +252,7 @@ export const jobs: Job[] =
     "pay": "$35/hour"
   },
   {
-    "title": "Psyche — Deep Dives Pitches",
+    "title": "Psyche \u2014 Deep Dives Pitches",
     "description": "Psyche (psyche.co) is commissioning deep-dive reported essays on debates, new ideas and cutting-edge topics in psychology. Pay is $750 for academic/professional pitches and $2,000 for working journalists' reported essays. Send pitches to pamela.weintraub@aeon.co.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -284,7 +283,7 @@ export const jobs: Job[] =
     "pay": "$750 (academics) / $2,000 (journalists)"
   },
   {
-    "title": "Circle — Remote Spanish Translator",
+    "title": "Circle \u2014 Remote Spanish Translator",
     "description": "Circle is looking for a remote Spanish translator.",
     "category": "Other",
     "date": "2026-10-30",
@@ -315,7 +314,7 @@ export const jobs: Job[] =
     "pay": "$35/hour"
   },
   {
-    "title": "Circle — Remote Italian Translator",
+    "title": "Circle \u2014 Remote Italian Translator",
     "description": "Circle is looking for a remote Italian translator.",
     "category": "Other",
     "date": "2026-10-30",
@@ -346,7 +345,7 @@ export const jobs: Job[] =
     "pay": "$35/hour"
   },
   {
-    "title": "Oodle.io — Content Creators",
+    "title": "Oodle.io \u2014 Content Creators",
     "description": "Oodle.io is looking for content creators including video editors, storytellers, writers and designers for B2B tech.",
     "category": "Other",
     "date": "2026-10-30",
@@ -377,7 +376,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Helen of Troy — Freelance Project Manager",
+    "title": "Helen of Troy \u2014 Freelance Project Manager",
     "description": "Helen of Troy is looking for a freelance project manager.",
     "category": "Other",
     "date": "2026-10-30",
@@ -408,7 +407,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Walker Youngbird Foundation — Native Artist Residency",
+    "title": "Walker Youngbird Foundation \u2014 Native Artist Residency",
     "description": "Four-week residency for Native artists offered by the Walker Youngbird Foundation and the Fine Arts Work Center in Provincetown, MA.",
     "category": "Grants",
     "date": "2026-10-30",
@@ -439,7 +438,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Alley — Full-Time UX Front-End Developer",
+    "title": "Alley \u2014 Full-Time UX Front-End Developer",
     "description": "Alley is hiring a full-time UX front-end developer.",
     "category": "Developers",
     "date": "2026-10-30",
@@ -470,7 +469,7 @@ export const jobs: Job[] =
     "pay": "$85k-$105k/year"
   },
   {
-    "title": "All IT Solutions — Remote Full-Stack Java Developer",
+    "title": "All IT Solutions \u2014 Remote Full-Stack Java Developer",
     "description": "All IT Solutions is hiring a remote full-stack Java developer.",
     "category": "Developers",
     "date": "2026-10-30",
@@ -501,7 +500,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "FUBAR Radio — Full-Time Audio Producer",
+    "title": "FUBAR Radio \u2014 Full-Time Audio Producer",
     "description": "FUBAR Radio is hiring a full-time audio producer in London.",
     "category": "Audio",
     "date": "2026-10-30",
@@ -516,7 +515,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "London, UK",
-      "compensation": "£35,000/year",
+      "compensation": "\u00a335,000/year",
       "deadline": "",
       "application": ""
     },
@@ -529,10 +528,10 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
-    "pay": "£35,000/year"
+    "pay": "\u00a335,000/year"
   },
   {
-    "title": "Apollo Technology Solutions — Remote Drupal Developer",
+    "title": "Apollo Technology Solutions \u2014 Remote Drupal Developer",
     "description": "Apollo Technology Solutions is looking for a remote Drupal developer.",
     "category": "Developers",
     "date": "2026-10-30",
@@ -563,7 +562,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Nicklpass — Part-Time Staff / Founding Engineer",
+    "title": "Nicklpass \u2014 Part-Time Staff / Founding Engineer",
     "description": "Nicklpass is hiring a part-time staff/founding engineer focused on identity and access infrastructure.",
     "category": "Developers",
     "date": "2026-10-30",
@@ -594,7 +593,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Forward — Remote Engineer",
+    "title": "Forward \u2014 Remote Engineer",
     "description": "Forward is looking for an engineer (LATAM preferred, remote).",
     "category": "Developers",
     "date": "2026-10-30",
@@ -625,7 +624,7 @@ export const jobs: Job[] =
     "pay": "$8-$9.5k/month, 15-20 hours/week"
   },
   {
-    "title": "Criminally Obsessed — Full-Time Editor",
+    "title": "Criminally Obsessed \u2014 Full-Time Editor",
     "description": "The podcast 'Criminally Obsessed' (Sinclair) is hiring a full-time editor.",
     "category": "Audio",
     "date": "2026-10-30",
@@ -656,7 +655,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Bladework Games — Contract Mid-Level Sound Designer",
+    "title": "Bladework Games \u2014 Contract Mid-Level Sound Designer",
     "description": "Bladework Games is looking for a contract remote mid-level sound designer (may convert to full-time).",
     "category": "Audio",
     "date": "2026-10-30",
@@ -687,7 +686,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Community-Word Project — Salesforce Data Administrator / Consultant",
+    "title": "Community-Word Project \u2014 Salesforce Data Administrator / Consultant",
     "description": "Community-Word Project is looking for a temporary remote freelance Salesforce data administrator/consultant.",
     "category": "Other",
     "date": "2026-10-30",
@@ -718,7 +717,7 @@ export const jobs: Job[] =
     "pay": "$35/hour"
   },
   {
-    "title": "Braver Angels — Remote Part-Time Grant Coordinator",
+    "title": "Braver Angels \u2014 Remote Part-Time Grant Coordinator",
     "description": "Braver Angels is looking for a remote part-time grant coordinator.",
     "category": "Grants",
     "date": "2026-10-30",
@@ -749,7 +748,7 @@ export const jobs: Job[] =
     "pay": "$25/hour, 25 hours/week"
   },
   {
-    "title": "This is Rocket — Freelance Creatives",
+    "title": "This is Rocket \u2014 Freelance Creatives",
     "description": "This is Rocket is building a freelance creative bench.",
     "category": "Other",
     "date": "2026-10-30",
@@ -780,7 +779,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "ETFguide — Video / Audio Opportunity",
+    "title": "ETFguide \u2014 Video / Audio Opportunity",
     "description": "ETFguide is hiring for a video/audio role.",
     "category": "Video",
     "date": "2026-10-30",
@@ -811,7 +810,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Aces and Oaks — Social Media Content Editor",
+    "title": "Aces and Oaks \u2014 Social Media Content Editor",
     "description": "Aces and Oaks is looking for a social media content editor.",
     "category": "Video",
     "date": "2026-10-30",
@@ -842,7 +841,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Creator Wizard — Freelance Video Editors",
+    "title": "Creator Wizard \u2014 Freelance Video Editors",
     "description": "Creator Wizard is looking for freelance video editors.",
     "category": "Video",
     "date": "2026-10-30",
@@ -873,7 +872,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "KINGART — Remote Freelance Packaging Designer",
+    "title": "KINGART \u2014 Remote Freelance Packaging Designer",
     "description": "KINGART is hiring a remote freelance packaging designer.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -904,7 +903,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "KINGART — Remote Freelance Graphic Designer",
+    "title": "KINGART \u2014 Remote Freelance Graphic Designer",
     "description": "KINGART is hiring a remote freelance graphic designer.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -935,7 +934,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Exient — Remote Fractional Senior Game Designer",
+    "title": "Exient \u2014 Remote Fractional Senior Game Designer",
     "description": "Exient is looking for a remote fractional senior game designer.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -966,7 +965,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Zopa Bank — Freelance 3D Designer",
+    "title": "Zopa Bank \u2014 Freelance 3D Designer",
     "description": "Zopa Bank is looking for a freelance 3D designer.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -997,7 +996,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "cc'd consultancy — Freelance Email Designers",
+    "title": "cc'd consultancy \u2014 Freelance Email Designers",
     "description": "cc'd consultancy is looking for freelance email designers who use Figma.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -1028,7 +1027,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "ThunderClap — Freelance Visual Designers",
+    "title": "ThunderClap \u2014 Freelance Visual Designers",
     "description": "ThunderClap is hiring freelance visual designers working globally.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -1059,7 +1058,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "SALTO — Freelance Illustrator",
+    "title": "SALTO \u2014 Freelance Illustrator",
     "description": "SALTO is calling for illustrators for a sticker collection (10-15 illustrations).",
     "category": "Designers",
     "date": "2026-10-30",
@@ -1074,7 +1073,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "EU",
-      "compensation": "€1,500 (10-15 illustrations)",
+      "compensation": "\u20ac1,500 (10-15 illustrations)",
       "deadline": "",
       "application": ""
     },
@@ -1087,10 +1086,10 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "€1,500 (10-15 illustrations)"
+    "pay": "\u20ac1,500 (10-15 illustrations)"
   },
   {
-    "title": "Catalyst Marketing — Remote Freelance Graphic Designer",
+    "title": "Catalyst Marketing \u2014 Remote Freelance Graphic Designer",
     "description": "Catalyst Marketing is hiring a remote freelance graphic designer.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -1121,7 +1120,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "athenahealth — Freelance Presentation Designers",
+    "title": "athenahealth \u2014 Freelance Presentation Designers",
     "description": "athenahealth is building a roster of freelance presentation designers.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -1152,7 +1151,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Wartburg College — Freelance Graphic Designer",
+    "title": "Wartburg College \u2014 Freelance Graphic Designer",
     "description": "Wartburg College is looking for freelance graphic designers for a commemorative history book.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -1183,7 +1182,7 @@ export const jobs: Job[] =
     "pay": "$4,000"
   },
   {
-    "title": "Pivotal London — Freelance Social & Content Lead",
+    "title": "Pivotal London \u2014 Freelance Social & Content Lead",
     "description": "Pivotal London is looking for a freelance social media and content lead working one day per week.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1214,7 +1213,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Grasslands Club — Part-Time Social Media & Photography Coordinator",
+    "title": "Grasslands Club \u2014 Part-Time Social Media & Photography Coordinator",
     "description": "Grasslands Club is hiring a part-time social media and photography coordinator.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1245,7 +1244,7 @@ export const jobs: Job[] =
     "pay": "$18-$20/hour"
   },
   {
-    "title": "Sunflower — Instagram, TikTok & YouTube Influencers",
+    "title": "Sunflower \u2014 Instagram, TikTok & YouTube Influencers",
     "description": "Sunflower is recruiting Instagram, TikTok and YouTube influencers to promote its email tools.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1276,7 +1275,7 @@ export const jobs: Job[] =
     "pay": "$400-$600"
   },
   {
-    "title": "Bass Pro Shops — Influencer, Black Friday Campaign",
+    "title": "Bass Pro Shops \u2014 Influencer, Black Friday Campaign",
     "description": "Bass Pro Shops is looking for influencers to promote its Black Friday home decor deals.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1307,7 +1306,7 @@ export const jobs: Job[] =
     "pay": "$300-$600"
   },
   {
-    "title": "Noise — Part-Time Social Media Content Creator Intern",
+    "title": "Noise \u2014 Part-Time Social Media Content Creator Intern",
     "description": "Noise is hiring a part-time social media content creator intern producing 20 videos per week.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1338,7 +1337,7 @@ export const jobs: Job[] =
     "pay": "Paid, 20 videos/week"
   },
   {
-    "title": "Sparta Interiors — Social Media Freelancer",
+    "title": "Sparta Interiors \u2014 Social Media Freelancer",
     "description": "Sparta Interiors is looking for a social media freelancer to work on their construction-related content.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1369,7 +1368,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Playboy — Full-Time Senior Marketing Associate",
+    "title": "Playboy \u2014 Full-Time Senior Marketing Associate",
     "description": "Playboy is hiring a full-time senior marketing associate in Miami.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1400,7 +1399,7 @@ export const jobs: Job[] =
     "pay": "$68k-$75k/year"
   },
   {
-    "title": "FORREST — Remote Freelance Growth Lead / Acquisition Lead",
+    "title": "FORREST \u2014 Remote Freelance Growth Lead / Acquisition Lead",
     "description": "FORREST is looking for a remote freelance growth / acquisition lead.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1415,7 +1414,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "€600-€1,000/day",
+      "compensation": "\u20ac600-\u20ac1,000/day",
       "deadline": "",
       "application": ""
     },
@@ -1428,10 +1427,10 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "€600-€1,000/day"
+    "pay": "\u20ac600-\u20ac1,000/day"
   },
   {
-    "title": "Liza Gershman — Freelance Admin / Sales Support",
+    "title": "Liza Gershman \u2014 Freelance Admin / Sales Support",
     "description": "Liza Gershman is looking for a freelance admin/sales supporter, 5-10 hours per month.",
     "category": "Other",
     "date": "2026-10-30",
@@ -1462,7 +1461,7 @@ export const jobs: Job[] =
     "pay": "5-10 hours/month"
   },
   {
-    "title": "Styles and Partners — Freelance Marketer",
+    "title": "Styles and Partners \u2014 Freelance Marketer",
     "description": "Styles and Partners is hiring a freelance marketer working two days per week.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1493,7 +1492,7 @@ export const jobs: Job[] =
     "pay": "2 days/week"
   },
   {
-    "title": "Popdarts — Email Marketing Agency / Contractor",
+    "title": "Popdarts \u2014 Email Marketing Agency / Contractor",
     "description": "Popdarts is looking for an email marketing agency or contractor.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1524,7 +1523,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "One Strategy Group — Tech Comms Freelancer",
+    "title": "One Strategy Group \u2014 Tech Comms Freelancer",
     "description": "One Strategy Group is looking for a tech communications freelancer for client work.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -1555,7 +1554,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Copyrath — Cold Email Specialist / Agency",
+    "title": "Copyrath \u2014 Cold Email Specialist / Agency",
     "description": "Copyrath is looking for a cold email specialist or agency partner.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1586,7 +1585,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "KesselsKramer — Freelance Strategist",
+    "title": "KesselsKramer \u2014 Freelance Strategist",
     "description": "KesselsKramer is looking for a freelance strategist.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1617,7 +1616,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "The Unit Agency — Freelance Influencer / Social Strategist",
+    "title": "The Unit Agency \u2014 Freelance Influencer / Social Strategist",
     "description": "The Unit Agency is looking for a freelance influencer and social media strategist.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1648,7 +1647,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Blacklight Group — Shopify SEO Specialist",
+    "title": "Blacklight Group \u2014 Shopify SEO Specialist",
     "description": "Part-time remote e-commerce Shopify SEO specialist for a Blacklight Group client.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -1679,7 +1678,7 @@ export const jobs: Job[] =
     "pay": "$10-$25/hour"
   },
   {
-    "title": "Wise — Contract SEO Lead",
+    "title": "Wise \u2014 Contract SEO Lead",
     "description": "2-3 month contract as a senior technical SEO lead.",
     "category": "Designers",
     "date": "2026-10-30",
@@ -1710,7 +1709,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Guilford Press — Full-Time Editorial Assistant",
+    "title": "Guilford Press \u2014 Full-Time Editorial Assistant",
     "description": "Full-time editorial assistant role at Guilford Press in NYC.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -1741,7 +1740,7 @@ export const jobs: Job[] =
     "pay": "$50k-$60k/year"
   },
   {
-    "title": "Petfood Industry Magazine — Remote Editor-in-Chief",
+    "title": "Petfood Industry Magazine \u2014 Remote Editor-in-Chief",
     "description": "Petfood Industry Magazine is hiring a remote full-time editor-in-chief.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -1772,7 +1771,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Penguin Enterprise — Freelance Copyeditors",
+    "title": "Penguin Enterprise \u2014 Freelance Copyeditors",
     "description": "Penguin Enterprise is looking for freelance copyeditors for non-fiction titles.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -1803,7 +1802,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Avalyn — Senior Manager of CMC Technical Writing",
+    "title": "Avalyn \u2014 Senior Manager of CMC Technical Writing",
     "description": "Full-time senior manager of CMC technical writing role.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -1834,7 +1833,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Barrena Branding and Marketing — B2B Copywriter & Messaging Strategist",
+    "title": "Barrena Branding and Marketing \u2014 B2B Copywriter & Messaging Strategist",
     "description": "Barrena is looking for a B2B copywriter and messaging strategist.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1865,7 +1864,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Pattern — Part-Time Remote Fractional VP of Performance Marketing",
+    "title": "Pattern \u2014 Part-Time Remote Fractional VP of Performance Marketing",
     "description": "Part-time remote fractional VP of performance marketing role at Pattern.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1896,7 +1895,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Lumimeds — Remote Fractional Creative Strategist",
+    "title": "Lumimeds \u2014 Remote Fractional Creative Strategist",
     "description": "Lumimeds is looking for a remote fractional creative strategist.",
     "category": "Marketing",
     "date": "2026-10-30",
@@ -1927,7 +1926,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "The Chinook Observer — Freelance Hard-News Reporter",
+    "title": "The Chinook Observer \u2014 Freelance Hard-News Reporter",
     "description": "Freelance hard-news reporter position for The Chinook Observer.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -1958,7 +1957,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Environmental Law and Policy Center — Full-Time Communications Writer",
+    "title": "Environmental Law and Policy Center \u2014 Full-Time Communications Writer",
     "description": "Full-time communications writer in Chicago.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -1989,7 +1988,7 @@ export const jobs: Job[] =
     "pay": "$75k-$80k/year"
   },
   {
-    "title": "Dartmouth — Part-Time Content Writer",
+    "title": "Dartmouth \u2014 Part-Time Content Writer",
     "description": "Remote part-time content writer for admissions, 24 hours per week.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2020,7 +2019,7 @@ export const jobs: Job[] =
     "pay": "$28.53/hour, 24 hours/week"
   },
   {
-    "title": "Briefs Finance — Full-Time Financial Writer",
+    "title": "Briefs Finance \u2014 Full-Time Financial Writer",
     "description": "Full-time financial writer role in Detroit.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2051,7 +2050,7 @@ export const jobs: Job[] =
     "pay": "$75k-$100k/year"
   },
   {
-    "title": "Atma — Writers & Editors",
+    "title": "Atma \u2014 Writers & Editors",
     "description": "Atma is looking for freelance writers and editors across its publications.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2082,7 +2081,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Solas Media — Remote Scriptwriter",
+    "title": "Solas Media \u2014 Remote Scriptwriter",
     "description": "Solas Media is hiring a remote scriptwriter for true crime documentaries.",
     "category": "Video",
     "date": "2026-10-30",
@@ -2113,7 +2112,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Ornikar — Freelance Copywriter",
+    "title": "Ornikar \u2014 Freelance Copywriter",
     "description": "Looking for a freelance copywriter based in Paris.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2144,7 +2143,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "A7 Magazine — Freelance Writers & Editors",
+    "title": "A7 Magazine \u2014 Freelance Writers & Editors",
     "description": "A7 Magazine is calling for freelance writers and editors.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2175,7 +2174,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Lincoln Institute of Land Policy — Freelance Writers & Producers",
+    "title": "Lincoln Institute of Land Policy \u2014 Freelance Writers & Producers",
     "description": "The Lincoln Institute of Land Policy is calling for freelance writers and producers.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2206,7 +2205,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Housing First Minnesota — Freelance Writers",
+    "title": "Housing First Minnesota \u2014 Freelance Writers",
     "description": "Looking for freelance writers for the first issue of a new homeownership-focused magazine.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2237,7 +2236,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "The Dirtbag Diaries — Short Personal Essays",
+    "title": "The Dirtbag Diaries \u2014 Short Personal Essays",
     "description": "Short personal essays exploring bigger questions through the lens of getting outside.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2268,7 +2267,7 @@ export const jobs: Job[] =
     "pay": "$800"
   },
   {
-    "title": "Axios — Full-Time Remote News Reporter",
+    "title": "Axios \u2014 Full-Time Remote News Reporter",
     "description": "Axios is hiring a full-time remote news reporter.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2299,7 +2298,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Radio Nova — Part-Time Roving Reporter",
+    "title": "Radio Nova \u2014 Part-Time Roving Reporter",
     "description": "Radio Nova is hiring a part-time roving reporter in Dublin.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2330,7 +2329,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Axios Local — Part-Time Remote Temporary Reporter",
+    "title": "Axios Local \u2014 Part-Time Remote Temporary Reporter",
     "description": "Part-time temporary remote reporter role covering local news.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2361,7 +2360,7 @@ export const jobs: Job[] =
     "pay": "$27-$45/hour, 29 hours/week"
   },
   {
-    "title": "Literary Hub — Literary Pitch Line",
+    "title": "Literary Hub \u2014 Literary Pitch Line",
     "description": "Literary Hub is a standing venue open to pitches on literary topics.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2392,7 +2391,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Business Insider — Life Optimization & Family Arrangement Pitches",
+    "title": "Business Insider \u2014 Life Optimization & Family Arrangement Pitches",
     "description": "Business Insider wants pitches on services that optimize your life and unique family arrangements that make life easier.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2423,7 +2422,7 @@ export const jobs: Job[] =
     "pay": "$240"
   },
   {
-    "title": "Tarbell Center — AI Journalism Fellowship",
+    "title": "Tarbell Center \u2014 AI Journalism Fellowship",
     "description": "One-year fellowship open to journalists and subject matter experts working on AI.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2454,7 +2453,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Western Home Journal — Freelance Writers",
+    "title": "Western Home Journal \u2014 Freelance Writers",
     "description": "Calling for writers covering the western regions of Wyoming and Boise, Idaho.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2485,7 +2484,7 @@ export const jobs: Job[] =
     "pay": "$0.50/word"
   },
   {
-    "title": "The Disability Debrief — Disability Rights Pitches",
+    "title": "The Disability Debrief \u2014 Disability Rights Pitches",
     "description": "Open call for stories on how disability rights have changed your life.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2516,7 +2515,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "The Break-Down — Repair Issue Pitches",
+    "title": "The Break-Down \u2014 Repair Issue Pitches",
     "description": "The Break-Down is soliciting pitches for its upcoming 'repair' themed issue.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2547,7 +2546,7 @@ export const jobs: Job[] =
     "pay": "$650"
   },
   {
-    "title": "Business Insider — Real Estate Pitches",
+    "title": "Business Insider \u2014 Real Estate Pitches",
     "description": "Business Insider wants real-estate pitches including moving in with roommates at 40+ or temporarily moving to a new city.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2578,7 +2577,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "JAWS — Health Reporting Fellowship",
+    "title": "JAWS \u2014 Health Reporting Fellowship",
     "description": "The Journalism and Women Symposium's health reporting fellowship is open to female journalists reporting on healthcare.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2609,7 +2608,7 @@ export const jobs: Job[] =
     "pay": "$4,000"
   },
   {
-    "title": "Business Insider — Boomer & Gen Z Personal Essays",
+    "title": "Business Insider \u2014 Boomer & Gen Z Personal Essays",
     "description": "Seeking personal essays from Boomers and Gen Z working together, unique problem-solutions, and stories about living off the grid.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2640,7 +2639,7 @@ export const jobs: Job[] =
     "pay": "$240 / 600 words"
   },
   {
-    "title": "News Creator Corps — Trusted Creator Fellowship",
+    "title": "News Creator Corps \u2014 Trusted Creator Fellowship",
     "description": "Fellowship open to creators who want to learn interviewing, research and fact-checking skills for news reporting.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2671,7 +2670,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "The Contrapuntal — Disappearances Creative Non-Fiction",
+    "title": "The Contrapuntal \u2014 Disappearances Creative Non-Fiction",
     "description": "Open call for creative non-fiction on the theme of disappearances.",
     "category": "Writers",
     "date": "2026-10-30",
@@ -2686,7 +2685,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "",
-      "compensation": "€200",
+      "compensation": "\u20ac200",
       "deadline": "",
       "application": ""
     },
@@ -2699,11 +2698,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "€200"
+    "pay": "\u20ac200"
   },
   {
     "title": "Senior Video Editor (Project-Based, Remote)",
-    "description": "We are an influencer marketing agency based in Dubai. We work with major regional and international brands and have run over 500 campaigns. Our clients expect broadcast-level quality on social media timelines.\n\nRead this before applying\n\nThis is not a…",
+    "description": "We are an influencer marketing agency based in Dubai. We work with major regional and international brands and have run over 500 campaigns. Our clients expect broadcast-level quality on social media timelines.\n\nRead this before applying\n\nThis is not a\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-video-editor-project-based-remote-1714584",
@@ -2733,8 +2732,8 @@ export const jobs: Job[] =
     "pay": "$25-50 per video"
   },
   {
-    "title": "Social Media Content Planner & Reels Editor — Fitness Coaching Brand",
-    "description": "Pay: $4–$8 USD/hour, depending on experience\n\nHours: Part-time to start, with potential to increase\n\nLocation: Remote — Philippines\n\nI’m Cody Watkins, an online fitness coach looking for someone to manage content planning, find footage in my existing video library, edit…",
+    "title": "Social Media Content Planner & Reels Editor \u2014 Fitness Coaching Brand",
+    "description": "Pay: $4\u2013$8 USD/hour, depending on experience\n\nHours: Part-time to start, with potential to increase\n\nLocation: Remote \u2014 Philippines\n\nI\u2019m Cody Watkins, an online fitness coach looking for someone to manage content planning, find footage in my existing video library, edit\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-planner-reels-editor-fitness-coaching-brand-1757738",
@@ -2748,7 +2747,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "$4–$8 USD/hour, depending on experience",
+      "compensation": "$4\u2013$8 USD/hour, depending on experience",
       "deadline": "",
       "application": ""
     },
@@ -2761,11 +2760,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "$4–$8 USD/hour, depending on experience"
+    "pay": "$4\u2013$8 USD/hour, depending on experience"
   },
   {
     "title": "Social Media Content Assistant",
-    "description": "Full-Time | Remote | Long-Term\n\nWe are looking for a creative, organized, and reliable Social Media Content Assistant to help maintain and improve our company's social media presence.\n\nThe ideal candidate should be comfortable creating graphics, writing captions, preparing content,…",
+    "description": "Full-Time | Remote | Long-Term\n\nWe are looking for a creative, organized, and reliable Social Media Content Assistant to help maintain and improve our company's social media presence.\n\nThe ideal candidate should be comfortable creating graphics, writing captions, preparing content,\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-assistant-1757748",
@@ -2795,8 +2794,8 @@ export const jobs: Job[] =
     "pay": "17,400 PHP"
   },
   {
-    "title": "Senior Shopify, Klaviyo & Design Specialist – Fashion Brand (Remote, Full-time)",
-    "description": "Senior Shopify, Klaviyo & Design Specialist – Fashion Brand (Remote, Full-time)\n\nWe are a European fashion brand selling to premium boutiques and department stores in Europe, the US and the Middle East. We're looking for an experienced all-rounder who can…",
+    "title": "Senior Shopify, Klaviyo & Design Specialist \u2013 Fashion Brand (Remote, Full-time)",
+    "description": "Senior Shopify, Klaviyo & Design Specialist \u2013 Fashion Brand (Remote, Full-time)\n\nWe are a European fashion brand selling to premium boutiques and department stores in Europe, the US and the Middle East. We're looking for an experienced all-rounder who can\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-shopify-klaviyo-design-specialist-fashion-brand-remote-full-time-1754557",
@@ -2826,8 +2825,8 @@ export const jobs: Job[] =
     "pay": "$1000/ month + bonus"
   },
   {
-    "title": "Full-Time Business Outreach Virtual Assistant – $4/Hour",
-    "description": "Exciting Opportunity to Grow With a U.S. Company!\n\nLocal Perks Passport is a growing digital marketing company helping local businesses connect with residents and visitors across the United States.\n\nWe're looking for a friendly, enthusiastic, and motivated **Virtual Assistant** to…",
+    "title": "Full-Time Business Outreach Virtual Assistant \u2013 $4/Hour",
+    "description": "Exciting Opportunity to Grow With a U.S. Company!\n\nLocal Perks Passport is a growing digital marketing company helping local businesses connect with residents and visitors across the United States.\n\nWe're looking for a friendly, enthusiastic, and motivated **Virtual Assistant** to\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-business-outreach-virtual-assistant-4-hour-1757774",
@@ -2858,7 +2857,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Appointment setter - Sales Rep",
-    "description": "Experienced Appointment Setter (Cold Calling) | Remote | US Home Service Market\n\nREAD FIRST\n\nIndividual applicants only. No agencies. Agency messages will be ignored.\n\nFluent, clear spoken English is required. This is a phone-heavy role, and American homeowners need to…",
+    "description": "Experienced Appointment Setter (Cold Calling) | Remote | US Home Service Market\n\nREAD FIRST\n\nIndividual applicants only. No agencies. Agency messages will be ignored.\n\nFluent, clear spoken English is required. This is a phone-heavy role, and American homeowners need to\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-sales-rep-1757787",
@@ -2888,8 +2887,8 @@ export const jobs: Job[] =
     "pay": "$10 an hour"
   },
   {
-    "title": "Appointment Setter B2B — $1,200 US per month + $50 per show-up",
-    "description": "Please just send us any message if you're interested, and we will send you a Google Form. All applications will be considered through the form.\n\nWhy strong setters join us\n\nWe built a role where your results are directly reflected…",
+    "title": "Appointment Setter B2B \u2014 $1,200 US per month + $50 per show-up",
+    "description": "Please just send us any message if you're interested, and we will send you a Google Form. All applications will be considered through the form.\n\nWhy strong setters join us\n\nWe built a role where your results are directly reflected\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-b2b-1-200-us-per-month-50-per-show-up-1737002",
@@ -2920,7 +2919,7 @@ export const jobs: Job[] =
   },
   {
     "title": "WE'RE HIRING: B2B Healthcare Appointment Setter (Remote | Part-Time)",
-    "description": "Schedule: 4 hours/day, Monday–Friday (U.S. business hours)\n\nCompensation: $5/hour + $15 per qualified appointment attended\n\nEmployment Type: Part-Time | Initial 2-Week Paid Trial\n\nWhat You'll Do\n\nMake outbound calls to U.S. medical practices and healthcare organizations.\n\nConnect with practice owners,…",
+    "description": "Schedule: 4 hours/day, Monday\u2013Friday (U.S. business hours)\n\nCompensation: $5/hour + $15 per qualified appointment attended\n\nEmployment Type: Part-Time | Initial 2-Week Paid Trial\n\nWhat You'll Do\n\nMake outbound calls to U.S. medical practices and healthcare organizations.\n\nConnect with practice owners,\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/we-re-hiring-b2b-healthcare-appointment-setter-remote-part-time-1757790",
@@ -2950,39 +2949,8 @@ export const jobs: Job[] =
     "pay": "$5/hour + big commissions!"
   },
   {
-    "title": "Appointment Setter B2B — $1,200 US per month + $50 per show-up",
-    "description": "Please just send us any message if you're interested, and we will send you a Google Form. All applications will be considered through the form.\n\nWhy strong setters join us\n\nWe built a role where your results are directly reflected…",
-    "category": "Sales",
-    "date": "2026-10-29",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-b2b-1-200-us-per-month-50-per-show-up-1726141",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$1,200 US per month + $50 per show-up",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-b2b-1-200-us-per-month-50-per-show-up-1726141",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$1,200 US per month + $50 per show-up"
-  },
-  {
-    "title": "Sales Closer – Auto Repair Shop Software (Final Selection Stage, Apply Now)",
-    "description": "Outbound Sales Closer – Auto Repair Shop Software (US Market)\n\nWe are in the final stages of selecting our closer. If you have personally closed sales and this role fits you, apply now. We plan to make a decision soon,…",
+    "title": "Sales Closer \u2013 Auto Repair Shop Software (Final Selection Stage, Apply Now)",
+    "description": "Outbound Sales Closer \u2013 Auto Repair Shop Software (US Market)\n\nWe are in the final stages of selecting our closer. If you have personally closed sales and this role fits you, apply now. We plan to make a decision soon,\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-closer-auto-repair-shop-software-final-selection-stage-apply-now-1742074",
@@ -3013,7 +2981,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Phone Sales Rep | $2,000 to $3,000/month | Commission Only",
-    "description": "We’re hiring full-time phone sales reps to call warm leads for ecom offers. These are people who already showed interest, so you’re not dialing random strangers. Your job is to talk to them, find out what they need, and close…",
+    "description": "We\u2019re hiring full-time phone sales reps to call warm leads for ecom offers. These are people who already showed interest, so you\u2019re not dialing random strangers. Your job is to talk to them, find out what they need, and close\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/phone-sales-rep-2-000-to-3-000-month-commission-only-1757806",
@@ -3044,7 +3012,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Virtual Accounting and Project Management Support",
-    "description": "Best Technology has a rare opportunity available within their growing team for an Accounting and Customer Support Specialist. Your days will be kept busy with AR, AP, ACH, Collections, general accounting functions, project management and customer support with the sales…",
+    "description": "Best Technology has a rare opportunity available within their growing team for an Accounting and Customer Support Specialist. Your days will be kept busy with AR, AP, ACH, Collections, general accounting functions, project management and customer support with the sales\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/virtual-accounting-and-project-management-support-1598592",
@@ -3075,7 +3043,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Phone Sales Rep (Skincare) | $2k-$3k/mo Commission Only | EST",
-    "description": "This is a commission-only role. There is no hourly or base wage.\n\nWe’re hiring full-time phone sales reps to call warm leads for skincare offers. These people already filled out a form or showed interest, so you’re not calling random…",
+    "description": "This is a commission-only role. There is no hourly or base wage.\n\nWe\u2019re hiring full-time phone sales reps to call warm leads for skincare offers. These people already filled out a form or showed interest, so you\u2019re not calling random\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/phone-sales-rep-skincare-2k-3k-mo-commission-only-est-1757808",
@@ -3106,7 +3074,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Client Success & Manager (High-Ticket Coaching)",
-    "description": "About PHNYX Group\n\nPHNYX Group is a venture studio with operations in Dubai, Switzerland and China. We partner with founders to build, grow and sell physical product brands.\n\nOur founder has built multiple brands, including PHNYX Watches, which has done…",
+    "description": "About PHNYX Group\n\nPHNYX Group is a venture studio with operations in Dubai, Switzerland and China. We partner with founders to build, grow and sell physical product brands.\n\nOur founder has built multiple brands, including PHNYX Watches, which has done\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/client-success-manager-high-ticket-coaching-1751897",
@@ -3137,7 +3105,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Client Pathway Specialist",
-    "description": "About the Role\n\nWe are looking for a friendly, organized Client Pathway Specialist to find prospects, book appointments for our sales team, and guide new clients through onboarding. You are the first voice prospects hear and the guide clients rely…",
+    "description": "About the Role\n\nWe are looking for a friendly, organized Client Pathway Specialist to find prospects, book appointments for our sales team, and guide new clients through onboarding. You are the first voice prospects hear and the guide clients rely\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/client-pathway-specialist-1757830",
@@ -3168,7 +3136,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Outbound Sales & Lead Generation Specialist",
-    "description": "JOB OVERVIEW\n\nAre you confident communicating with people and turning conversations into business opportunities?\n\nWe’re looking for a motivated, proactive, and results-driven Outbound Sales & Lead Generation Specialist to help grow our cleaning business.\n\nYou’ll connect with potential customers through…",
+    "description": "JOB OVERVIEW\n\nAre you confident communicating with people and turning conversations into business opportunities?\n\nWe\u2019re looking for a motivated, proactive, and results-driven Outbound Sales & Lead Generation Specialist to help grow our cleaning business.\n\nYou\u2019ll connect with potential customers through\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/outbound-sales-lead-generation-specialist-1757837",
@@ -3182,7 +3150,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "$800 – $1,000 + performance-based bonus",
+      "compensation": "$800 \u2013 $1,000 + performance-based bonus",
       "deadline": "",
       "application": ""
     },
@@ -3195,11 +3163,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
-    "pay": "$800 – $1,000 + performance-based bonus"
+    "pay": "$800 \u2013 $1,000 + performance-based bonus"
   },
   {
-    "title": "Part-Time Appointment Setter (US Clients, Impeccable English) – 2 hrs/day",
-    "description": "Legendary Acquisition is a US-based agency that builds done-for-you client acquisition systems for high-ticket business owners: coaches, consultants, and service businesses. We run their Meta ads, build the video sales page that converts the traffic, and set up the booking…",
+    "title": "Part-Time Appointment Setter (US Clients, Impeccable English) \u2013 2 hrs/day",
+    "description": "Legendary Acquisition is a US-based agency that builds done-for-you client acquisition systems for high-ticket business owners: coaches, consultants, and service businesses. We run their Meta ads, build the video sales page that converts the traffic, and set up the booking\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-appointment-setter-us-clients-impeccable-english-2-hrs-day-1757842",
@@ -3230,7 +3198,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Appointment center/ Call center Rep",
-    "description": "We are looking for an award winning sales agent. The skills needed are phone calling, selling, strong English proficiency and an English accent. The secret word is \"Championship DNA\". Please add this to the title of your application otherwise we…",
+    "description": "We are looking for an award winning sales agent. The skills needed are phone calling, selling, strong English proficiency and an English accent. The secret word is \"Championship DNA\". Please add this to the title of your application otherwise we\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-center-call-center-rep-1757844",
@@ -3261,7 +3229,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Part-Time Meta/Facebook Ads Specialist for U.S. Travel Agency",
-    "description": "Mikey Adventures Travel by Cruise Planners is hiring a part-time Meta Ads specialist to manage and improve our Virgin Voyages advertising campaign.\n\nThis is not a social media posting position. We need someone who understands sales campaigns, conversion tracking, retargeting,…",
+    "description": "Mikey Adventures Travel by Cruise Planners is hiring a part-time Meta Ads specialist to manage and improve our Virgin Voyages advertising campaign.\n\nThis is not a social media posting position. We need someone who understands sales campaigns, conversion tracking, retargeting,\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-meta-facebook-ads-specialist-for-u-s-travel-agency-1702929",
@@ -3291,8 +3259,8 @@ export const jobs: Job[] =
     "pay": "$100.00-$200.00 a Month"
   },
   {
-    "title": "Telemarketer (Remote – Eastern Time Zone Hours)",
-    "description": "We are a US-based company looking for highly driven, top-closer style Telemarketing Agents to join our team.\n\nIf you are confident on the phone, competitive, and love closing deals — this opportunity is for you\n\nYou will be the first…",
+    "title": "Telemarketer (Remote \u2013 Eastern Time Zone Hours)",
+    "description": "We are a US-based company looking for highly driven, top-closer style Telemarketing Agents to join our team.\n\nIf you are confident on the phone, competitive, and love closing deals \u2014 this opportunity is for you\n\nYou will be the first\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/telemarketer-remote-eastern-time-zone-hours-1584662",
@@ -3323,7 +3291,7 @@ export const jobs: Job[] =
   },
   {
     "title": "UGC editor",
-    "description": "Title: Short-Form Video Editor – UGC Ads for Fitness & App Brands (TikTok/Reels)\n\nAbout me\n\nI’m a UGC creator making short-form video ads for fitness and app brands. I film, and I need a fast, reliable editor to turn my…",
+    "description": "Title: Short-Form Video Editor \u2013 UGC Ads for Fitness & App Brands (TikTok/Reels)\n\nAbout me\n\nI\u2019m a UGC creator making short-form video ads for fitness and app brands. I film, and I need a fast, reliable editor to turn my\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ugc-editor-1757772",
@@ -3354,7 +3322,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Hiring: Passionate & Professional Video Editor Seeking Creative Freedom",
-    "description": "Are you the kind of video editor who understands what makes people stop scrolling?\n\nDo you enjoy turning a good idea into something people actually want to watch, share, and remember?\n\nAt ClickCallSell, we're looking for a full-time Video Editor…",
+    "description": "Are you the kind of video editor who understands what makes people stop scrolling?\n\nDo you enjoy turning a good idea into something people actually want to watch, share, and remember?\n\nAt ClickCallSell, we're looking for a full-time Video Editor\u2026",
     "category": "Content",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-passionate-professional-video-editor-seeking-creative-freedom-1757805",
@@ -3385,7 +3353,7 @@ export const jobs: Job[] =
   },
   {
     "title": "$10 Gig: Set Up Social Media Accounts for a Christian Music Brand",
-    "description": "ABOUT US\n\nOde Bible is a Christian music app. Every chapter of the Bible is set to music in many styles. We run a group of music brands that share these songs on social media, and we need careful people…",
+    "description": "ABOUT US\n\nOde Bible is a Christian music app. Every chapter of the Bible is set to music in many styles. We run a group of music brands that share these songs on social media, and we need careful people\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/10-gig-set-up-social-media-accounts-for-a-christian-music-brand-1757811",
@@ -3416,7 +3384,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Editor for Real Estate Photography & Videography",
-    "description": "Society Digital Media is a real estate media company in South Carolina producing photo, drone, and video content for MLS listings and social media. We shoot HDR brackets and need a skilled editor who can turn raw files into polished,…",
+    "description": "Society Digital Media is a real estate media company in South Carolina producing photo, drone, and video content for MLS listings and social media. We shoot HDR brackets and need a skilled editor who can turn raw files into polished,\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/editor-for-real-estate-photography-videography-1674861",
@@ -3447,7 +3415,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Video Editor (CapCut Specialist) and Virtual Assistant, Part-Time, As-Needed, with Room to Grow",
-    "description": "Society Digital is a digital marketing and web development agency in South Carolina. We build websites, run marketing for local businesses, and produce commercial photo, video and drone content. We’re looking for one reliable, long-term team member to handle video…",
+    "description": "Society Digital is a digital marketing and web development agency in South Carolina. We build websites, run marketing for local businesses, and produce commercial photo, video and drone content. We\u2019re looking for one reliable, long-term team member to handle video\u2026",
     "category": "Web Design",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-capcut-specialist-and-virtual-assistant-part-time-as-needed-with-room-to-grow-1757818",
@@ -3478,7 +3446,7 @@ export const jobs: Job[] =
   },
   {
     "title": "MARKETING LEAD - HVAC CAMPAIGN MANAGER",
-    "description": "We’re looking for a creative and results-driven Marketing Lead to manage marketing campaigns, generate leads, and improve overall campaign performance.\n\nResponsibilities:\n\nPlan and manage marketing campaigns across multiple channels.\n\nDevelop creative promotions to generate leads and booked appointments.\n\nMonitor campaign…",
+    "description": "We\u2019re looking for a creative and results-driven Marketing Lead to manage marketing campaigns, generate leads, and improve overall campaign performance.\n\nResponsibilities:\n\nPlan and manage marketing campaigns across multiple channels.\n\nDevelop creative promotions to generate leads and booked appointments.\n\nMonitor campaign\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-lead-hvac-campaign-manager-1757822",
@@ -3509,7 +3477,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Medial Manager",
-    "description": "Social Media Manager (Overseas, Remote, Part-Time)\n\nHours: Up to 20 hours per week, with the potential to grow into full-time over time.\n\nRole summary\n\nWe are looking for an overseas, remote Social Media Manager to support our US based automotive…",
+    "description": "Social Media Manager (Overseas, Remote, Part-Time)\n\nHours: Up to 20 hours per week, with the potential to grow into full-time over time.\n\nRole summary\n\nWe are looking for an overseas, remote Social Media Manager to support our US based automotive\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-medial-manager-1572145",
@@ -3540,7 +3508,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Conversion Rate Optimization Manager (Divi Theme)",
-    "description": "We are currently on the lookout for a website developer and admin to help monitor, maintain & build out our website. We are a growing team and this position will be our fourth international hire.\n\nApplicants must have experience with…",
+    "description": "We are currently on the lookout for a website developer and admin to help monitor, maintain & build out our website. We are a growing team and this position will be our fourth international hire.\n\nApplicants must have experience with\u2026",
     "category": "Web Design",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/conversion-rate-optimization-manager-divi-theme-1673572",
@@ -3570,8 +3538,8 @@ export const jobs: Job[] =
     "pay": "40,000 p/m"
   },
   {
-    "title": "Amazon Seller Central Virtual Assistant – Listings, Photoshop & A+ Content",
-    "description": "Hello all, We are looking for a reliable, detail-oriented Virtual Assistant with strong experience managing Amazon Seller Central accounts, creating professional product listings, and editing product images using Adobe Photoshop.\n\nThe ideal candidate must be able to work independently, pay…",
+    "title": "Amazon Seller Central Virtual Assistant \u2013 Listings, Photoshop & A+ Content",
+    "description": "Hello all, We are looking for a reliable, detail-oriented Virtual Assistant with strong experience managing Amazon Seller Central accounts, creating professional product listings, and editing product images using Adobe Photoshop.\n\nThe ideal candidate must be able to work independently, pay\u2026",
     "category": "Content",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/amazon-seller-central-virtual-assistant-listings-photoshop-a-content-1757831",
@@ -3601,8 +3569,8 @@ export const jobs: Job[] =
     "pay": "3.90"
   },
   {
-    "title": "Short-Form Video Clipper / Editor (YouTube Shorts) – Ongoing",
-    "description": "We run a family YouTube channel and post long-form horizontal videos regularly. We’re looking for a skilled clipper and editor to turn those videos into engaging vertical short-form clips (15–60 seconds each) for YouTube Shorts and other platforms.\n\nThis is…",
+    "title": "Short-Form Video Clipper / Editor (YouTube Shorts) \u2013 Ongoing",
+    "description": "We run a family YouTube channel and post long-form horizontal videos regularly. We\u2019re looking for a skilled clipper and editor to turn those videos into engaging vertical short-form clips (15\u201360 seconds each) for YouTube Shorts and other platforms.\n\nThis is\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/short-form-video-clipper-editor-youtube-shorts-ongoing-1757840",
@@ -3633,7 +3601,7 @@ export const jobs: Job[] =
   },
   {
     "title": "EXPERIENCED TIKTOK GROWTH, MONETIZATION & INFLUENCER PARTNERSHIPS MANAGER",
-    "description": "WE ARE HIRING: EXPERIENCED TIKTOK GROWTH, MONETIZATION & INFLUENCER PARTNERSHIPS MANAGER\n\nCompany: Mikey Adventures Travel by Cruise Planners\n\nIndustry: Travel, Cruises, Luxury Vacations & Group Travel\n\nLocation: Remote – Philippines\n\nEmployment: Part-Time | Long-Term Opportunity\n\nStarting Salary: $300–$400 USD/month (negotiable…",
+    "description": "WE ARE HIRING: EXPERIENCED TIKTOK GROWTH, MONETIZATION & INFLUENCER PARTNERSHIPS MANAGER\n\nCompany: Mikey Adventures Travel by Cruise Planners\n\nIndustry: Travel, Cruises, Luxury Vacations & Group Travel\n\nLocation: Remote \u2013 Philippines\n\nEmployment: Part-Time | Long-Term Opportunity\n\nStarting Salary: $300\u2013$400 USD/month (negotiable\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-tiktok-growth-monetization-influencer-partnerships-manager-1753464",
@@ -3664,7 +3632,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Short-Form Video Editor & Social Media Content Manager",
-    "description": "# Hiring: Short-Form Video Editor & Social Media Content Manager\n\n**Remote | Part-Time | $60–$100 USD per week | Long-Term Opportunity**\n\nWe are looking for a talented, reliable and creative short-form video editor to help grow our TikTok, Instagram Reels…",
+    "description": "# Hiring: Short-Form Video Editor & Social Media Content Manager\n\n**Remote | Part-Time | $60\u2013$100 USD per week | Long-Term Opportunity**\n\nWe are looking for a talented, reliable and creative short-form video editor to help grow our TikTok, Instagram Reels\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/short-form-video-editor-social-media-content-manager-1757850",
@@ -3695,7 +3663,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Brand Partnerships Manager",
-    "description": "https://www.loom.com/share/4e0ec632c0ee49c49da235691802ee96 \n\nPHNYX Group is a venture studio with operations in Dubai, Switzerland and China. We partner with founders to build, grow and sell physical product brands.\n\nOur founder has built multiple brands, including PHNYX Watches, which has done MILLIONS in…",
+    "description": "https://www.loom.com/share/4e0ec632c0ee49c49da235691802ee96 \n\nPHNYX Group is a venture studio with operations in Dubai, Switzerland and China. We partner with founders to build, grow and sell physical product brands.\n\nOur founder has built multiple brands, including PHNYX Watches, which has done MILLIONS in\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/brand-partnerships-manager-1748435",
@@ -3726,7 +3694,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Hiring: Creative Short-Form Video Editor",
-    "description": "About Me\n\nHey! I'm Tyler Ryan Hall, a life coach, speaker, and content creator building a personal brand around one central idea: Becoming.\n\nMy content documents the pursuit of a bigger, more fulfilling life through travel, fitness, personal growth, extraordinary…",
+    "description": "About Me\n\nHey! I'm Tyler Ryan Hall, a life coach, speaker, and content creator building a personal brand around one central idea: Becoming.\n\nMy content documents the pursuit of a bigger, more fulfilling life through travel, fitness, personal growth, extraordinary\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-creative-short-form-video-editor-1757864",
@@ -3756,8 +3724,8 @@ export const jobs: Job[] =
     "pay": "$400-$500/Month"
   },
   {
-    "title": "Part-Time Cold Caller — US Church Web Design Agency | $4.50/hr + $200 Per Website Sold | 20 hrs/week | Long-term I'm Joh",
-    "description": "Part-Time Cold Caller — US Church Web Design Agency | $4.50/hr + $200 Per Website Sold | 20 hrs/week | Long-term\n\nI'm John, owner of Assure Studios, a US agency that helps churches with their websites and Google visibility. I'm…",
+    "title": "Part-Time Cold Caller \u2014 US Church Web Design Agency | $4.50/hr + $200 Per Website Sold | 20 hrs/week | Long-term I'm Joh",
+    "description": "Part-Time Cold Caller \u2014 US Church Web Design Agency | $4.50/hr + $200 Per Website Sold | 20 hrs/week | Long-term\n\nI'm John, owner of Assure Studios, a US agency that helps churches with their websites and Google visibility. I'm\u2026",
     "category": "Web Design",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-cold-caller-us-church-web-design-agency-4-50-hr-200-per-website-sold-20-hrs-week-long-term-i-m-joh-1757814",
@@ -3788,7 +3756,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Head of Accounting",
-    "description": "About MAVI\n\nMAVI places experienced finance and accounting professionals into senior, high-ownership roles at high-growth US companies.\n\nWe maintain a deliberately high bar on both sides of the placement. The companies we partner with are venture-backed and private equity-backed businesses…",
+    "description": "About MAVI\n\nMAVI places experienced finance and accounting professionals into senior, high-ownership roles at high-growth US companies.\n\nWe maintain a deliberately high bar on both sides of the placement. The companies we partner with are venture-backed and private equity-backed businesses\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/head-of-accounting-1757697",
@@ -3819,7 +3787,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Accounting Manager (US Clients)",
-    "description": "About MAVI\n\nMAVI places experienced finance and accounting professionals into senior, high-ownership roles at high-growth US companies.\n\nWe maintain a deliberately high bar on both sides of the placement. The companies we partner with are venture-backed and private equity-backed businesses…",
+    "description": "About MAVI\n\nMAVI places experienced finance and accounting professionals into senior, high-ownership roles at high-growth US companies.\n\nWe maintain a deliberately high bar on both sides of the placement. The companies we partner with are venture-backed and private equity-backed businesses\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/accounting-manager-us-clients-1757701",
@@ -3850,7 +3818,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Virtual Executive Assistant",
-    "description": "I'm the founder of a digital growth marketing company that helps mission-driven founders scale their businesses with more ease & less overwhelm - and I'm looking for a small team of highly-skilled Executive Assistants to help take over the marketing…",
+    "description": "I'm the founder of a digital growth marketing company that helps mission-driven founders scale their businesses with more ease & less overwhelm - and I'm looking for a small team of highly-skilled Executive Assistants to help take over the marketing\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/virtual-executive-assistant-1726033",
@@ -3880,70 +3848,8 @@ export const jobs: Job[] =
     "pay": "$400 - $500 USD per month"
   },
   {
-    "title": "Virtual Executive Assistant",
-    "description": "I'm the founder of a digital growth marketing company that helps mission-driven founders scale their businesses with more ease & less overwhelm - and I'm looking for a small team of highly-skilled Executive Assistants to help take over the marketing…",
-    "category": "Marketing",
-    "date": "2026-10-29",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/virtual-executive-assistant-1731838",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$400 - $500 USD per month",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/virtual-executive-assistant-1731838",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "$400 - $500 USD per month"
-  },
-  {
-    "title": "Virtual Executive Assistant",
-    "description": "I'm the founder of a digital growth marketing company that helps mission-driven founders scale their businesses with more ease & less overwhelm - and I'm looking for a small team of highly-skilled Executive Assistants to help take over the marketing…",
-    "category": "Marketing",
-    "date": "2026-10-29",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/virtual-executive-assistant-1733403",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$400-$500 USD a month",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/virtual-executive-assistant-1733403",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "$400-$500 USD a month"
-  },
-  {
     "title": "Shopify E-commerce & Digital Growth Manager",
-    "description": "Job Summary:\n\nDo you enjoy turning online stores into revenue-generating machines? We are seeking an experienced Shopify E-commerce & Digital Growth Manager to take charge of four Shopify websites. You will refine site layouts, elevate the customer shopping experience, design…",
+    "description": "Job Summary:\n\nDo you enjoy turning online stores into revenue-generating machines? We are seeking an experienced Shopify E-commerce & Digital Growth Manager to take charge of four Shopify websites. You will refine site layouts, elevate the customer shopping experience, design\u2026",
     "category": "Web Design",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/shopify-e-commerce-digital-growth-manager-1757723",
@@ -3974,7 +3880,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Sales & Business Development Executive",
-    "description": "Purpose of the Role\n\nTo generate new business for Training Provider Startup by managing outbound prospecting, following up on booked appointments, communicating the TPS offering and converting qualified prospects into paying Associated Training Providers (ATPs).\n\nThe successful candidate will take…",
+    "description": "Purpose of the Role\n\nTo generate new business for Training Provider Startup by managing outbound prospecting, following up on booked appointments, communicating the TPS offering and converting qualified prospects into paying Associated Training Providers (ATPs).\n\nThe successful candidate will take\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-business-development-executive-1757742",
@@ -4005,7 +3911,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Real Estate Executive Virtual Assistant | Transaction Coordinator & Social Media Manager",
-    "description": "Real Estate Executive Virtual Assistant | Transaction Coordinator & Social Media Manager\n\nJob Type:Remote  \n\nSchedule: Part-Time or Full-Time (To Be Determined)  \n\nIndustry: Real Estate & Digital Content Creation  \n\nRequired Skills: CRM Management, CapCut, Client Communication, Administrative Support\n\n Job Overview\n\nI…",
+    "description": "Real Estate Executive Virtual Assistant | Transaction Coordinator & Social Media Manager\n\nJob Type:Remote  \n\nSchedule: Part-Time or Full-Time (To Be Determined)  \n\nIndustry: Real Estate & Digital Content Creation  \n\nRequired Skills: CRM Management, CapCut, Client Communication, Administrative Support\n\n Job Overview\n\nI\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/real-estate-executive-virtual-assistant-transaction-coordinator-social-media-manager-1757804",
@@ -4035,8 +3941,8 @@ export const jobs: Job[] =
     "pay": "$1,000 monthly"
   },
   {
-    "title": "AI Avatar Video Creator — Google Flow",
-    "description": "Job Description — paste this:\n\nWe’re a fast-growing wellness brand producing AI-generated video content at scale. We have a fully built-out production workflow — scripts, reference images, and prompts are all prepared for you. We need someone who can follow…",
+    "title": "AI Avatar Video Creator \u2014 Google Flow",
+    "description": "Job Description \u2014 paste this:\n\nWe\u2019re a fast-growing wellness brand producing AI-generated video content at scale. We have a fully built-out production workflow \u2014 scripts, reference images, and prompts are all prepared for you. We need someone who can follow\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-avatar-video-creator-google-flow-1751299",
@@ -4066,39 +3972,8 @@ export const jobs: Job[] =
     "pay": "TBD"
   },
   {
-    "title": "AI Avatar Video Creator — Google Flow",
-    "description": "We're a fast-growing wellness brand producing AI-generated video content at scale. We have a fully built-out production workflow — scripts, reference images, and prompts are all prepared for you. We need someone who can follow clear step-by-step guidance and generate…",
-    "category": "AI",
-    "date": "2026-10-29",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/ai-avatar-video-creator-google-flow-1735363",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "TBD",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/ai-avatar-video-creator-google-flow-1735363",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "TBD"
-  },
-  {
     "title": "BDR (Hight Ticket B2B Closer for a Cold Email Agency)",
-    "description": "The role\n\nOur prospects are founders and sales leaders who have heard every agency pitch, and many have been burned by a bad one. Your job is to understand their pipeline, show them exactly why outbound will work this time,…",
+    "description": "The role\n\nOur prospects are founders and sales leaders who have heard every agency pitch, and many have been burned by a bad one. Your job is to understand their pipeline, show them exactly why outbound will work this time,\u2026",
     "category": "Sales",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/bdr-hight-ticket-b2b-closer-for-a-cold-email-agency-1757743",
@@ -4129,7 +4004,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Marketing Operations Coordinator",
-    "description": "Company Background:\n\nA quickly growing real estate investment company is seeking a new team member to help guide families through the process of purchasing their forever home. We pride ourselves on helping them by solving a problem they didn’t think…",
+    "description": "Company Background:\n\nA quickly growing real estate investment company is seeking a new team member to help guide families through the process of purchasing their forever home. We pride ourselves on helping them by solving a problem they didn\u2019t think\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-operations-coordinator-1757756",
@@ -4159,8 +4034,8 @@ export const jobs: Job[] =
     "pay": "$6.35/hr"
   },
   {
-    "title": "AI Video Ad Editor – Higgsfield (Genjutsu) + ElevenLabs | Health Supplement Brand",
-    "description": "TYPE: [Full-time / Part-time]\n\nWAGE: $5/hour\n\nHOURS: [30–40] hours/week\n\nABOUT US\n\nCORVIA is a fast-growing US heart-health supplement brand building toward a\n\n9-figure business. We run a high volume of video ads on Facebook and Instagram,\n\nand we're building a…",
+    "title": "AI Video Ad Editor \u2013 Higgsfield (Genjutsu) + ElevenLabs | Health Supplement Brand",
+    "description": "TYPE: [Full-time / Part-time]\n\nWAGE: $5/hour\n\nHOURS: [30\u201340] hours/week\n\nABOUT US\n\nCORVIA is a fast-growing US heart-health supplement brand building toward a\n\n9-figure business. We run a high volume of video ads on Facebook and Instagram,\n\nand we're building a\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-video-ad-editor-higgsfield-genjutsu-elevenlabs-health-supplement-brand-1757757",
@@ -4191,7 +4066,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI Video Editor / AI Creative Specialist - DTC Brand Scaling into Q4",
-    "description": "🚨 ASAP HIRE AFTER PAID TRIAL - $50 PER TRIAL BRIEF\n\n⚠️ Please read this in full before applying.\n\nOverview\n\nFast-growing US headlamp brand, mostly women buying gifts for men. We’re hiring an AI editor ASAP who lives in Higgsfield…",
+    "description": "\ud83d\udea8 ASAP HIRE AFTER PAID TRIAL - $50 PER TRIAL BRIEF\n\n\u26a0\ufe0f Please read this in full before applying.\n\nOverview\n\nFast-growing US headlamp brand, mostly women buying gifts for men. We\u2019re hiring an AI editor ASAP who lives in Higgsfield\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-video-editor-ai-creative-specialist-dtc-brand-scaling-into-q4-1757758",
@@ -4222,7 +4097,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI UGC Video Editor / AI Creative Specialist - DTC Brand Scaling into Q4",
-    "description": "⚠ Please read this overview in full before applying.\n\nOverview\n\nWe're a fast-growing headlamp brand scaling hard into the US. Most of our buyers are women buying gifts for the men in their lives.\n\nWe're looking for an AI creative…",
+    "description": "\u26a0 Please read this overview in full before applying.\n\nOverview\n\nWe're a fast-growing headlamp brand scaling hard into the US. Most of our buyers are women buying gifts for the men in their lives.\n\nWe're looking for an AI creative\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-ugc-video-editor-ai-creative-specialist-dtc-brand-scaling-into-q4-1740928",
@@ -4252,8 +4127,8 @@ export const jobs: Job[] =
     "pay": "$40 USD per brief (base)"
   },
   {
-    "title": "DTC Ecom AI Video Editor — Immediate Hire After Paid Trial",
-    "description": "🚨 ASAP HIRE AFTER PAID TRIAL — $50 PER TRIAL BRIEF\n\n⚠️ Please read this in full before applying.\n\nOverview\n\nFast-growing US DTC headlamp brand, mostly women buying gifts for men. We’re hiring an AI editor ASAP who lives in…",
+    "title": "DTC Ecom AI Video Editor \u2014 Immediate Hire After Paid Trial",
+    "description": "\ud83d\udea8 ASAP HIRE AFTER PAID TRIAL \u2014 $50 PER TRIAL BRIEF\n\n\u26a0\ufe0f Please read this in full before applying.\n\nOverview\n\nFast-growing US DTC headlamp brand, mostly women buying gifts for men. We\u2019re hiring an AI editor ASAP who lives in\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/dtc-ecom-ai-video-editor-immediate-hire-after-paid-trial-1757759",
@@ -4284,7 +4159,7 @@ export const jobs: Job[] =
   },
   {
     "title": "NOW HIRING: MARKETING, SALES & OPERATIONS VIRTUAL ASSISTANT",
-    "description": "PLEASE READ BEFORE APPLYING\n\nEXCEPTIONAL ENGLISH FLUENCY IS REQUIRED!\n\nYou MUST speak and write English at an advanced, professional level. This position involves frequent phone calls with U.S.-based customers, sales conversations, and member check-ins.\n\nYou must be able to communicate…",
+    "description": "PLEASE READ BEFORE APPLYING\n\nEXCEPTIONAL ENGLISH FLUENCY IS REQUIRED!\n\nYou MUST speak and write English at an advanced, professional level. This position involves frequent phone calls with U.S.-based customers, sales conversations, and member check-ins.\n\nYou must be able to communicate\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/now-hiring-marketing-sales-operations-virtual-assistant-1757764",
@@ -4315,7 +4190,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior Xero Accountant & Payments Specialist (Full-time, Remote)",
-    "description": "Senior Xero Accountant & Payments Specialist (Full-time, Remote)\n\nWe are a fast-growing international luxury fashion brand selling to more than 1,000 boutiques and department stores worldwide (B2B wholesale and online). Our finance runs on Xero, monday.com and Claude AI, and…",
+    "description": "Senior Xero Accountant & Payments Specialist (Full-time, Remote)\n\nWe are a fast-growing international luxury fashion brand selling to more than 1,000 boutiques and department stores worldwide (B2B wholesale and online). Our finance runs on Xero, monday.com and Claude AI, and\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-xero-accountant-payments-specialist-full-time-remote-1754563",
@@ -4346,7 +4221,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Video Editor - A Players ONLY",
-    "description": "Video Editor: Luxury and Aviation YouTube Channel\n\nWorld Of Luxury is a YouTube channel covering private jets, helicopters and the way billionaires travel. Our videos run 9 to 11 minutes and live or die on two things: footage that looks…",
+    "description": "Video Editor: Luxury and Aviation YouTube Channel\n\nWorld Of Luxury is a YouTube channel covering private jets, helicopters and the way billionaires travel. Our videos run 9 to 11 minutes and live or die on two things: footage that looks\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-a-players-only-1757777",
@@ -4377,7 +4252,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior .NET Software Developer",
-    "description": "About the Opportunity\n\nWe are seeking a highly skilled Senior Full-Stack .NET Developer to join a growing technology team developing innovative enterprise software solutions for the financial services, lending, and business automation industries.\n\nThis is a hands-on development role for…",
+    "description": "About the Opportunity\n\nWe are seeking a highly skilled Senior Full-Stack .NET Developer to join a growing technology team developing innovative enterprise software solutions for the financial services, lending, and business automation industries.\n\nThis is a hands-on development role for\u2026",
     "category": "Automation",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-net-software-developer-1749650",
@@ -4408,7 +4283,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI Video Editor (Pixar Style Ads) for a US DTC Brand | $1,500/mo + Bonuses",
-    "description": "We are looking for real gems: AI video editors who truly master Pixar style ads, including Pixar style song ads where the characters sing. Clean, professional videos only, not template or amateur edits.\n\nNo beginners. We want editors who have…",
+    "description": "We are looking for real gems: AI video editors who truly master Pixar style ads, including Pixar style song ads where the characters sing. Clean, professional videos only, not template or amateur edits.\n\nNo beginners. We want editors who have\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-video-editor-pixar-style-ads-for-a-us-dtc-brand-1-500-mo-bonuses-1757779",
@@ -4439,7 +4314,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI Fashion Image Creator & Product Lister (Shopify)",
-    "description": "We're a small, fast-growing Shopify eCommerce business looking for an experienced Product Lister to join our fashion brand long-term.\n\nIMPORTANT: Hands-on experience with prompting and generating images is a must. If you don't have experience with this, please do not…",
+    "description": "We're a small, fast-growing Shopify eCommerce business looking for an experienced Product Lister to join our fashion brand long-term.\n\nIMPORTANT: Hands-on experience with prompting and generating images is a must. If you don't have experience with this, please do not\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-fashion-image-creator-product-lister-shopify-1757780",
@@ -4470,7 +4345,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior Graphic Designer with Modern Skill with AI Prompting Master Skils and proven experience with Amazon",
-    "description": "ABOUT US\n\nSince 2013, Prodigy Media has built more than brands — we've created an Amazon-native empire. With 12 years of proven success and 28+ product lines under our belt, we don't play small. Our mission? Launch culturally resonant, design-led,…",
+    "description": "ABOUT US\n\nSince 2013, Prodigy Media has built more than brands \u2014 we've created an Amazon-native empire. With 12 years of proven success and 28+ product lines under our belt, we don't play small. Our mission? Launch culturally resonant, design-led,\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-graphic-designer-with-modern-skill-with-ai-prompting-master-skils-and-proven-experience-with-amazon-1752447",
@@ -4501,7 +4376,7 @@ export const jobs: Job[] =
   },
   {
     "title": "SEO & AI Search Optimization Specialist | Website Development | Remote (Night Shift)",
-    "description": "# SEO & AI Search Optimization Specialist | Website Development | Remote (Night Shift)\n\n**Job Type:** Remote  \n\n**Schedule:** Graveyard Shift (Night Shift Required)  \n\n**Communication:** Fluent Written and Spoken English Required  \n\n**Reporting:** Weekly Performance Reports and Team Meetings\n\n## Job Overview…",
+    "description": "# SEO & AI Search Optimization Specialist | Website Development | Remote (Night Shift)\n\n**Job Type:** Remote  \n\n**Schedule:** Graveyard Shift (Night Shift Required)  \n\n**Communication:** Fluent Written and Spoken English Required  \n\n**Reporting:** Weekly Performance Reports and Team Meetings\n\n## Job Overview\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/seo-ai-search-optimization-specialist-website-development-remote-night-shift-1757788",
@@ -4532,7 +4407,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Marketing & Executive Operations Virtual Assistant",
-    "description": "# Digital Marketing & Executive Operations Virtual Assistant\n\n**SEO | AI Search Optimization | Website Management | Social Media | Real Estate Operations**\n\n**Job Type:** Full-Time, Remote  \n\n**Schedule:** 40 Hours Weekly | Night Shift / Graveyard Shift  \n\n**Work Allocation:** Two…",
+    "description": "# Digital Marketing & Executive Operations Virtual Assistant\n\n**SEO | AI Search Optimization | Website Management | Social Media | Real Estate Operations**\n\n**Job Type:** Full-Time, Remote  \n\n**Schedule:** 40 Hours Weekly | Night Shift / Graveyard Shift  \n\n**Work Allocation:** Two\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketing-executive-operations-virtual-assistant-1757801",
@@ -4563,7 +4438,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Facebook Ads & Google Display Ads Manager",
-    "description": "Excavators R US is a excavator reseller that sells heavy equipment in the US. We are looking for a part-time Facebook Ads & Google Display Ads specialist to manage our advertising accounts. You must have hands on experience with both…",
+    "description": "Excavators R US is a excavator reseller that sells heavy equipment in the US. We are looking for a part-time Facebook Ads & Google Display Ads specialist to manage our advertising accounts. You must have hands on experience with both\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/facebook-ads-google-display-ads-manager-1749843",
@@ -4593,8 +4468,8 @@ export const jobs: Job[] =
     "pay": "$4/hr"
   },
   {
-    "title": "Creative Strategist – Direct-Response Video & Static Ads (Meta) for a Fast-Growing Sleep Brand",
-    "description": "About us\n\nWe are a direct-response e-commerce brand selling an ergonomic anti-snoring pillow across Scandinavia. Almost all of our growth comes from Meta ads: long advertorial-style videos, UGC videos, talking-head and VSL-style videos, song ads and static images. We have…",
+    "title": "Creative Strategist \u2013 Direct-Response Video & Static Ads (Meta) for a Fast-Growing Sleep Brand",
+    "description": "About us\n\nWe are a direct-response e-commerce brand selling an ergonomic anti-snoring pillow across Scandinavia. Almost all of our growth comes from Meta ads: long advertorial-style videos, UGC videos, talking-head and VSL-style videos, song ads and static images. We have\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/creative-strategist-direct-response-video-static-ads-meta-for-a-fast-growing-sleep-brand-1757807",
@@ -4625,7 +4500,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Chief of Staff (COO and Executive Director)",
-    "description": "About PHNYX Group\n\nPHNYX Group is a venture studio with operations in Dubai, Switzerland and China. We partner with founders to build, scale and exit ecommerce brands.\n\nOur founder has built multiple brands, including PHNYX Watches, which has done millions…",
+    "description": "About PHNYX Group\n\nPHNYX Group is a venture studio with operations in Dubai, Switzerland and China. We partner with founders to build, scale and exit ecommerce brands.\n\nOur founder has built multiple brands, including PHNYX Watches, which has done millions\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/chief-of-staff-coo-and-executive-director-1748399",
@@ -4655,8 +4530,8 @@ export const jobs: Job[] =
     "pay": "$2,000/month"
   },
   {
-    "title": "YouTube Tech Tutorial Creator — Own English Voice | Ongoing Work",
-    "description": "Looking for consistent video creation work with clear references and a repeatable workflow?\n\nWe are hiring a reliable creator to produce short technical tutorials for YouTube. This is an ongoing collaboration, with a target of 20–40 videos per week. Each…",
+    "title": "YouTube Tech Tutorial Creator \u2014 Own English Voice | Ongoing Work",
+    "description": "Looking for consistent video creation work with clear references and a repeatable workflow?\n\nWe are hiring a reliable creator to produce short technical tutorials for YouTube. This is an ongoing collaboration, with a target of 20\u201340 videos per week. Each\u2026",
     "category": "Automation",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/youtube-tech-tutorial-creator-own-english-voice-ongoing-work-1757825",
@@ -4670,7 +4545,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "Per video — submit your rate. Ongoing vo",
+      "compensation": "Per video \u2014 submit your rate. Ongoing vo",
       "deadline": "",
       "application": ""
     },
@@ -4683,11 +4558,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "Per video — submit your rate. Ongoing vo"
+    "pay": "Per video \u2014 submit your rate. Ongoing vo"
   },
   {
-    "title": "Graphic Designer & Social Media Visual Content Creator – U.S. Law Firm",
-    "description": "About the Role\n\nWe are a U.S.-based law firm looking for a creative and detail-oriented Graphic Designer with experience creating professional marketing visuals for law firms or other professional service businesses.\n\nOur firm already has established branding, brand guidelines, and…",
+    "title": "Graphic Designer & Social Media Visual Content Creator \u2013 U.S. Law Firm",
+    "description": "About the Role\n\nWe are a U.S.-based law firm looking for a creative and detail-oriented Graphic Designer with experience creating professional marketing visuals for law firms or other professional service businesses.\n\nOur firm already has established branding, brand guidelines, and\u2026",
     "category": "Social Media",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/graphic-designer-social-media-visual-content-creator-u-s-law-firm-1757839",
@@ -4718,7 +4593,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Expert eCommerce DTC Editor (VSL) (Meta Ads)",
-    "description": "# Expert eCommerce Direct-Response Video Editor — Meta Ads\n\n**Remote | Full-Time or Contract**\n\nWe are a rapidly scaling eCommerce brand seeking an expert-level **Direct-Response Video Editor** to create high-converting Meta ad creatives. This role is specifically for editors who…",
+    "description": "# Expert eCommerce Direct-Response Video Editor \u2014 Meta Ads\n\n**Remote | Full-Time or Contract**\n\nWe are a rapidly scaling eCommerce brand seeking an expert-level **Direct-Response Video Editor** to create high-converting Meta ad creatives. This role is specifically for editors who\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/expert-ecommerce-dtc-editor-vsl-meta-ads-1757854",
@@ -4749,7 +4624,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Video Editor (AI Ads & Direct Response)",
-    "description": "About Maia Holdings\n\nMaia Holdings is a holding company that owns and scales direct-response health and wellness brands. We create performance-driven advertising creatives designed to capture attention, communicate product value, and convert viewers into customers.\n\nWe’re looking for a skilled…",
+    "description": "About Maia Holdings\n\nMaia Holdings is a holding company that owns and scales direct-response health and wellness brands. We create performance-driven advertising creatives designed to capture attention, communicate product value, and convert viewers into customers.\n\nWe\u2019re looking for a skilled\u2026",
     "category": "AI",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-ai-ads-direct-response-1750574",
@@ -4780,7 +4655,7 @@ export const jobs: Job[] =
   },
   {
     "title": "ECOMMERCE BOOKKEEPER (QUICKBOOKS + SHOPIFY) FOR 7-FIGURE DTC SUPPLEMENT BRAND - PART-TIME WITH PATH TO FULL-TIME",
-    "description": "We're a 7-figure US DTC supplement brand selling on Shopify and Amazon. We spend six figures a month on ads, ship physical inventory, and run subscriptions . What we need is the person who keeps the books clean every single…",
+    "description": "We're a 7-figure US DTC supplement brand selling on Shopify and Amazon. We spend six figures a month on ads, ship physical inventory, and run subscriptions . What we need is the person who keeps the books clean every single\u2026",
     "category": "Marketing",
     "date": "2026-10-29",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ecommerce-bookkeeper-quickbooks-shopify-for-7-figure-dtc-supplement-brand-part-time-with-path-to-full-time-1757858",
@@ -4811,7 +4686,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Appointment Setter for Web Design Studio",
-    "description": "Webser is a web design studio. We offer local businesses a free homepage mockup before they pay anything; packages start at $799 USD. We need an experienced appointment setter / cold caller to call provided leads using a script we…",
+    "description": "Webser is a web design studio. We offer local businesses a free homepage mockup before they pay anything; packages start at $799 USD. We need an experienced appointment setter / cold caller to call provided leads using a script we\u2026",
     "category": "Web Design",
     "date": "2026-10-28",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-for-web-design-studio-1755778",
@@ -4842,7 +4717,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Junior Webflow Developer (Part-Time)",
-    "description": "We're an Australian web design agency specialising in websites for builders and architects.\n\nWe're looking for a reliable Junior Webflow Developer to join our team part-time.\n\nThis is a straightforward role working with existing Webflow websites, following our processes and…",
+    "description": "We're an Australian web design agency specialising in websites for builders and architects.\n\nWe're looking for a reliable Junior Webflow Developer to join our team part-time.\n\nThis is a straightforward role working with existing Webflow websites, following our processes and\u2026",
     "category": "Web Design",
     "date": "2026-10-28",
     "source": "https://www.onlinejobs.ph/jobseekers/job/junior-webflow-developer-part-time-1757545",
@@ -4872,8 +4747,8 @@ export const jobs: Job[] =
     "pay": "$5/hr AUD"
   },
   {
-    "title": "Project Manager – AI, Automation & Healthcare Experience Preferred",
-    "description": "We are seeking a highly organized and proactive Project Manager with hands-on experience using AI and automation tools. Experience supporting healthcare clients, healthcare consulting projects, or Epic-related initiatives is strongly preferred.\n\nThe ideal candidate can manage multiple workstreams, coordinate team…",
+    "title": "Project Manager \u2013 AI, Automation & Healthcare Experience Preferred",
+    "description": "We are seeking a highly organized and proactive Project Manager with hands-on experience using AI and automation tools. Experience supporting healthcare clients, healthcare consulting projects, or Epic-related initiatives is strongly preferred.\n\nThe ideal candidate can manage multiple workstreams, coordinate team\u2026",
     "category": "AI",
     "date": "2026-10-28",
     "source": "https://www.onlinejobs.ph/jobseekers/job/project-manager-ai-automation-healthcare-experience-preferred-1757624",
@@ -4904,7 +4779,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior QA Engineer",
-    "description": "We build a construction contract and project management platform used by UK Surveying Firms.\n\nAs we grow, we’re expanding our QA team and looking for a Senior QA Engineer to build our test automation, make the most of AI in…",
+    "description": "We build a construction contract and project management platform used by UK Surveying Firms.\n\nAs we grow, we\u2019re expanding our QA team and looking for a Senior QA Engineer to build our test automation, make the most of AI in\u2026",
     "category": "AI",
     "date": "2026-10-28",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-qa-engineer-1757626",
@@ -4918,7 +4793,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "$1,730–1,900 per month",
+      "compensation": "$1,730\u20131,900 per month",
       "deadline": "",
       "application": ""
     },
@@ -4931,11 +4806,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
-    "pay": "$1,730–1,900 per month"
+    "pay": "$1,730\u20131,900 per month"
   },
   {
     "title": "Senior Accountant",
-    "description": "About MAVI\n\nMAVI places experienced finance and accounting professionals into senior, high-ownership roles at high-growth US companies.\n\nWe maintain a deliberately high bar on both sides of the placement. The companies we partner with are venture-backed and private equity-backed businesses…",
+    "description": "About MAVI\n\nMAVI places experienced finance and accounting professionals into senior, high-ownership roles at high-growth US companies.\n\nWe maintain a deliberately high bar on both sides of the placement. The companies we partner with are venture-backed and private equity-backed businesses\u2026",
     "category": "Marketing",
     "date": "2026-10-28",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-accountant-1757654",
@@ -4966,7 +4841,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Controller",
-    "description": "About MAVI\n\nMAVI places experienced finance and accounting professionals into senior, high-ownership roles at high-growth US companies. Founded in 2023 and backed by a $4 million seed round led by Harlem Capital, MAVI was recently featured in TechCrunch.\n\nOur professionals…",
+    "description": "About MAVI\n\nMAVI places experienced finance and accounting professionals into senior, high-ownership roles at high-growth US companies. Founded in 2023 and backed by a $4 million seed round led by Harlem Capital, MAVI was recently featured in TechCrunch.\n\nOur professionals\u2026",
     "category": "Marketing",
     "date": "2026-10-28",
     "source": "https://www.onlinejobs.ph/jobseekers/job/controller-1757658",
@@ -4997,7 +4872,7 @@ export const jobs: Job[] =
   },
   {
     "title": "NOW HIRING: Digital Marketing & Website Specialist",
-    "description": "Company: Transparent Retirement Group (TRG)\n\nSchedule: Monday–Friday, 9 AM–5 PM U.S. Eastern Time\n\nCompensation: ₱50,000–₱80,000 PHP/month, based on experience\n\nAbout the Position\n\nTransparent Retirement Group is a growing U.S.-based financial services company seeking an experienced Digital Marketing & Website Specialist…",
+    "description": "Company: Transparent Retirement Group (TRG)\n\nSchedule: Monday\u2013Friday, 9 AM\u20135 PM U.S. Eastern Time\n\nCompensation: \u20b150,000\u2013\u20b180,000 PHP/month, based on experience\n\nAbout the Position\n\nTransparent Retirement Group is a growing U.S.-based financial services company seeking an experienced Digital Marketing & Website Specialist\u2026",
     "category": "Web Design",
     "date": "2026-10-28",
     "source": "https://www.onlinejobs.ph/jobseekers/job/now-hiring-digital-marketing-website-specialist-1749784",
@@ -5028,7 +4903,7 @@ export const jobs: Job[] =
   },
   {
     "title": "URGENT HIRING! Senior Business Process & Operational Excellence Specialist (Full-time)",
-    "description": "We are looking for an experienced Business Process & Operations Specialist who can analyse existing workflows, find inefficiencies, and design better, faster processes. This is a hands-on role, not a people-management role. You will do the mapping and analysis yourself,…",
+    "description": "We are looking for an experienced Business Process & Operations Specialist who can analyse existing workflows, find inefficiencies, and design better, faster processes. This is a hands-on role, not a people-management role. You will do the mapping and analysis yourself,\u2026",
     "category": "Automation",
     "date": "2026-10-28",
     "source": "https://www.onlinejobs.ph/jobseekers/job/urgent-hiring-senior-business-process-operational-excellence-specialist-full-time-1750406",
@@ -5058,8 +4933,8 @@ export const jobs: Job[] =
     "pay": "$400 to $800 per month based on exp"
   },
   {
-    "title": "Sales Funnel & Paid Ads Specialist — Instagram, Video & Lead Generation",
-    "description": "Las Vegas Body Sculpting is hiring an experienced Philippines-based Digital Marketing & Lead Generation Specialist to manage our social media, create compelling video content, and turn inquiries into booked appointments.\n\nWe are an established plastic surgery and medical aesthetics practice…",
+    "title": "Sales Funnel & Paid Ads Specialist \u2014 Instagram, Video & Lead Generation",
+    "description": "Las Vegas Body Sculpting is hiring an experienced Philippines-based Digital Marketing & Lead Generation Specialist to manage our social media, create compelling video content, and turn inquiries into booked appointments.\n\nWe are an established plastic surgery and medical aesthetics practice\u2026",
     "category": "Social Media",
     "date": "2026-10-28",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-funnel-paid-ads-specialist-instagram-video-lead-generation-1757690",
@@ -5073,7 +4948,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "$8–$12 USD/hour, depending on demonstrat",
+      "compensation": "$8\u2013$12 USD/hour, depending on demonstrat",
       "deadline": "",
       "application": ""
     },
@@ -5086,11 +4961,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
-    "pay": "$8–$12 USD/hour, depending on demonstrat"
+    "pay": "$8\u2013$12 USD/hour, depending on demonstrat"
   },
   {
     "title": "Website Builder",
-    "description": "**************IF INTERESTED PLEASE APPLY HERE grnh.se/8c59b2db4us\n\nWhy Housecall Pro?\n\nHelp us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service professionals that support…",
+    "description": "**************IF INTERESTED PLEASE APPLY HERE grnh.se/8c59b2db4us\n\nWhy Housecall Pro?\n\nHelp us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service professionals that support\u2026",
     "category": "Web Design",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/website-builder-1756726",
@@ -5121,7 +4996,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Email Designer (Klaviyo + Figma)",
-    "description": "What we do\n\nWe are OneZero, a performance marketing agency in Riga, Latvia. We run email marketing for ecommerce brands in Europe, North America and Switzerland. Our work is Klaviyo flows and campaigns\n\nWhat you will do\n\nDesign emails in…",
+    "description": "What we do\n\nWe are OneZero, a performance marketing agency in Riga, Latvia. We run email marketing for ecommerce brands in Europe, North America and Switzerland. Our work is Klaviyo flows and campaigns\n\nWhat you will do\n\nDesign emails in\u2026",
     "category": "Marketing",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/email-designer-klaviyo-figma-1756849",
@@ -5152,7 +5027,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI Video Creator & Editor / Web Designer (Full-Time, Remote)",
-    "description": "I'm Kenji, a business owner based in Germany. I'm looking for a full-time, remote AI Video Creator and Video Editor / Web Designer to help with two areas:\n\n1. Marketing for a German e-commerce brand in the computer accessory space.…",
+    "description": "I'm Kenji, a business owner based in Germany. I'm looking for a full-time, remote AI Video Creator and Video Editor / Web Designer to help with two areas:\n\n1. Marketing for a German e-commerce brand in the computer accessory space.\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-video-creator-editor-web-designer-full-time-remote-1757018",
@@ -5183,7 +5058,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Executive Assistant and Content Creator (Part Time, Live Hours)",
-    "description": "ABOUT US\n\nREAD Lighting is a luxury lighting design and procurement company in Hawaii, in business since 1975. We design and supply lighting for high end custom homes across the islands. We are a small team: a few people work…",
+    "description": "ABOUT US\n\nREAD Lighting is a luxury lighting design and procurement company in Hawaii, in business since 1975. We design and supply lighting for high end custom homes across the islands. We are a small team: a few people work\u2026",
     "category": "Content",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/executive-assistant-and-content-creator-part-time-live-hours-1756632",
@@ -5214,7 +5089,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Part-Time Social Media & Content Manager | Video Editing + Strategy Copy",
-    "description": "About Us\n\nLucky Penny Event Planning & Rentals is a creative wedding planning and event rental company based in Crested Butte, Colorado, USA. We produce beautiful mountain weddings, large-scale tented celebrations, and unforgettable events.\n\nWe have years of incredible professional…",
+    "description": "About Us\n\nLucky Penny Event Planning & Rentals is a creative wedding planning and event rental company based in Crested Butte, Colorado, USA. We produce beautiful mountain weddings, large-scale tented celebrations, and unforgettable events.\n\nWe have years of incredible professional\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-social-media-content-manager-video-editing-strategy-copy-1756643",
@@ -5245,7 +5120,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Creative Video Editor (Meta Ads, High-End B2B)",
-    "description": "We are seeking a high-caliber Creative Video Editor to develop and produce premium Meta video ads for a high-end physical product in the U.S. B2B space.\n\nThis role goes beyond basic cutting. We need a creative partner who understands performance…",
+    "description": "We are seeking a high-caliber Creative Video Editor to develop and produce premium Meta video ads for a high-end physical product in the U.S. B2B space.\n\nThis role goes beyond basic cutting. We need a creative partner who understands performance\u2026",
     "category": "Marketing",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/creative-video-editor-meta-ads-high-end-b2b-1733015",
@@ -5275,8 +5150,8 @@ export const jobs: Job[] =
     "pay": "TBD"
   },
   {
-    "title": "Digital Marketing Specialist – Paid Ads & Local SEO",
-    "description": "FieldCrest School of Performing Arts | Part-Time / Contract \n\nFieldCrest is seeking an experienced Digital Advertising Specialist to manage and optimize our Google, Facebook, and Instagram advertising campaigns.\n\nOur primary goal is to increase qualified website traffic and generate new…",
+    "title": "Digital Marketing Specialist \u2013 Paid Ads & Local SEO",
+    "description": "FieldCrest School of Performing Arts | Part-Time / Contract \n\nFieldCrest is seeking an experienced Digital Advertising Specialist to manage and optimize our Google, Facebook, and Instagram advertising campaigns.\n\nOur primary goal is to increase qualified website traffic and generate new\u2026",
     "category": "Web Design",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketing-specialist-paid-ads-local-seo-1756649",
@@ -5307,7 +5182,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Meta Ads Specialist / Media Buyer",
-    "description": "Want to work daytime hours?\n\nWe’re Hiring: Meta Ads Specialist / Media Buyer\n\nFull-Time | Remote | Manila Daytime Hours\n\nWe’re a fast-growing marketing agency helping gyms and fitness studios worldwide generate leads through Facebook and Instagram ads.\n\nWe’re looking…",
+    "description": "Want to work daytime hours?\n\nWe\u2019re Hiring: Meta Ads Specialist / Media Buyer\n\nFull-Time | Remote | Manila Daytime Hours\n\nWe\u2019re a fast-growing marketing agency helping gyms and fitness studios worldwide generate leads through Facebook and Instagram ads.\n\nWe\u2019re looking\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/meta-ads-specialist-media-buyer-1706574",
@@ -5337,8 +5212,8 @@ export const jobs: Job[] =
     "pay": "60,000"
   },
   {
-    "title": "GoHighLevel VA – Outbound Calling, Client Follow-Up & Pipelines (US Real Estate)",
-    "description": "Up Close Inspections is a growing property inspection company in Cleveland, Ohio. We work with US homebuyers, real estate agents, and loan officers.\n\nShift: Monday–Friday, within 10am–6pm US Eastern (about 11pm–7am Philippine time). Independent contractor, long-term.\n\nYour main job: follow…",
+    "title": "GoHighLevel VA \u2013 Outbound Calling, Client Follow-Up & Pipelines (US Real Estate)",
+    "description": "Up Close Inspections is a growing property inspection company in Cleveland, Ohio. We work with US homebuyers, real estate agents, and loan officers.\n\nShift: Monday\u2013Friday, within 10am\u20136pm US Eastern (about 11pm\u20137am Philippine time). Independent contractor, long-term.\n\nYour main job: follow\u2026",
     "category": "Automation",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-va-outbound-calling-client-follow-up-pipelines-us-real-estate-1756646",
@@ -5369,7 +5244,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Sales VA",
-    "description": "We are looking for a Sales Virtual Assistant to support a growing property company with lead follow-up, appointment booking, CRM updates, and client communication.\n\nThis role is ideal for someone who is confident speaking to people, organised, quick to respond,…",
+    "description": "We are looking for a Sales Virtual Assistant to support a growing property company with lead follow-up, appointment booking, CRM updates, and client communication.\n\nThis role is ideal for someone who is confident speaking to people, organised, quick to respond,\u2026",
     "category": "Sales",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-va-1756667",
@@ -5400,7 +5275,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Inside Sales (Real-estate)",
-    "description": "Work Setup: Part-time\n\nSchedule: US Time Zone (Graveyard Shift)\n\nMust-Have Qualifications\n\nRelevant Experience: 2–3 years of proven experience in real estate wholesaling, cold calling, acquisitions, or inside sales.\n\nLead Generation Tools: Hands-on experience with XLeads, BatchLeads, PropStream, PropWire, or similar…",
+    "description": "Work Setup: Part-time\n\nSchedule: US Time Zone (Graveyard Shift)\n\nMust-Have Qualifications\n\nRelevant Experience: 2\u20133 years of proven experience in real estate wholesaling, cold calling, acquisitions, or inside sales.\n\nLead Generation Tools: Hands-on experience with XLeads, BatchLeads, PropStream, PropWire, or similar\u2026",
     "category": "Sales",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/inside-sales-real-estate-1748781",
@@ -5431,7 +5306,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Growth Strategist + Social Media Poster",
-    "description": "Hi\n\nWe're a small, growing team with 3 brands: one financial services business, one real estate business and one software product connected to the financial services business. We're looking for someone who can help us get more people using our…",
+    "description": "Hi\n\nWe're a small, growing team with 3 brands: one financial services business, one real estate business and one software product connected to the financial services business. We're looking for someone who can help us get more people using our\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/growth-strategist-social-media-poster-1752748",
@@ -5462,7 +5337,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Appointment Setter / Telemarketer",
-    "description": "Are you a confident and experienced communicator who enjoys connecting with people and creating opportunities? Join our insurance agency as a Telemarketer, where you’ll make outbound calls, engage potential clients, generate qualified leads, and help connect businesses and individuals with…",
+    "description": "Are you a confident and experienced communicator who enjoys connecting with people and creating opportunities? Join our insurance agency as a Telemarketer, where you\u2019ll make outbound calls, engage potential clients, generate qualified leads, and help connect businesses and individuals with\u2026",
     "category": "Marketing",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-telemarketer-1756686",
@@ -5493,7 +5368,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Real Estate Transaction Coordinator / Title Closing Specialist - (U.S.-based experience required)",
-    "description": "We are seeking a highly experienced Real Estate Transaction Coordinator or Title Closing Specialist to manage and execute transactions from contract negotiation through closing. This is an execution-focused role requiring hands-on experience with foreclosures, distressed properties, bankruptcy-related transactions, short sales,…",
+    "description": "We are seeking a highly experienced Real Estate Transaction Coordinator or Title Closing Specialist to manage and execute transactions from contract negotiation through closing. This is an execution-focused role requiring hands-on experience with foreclosures, distressed properties, bankruptcy-related transactions, short sales,\u2026",
     "category": "Sales",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/real-estate-transaction-coordinator-title-closing-specialist-u-s-based-experience-required-1756329",
@@ -5523,8 +5398,8 @@ export const jobs: Job[] =
     "pay": "$ -$1,250/month"
   },
   {
-    "title": "🚨 **HIRING: REAL ESTATE LEAD CONVERSION SPECIALIST",
-    "description": "🚨 HIRING: REAL ESTATE LEAD CONVERSION SPECIALIST (ISA)\n\nNot looking for a basic appointment setter. I need a CLOSER.\n\nI’m a Texas Realtor with an established database, incoming  ----------  and Facebook leads, and opportunities with buyers and sellers.\n\nI already…",
+    "title": "\ud83d\udea8 **HIRING: REAL ESTATE LEAD CONVERSION SPECIALIST",
+    "description": "\ud83d\udea8 HIRING: REAL ESTATE LEAD CONVERSION SPECIALIST (ISA)\n\nNot looking for a basic appointment setter. I need a CLOSER.\n\nI\u2019m a Texas Realtor with an established database, incoming  ----------  and Facebook leads, and opportunities with buyers and sellers.\n\nI already\u2026",
     "category": "Sales",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-real-estate-lead-conversion-specialist-1738441",
@@ -5555,7 +5430,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior Creative Specialist",
-    "description": "Job Overview\n\nThe Senior Creative Content Specialist is responsible for developing and managing high-quality creative content across Life Interiors’ website, social media platforms, and YouTube channel. Working within a fast-growing, technology-leading organization with an amazing team culture, this role will…",
+    "description": "Job Overview\n\nThe Senior Creative Content Specialist is responsible for developing and managing high-quality creative content across Life Interiors\u2019 website, social media platforms, and YouTube channel. Working within a fast-growing, technology-leading organization with an amazing team culture, this role will\u2026",
     "category": "Web Design",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-creative-specialist-1724845",
@@ -5586,7 +5461,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Appointment Setter and Social Media Assistant",
-    "description": "Appointment Setter and Social Media Assistant\n\nCompany: Mauka Cleaning Co.\n\nLocation: Remote, Philippines\n\nSchedule: 27 hours per week\n\nTime Zone: Hawaii Standard Time\n\nPay: $3USD per hour\n\nAbout Mauka Cleaning Co.\n\nMauka Cleaning Co. provides residential window cleaning and exterior…",
+    "description": "Appointment Setter and Social Media Assistant\n\nCompany: Mauka Cleaning Co.\n\nLocation: Remote, Philippines\n\nSchedule: 27 hours per week\n\nTime Zone: Hawaii Standard Time\n\nPay: $3USD per hour\n\nAbout Mauka Cleaning Co.\n\nMauka Cleaning Co. provides residential window cleaning and exterior\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-and-social-media-assistant-1756652",
@@ -5617,7 +5492,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Economics Content & Resource Developer | Full-Time Remote",
-    "description": "Build a long-term career creating Economics resources that help students succeed.\n\nJoin an established, leading Australian tutoring company as a full-time Economics Content & Resource Developer. You’ll become part of our academic team, turning strong subject knowledge into clear, accurate…",
+    "description": "Build a long-term career creating Economics resources that help students succeed.\n\nJoin an established, leading Australian tutoring company as a full-time Economics Content & Resource Developer. You\u2019ll become part of our academic team, turning strong subject knowledge into clear, accurate\u2026",
     "category": "Content",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/economics-content-resource-developer-full-time-remote-1749444",
@@ -5647,8 +5522,8 @@ export const jobs: Job[] =
     "pay": "650"
   },
   {
-    "title": "Ecommerce Marketing Specialist — Meta Ads, Shopify & Klaviyo",
-    "description": "Company: NOBS Health  \n\nLocation: Remote — Philippines  \n\nHours and compensation: To be agreed based on experience and availability  \n\nWebsite: nobshealth.com.au\n\nNOBS Health is an Australian supplement brand with a straightforward approach: less hype, clear information and products that fit everyday…",
+    "title": "Ecommerce Marketing Specialist \u2014 Meta Ads, Shopify & Klaviyo",
+    "description": "Company: NOBS Health  \n\nLocation: Remote \u2014 Philippines  \n\nHours and compensation: To be agreed based on experience and availability  \n\nWebsite: nobshealth.com.au\n\nNOBS Health is an Australian supplement brand with a straightforward approach: less hype, clear information and products that fit everyday\u2026",
     "category": "Web Design",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ecommerce-marketing-specialist-meta-ads-shopify-klaviyo-1756669",
@@ -5679,7 +5554,7 @@ export const jobs: Job[] =
   },
   {
     "title": "SOCIAL MEDIA CONTENT & CREATIVE STRATEGIST",
-    "description": "Leading With Heart is looking for a Social Media Content & Creative Strategist to help strengthen our social media presence and develop a clear long-term content strategy.\n\nWe are currently developing a recurring character-based social media concept around leadership, workplace…",
+    "description": "Leading With Heart is looking for a Social Media Content & Creative Strategist to help strengthen our social media presence and develop a clear long-term content strategy.\n\nWe are currently developing a recurring character-based social media concept around leadership, workplace\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-creative-strategist-1756678",
@@ -5709,8 +5584,8 @@ export const jobs: Job[] =
     "pay": "Based on experience"
   },
   {
-    "title": "Marketing Manager: Help Build America’s Next Great Sandwich Brand",
-    "description": "Sandwicheez · Fully Remote · Part-Time · Restaurant / Food & Beverage\n\nAbout Sandwicheez\n\nSandwicheez makes sandwiches the way they should be made: fresh bread, premium ingredients, generous builds, and a crew that cares. We started as a neighborhood shop…",
+    "title": "Marketing Manager: Help Build America\u2019s Next Great Sandwich Brand",
+    "description": "Sandwicheez \u00b7 Fully Remote \u00b7 Part-Time \u00b7 Restaurant / Food & Beverage\n\nAbout Sandwicheez\n\nSandwicheez makes sandwiches the way they should be made: fresh bread, premium ingredients, generous builds, and a crew that cares. We started as a neighborhood shop\u2026",
     "category": "Marketing",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-manager-help-build-america-s-next-great-sandwich-brand-1742271",
@@ -5724,7 +5599,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "₱300-₱600/hr",
+      "compensation": "\u20b1300-\u20b1600/hr",
       "deadline": "",
       "application": ""
     },
@@ -5737,11 +5612,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "₱300-₱600/hr"
+    "pay": "\u20b1300-\u20b1600/hr"
   },
   {
     "title": "Short-Form Video Editor & Content Strategist (Reels, TikTok + Carousels)",
-    "description": "You know that brand account everyone screenshots and sends to the group chat? \n\nWe make those.\n\nWe're a women-led social media agency in Los Angeles, California. This is a fully remote position.\n\nWe're looking for a video editor first: someone…",
+    "description": "You know that brand account everyone screenshots and sends to the group chat? \n\nWe make those.\n\nWe're a women-led social media agency in Los Angeles, California. This is a fully remote position.\n\nWe're looking for a video editor first: someone\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/short-form-video-editor-content-strategist-reels-tiktok-carousels-1756696",
@@ -5772,7 +5647,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media Manager/Editor",
-    "description": "We’re an electrical company based in Sydney, Australia, looking for a full-time Social Media Manager/Editor to join our team.\n\nWe’re looking for someone creative, driven and experienced in creating engaging content, managing social media platforms and helping grow our brand…",
+    "description": "We\u2019re an electrical company based in Sydney, Australia, looking for a full-time Social Media Manager/Editor to join our team.\n\nWe\u2019re looking for someone creative, driven and experienced in creating engaging content, managing social media platforms and helping grow our brand\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-manager-editor-1745267",
@@ -5803,7 +5678,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Pitch Deck Graphic Designer",
-    "description": "10th St. Talent is a boutique executive search firm launched within Permanent Equity, a private equity group, and later spun out to serve growth-focused SMBs. We blend private equity rigor with small business grit and help scaling companies make high-stakes…",
+    "description": "10th St. Talent is a boutique executive search firm launched within Permanent Equity, a private equity group, and later spun out to serve growth-focused SMBs. We blend private equity rigor with small business grit and help scaling companies make high-stakes\u2026",
     "category": "Marketing",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/pitch-deck-graphic-designer-1720491",
@@ -5834,7 +5709,7 @@ export const jobs: Job[] =
   },
   {
     "title": "SEO Specialist On-Page SEO - GMB & Weekly Reporting",
-    "description": "Salary: $800–$1,000 USD/month, based on demonstrated skill\n\nHours: 40 hrs/week · \n\nType: Full-time, long-term\n\nAbout us\n\nLocal Interactive is a New York–based SEO agency, in business since 2007. We run search programs for healthcare, behavioral health, and multi-location brands. We’re…",
+    "description": "Salary: $800\u2013$1,000 USD/month, based on demonstrated skill\n\nHours: 40 hrs/week \u00b7 \n\nType: Full-time, long-term\n\nAbout us\n\nLocal Interactive is a New York\u2013based SEO agency, in business since 2007. We run search programs for healthcare, behavioral health, and multi-location brands. We\u2019re\u2026",
     "category": "Marketing",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/seo-specialist-on-page-seo-gmb-weekly-reporting-1756449",
@@ -5865,7 +5740,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Executive Assistant and Operations VA (GoHighLevel, Social Media Scheduling) | Full-Time, US Central Hours",
-    "description": "Horse Business Builders helps horse professionals build profitable, sustainable businesses that serve the horse, the client, and their family. We build brands, websites, and systems for trainers, clinicians, and equine businesses, and we run on our own software, Horse Business…",
+    "description": "Horse Business Builders helps horse professionals build profitable, sustainable businesses that serve the horse, the client, and their family. We build brands, websites, and systems for trainers, clinicians, and equine businesses, and we run on our own software, Horse Business\u2026",
     "category": "Automation",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/executive-assistant-and-operations-va-gohighlevel-social-media-scheduling-full-time-us-central-hours-1744902",
@@ -5927,7 +5802,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior Project Manager | Digital Marketing Agency | SEO | Paid Ads | Website Development",
-    "description": "About Us:\n\nWe are a digital marketing agency with a 20-year track record specializing in SEO, paid advertising, and website development. We deliver measurable growth and reliable results for our clients nationwide. We are seeking an experienced Website Project Manager…",
+    "description": "About Us:\n\nWe are a digital marketing agency with a 20-year track record specializing in SEO, paid advertising, and website development. We deliver measurable growth and reliable results for our clients nationwide. We are seeking an experienced Website Project Manager\u2026",
     "category": "Web Design",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-project-manager-digital-marketing-agency-seo-paid-ads-website-development-1657507",
@@ -5958,7 +5833,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Paid Ads, Lead Generation & Sales Closing Specialist",
-    "description": "We’re seeking an experienced Virtual Assistant who can manage paid advertising campaigns, generate qualified leads, and convert prospects into paying clients across multiple brands\\.\n\n**Key Responsibilities**\n\n**Paid Advertising**\n\n- Create, launch, and manage Facebook and Instagram ad campaigns\n\n- Develop…",
+    "description": "We\u2019re seeking an experienced Virtual Assistant who can manage paid advertising campaigns, generate qualified leads, and convert prospects into paying clients across multiple brands\\.\n\n**Key Responsibilities**\n\n**Paid Advertising**\n\n- Create, launch, and manage Facebook and Instagram ad campaigns\n\n- Develop\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/paid-ads-lead-generation-sales-closing-specialist-1756470",
@@ -5988,39 +5863,8 @@ export const jobs: Job[] =
     "pay": "565"
   },
   {
-    "title": "Senior Project Manager | Digital Marketing Agency | SEO | Paid Ads | Website Development",
-    "description": "About Us:\n\nWe are a digital marketing agency with a 20-year track record specializing in SEO, paid advertising, and website development. We deliver measurable growth and reliable results for our clients nationwide. We are seeking an experienced Website Project Manager…",
-    "category": "Web Design",
-    "date": "2026-10-27",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/senior-project-manager-digital-marketing-agency-seo-paid-ads-website-development-1756473",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$10-12+ / hr based on experience",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/senior-project-manager-digital-marketing-agency-seo-paid-ads-website-development-1756473",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$10-12+ / hr based on experience"
-  },
-  {
-    "title": "AI Smart - Operations Manager / Advanced VA — GoHighLevel Experience Required",
-    "description": "I'm looking for the person who has probably had this career path:\n\nYou started as a VA.\n\nThen you became the VA everyone trusted with more stuff.\n\nYou started managing projects, clients, calendars, systems, team members, SOPs, and the random…",
+    "title": "AI Smart - Operations Manager / Advanced VA \u2014 GoHighLevel Experience Required",
+    "description": "I'm looking for the person who has probably had this career path:\n\nYou started as a VA.\n\nThen you became the VA everyone trusted with more stuff.\n\nYou started managing projects, clients, calendars, systems, team members, SOPs, and the random\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-smart-operations-manager-advanced-va-gohighlevel-experience-required-1756482",
@@ -6051,7 +5895,7 @@ export const jobs: Job[] =
   },
   {
     "title": "BDR (AONFLOW)",
-    "description": "About Aonflow \n\nAonflow is an enterprise integration and automation platform focused on connecting applications, data and business processes. We help organisations simplify integration, reduce manual effort and improve the flow of information across business systems. \n\nThe Opportunity \n\nThis role is…",
+    "description": "About Aonflow \n\nAonflow is an enterprise integration and automation platform focused on connecting applications, data and business processes. We help organisations simplify integration, reduce manual effort and improve the flow of information across business systems. \n\nThe Opportunity \n\nThis role is\u2026",
     "category": "Automation",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/bdr-aonflow-1756500",
@@ -6081,8 +5925,8 @@ export const jobs: Job[] =
     "pay": "1000$"
   },
   {
-    "title": "Marketing Manager—Book Publishing",
-    "description": "Remote | Full-Time Preferred | Long-Term Position\n\nForest City Publications is looking for a creative, thoughtful, and experienced digital marketer to join our publishing team.\n\nWe're an independent American publishing company with 10 years of experience helping authors bring their…",
+    "title": "Marketing Manager\u2014Book Publishing",
+    "description": "Remote | Full-Time Preferred | Long-Term Position\n\nForest City Publications is looking for a creative, thoughtful, and experienced digital marketer to join our publishing team.\n\nWe're an independent American publishing company with 10 years of experience helping authors bring their\u2026",
     "category": "Marketing",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-manager-book-publishing-1756523",
@@ -6113,7 +5957,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Claude Instagram Chatbot Developer + Client Ops, US Agency",
-    "description": "100% CUSTOM CODE. NO GOHIGHLEVEL. NO MANYCHAT. NO CHATBOT BUILDERS.\n\nOur Instagram chatbots are code we wrote ourselves: JavaScript (Node.js), the Claude API, and direct connections to the Instagram and Meta APIs. If you build bots in GHL or ManyChat,…",
+    "description": "100% CUSTOM CODE. NO GOHIGHLEVEL. NO MANYCHAT. NO CHATBOT BUILDERS.\n\nOur Instagram chatbots are code we wrote ourselves: JavaScript (Node.js), the Claude API, and direct connections to the Instagram and Meta APIs. If you build bots in GHL or ManyChat,\u2026",
     "category": "Automation",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/claude-instagram-chatbot-developer-client-ops-us-agency-1756553",
@@ -6143,8 +5987,8 @@ export const jobs: Job[] =
     "pay": "$2,500 - $3,000 USD/month"
   },
   {
-    "title": "Full Stack Developer (React / Next.js / Node.js) – 3+ Years, CS/SE Degree",
-    "description": "Clix is an Israeli software company building business systems, automations, BI dashboards and web/mobile apps for companies. We are hiring a full-time Full Stack Developer to join our team.\n\nRequirements:\n\n- At least 3 years of paid professional experience as…",
+    "title": "Full Stack Developer (React / Next.js / Node.js) \u2013 3+ Years, CS/SE Degree",
+    "description": "Clix is an Israeli software company building business systems, automations, BI dashboards and web/mobile apps for companies. We are hiring a full-time Full Stack Developer to join our team.\n\nRequirements:\n\n- At least 3 years of paid professional experience as\u2026",
     "category": "Automation",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-stack-developer-react-next-js-node-js-3-years-cs-se-degree-1756569",
@@ -6175,7 +6019,7 @@ export const jobs: Job[] =
   },
   {
     "title": "e-Commerce Virtual Assistant",
-    "description": "Our remote team is growing, and we need an eCommerce VA who is reliable, self-driven, and sharp with details, someone who wants a real career with us, not just a stopgap. We run the daily operations of online brands for…",
+    "description": "Our remote team is growing, and we need an eCommerce VA who is reliable, self-driven, and sharp with details, someone who wants a real career with us, not just a stopgap. We run the daily operations of online brands for\u2026",
     "category": "Marketing",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/e-commerce-virtual-assistant-1751974",
@@ -6189,7 +6033,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "₱28,000 to ₱32,000",
+      "compensation": "\u20b128,000 to \u20b132,000",
       "deadline": "",
       "application": ""
     },
@@ -6202,11 +6046,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
-    "pay": "₱28,000 to ₱32,000"
+    "pay": "\u20b128,000 to \u20b132,000"
   },
   {
-    "title": "Linnworks Expert – Troubleshooting, Automation & Stock Management",
-    "description": "Linnworks Expert – Troubleshooting, Automation & Stock Management\n\nRemote | Philippines | 1-Month Contract | $7–$10 USD per Hour | Immediate Start\n\nAbout Us\n\nBrook Hi Vis is an established UK-based e-commerce business selling high-visibility workwear and clothing through Amazon,…",
+    "title": "Linnworks Expert \u2013 Troubleshooting, Automation & Stock Management",
+    "description": "Linnworks Expert \u2013 Troubleshooting, Automation & Stock Management\n\nRemote | Philippines | 1-Month Contract | $7\u2013$10 USD per Hour | Immediate Start\n\nAbout Us\n\nBrook Hi Vis is an established UK-based e-commerce business selling high-visibility workwear and clothing through Amazon,\u2026",
     "category": "Automation",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/linnworks-expert-troubleshooting-automation-stock-management-1756585",
@@ -6237,7 +6081,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Part-Time Developer - AI-Assisted CRM Improvements & Automation",
-    "description": "Canopy Trades runs painting, electrical, and other home-service businesses in Canada. We are looking for a practical developer to improve our CRM, fix bugs, polish workflows, and build useful integrations and automations.\n\nOur owner already uses AI coding tools extensively.…",
+    "description": "Canopy Trades runs painting, electrical, and other home-service businesses in Canada. We are looking for a practical developer to improve our CRM, fix bugs, polish workflows, and build useful integrations and automations.\n\nOur owner already uses AI coding tools extensively.\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-developer-ai-assisted-crm-improvements-automation-1756586",
@@ -6268,7 +6112,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Marketing & Appointment Setting Virtual Assistant",
-    "description": "Smart Homes Innovations is a Los Angeles based luxury home technology company with more than 20 years of experience.\n\nWe specialize in smart home automation, lighting control, motorized shades, home theaters, whole-home audio, networking, security, and integrated technology solutions.\n\nWe…",
+    "description": "Smart Homes Innovations is a Los Angeles based luxury home technology company with more than 20 years of experience.\n\nWe specialize in smart home automation, lighting control, motorized shades, home theaters, whole-home audio, networking, security, and integrated technology solutions.\n\nWe\u2026",
     "category": "Automation",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-appointment-setting-virtual-assistant-1756644",
@@ -6299,7 +6143,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Full-Time E-commerce & SEO Manager | Shopify, Amazon, Walmart & TikTok Shop",
-    "description": "Remote | Philippines | Full-time, 40 hours/week | US Eastern Time overlap required\n\nWe operate approximately 5–7 US brands across food and retail. We’re looking for an experienced E-commerce & SEO Manager who can take ownership, solve problems, and grow…",
+    "description": "Remote | Philippines | Full-time, 40 hours/week | US Eastern Time overlap required\n\nWe operate approximately 5\u20137 US brands across food and retail. We\u2019re looking for an experienced E-commerce & SEO Manager who can take ownership, solve problems, and grow\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-e-commerce-seo-manager-shopify-amazon-walmart-tiktok-shop-1756676",
@@ -6330,7 +6174,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media & Client Support Coordinator",
-    "description": "Evera Cleaning is a residential and commercial cleaning company in Edmonton, Canada. We are a new, automation-first business, and we're looking for a reliable coordinator to run our social media and support our clients and cleaning team.\n\nWHAT YOU'LL DO…",
+    "description": "Evera Cleaning is a residential and commercial cleaning company in Edmonton, Canada. We are a new, automation-first business, and we're looking for a reliable coordinator to run our social media and support our clients and cleaning team.\n\nWHAT YOU'LL DO\u2026",
     "category": "Automation",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-client-support-coordinator-1756691",
@@ -6361,7 +6205,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Closer - $2/Hour + $100 USD Per Sale, Paid Weekly - US Contractors (Start Today)",
-    "description": "We're Syra, an AI receptionist that answers missed calls for US contractors (plumbers, roofers, HVAC, electricians). You cold call US contractors from our lead list, show them how Syra stops them losing jobs to voicemail, and sign them up on…",
+    "description": "We're Syra, an AI receptionist that answers missed calls for US contractors (plumbers, roofers, HVAC, electricians). You cold call US contractors from our lead list, show them how Syra stops them losing jobs to voicemail, and sign them up on\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/closer-2-hour-100-usd-per-sale-paid-weekly-us-contractors-start-today-1756486",
@@ -6392,7 +6236,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Mid to Senior SEO/GEO Specialist",
-    "description": "Company: Ignite Search - www.ignitesearch.com.au\n\nPosition: SEO/GEO Specialist\n\nIf you are passionate about transforming visions into results, then this is the role for you!\n\nWe are looking for someone to lead the SEO optimisation and Generative Engine Optimisation aka AI…",
+    "description": "Company: Ignite Search - www.ignitesearch.com.au\n\nPosition: SEO/GEO Specialist\n\nIf you are passionate about transforming visions into results, then this is the role for you!\n\nWe are looking for someone to lead the SEO optimisation and Generative Engine Optimisation aka AI\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/mid-to-senior-seo-geo-specialist-1328131",
@@ -6423,7 +6267,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Media Instagram post creator - Higgsfield",
-    "description": "Need a Media creator that specializes in Higgsfield ai. to create videos on my construction projects and to run our instagram social media accounts.\n\n \n\n$150-200 a month, expect 5\n\n:\n\n4–8 finished vertical videos per month, each around 15–30 seconds.…",
+    "description": "Need a Media creator that specializes in Higgsfield ai. to create videos on my construction projects and to run our instagram social media accounts.\n\n \n\n$150-200 a month, expect 5\n\n:\n\n4\u20138 finished vertical videos per month, each around 15\u201330 seconds.\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-media-instagram-post-creator-higgsfield-1743557",
@@ -6454,7 +6298,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Short Form Video Editor and Manager (PH timezone)",
-    "description": "We’re an education team with a mission to build Singapore’s fastest math learning system for 13-16 year old youths taking the national O level exams\n\nBecause students shouldn’t have to trade time to discover their interests for academics.\n\nMost students…",
+    "description": "We\u2019re an education team with a mission to build Singapore\u2019s fastest math learning system for 13-16 year old youths taking the national O level exams\n\nBecause students shouldn\u2019t have to trade time to discover their interests for academics.\n\nMost students\u2026",
     "category": "Content",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/short-form-video-editor-and-manager-ph-timezone-1756665",
@@ -6484,8 +6328,8 @@ export const jobs: Job[] =
     "pay": "$1500-$2000 USD/month"
   },
   {
-    "title": "YouTube Documentary Scriptwriter – AI-Assisted Writing (Long-Term)",
-    "description": "IMPORTANT: Before applying, please make sure you attach relevant examples of your work, AI prompts you've created, and proof of performance. We will prioritize applications that clearly demonstrate real experience and results. Applications without these materials will not be considered.…",
+    "title": "YouTube Documentary Scriptwriter \u2013 AI-Assisted Writing (Long-Term)",
+    "description": "IMPORTANT: Before applying, please make sure you attach relevant examples of your work, AI prompts you've created, and proof of performance. We will prioritize applications that clearly demonstrate real experience and results. Applications without these materials will not be considered.\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/youtube-documentary-scriptwriter-ai-assisted-writing-long-term-1752208",
@@ -6516,7 +6360,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Human English Voice Acting For Story Telling Channel",
-    "description": "We're looking for a male voice actor with a natural American accent for a long-term YouTube channel about space. HUMAN NO AI\n\nMost videos will be 60–90 minutes long. We want someone who can keep the narration clear, natural, and…",
+    "description": "We're looking for a male voice actor with a natural American accent for a long-term YouTube channel about space. HUMAN NO AI\n\nMost videos will be 60\u201390 minutes long. We want someone who can keep the narration clear, natural, and\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/human-english-voice-acting-for-story-telling-channel-1756675",
@@ -6546,39 +6390,8 @@ export const jobs: Job[] =
     "pay": "$1500 per month"
   },
   {
-    "title": "Human English Voice Acting For Story Telling Channel",
-    "description": "We're looking for a Female voice actor with a natural American accent for a long-term YouTube channel about a storytelling channel. HUMAN NO AI\n\nMost videos will be 60–90 minutes long. We want someone who can keep the narration clear,…",
-    "category": "AI",
-    "date": "2026-10-27",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/human-english-voice-acting-for-story-telling-channel-1756677",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$1200 aud per month",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/human-english-voice-acting-for-story-telling-channel-1756677",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$1200 aud per month"
-  },
-  {
     "title": "Full-Time Social Media & Content Marketing Manager | Multiple US Brands",
-    "description": "Remote | Philippines | Full-time, 40 hours/week | US Eastern Time overlap required\n\nWe’re looking for an experienced Social Media & Content Marketing Manager to plan, create, and execute marketing across approximately 5–7 US brands in food and retail.\n\nWe…",
+    "description": "Remote | Philippines | Full-time, 40 hours/week | US Eastern Time overlap required\n\nWe\u2019re looking for an experienced Social Media & Content Marketing Manager to plan, create, and execute marketing across approximately 5\u20137 US brands in food and retail.\n\nWe\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-social-media-content-marketing-manager-multiple-us-brands-1756680",
@@ -6609,7 +6422,7 @@ export const jobs: Job[] =
   },
   {
     "title": "SEO Copywriter and Content Strategist",
-    "description": "About us\n\nJSK Advisory is a Sydney consultancy offering SEO, marketing, business consulting and AI consulting. We work with professional service businesses, mainly in B2B marketing, with a focus on accounting firms. This is a day shift role aligned to…",
+    "description": "About us\n\nJSK Advisory is a Sydney consultancy offering SEO, marketing, business consulting and AI consulting. We work with professional service businesses, mainly in B2B marketing, with a focus on accounting firms. This is a day shift role aligned to\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/seo-copywriter-and-content-strategist-1743692",
@@ -6640,7 +6453,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Ai Content Creator - TikTok Shop",
-    "description": "We’re looking for a creative Virtual Assistant to produce realistic AI-generated TikTok Shop affiliate videos using Higgsfield AI and other AI tools.\n\nResponsibilities:\n\n* Create realistic AI influencer and UGC-style product videos.\n\n* Research viral TikTok Shop trends and products.…",
+    "description": "We\u2019re looking for a creative Virtual Assistant to produce realistic AI-generated TikTok Shop affiliate videos using Higgsfield AI and other AI tools.\n\nResponsibilities:\n\n* Create realistic AI influencer and UGC-style product videos.\n\n* Research viral TikTok Shop trends and products.\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-content-creator-tiktok-shop-1756684",
@@ -6671,7 +6484,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Graphic & Brand Designer (Luxury Wellness Brand)",
-    "description": "To apply (follow to be considered)\n\n1. Subject line: Graphic & Brand Designer\n\n2. A short hello and your hourly rate in USD\n\n3. A link to your portfolio. Show us range, but more importantly, show us taste\n\n4. A…",
+    "description": "To apply (follow to be considered)\n\n1. Subject line: Graphic & Brand Designer\n\n2. A short hello and your hourly rate in USD\n\n3. A link to your portfolio. Show us range, but more importantly, show us taste\n\n4. A\u2026",
     "category": "Marketing",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/graphic-brand-designer-luxury-wellness-brand-1746432",
@@ -6702,7 +6515,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Medical Writer - Luxury Wellness Brand",
-    "description": "We are evaluating YOUR writing and your thinking, so your application, introduction, and submitted writing samples must be your own work.\n\nPlease do not use ChatGPT, Claude, Gemini, or other AI writing tools to write, rewrite, or substantially edit your…",
+    "description": "We are evaluating YOUR writing and your thinking, so your application, introduction, and submitted writing samples must be your own work.\n\nPlease do not use ChatGPT, Claude, Gemini, or other AI writing tools to write, rewrite, or substantially edit your\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/medical-writer-luxury-wellness-brand-1722977",
@@ -6733,7 +6546,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Copywriter - Luxury Wellness Brand",
-    "description": "We are evaluating YOUR writing and your thinking, so your application, introduction, and submitted writing samples must be your own work.\n\nPlease do not use ChatGPT, Claude, Gemini, or other AI writing tools to write, rewrite, or substantially edit your…",
+    "description": "We are evaluating YOUR writing and your thinking, so your application, introduction, and submitted writing samples must be your own work.\n\nPlease do not use ChatGPT, Claude, Gemini, or other AI writing tools to write, rewrite, or substantially edit your\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/copywriter-luxury-wellness-brand-1717376",
@@ -6764,7 +6577,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Full-Time Video Editor: Direct Response Ads + AI",
-    "description": "We're a fast-growing DTC health & wellness brand in the back pain and sciatica space. Two kinds of creative do most of our selling: long-form VSLs and AI-generated ads.\n\nAnd we're scaling. More angles. More batches. A lot more AI.…",
+    "description": "We're a fast-growing DTC health & wellness brand in the back pain and sciatica space. Two kinds of creative do most of our selling: long-form VSLs and AI-generated ads.\n\nAnd we're scaling. More angles. More batches. A lot more AI.\u2026",
     "category": "AI",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-video-editor-direct-response-ads-ai-1756695",
@@ -6795,7 +6608,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Video Editor (Part-Time | Remote)",
-    "description": "The Part-Time Video Editor will be responsible for editing short-form video content, ensuring the accuracy of captions and graphics, maintaining brand consistency, and supporting the team’s production goals through efficient editing workflows.\n\nKey Responsibilities\n\nVideo Editing & Production: Edit short-form…",
+    "description": "The Part-Time Video Editor will be responsible for editing short-form video content, ensuring the accuracy of captions and graphics, maintaining brand consistency, and supporting the team\u2019s production goals through efficient editing workflows.\n\nKey Responsibilities\n\nVideo Editing & Production: Edit short-form\u2026",
     "category": "Automation",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-part-time-remote-1740156",
@@ -6825,8 +6638,8 @@ export const jobs: Job[] =
     "pay": "Start $550"
   },
   {
-    "title": "Social Media Advertising Assistant — Clothing Brand",
-    "description": "Job Type:\n\nPart-Time (with potential for additional hours and increased compensation based on performance)\n\nSalary / Rate:\n\n$3.00 – $6.00 USD / hour (negotiable; depending on experience)\n\nAbout the Role:\n\nI am looking for a proactive Social Media Advertising Assistant…",
+    "title": "Social Media Advertising Assistant \u2014 Clothing Brand",
+    "description": "Job Type:\n\nPart-Time (with potential for additional hours and increased compensation based on performance)\n\nSalary / Rate:\n\n$3.00 \u2013 $6.00 USD / hour (negotiable; depending on experience)\n\nAbout the Role:\n\nI am looking for a proactive Social Media Advertising Assistant\u2026",
     "category": "Social Media",
     "date": "2026-10-27",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-advertising-assistant-clothing-brand-1707708",
@@ -6856,7 +6669,7 @@ export const jobs: Job[] =
     "pay": "$240 - $480/month"
   },
   {
-    "title": "Critical Playground — Contributor (Creative Tech Writing)",
+    "title": "Critical Playground \u2014 Contributor (Creative Tech Writing)",
     "description": "Critical Playground commissions in-depth articles (~800-900 words) situating projects, studios, labs, exhibitions, or technologies within broader cultural, institutional, or technical contexts. Send pitches per contributor guidelines.",
     "category": "Journalists",
     "date": "2026-10-26",
@@ -6887,7 +6700,7 @@ export const jobs: Job[] =
     "pay": "$300 per commissioned article"
   },
   {
-    "title": "Episodes — Paid Writer ($200)",
+    "title": "Episodes \u2014 Paid Writer ($200)",
     "description": "Episodes is commissioning writers at $200 per piece. Send pitches to episodes.pitches@gmail.com for more details.",
     "category": "Journalists",
     "date": "2026-10-26",
@@ -6918,8 +6731,8 @@ export const jobs: Job[] =
     "pay": "$200"
   },
   {
-    "title": "Appointment Setter for Web Design Studio — Pay Per Qualified Call + Commission",
-    "description": "Webser is a web design studio. We offer local businesses a free homepage mockup before they pay anything; packages start at $799 USD. We need an experienced appointment setter / cold caller to call provided leads using a script we…",
+    "title": "Appointment Setter for Web Design Studio \u2014 Pay Per Qualified Call + Commission",
+    "description": "Webser is a web design studio. We offer local businesses a free homepage mockup before they pay anything; packages start at $799 USD. We need an experienced appointment setter / cold caller to call provided leads using a script we\u2026",
     "category": "Web Design",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-for-web-design-studio-pay-per-qualified-call-commission-1755778",
@@ -6950,7 +6763,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Etsy Listing & Social Media Virtual Assistant",
-    "description": "I’m looking for a talented virtual assistant to support my Etsy store. Key tasks include:\n\n* Photo Editing: Enhance product photos to make them pop!\n\n* Etsy Listings: Create and publish product listings with SEO-optimized titles, descriptions, and tags to…",
+    "description": "I\u2019m looking for a talented virtual assistant to support my Etsy store. Key tasks include:\n\n* Photo Editing: Enhance product photos to make them pop!\n\n* Etsy Listings: Create and publish product listings with SEO-optimized titles, descriptions, and tags to\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/etsy-listing-social-media-virtual-assistant-1755917",
@@ -6981,7 +6794,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Organic Social Media Growth Manager & Video Editor",
-    "description": "We're a U.S.-based company operating three growing brands:\n\nDFW Gig Rentals – Vehicle rentals for Uber, Lyft, DoorDash, and other gig economy drivers.\n\nRV Roof Coatings – Professional RV roof sealing, repairs, and protective coatings in the Dallas–Fort Worth area.…",
+    "description": "We're a U.S.-based company operating three growing brands:\n\nDFW Gig Rentals \u2013 Vehicle rentals for Uber, Lyft, DoorDash, and other gig economy drivers.\n\nRV Roof Coatings \u2013 Professional RV roof sealing, repairs, and protective coatings in the Dallas\u2013Fort Worth area.\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/organic-social-media-growth-manager-video-editor-1755915",
@@ -7012,7 +6825,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media Content Creator & Video Editor",
-    "description": "Lionheart Volleyball Club is looking for a creative, organized individual to manage our digital media library and transform raw photos and videos into engaging social media content.\n\nOur team captures photos and videos from practices, tournaments, camps, and events and…",
+    "description": "Lionheart Volleyball Club is looking for a creative, organized individual to manage our digital media library and transform raw photos and videos into engaging social media content.\n\nOur team captures photos and videos from practices, tournaments, camps, and events and\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-creator-video-editor-1755944",
@@ -7043,131 +6856,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Shopify Store Setup + Part-Time Social Media Assistant (Hunting/Outdoor Brand)",
-    "description": "We are a small, growing hunting and outdoors brand run by a working outfitter. We sell hand-forged knives, arrows, plus hats and other gear, and we publish hunting videos on YouTube, Instagram, TikTok and Facebook. You will work directly with…",
-    "category": "Social Media",
-    "date": "2026-10-26",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/shopify-store-setup-part-time-social-media-assistant-hunting-outdoor-brand-1755961",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "negotiable",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/shopify-store-setup-part-time-social-media-assistant-hunting-outdoor-brand-1755961",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "negotiable"
-  },
-  {
-    "title": "Etsy Listing & Social Media Virtual Assistant",
-    "description": "I’m looking for a talented virtual assistant to support my Etsy store. Key tasks include:\n\n* Photo Editing: Enhance product photos to make them pop!\n\n* Etsy Listings: Create and publish product listings with SEO-optimized titles, descriptions, and tags to…",
-    "category": "Social Media",
-    "date": "2026-10-26",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/etsy-listing-social-media-virtual-assistant-1755917",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "3.50",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/etsy-listing-social-media-virtual-assistant-1755917",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "3.50"
-  },
-  {
-    "title": "Organic Social Media Growth Manager & Video Editor",
-    "description": "We're a U.S.-based company operating three growing brands:\n\nDFW Gig Rentals – Vehicle rentals for Uber, Lyft, DoorDash, and other gig economy drivers.\n\nRV Roof Coatings – Professional RV roof sealing, repairs, and protective coatings in the Dallas–Fort Worth area.…",
-    "category": "Social Media",
-    "date": "2026-10-26",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/organic-social-media-growth-manager-video-editor-1755915",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "4.00",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/organic-social-media-growth-manager-video-editor-1755915",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "4.00"
-  },
-  {
-    "title": "Social Media Content Creator & Video Editor",
-    "description": "Lionheart Volleyball Club is looking for a creative, organized individual to manage our digital media library and transform raw photos and videos into engaging social media content.\n\nOur team captures photos and videos from practices, tournaments, camps, and events and…",
-    "category": "Social Media",
-    "date": "2026-10-26",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-creator-video-editor-1755944",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$685.00 - $835.00/mo",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-creator-video-editor-1755944",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "$685.00 - $835.00/mo"
-  },
-  {
-    "title": "Shopify Store Setup + Part-Time Social Media Assistant (Hunting/Outdoor Brand)",
-    "description": "We are a small, growing hunting and outdoors brand run by a working outfitter. We sell hand-forged knives, arrows, plus hats and other gear, and we publish hunting videos on YouTube, Instagram, TikTok and Facebook. You will work directly with…",
+    "description": "We are a small, growing hunting and outdoors brand run by a working outfitter. We sell hand-forged knives, arrows, plus hats and other gear, and we publish hunting videos on YouTube, Instagram, TikTok and Facebook. You will work directly with\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/shopify-store-setup-part-time-social-media-assistant-hunting-outdoor-brand-1755961",
@@ -7198,7 +6887,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Part-Time Social Media Outreach & Lead Generation VA",
-    "description": "I'm looking for a dependable, detail-oriented virtual assistant to help me reach local business owners and residents in Springfield, Illinois.\n\nResponsibilities:\n\n-Use or create social media accounts for certain areas in US cities\n\n-Reach out to many people, sending a…",
+    "description": "I'm looking for a dependable, detail-oriented virtual assistant to help me reach local business owners and residents in Springfield, Illinois.\n\nResponsibilities:\n\n-Use or create social media accounts for certain areas in US cities\n\n-Reach out to many people, sending a\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-social-media-outreach-lead-generation-va-1755457",
@@ -7229,7 +6918,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Marketer (Work From Home)",
-    "description": "Digitial Marketer to run google adwords, linkedin marketing, email campaigns, digital artwork, web site support etc…",
+    "description": "Digitial Marketer to run google adwords, linkedin marketing, email campaigns, digital artwork, web site support etc\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketer-work-from-home-1755946",
@@ -7260,7 +6949,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Brand Graphic Designer (Automotive) | AI Vehicle Imagery + Brand Guidelines",
-    "description": "Brand Graphic Designer (Automotive) | AI Vehicle Imagery + Brand Guidelines\n\nAbout Ember Digital\n\nEmber Digital is a performance marketing agency for car dealerships in New Zealand and Australia. We run Meta ads for franchised dealerships representing premium brands, and…",
+    "description": "Brand Graphic Designer (Automotive) | AI Vehicle Imagery + Brand Guidelines\n\nAbout Ember Digital\n\nEmber Digital is a performance marketing agency for car dealerships in New Zealand and Australia. We run Meta ads for franchised dealerships representing premium brands, and\u2026",
     "category": "AI",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/brand-graphic-designer-automotive-ai-vehicle-imagery-brand-guidelines-1755948",
@@ -7291,7 +6980,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Meta Ads Media Buyer (Automotive Lead Generation)",
-    "description": "Meta Ads Media Buyer (Automotive Lead Generation)\n\nAbout Ember Digital\n\nEmber Digital is a performance marketing agency for car dealerships in New Zealand and Australia. We generate leads for dealerships through Meta ads and custom landing pages, and we are…",
+    "description": "Meta Ads Media Buyer (Automotive Lead Generation)\n\nAbout Ember Digital\n\nEmber Digital is a performance marketing agency for car dealerships in New Zealand and Australia. We generate leads for dealerships through Meta ads and custom landing pages, and we are\u2026",
     "category": "Web Design",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/meta-ads-media-buyer-automotive-lead-generation-1755949",
@@ -7322,7 +7011,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media Content Strategist",
-    "description": "Hi, my name is Khairy Fiala, and I'm representing #1 NY Beauty, a brick-and-mortar beauty supply store located in St. Petersburg, Florida, USA.\n\nWe're currently looking for a creative and experienced Social Media Content Strategist & Marketing Specialist to help…",
+    "description": "Hi, my name is Khairy Fiala, and I'm representing #1 NY Beauty, a brick-and-mortar beauty supply store located in St. Petersburg, Florida, USA.\n\nWe're currently looking for a creative and experienced Social Media Content Strategist & Marketing Specialist to help\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-strategist-1755958",
@@ -7353,7 +7042,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Multi-Platform Paid Advertising Setup & Implementation Specialist",
-    "description": "Valére Growth Studio is a U.S.-based marketing agency working with dental practices and professional-service businesses nationwide.\n\nWe are looking for an experienced Digital Advertising Account Setup & Tracking Specialist to join our team in a long-term, part-time capacity.\n\nWe need…",
+    "description": "Val\u00e9re Growth Studio is a U.S.-based marketing agency working with dental practices and professional-service businesses nationwide.\n\nWe are looking for an experienced Digital Advertising Account Setup & Tracking Specialist to join our team in a long-term, part-time capacity.\n\nWe need\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/multi-platform-paid-advertising-setup-implementation-specialist-1755976",
@@ -7384,7 +7073,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Mortgage Advertising/Social Media",
-    "description": "Commission-only position. No wage. High reward. $250/loan Marketing. Advertise in specific Facebook groups and comment trying to acquire real estate investors who have a need to apply for financing/mortgages. I would expect a successful loan application for every 10 hours…",
+    "description": "Commission-only position. No wage. High reward. $250/loan Marketing. Advertise in specific Facebook groups and comment trying to acquire real estate investors who have a need to apply for financing/mortgages. I would expect a successful loan application for every 10 hours\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/mortgage-advertising-social-media-1736532",
@@ -7415,7 +7104,7 @@ export const jobs: Job[] =
   },
   {
     "title": "GHL & MARKETING VIRTUAL ASSISTANT",
-    "description": "✨ HIRING: GHL & MARKETING VIRTUAL ASSISTANT ✨\n\nI’m looking for an experienced, proactive VA to help with systems, enquiries and student onboarding at Royale Beauty Academy 💻💕\n\nYou must have strong hands-on experience with GoHighLevel (GHL), email marketing, funnels…",
+    "description": "\u2728 HIRING: GHL & MARKETING VIRTUAL ASSISTANT \u2728\n\nI\u2019m looking for an experienced, proactive VA to help with systems, enquiries and student onboarding at Royale Beauty Academy \ud83d\udcbb\ud83d\udc95\n\nYou must have strong hands-on experience with GoHighLevel (GHL), email marketing, funnels\u2026",
     "category": "Automation",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ghl-marketing-virtual-assistant-1754203",
@@ -7445,8 +7134,8 @@ export const jobs: Job[] =
     "pay": "$5 usd per hour"
   },
   {
-    "title": "Sales / Ops Virtual Assistant – Residential Cleaning Company",
-    "description": "We're hiring a high-energy, full-time Sales & Operations Virtual Assistant for our residential cleaning company in the United States.\n\nThe ideal candidate is a confident closer and a sharp operator - someone who can sell, schedule, and manage the day-to-day…",
+    "title": "Sales / Ops Virtual Assistant \u2013 Residential Cleaning Company",
+    "description": "We're hiring a high-energy, full-time Sales & Operations Virtual Assistant for our residential cleaning company in the United States.\n\nThe ideal candidate is a confident closer and a sharp operator - someone who can sell, schedule, and manage the day-to-day\u2026",
     "category": "Sales",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-ops-virtual-assistant-residential-cleaning-company-1743386",
@@ -7477,7 +7166,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Operations Manager for Dfy ecom store growth program",
-    "description": "We’re Hiring: Ecommerce Operations Manager and Client success manager\n\nOur company places store managers to run and grow our clients’ eBay, Amazon, and Walmart stores.\n\nWe’re looking for an experienced Operations Manager to oversee those managers, maintain service quality, and…",
+    "description": "We\u2019re Hiring: Ecommerce Operations Manager and Client success manager\n\nOur company places store managers to run and grow our clients\u2019 eBay, Amazon, and Walmart stores.\n\nWe\u2019re looking for an experienced Operations Manager to oversee those managers, maintain service quality, and\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/operations-manager-for-dfy-ecom-store-growth-program-1735987",
@@ -7508,7 +7197,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Walmart store manager growth",
-    "description": "We are looking for an experienced Walmart Marketplace Store Manager to manage and grow stores for our clients.\n\nYou may operate the store using either wholesale or dropshipping strategies, depending on your experience and the client’s account. This is a…",
+    "description": "We are looking for an experienced Walmart Marketplace Store Manager to manage and grow stores for our clients.\n\nYou may operate the store using either wholesale or dropshipping strategies, depending on your experience and the client\u2019s account. This is a\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/walmart-store-manager-growth-1708842",
@@ -7539,7 +7228,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Experienced PPC Marketer",
-    "description": "Salary: $3 per hour | Full-Time | Monday to Friday\n\nWe are looking for an experienced and results-driven PPC Marketer to manage and optimize paid advertising campaigns. The ideal candidate has a strong understanding of digital advertising, data analysis, and…",
+    "description": "Salary: $3 per hour | Full-Time | Monday to Friday\n\nWe are looking for an experienced and results-driven PPC Marketer to manage and optimize paid advertising campaigns. The ideal candidate has a strong understanding of digital advertising, data analysis, and\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-ppc-marketer-1755990",
@@ -7570,7 +7259,7 @@ export const jobs: Job[] =
   },
   {
     "title": "B2B Cold Caller / Sales Representative, US Fire Protection Design Firm (Night Shift, Hourly + Commission)",
-    "description": "About us\n\nWe’re a US-based fire protection design firm working with contractors in all 50 states. We design fire alarm and sprinkler systems for the contractors who install them. We’re looking for a confident, experienced cold caller to open new…",
+    "description": "About us\n\nWe\u2019re a US-based fire protection design firm working with contractors in all 50 states. We design fire alarm and sprinkler systems for the contractors who install them. We\u2019re looking for a confident, experienced cold caller to open new\u2026",
     "category": "Sales",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/b2b-cold-caller-sales-representative-us-fire-protection-design-firm-night-shift-hourly-commission-1755991",
@@ -7601,7 +7290,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Appointment Setter | $5/hr + $50 Commission | Zero Accent (Voice Sample Required)",
-    "description": "Apollo Media\n\nAppointment Setter\n\nOverview\n\nApollo Media is a marketing company catered toward the kitchen and bathroom remodeling industry. We help business owners by creating professional websites, automate customer relationship management, run Facebook advertising and help businesses rank higher on…",
+    "description": "Apollo Media\n\nAppointment Setter\n\nOverview\n\nApollo Media is a marketing company catered toward the kitchen and bathroom remodeling industry. We help business owners by creating professional websites, automate customer relationship management, run Facebook advertising and help businesses rank higher on\u2026",
     "category": "Automation",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-5-hr-50-commission-zero-accent-voice-sample-required-1735260",
@@ -7632,7 +7321,7 @@ export const jobs: Job[] =
   },
   {
     "title": "specialist for Ebay, poshmart, instagram, Depop, E-commerce",
-    "description": "Looking for someone to load up images for e-commerce sales. You will be creating these pages from start, adding all the information for the site. Looking for someone that has experience in setting up an eBay store or any other…",
+    "description": "Looking for someone to load up images for e-commerce sales. You will be creating these pages from start, adding all the information for the site. Looking for someone that has experience in setting up an eBay store or any other\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/specialist-for-ebay-poshmart-instagram-depop-e-commerce-1756013",
@@ -7663,7 +7352,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Graphic Designer who #Believes in Entrepreneurs| Flexible Work Schedule",
-    "description": "We're trying to solve the world's biggest problem: People don't #Believe in themselves enough. For over 22 years, Evan Carmichael has been dedicated to this mission. The way we're approaching this problem is producing inspirational content at scale. The right…",
+    "description": "We're trying to solve the world's biggest problem: People don't #Believe in themselves enough. For over 22 years, Evan Carmichael has been dedicated to this mission. The way we're approaching this problem is producing inspirational content at scale. The right\u2026",
     "category": "Content",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/graphic-designer-who-believes-in-entrepreneurs-flexible-work-schedule-1752210",
@@ -7693,8 +7382,8 @@ export const jobs: Job[] =
     "pay": "Depending on work experience"
   },
   {
-    "title": "Part-Time Operations Assistant — Social Media & Outreach Support (Remote)",
-    "description": "Who we are\n\nRenderVibe (rendervibe.io) is a small, founder-led software business. Our product turns ordinary real-estate listing photos into professionally staged renders, and we sell to realtors, brokerages, home stagers, photographers, and builders in the US and Canada. We are…",
+    "title": "Part-Time Operations Assistant \u2014 Social Media & Outreach Support (Remote)",
+    "description": "Who we are\n\nRenderVibe (rendervibe.io) is a small, founder-led software business. Our product turns ordinary real-estate listing photos into professionally staged renders, and we sell to realtors, brokerages, home stagers, photographers, and builders in the US and Canada. We are\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-operations-assistant-social-media-outreach-support-remote-1751580",
@@ -7724,39 +7413,8 @@ export const jobs: Job[] =
     "pay": "$6/hour base; $8/hour with proven sales"
   },
   {
-    "title": "Part-Time Operations Assistant — Social Media & Outreach Support (Remote)",
-    "description": "Who we are\n\nRenderVibe (rendervibe.io) is a small, founder-led software business. Our product turns ordinary real-estate listing photos into professionally staged renders, and we sell to realtors, brokerages, home stagers, photographers, and builders in the US and Canada. We are…",
-    "category": "Social Media",
-    "date": "2026-10-26",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-operations-assistant-social-media-outreach-support-remote-1751577",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$6/hour base; $8/hour with proven sales",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/part-time-operations-assistant-social-media-outreach-support-remote-1751577",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "$6/hour base; $8/hour with proven sales"
-  },
-  {
     "title": "Shopify VA Needed - Convert Existing Boutique Website to Custom Apparel Business",
-    "description": "Shopify VA Needed – Convert Existing Boutique Website to Custom Apparel Business\n\nI’m looking for an experienced Shopify VA/designer for a one-time project converting my existing Shopify boutique website into a website for my custom apparel and embroidery business, CGB…",
+    "description": "Shopify VA Needed \u2013 Convert Existing Boutique Website to Custom Apparel Business\n\nI\u2019m looking for an experienced Shopify VA/designer for a one-time project converting my existing Shopify boutique website into a website for my custom apparel and embroidery business, CGB\u2026",
     "category": "Web Design",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/shopify-va-needed-convert-existing-boutique-website-to-custom-apparel-business-1755978",
@@ -7786,8 +7444,8 @@ export const jobs: Job[] =
     "pay": "200 for the gig/project"
   },
   {
-    "title": "Full-Time Digital Marketing Specialist – Healthcare Practice",
-    "description": "We are seeking a motivated and creative Digital Marketing Specialist to help grow a neurology medical practice in Chesapeake, Virginia.\n\nResponsibilities include:\n\n• Managing and growing our Google Business Profile\n\n• Social media marketing (Facebook, Instagram, LinkedIn, etc.)\n\n• Creating…",
+    "title": "Full-Time Digital Marketing Specialist \u2013 Healthcare Practice",
+    "description": "We are seeking a motivated and creative Digital Marketing Specialist to help grow a neurology medical practice in Chesapeake, Virginia.\n\nResponsibilities include:\n\n\u2022 Managing and growing our Google Business Profile\n\n\u2022 Social media marketing (Facebook, Instagram, LinkedIn, etc.)\n\n\u2022 Creating\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-digital-marketing-specialist-healthcare-practice-1723245",
@@ -7818,7 +7476,7 @@ export const jobs: Job[] =
   },
   {
     "title": "UGC Marketing Agency Recruiter (Remote, Flexible Schedule)",
-    "description": "We are a new US-based digital marketing agency focused on building and growing organic TikTok marketing campaigns for brands. We provide the content, and our network of creators posts it on newly created TikTok accounts.\n\nAs a growing agency, we…",
+    "description": "We are a new US-based digital marketing agency focused on building and growing organic TikTok marketing campaigns for brands. We provide the content, and our network of creators posts it on newly created TikTok accounts.\n\nAs a growing agency, we\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ugc-marketing-agency-recruiter-remote-flexible-schedule-1755987",
@@ -7849,7 +7507,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Reddit / Twitter VA",
-    "description": "We are looking for an experienced, results-driven Reddit & X (Twitter) Virtual Assistant to manage multiple accounts and drive consistent traffic for our content creator clients.\n\nIf you have a proven track record of growing social profiles, scaling engagement, and…",
+    "description": "We are looking for an experienced, results-driven Reddit & X (Twitter) Virtual Assistant to manage multiple accounts and drive consistent traffic for our content creator clients.\n\nIf you have a proven track record of growing social profiles, scaling engagement, and\u2026",
     "category": "Content",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/reddit-twitter-va-1755993",
@@ -7880,7 +7538,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Amazon Brand Manager",
-    "description": "[READ EVERYTHING PROPERLY BEFORE APPLYING]\n\n[Do not apply if you do not fit the requirements]\n\n[Do not apply if you dislike time trackers]\n\n--\n\nJOB SUMMARY:\n\nAs our Amazon Brand Manager, you'll be the one steering how our products perform…",
+    "description": "[READ EVERYTHING PROPERLY BEFORE APPLYING]\n\n[Do not apply if you do not fit the requirements]\n\n[Do not apply if you dislike time trackers]\n\n--\n\nJOB SUMMARY:\n\nAs our Amazon Brand Manager, you'll be the one steering how our products perform\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/amazon-brand-manager-1647266",
@@ -7910,70 +7568,8 @@ export const jobs: Job[] =
     "pay": "800-2000"
   },
   {
-    "title": "Amazon Brand Manager",
-    "description": "[READ EVERYTHING PROPERLY BEFORE APPLYING]\n\n[Do not apply if you do not fit the requirements]\n\n[Do not apply if you dislike time trackers]\n\n--\n\nJOB SUMMARY:\n\nAs our Amazon Brand Manager, you'll be the one steering how our products perform…",
-    "category": "Marketing",
-    "date": "2026-10-26",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/amazon-brand-manager-1693132",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "800-2000",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/amazon-brand-manager-1693132",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "800-2000"
-  },
-  {
-    "title": "Amazon Brand Manager",
-    "description": "[READ EVERYTHING PROPERLY BEFORE APPLYING]\n\n[Do not apply if you do not fit the requirements]\n\n[Do not apply if you dislike time trackers]\n\n--\n\nJOB SUMMARY:\n\nAs our Amazon Brand Manager, you'll be the one steering how our products perform…",
-    "category": "Marketing",
-    "date": "2026-10-26",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/amazon-brand-manager-1744551",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "800-2000",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/amazon-brand-manager-1744551",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "800-2000"
-  },
-  {
     "title": "Amazon PPC Specialist (Full-Time | Remote)",
-    "description": "Own the Amazon growth strategy for an established pet brand.\n\nWe're looking for an experienced Amazon PPC Specialist who loves data, enjoys optimizing campaigns, and knows how to scale profitable Amazon brands.\n\nIf you're someone who gets excited about lowering…",
+    "description": "Own the Amazon growth strategy for an established pet brand.\n\nWe're looking for an experienced Amazon PPC Specialist who loves data, enjoys optimizing campaigns, and knows how to scale profitable Amazon brands.\n\nIf you're someone who gets excited about lowering\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/amazon-ppc-specialist-full-time-remote-1678310",
@@ -8004,7 +7600,7 @@ export const jobs: Job[] =
   },
   {
     "title": "content creator video editor",
-    "description": "looking for a full time content creator video editor. looking for someone that can make 120-150 short form videos and 2-4 long form 8-12 minute long videos per month. Videos need to be high quality. Content is related to vending…",
+    "description": "looking for a full time content creator video editor. looking for someone that can make 120-150 short form videos and 2-4 long form 8-12 minute long videos per month. Videos need to be high quality. Content is related to vending\u2026",
     "category": "Content",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/content-creator-video-editor-1756002",
@@ -8035,7 +7631,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Logo & Brand Identity Designer for a Canadian Design Studio (Project-Based, Potential Ongoing)",
-    "description": "About the studio\n\nI run a Squarespace web design and copywriting studio in Canada, working with therapists, clinics, consultants and other service businesses. I’m looking for a logo and brand identity designer to create brand packages for my clients.\n\nThis…",
+    "description": "About the studio\n\nI run a Squarespace web design and copywriting studio in Canada, working with therapists, clinics, consultants and other service businesses. I\u2019m looking for a logo and brand identity designer to create brand packages for my clients.\n\nThis\u2026",
     "category": "Web Design",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/logo-brand-identity-designer-for-a-canadian-design-studio-project-based-potential-ongoing-1755935",
@@ -8066,7 +7662,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Marketing & Lead Generation Virtual Assistant",
-    "description": "WE’RE HIRING: Digital Marketing, Sales & Recruitment Virtual Assistant\n\nRemote | Philippines | Part-Time | Long-Term Growth Opportunity\n\nCompany: Defined Locs\n\nIndustry: Beauty, Hair Care & E-Commerce\n\nLocation: Remote — Philippines\n\nSchedule: 15–20 hours per week with some overlap during…",
+    "description": "WE\u2019RE HIRING: Digital Marketing, Sales & Recruitment Virtual Assistant\n\nRemote | Philippines | Part-Time | Long-Term Growth Opportunity\n\nCompany: Defined Locs\n\nIndustry: Beauty, Hair Care & E-Commerce\n\nLocation: Remote \u2014 Philippines\n\nSchedule: 15\u201320 hours per week with some overlap during\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketing-lead-generation-virtual-assistant-1755908",
@@ -8097,7 +7693,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Experienced Credit Repair Virtual Assistant (VA)",
-    "description": "About US\n\nResell Signals School is a fast-growing e-commerce education and automation company helping individuals build profitable online businesses. Many of our clients qualify for high-ticket programs, and we’re adding credit repair support to help them improve eligibility and financial…",
+    "description": "About US\n\nResell Signals School is a fast-growing e-commerce education and automation company helping individuals build profitable online businesses. Many of our clients qualify for high-ticket programs, and we\u2019re adding credit repair support to help them improve eligibility and financial\u2026",
     "category": "Automation",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-credit-repair-virtual-assistant-va-1557756",
@@ -8127,8 +7723,8 @@ export const jobs: Job[] =
     "pay": "1000"
   },
   {
-    "title": "Senior Klaviyo & Customer Lifecycle Growth Specialist ⚡️💻📈",
-    "description": "Senior Klaviyo & Customer Lifecycle Growth Specialist ⚡️💻📈\n\nRemote – Philippines | Long-Term Project / Subcontractor | Hourly Contract\n\nRate: A$15–A$20 per hour (AUD), depending on demonstrated expertise\n\nAbout the Project\n\nWe are an established Australian skincare and beauty e-commerce…",
+    "title": "Senior Klaviyo & Customer Lifecycle Growth Specialist \u26a1\ufe0f\ud83d\udcbb\ud83d\udcc8",
+    "description": "Senior Klaviyo & Customer Lifecycle Growth Specialist \u26a1\ufe0f\ud83d\udcbb\ud83d\udcc8\n\nRemote \u2013 Philippines | Long-Term Project / Subcontractor | Hourly Contract\n\nRate: A$15\u2013A$20 per hour (AUD), depending on demonstrated expertise\n\nAbout the Project\n\nWe are an established Australian skincare and beauty e-commerce\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-klaviyo-customer-lifecycle-growth-specialist-1756012",
@@ -8159,7 +7755,7 @@ export const jobs: Job[] =
   },
   {
     "title": "BRAND GROWTH MANAGER & CREATIVE DIRECTOR",
-    "description": "# NOW HIRING: BRAND GROWTH MANAGER & CREATIVE DIRECTOR\n\n**Bond Baby | Beauty & Hair Styling Brand**\n\n**Social Media • Influencer Marketing • E-Commerce • Wholesale • Product Development**\n\n**Long-Term Opportunity | Remote Position | Paid Trial Available**\n\n## ABOUT…",
+    "description": "# NOW HIRING: BRAND GROWTH MANAGER & CREATIVE DIRECTOR\n\n**Bond Baby | Beauty & Hair Styling Brand**\n\n**Social Media \u2022 Influencer Marketing \u2022 E-Commerce \u2022 Wholesale \u2022 Product Development**\n\n**Long-Term Opportunity | Remote Position | Paid Trial Available**\n\n## ABOUT\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/brand-growth-manager-creative-director-1755968",
@@ -8190,7 +7786,7 @@ export const jobs: Job[] =
   },
   {
     "title": "VEO 3 AI Creator's",
-    "description": "AI Video Creator — Omni Flash (Full-Time)\n\nWe're building a team of elite AI video editors behind some of the biggest health and wellness accounts on Instagram, generating over 100 million views every month.\n\nYou'll work directly with myself and…",
+    "description": "AI Video Creator \u2014 Omni Flash (Full-Time)\n\nWe're building a team of elite AI video editors behind some of the biggest health and wellness accounts on Instagram, generating over 100 million views every month.\n\nYou'll work directly with myself and\u2026",
     "category": "AI",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/veo-3-ai-creator-s-1755971",
@@ -8221,7 +7817,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior Video Editor for DTC Shapewear brand",
-    "description": "We're looking for an editor who takes ownership, is hungry and accountable and wants to grow with us long term.\n\nWhat you'll do\n\n- Edit performance ads for Meta and TikTok: UGC edits, AI voice-over ads, short-form videos and product…",
+    "description": "We're looking for an editor who takes ownership, is hungry and accountable and wants to grow with us long term.\n\nWhat you'll do\n\n- Edit performance ads for Meta and TikTok: UGC edits, AI voice-over ads, short-form videos and product\u2026",
     "category": "AI",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-video-editor-for-dtc-shapewear-brand-1755982",
@@ -8252,7 +7848,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Content Research Expert (CRE): $800 p/m + Bonuses (Up to $1,300+ p/m)",
-    "description": "IMPORTANT NOTE: This position is currently full, but new spots can open at any time as our team grows. We're still accepting applications and interviewing qualified candidates for our waitlist. If you're a good fit, you'll be among the first…",
+    "description": "IMPORTANT NOTE: This position is currently full, but new spots can open at any time as our team grows. We're still accepting applications and interviewing qualified candidates for our waitlist. If you're a good fit, you'll be among the first\u2026",
     "category": "Content",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/content-research-expert-cre-800-p-m-bonuses-up-to-1-300-p-m-1325020",
@@ -8283,7 +7879,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media Posting, Group Moderator, and Real Estate Listings",
-    "description": "This position is to fill several companies that I manage:\n\n1) Create Content from scratch\n\n2) Research topics or content\n\n3) Edit video content and captions that I create\n\n4) Use AI avatar for content\n\n5) Use AI or Canva…",
+    "description": "This position is to fill several companies that I manage:\n\n1) Create Content from scratch\n\n2) Research topics or content\n\n3) Edit video content and captions that I create\n\n4) Use AI avatar for content\n\n5) Use AI or Canva\u2026",
     "category": "AI",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-posting-group-moderator-and-real-estate-listings-1755997",
@@ -8314,7 +7910,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Cold Caller/Outbound Sales Specialist (AI Virtual Receptionist Agency)",
-    "description": "We are a brand new, but constantly innovating, AI Virtual Receptionist Agency looking for a highly motivated, confident, and fluent English-speaking Cold Caller/Outbound Sales Specialist from the Philippines.\n\nIn this role, you will be contacting small and medium-sized businesses (SMBs)…",
+    "description": "We are a brand new, but constantly innovating, AI Virtual Receptionist Agency looking for a highly motivated, confident, and fluent English-speaking Cold Caller/Outbound Sales Specialist from the Philippines.\n\nIn this role, you will be contacting small and medium-sized businesses (SMBs)\u2026",
     "category": "AI",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/cold-caller-outbound-sales-specialist-ai-virtual-receptionist-agency-1755998",
@@ -8345,7 +7941,7 @@ export const jobs: Job[] =
   },
   {
     "title": "OPERATIONS MANAGER (RIGHT HAND TO THE FOUNDER) | GOHIGHLEVEL",
-    "description": "OPERATIONS MANAGER | RIGHT HAND TO THE FOUNDER\n\nFull Time | Remote | Australian Company | Paid 3 Week Trial\n\nX Gens Growth is a growth partner for PropTech and real estate businesses across Australia and New Zealand. We run…",
+    "description": "OPERATIONS MANAGER | RIGHT HAND TO THE FOUNDER\n\nFull Time | Remote | Australian Company | Paid 3 Week Trial\n\nX Gens Growth is a growth partner for PropTech and real estate businesses across Australia and New Zealand. We run\u2026",
     "category": "Automation",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/operations-manager-right-hand-to-the-founder-gohighlevel-1739980",
@@ -8375,8 +7971,8 @@ export const jobs: Job[] =
     "pay": "2400"
   },
   {
-    "title": "SENIOR GOOGLE ADS & E-COMMERCE GROWTH SPECIALIST ⚡️💻📈",
-    "description": "HIRING: SENIOR GOOGLE ADS & E-COMMERCE GROWTH SPECIALIST ⚡️💻📈 \n\nWork From Home – Philippines (100% Remote)\n\nGoogle Ads | Performance Max | E-commerce Analytics | ROAS | Shopify | Reporting\n\nCompany: Skin O2 – Australian Professional Skincare & E-commerce Brand…",
+    "title": "SENIOR GOOGLE ADS & E-COMMERCE GROWTH SPECIALIST \u26a1\ufe0f\ud83d\udcbb\ud83d\udcc8",
+    "description": "HIRING: SENIOR GOOGLE ADS & E-COMMERCE GROWTH SPECIALIST \u26a1\ufe0f\ud83d\udcbb\ud83d\udcc8 \n\nWork From Home \u2013 Philippines (100% Remote)\n\nGoogle Ads | Performance Max | E-commerce Analytics | ROAS | Shopify | Reporting\n\nCompany: Skin O2 \u2013 Australian Professional Skincare & E-commerce Brand\u2026",
     "category": "Marketing",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-google-ads-e-commerce-growth-specialist-1756006",
@@ -8407,7 +8003,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI Expert - Service Delivery, AI Operations & Personal Assistant (Full-Time, Long-Term)",
-    "description": "We run an online service business that helps people recover and manage Instagram accounts. Our customers order through an app, and a lot of our operation runs on AI assistants that talk to customers, answer questions and move orders along.…",
+    "description": "We run an online service business that helps people recover and manage Instagram accounts. Our customers order through an app, and a lot of our operation runs on AI assistants that talk to customers, answer questions and move orders along.\u2026",
     "category": "AI",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-expert-service-delivery-ai-operations-personal-assistant-full-time-long-term-1736631",
@@ -8438,7 +8034,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI VIDEO edittor UGC TEAM LEADER-EXPIRIENCED ONLY",
-    "description": "ENIOR VIRAL VIDEO EDITOR – AI CONTENT SPECIALIST | TOP 1% ONLY\n\nFull-Time | Remote | Long-Term | Premium Pay for Exceptional Talent\n\nThis is NOT an entry-level editing position.\n\nWe are building a high-volume, AI-powered content company operating multiple…",
+    "description": "ENIOR VIRAL VIDEO EDITOR \u2013 AI CONTENT SPECIALIST | TOP 1% ONLY\n\nFull-Time | Remote | Long-Term | Premium Pay for Exceptional Talent\n\nThis is NOT an entry-level editing position.\n\nWe are building a high-volume, AI-powered content company operating multiple\u2026",
     "category": "AI",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-video-edittor-ugc-team-leader-expirienced-only-1755698",
@@ -8469,7 +8065,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Virtual Assistant (YouTube)",
-    "description": "We are looking for a reliable and proactive Operations Manager to oversee our team and manage our video production workflow.\n\nResponsibilities:\n\n- Act as the main point of contact between the owner and the team.\n\n- Communicate tasks, expectations, and…",
+    "description": "We are looking for a reliable and proactive Operations Manager to oversee our team and manage our video production workflow.\n\nResponsibilities:\n\n- Act as the main point of contact between the owner and the team.\n\n- Communicate tasks, expectations, and\u2026",
     "category": "Automation",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/virtual-assistant-youtube-1730820",
@@ -8499,8 +8095,8 @@ export const jobs: Job[] =
     "pay": "500$"
   },
   {
-    "title": "HIRING: THUMBNAIL DESIGNER – YOUTUBE NEWS CHANNEL",
-    "description": "We’re hiring a Male Thumbnail Designer for our YouTube News Channel covering tornadoes, earthquakes, floods, severe weather, and other breaking events.\n\nWhat We Need:\n\n-Male applicants, age 20–28 only\n\n-Able to quickly adapt to our thumbnail style and tutorials\n\n-Fast,…",
+    "title": "HIRING: THUMBNAIL DESIGNER \u2013 YOUTUBE NEWS CHANNEL",
+    "description": "We\u2019re hiring a Male Thumbnail Designer for our YouTube News Channel covering tornadoes, earthquakes, floods, severe weather, and other breaking events.\n\nWhat We Need:\n\n-Male applicants, age 20\u201328 only\n\n-Able to quickly adapt to our thumbnail style and tutorials\n\n-Fast,\u2026",
     "category": "Social Media",
     "date": "2026-10-26",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-thumbnail-designer-youtube-news-channel-1731971",
@@ -8531,7 +8127,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Webmaster/Web Designer",
-    "description": "Webmaster / Web Designer — The Awad Law Firm\n\nMarietta, GA | Full-Time\n\nThe Awad Law Firm, a personal injury firm serving Georgia from offices in Marietta and Dalton, is looking for a skilled Webmaster / Web Designer to own…",
+    "description": "Webmaster / Web Designer \u2014 The Awad Law Firm\n\nMarietta, GA | Full-Time\n\nThe Awad Law Firm, a personal injury firm serving Georgia from offices in Marietta and Dalton, is looking for a skilled Webmaster / Web Designer to own\u2026",
     "category": "Web Design",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/webmaster-web-designer-1755838",
@@ -8561,8 +8157,8 @@ export const jobs: Job[] =
     "pay": "Based on experience"
   },
   {
-    "title": "GoHighLevel CRM and Automation Specialist (Executive Assistant – Beauty & E-Commerce",
-    "description": "We are a fast-growing beauty business and e-commerce brand looking for a GoHighLevel specialist to help build, organize, and manage our backend systems.\n\nThis is not a basic virtual assistant role. You will be responsible for building and maintaining systems…",
+    "title": "GoHighLevel CRM and Automation Specialist (Executive Assistant \u2013 Beauty & E-Commerce",
+    "description": "We are a fast-growing beauty business and e-commerce brand looking for a GoHighLevel specialist to help build, organize, and manage our backend systems.\n\nThis is not a basic virtual assistant role. You will be responsible for building and maintaining systems\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-crm-and-automation-specialist-executive-assistant-beauty-e-commerce-1733968",
@@ -8593,7 +8189,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Looking for an AI Automation Developer (n8n / Make.com)",
-    "description": "I’m looking for someone to build a simple tool that automatically creates and posts Instagram Reels using AI.\n\nHow it should work:\n\n1. I add a product name, website link, description and product images/videos.\n\n2. I write a prompt explaining…",
+    "description": "I\u2019m looking for someone to build a simple tool that automatically creates and posts Instagram Reels using AI.\n\nHow it should work:\n\n1. I add a product name, website link, description and product images/videos.\n\n2. I write a prompt explaining\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/looking-for-an-ai-automation-developer-n8n-make-com-1754401",
@@ -8624,7 +8220,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior GoHighLevel Expert",
-    "description": "IMPORTANT:\n\nPlease send your CV to: hello@growmysme.com \n\nwith:\n\n- A brief overview of your GHL experience including SaaS product inside GHL.\n\n- Experience in using GHL AI (voice/conversation)\n\n- A specific example of a complex automation or integration you've built.…",
+    "description": "IMPORTANT:\n\nPlease send your CV to: hello@growmysme.com \n\nwith:\n\n- A brief overview of your GHL experience including SaaS product inside GHL.\n\n- Experience in using GHL AI (voice/conversation)\n\n- A specific example of a complex automation or integration you've built.\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-gohighlevel-expert-1649566",
@@ -8655,7 +8251,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Wix Automation & Client Journey Specialist",
-    "description": "The Athlete’s Spa is a physiotherapy and fascia-focused practice based in Jamaica, led by Dr. Marlene Chin.\n\nWe are looking for an experienced Wix automation specialist to organize and improve our client journey—from the first enquiry or free-resource sign-up through…",
+    "description": "The Athlete\u2019s Spa is a physiotherapy and fascia-focused practice based in Jamaica, led by Dr. Marlene Chin.\n\nWe are looking for an experienced Wix automation specialist to organize and improve our client journey\u2014from the first enquiry or free-resource sign-up through\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/wix-automation-client-journey-specialist-1755486",
@@ -8686,7 +8282,7 @@ export const jobs: Job[] =
   },
   {
     "title": "GoHighLevel Strategist / Automation Specialist (Part-Time, Growth to Full-Time)",
-    "description": "Here's a paste-ready version:\n\n**GoHighLevel Strategist / Automation Specialist (Part-Time, Growth to Full-Time)**\n\n**ABOUT US**\n\nFind My Limo is a luxury transportation company in Metro Detroit, Michigan. We run 41 managed vehicles plus a 100+ vehicle affiliate network, including Rolls-Royce,…",
+    "description": "Here's a paste-ready version:\n\n**GoHighLevel Strategist / Automation Specialist (Part-Time, Growth to Full-Time)**\n\n**ABOUT US**\n\nFind My Limo is a luxury transportation company in Metro Detroit, Michigan. We run 41 managed vehicles plus a 100+ vehicle affiliate network, including Rolls-Royce,\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-strategist-automation-specialist-part-time-growth-to-full-time-1746169",
@@ -8717,7 +8313,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Data Intelligence & AI Automation Engineer",
-    "description": "WE’RE HIRING: Data Intelligence & AI Automation Engineer\n\nRemote | Philippines | Gig | Long-Term Opportunity\n\nSalary: $1,500–$2,000 4 week gig (depending on experience)\n\nAbout Us\n\nTrailblazing Sports is a UK-based technology business developing a proprietary sports and business intelligence…",
+    "description": "WE\u2019RE HIRING: Data Intelligence & AI Automation Engineer\n\nRemote | Philippines | Gig | Long-Term Opportunity\n\nSalary: $1,500\u2013$2,000 4 week gig (depending on experience)\n\nAbout Us\n\nTrailblazing Sports is a UK-based technology business developing a proprietary sports and business intelligence\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/data-intelligence-ai-automation-engineer-1755798",
@@ -8747,8 +8343,8 @@ export const jobs: Job[] =
     "pay": "$1,500 - $2,000"
   },
   {
-    "title": "Senior Content Producer — Short/Long-Form Video & Graphic Carousels",
-    "description": "Senior Content Producer (Short-Form Video, Long-Form Video & Graphic Carousels)\n\nCompany: Maverick Creative Group\n\nJob type: Full-time\n\nLocation: Remote\n\nSchedule: US Pacific Time, including a required daily review call, 9:00 to 11:00 AM PT\n\nReports to: Operations Lead\n\nABOUT THE…",
+    "title": "Senior Content Producer \u2014 Short/Long-Form Video & Graphic Carousels",
+    "description": "Senior Content Producer (Short-Form Video, Long-Form Video & Graphic Carousels)\n\nCompany: Maverick Creative Group\n\nJob type: Full-time\n\nLocation: Remote\n\nSchedule: US Pacific Time, including a required daily review call, 9:00 to 11:00 AM PT\n\nReports to: Operations Lead\n\nABOUT THE\u2026",
     "category": "Content",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-content-producer-short-long-form-video-graphic-carousels-1755813",
@@ -8779,7 +8375,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Client Relationship Representative (with GHL Technical Support)",
-    "description": "About the role\n\nWe're hiring a Client Relationship Representative with strong GoHighLevel technical skills for a US-based GoHighLevel agency that specializes in voice AI and chat automation for businesses, nonprofits, and churches. You'll be the agency owner's right hand: managing…",
+    "description": "About the role\n\nWe're hiring a Client Relationship Representative with strong GoHighLevel technical skills for a US-based GoHighLevel agency that specializes in voice AI and chat automation for businesses, nonprofits, and churches. You'll be the agency owner's right hand: managing\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/client-relationship-representative-with-ghl-technical-support-1755835",
@@ -8809,8 +8405,8 @@ export const jobs: Job[] =
     "pay": "$6/hr"
   },
   {
-    "title": "Marketing Ops Manager —GoHighLevel & Agency Experience Required",
-    "description": "We are a fast-growing digital marketing agency working primarily with bridal and retail businesses across the USA and Canada.\n\nWe are looking for a **Marketing Operations Manager** to take ownership of the systems, processes and service delivery behind our client…",
+    "title": "Marketing Ops Manager \u2014GoHighLevel & Agency Experience Required",
+    "description": "We are a fast-growing digital marketing agency working primarily with bridal and retail businesses across the USA and Canada.\n\nWe are looking for a **Marketing Operations Manager** to take ownership of the systems, processes and service delivery behind our client\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-ops-manager-gohighlevel-agency-experience-required-1755839",
@@ -8841,7 +8437,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Voice AI & Automation Specialist",
-    "description": "Be Part of the AI Wave \n\nAre you passionate about building AI agents and automations that solve real-world problems?\n\n𝗔𝗯𝗼𝘂𝘁 𝗨𝘀:\n\nHi, I'm Harry, founder of AddSomeAI, a UK-based AI and automation development firm. We work directly with business owners…",
+    "description": "Be Part of the AI Wave \n\nAre you passionate about building AI agents and automations that solve real-world problems?\n\n\ud835\uddd4\ud835\uddef\ud835\uddfc\ud835\ude02\ud835\ude01 \ud835\udde8\ud835\ude00:\n\nHi, I'm Harry, founder of AddSomeAI, a UK-based AI and automation development firm. We work directly with business owners\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/voice-ai-automation-specialist-1755845",
@@ -8872,7 +8468,7 @@ export const jobs: Job[] =
   },
   {
     "title": "(Tiktok/Reel Only) Experienced Video Editor",
-    "description": "I’m looking for a reliable editor to turn gaming footage into short vertical videos with interesting titles and publish them on agreed social accounts.\n\nI will provide a ZIP file containing video clips, a tutorial showing the process, and finished…",
+    "description": "I\u2019m looking for a reliable editor to turn gaming footage into short vertical videos with interesting titles and publish them on agreed social accounts.\n\nI will provide a ZIP file containing video clips, a tutorial showing the process, and finished\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/tiktok-reel-only-experienced-video-editor-1755646",
@@ -8903,7 +8499,7 @@ export const jobs: Job[] =
   },
   {
     "title": "E-Commerce, Social Media & Administrative Virtual Assistant",
-    "description": "E-Commerce, Social Media & Administrative Virtual Assistant\n\nCompany: Bellmazi Hair Mob — USA-Based Luxury Beauty & Hair Extension Brand\n\nLocation: Remote — Philippines Only\n\nPosition: Part-Time Virtual Assistant\n\nStart Date: Monday, November 2, 2026\n\nSchedule: 20 Hours Per Week\n\nRate:…",
+    "description": "E-Commerce, Social Media & Administrative Virtual Assistant\n\nCompany: Bellmazi Hair Mob \u2014 USA-Based Luxury Beauty & Hair Extension Brand\n\nLocation: Remote \u2014 Philippines Only\n\nPosition: Part-Time Virtual Assistant\n\nStart Date: Monday, November 2, 2026\n\nSchedule: 20 Hours Per Week\n\nRate:\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/e-commerce-social-media-administrative-virtual-assistant-1754578",
@@ -8933,8 +8529,8 @@ export const jobs: Job[] =
     "pay": "480"
   },
   {
-    "title": "Fashion Model & Brand Ambassador – Trade Shows & Sales Road Trips (Travel, Freelance)",
-    "description": "Fashion Model & Brand Ambassador – Trade Shows & Sales Road Trips (Travel, Freelance)\n\nWe are an international luxury womenswear brand (resort dresses, kaftans, beach-to-evening) selling to more than 1,000 boutiques and department stores worldwide. We are looking for a…",
+    "title": "Fashion Model & Brand Ambassador \u2013 Trade Shows & Sales Road Trips (Travel, Freelance)",
+    "description": "Fashion Model & Brand Ambassador \u2013 Trade Shows & Sales Road Trips (Travel, Freelance)\n\nWe are an international luxury womenswear brand (resort dresses, kaftans, beach-to-evening) selling to more than 1,000 boutiques and department stores worldwide. We are looking for a\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/fashion-model-brand-ambassador-trade-shows-sales-road-trips-travel-freelance-1754714",
@@ -8965,7 +8561,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Marketing Specialist",
-    "description": "About Q Engineering\n\nQ Engineering is a Canadian engineering and building design consulting firm specializing in residential, commercial, industrial, institutional, and infrastructure projects. We provide integrated engineering and building design services, including architectural design, structural engineering, mechanical (HVAC), civil/grading, interior…",
+    "description": "About Q Engineering\n\nQ Engineering is a Canadian engineering and building design consulting firm specializing in residential, commercial, industrial, institutional, and infrastructure projects. We provide integrated engineering and building design services, including architectural design, structural engineering, mechanical (HVAC), civil/grading, interior\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-specialist-1754651",
@@ -8996,7 +8592,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Experienced Wedding Video Editor",
-    "description": "Rock Penguin Media is looking for a skilled and reliable wedding video editor to join our team long-term.\n\nThis is **NOT a beginner position.**\n\nWe are looking for an editor who understands cinematic wedding storytelling, pacing, music, audio, color grading,…",
+    "description": "Rock Penguin Media is looking for a skilled and reliable wedding video editor to join our team long-term.\n\nThis is **NOT a beginner position.**\n\nWe are looking for an editor who understands cinematic wedding storytelling, pacing, music, audio, color grading,\u2026",
     "category": "Content",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-wedding-video-editor-1755573",
@@ -9027,7 +8623,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Video Editor VA | E-commerce, Meta Ads & AI Lip-Sync",
-    "description": "Hi there!\n\nWe are, a growing e-commerce brand, and we’re looking for a skilled and creative Video Editor to join our team for a long-term collaboration.\n\nVideo creatives are currently one of our biggest growth opportunities. We are looking for…",
+    "description": "Hi there!\n\nWe are, a growing e-commerce brand, and we\u2019re looking for a skilled and creative Video Editor to join our team for a long-term collaboration.\n\nVideo creatives are currently one of our biggest growth opportunities. We are looking for\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-va-e-commerce-meta-ads-ai-lip-sync-1754664",
@@ -9058,7 +8654,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Customer Support (no experience needed)",
-    "description": "Full-Time Customer Support / Sales Role (no experience needed) \n\nPayment: Twice a month via Banktransfer. \n\nRealistic salary: 700-1000 USD per month\n\nThis is not a short-term job. We are looking for long-term Employee.\n\nYou will work directly with the leadership…",
+    "description": "Full-Time Customer Support / Sales Role (no experience needed) \n\nPayment: Twice a month via Banktransfer. \n\nRealistic salary: 700-1000 USD per month\n\nThis is not a short-term job. We are looking for long-term Employee.\n\nYou will work directly with the leadership\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/customer-support-no-experience-needed-1755654",
@@ -9089,7 +8685,7 @@ export const jobs: Job[] =
   },
   {
     "title": "VA Virtual Assistant (no experience needed)",
-    "description": "Full-Time Sales Role (no experience needed) \n\nPayment: Twice a month via Banktransfer. \n\nRealistic salary: 700-1000 USD per month\n\nThis is not a short-term job. We are looking for long-term Employee.\n\nYou will work directly with the leadership team to improve…",
+    "description": "Full-Time Sales Role (no experience needed) \n\nPayment: Twice a month via Banktransfer. \n\nRealistic salary: 700-1000 USD per month\n\nThis is not a short-term job. We are looking for long-term Employee.\n\nYou will work directly with the leadership team to improve\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/va-virtual-assistant-no-experience-needed-1755655",
@@ -9120,7 +8716,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Website Designer / Graphic Designer for Profit Overflow",
-    "description": "****Luxury Website Design Project – Homepage Design Trial (Unpaid Sample Submission) | \\$75 Flat Rate for Selected Designer**\n\n**???? APPLICATION DEADLINE: Monday Aug 4th @ 10am AM Eastern Time (New York)**\n\n*Only serious applicants who submit a design sample by…",
+    "description": "****Luxury Website Design Project \u2013 Homepage Design Trial (Unpaid Sample Submission) | \\$75 Flat Rate for Selected Designer**\n\n**???? APPLICATION DEADLINE: Monday Aug 4th @ 10am AM Eastern Time (New York)**\n\n*Only serious applicants who submit a design sample by\u2026",
     "category": "Web Design",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/website-designer-graphic-designer-for-profit-overflow-1428859",
@@ -9151,7 +8747,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Website Designer, Graphic Design",
-    "description": "???? Looking for a SUPER Talented Web Designer with an Eye for Detail & Creativity! ????\n\nAre you a creative, detail-oriented web designer (specifically a UI Designer) who loves bringing a client’s vision to life? Do you have a passion…",
+    "description": "???? Looking for a SUPER Talented Web Designer with an Eye for Detail & Creativity! ????\n\nAre you a creative, detail-oriented web designer (specifically a UI Designer) who loves bringing a client\u2019s vision to life? Do you have a passion\u2026",
     "category": "Web Design",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/website-designer-graphic-design-1331156",
@@ -9181,8 +8777,8 @@ export const jobs: Job[] =
     "pay": "200"
   },
   {
-    "title": "🏢 Remote Office & Social Media Administrator",
-    "description": "📍 Location: Remote\n\n💼 Job Type: Full-time\n\n🎓 Experience Level: Entry to Mid-Level\n\n👋 About Us : We are a growing team looking for a dependable, organized Remote Office & Social Media Administrator to handle our daily workflows and coordinate…",
+    "title": "\ud83c\udfe2 Remote Office & Social Media Administrator",
+    "description": "\ud83d\udccd Location: Remote\n\n\ud83d\udcbc Job Type: Full-time\n\n\ud83c\udf93 Experience Level: Entry to Mid-Level\n\n\ud83d\udc4b About Us : We are a growing team looking for a dependable, organized Remote Office & Social Media Administrator to handle our daily workflows and coordinate\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/remote-office-social-media-administrator-1678332",
@@ -9212,8 +8808,8 @@ export const jobs: Job[] =
     "pay": "400"
   },
   {
-    "title": "Part-Time B2B Sales & Appointment Setter — US Beauty Wholesale Accounts",
-    "description": "Nuovaderm Beauty is seeking an experienced Philippines-based B2B sales and appointment-setting contractor to help build recurring wholesale relationships with US beauty businesses.\n\nWe are a US-based authorized Ekai distributor supplying authentic Dr. Pen devices, replacement cartridges and related accessories. We…",
+    "title": "Part-Time B2B Sales & Appointment Setter \u2014 US Beauty Wholesale Accounts",
+    "description": "Nuovaderm Beauty is seeking an experienced Philippines-based B2B sales and appointment-setting contractor to help build recurring wholesale relationships with US beauty businesses.\n\nWe are a US-based authorized Ekai distributor supplying authentic Dr. Pen devices, replacement cartridges and related accessories. We\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-b2b-sales-appointment-setter-us-beauty-wholesale-accounts-1754746",
@@ -9244,7 +8840,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Business Development Research + Sales Support - Australian Events Company",
-    "description": "We are looking for a smart, commercially curious Philippines-based researcher to help us identify companies exhibiting at major trade shows, find the right marketing/event decision-makers, maintain our sales pipeline and uncover opportunities for outreach. \n\nDumaguete / Negros Oriental location preferred…",
+    "description": "We are looking for a smart, commercially curious Philippines-based researcher to help us identify companies exhibiting at major trade shows, find the right marketing/event decision-makers, maintain our sales pipeline and uncover opportunities for outreach. \n\nDumaguete / Negros Oriental location preferred\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/business-development-research-sales-support-australian-events-company-1754769",
@@ -9258,7 +8854,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "₱245 per hour Approx",
+      "compensation": "\u20b1245 per hour Approx",
       "deadline": "",
       "application": ""
     },
@@ -9271,11 +8867,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "₱245 per hour Approx"
+    "pay": "\u20b1245 per hour Approx"
   },
   {
     "title": "Sales closer and customer service for house cleaning (US)",
-    "description": "JOB DESCRIPTION:\n\n________________________________\n\nIf you are not willing to do what I ask you to do for the first step (do a real mock call recording), do not apply!\n\nWHY do I need to give position easily to people who…",
+    "description": "JOB DESCRIPTION:\n\n________________________________\n\nIf you are not willing to do what I ask you to do for the first step (do a real mock call recording), do not apply!\n\nWHY do I need to give position easily to people who\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-closer-and-customer-service-for-house-cleaning-us-1696261",
@@ -9305,8 +8901,8 @@ export const jobs: Job[] =
     "pay": "4-6"
   },
   {
-    "title": "Outbound Phone Sales – BookCAMP 2027 Tickets",
-    "description": "About us\n\nPrinted Word Reviews is a book review magazine and the company behind the Independent Press Award, the NYC Big Book Award, and the Children’s Bookworm Award. BookCAMP is our annual publishing conference for authors: two days of sessions…",
+    "title": "Outbound Phone Sales \u2013 BookCAMP 2027 Tickets",
+    "description": "About us\n\nPrinted Word Reviews is a book review magazine and the company behind the Independent Press Award, the NYC Big Book Award, and the Children\u2019s Bookworm Award. BookCAMP is our annual publishing conference for authors: two days of sessions\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/outbound-phone-sales-bookcamp-2027-tickets-1754798",
@@ -9337,7 +8933,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Bilingual Sales Callers Needed",
-    "description": "I need two offshore freelancers to call leads from a sheet I provide and make sales calls throughout the day. You should be comfortable using a simple script or natural conversation to engage prospects. This is a long-term opportunity for…",
+    "description": "I need two offshore freelancers to call leads from a sheet I provide and make sales calls throughout the day. You should be comfortable using a simple script or natural conversation to engage prospects. This is a long-term opportunity for\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/bilingual-sales-callers-needed-1754897",
@@ -9368,7 +8964,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Sales Manager / Head of Client Relations (experience in Amazon, Shopify, Kaufland, BOL, OTTO and TEMU is required)",
-    "description": "Our company, a corporate services firm specializing in company incorporation and e-commerce marketplace onboarding, is looking for an experienced and commercially driven Sales Manager to take full ownership of our client relationships and sales operations.\n\nThis is a senior role…",
+    "description": "Our company, a corporate services firm specializing in company incorporation and e-commerce marketplace onboarding, is looking for an experienced and commercially driven Sales Manager to take full ownership of our client relationships and sales operations.\n\nThis is a senior role\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-manager-head-of-client-relations-experience-in-amazon-shopify-kaufland-bol-otto-and-temu-is-required-1754938",
@@ -9399,7 +8995,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Phone Sales Partner for US Auto Repair Shops (Part-Time, Results-Based)",
-    "description": "We're a small web studio. We build simple five-page websites for independent auto repair shops in the US. The site is $497, paid once, and every shop owner sees a free preview before d ---------- .\n\nWHAT YOU'LL DO\n\n- Call shops…",
+    "description": "We're a small web studio. We build simple five-page websites for independent auto repair shops in the US. The site is $497, paid once, and every shop owner sees a free preview before d ---------- .\n\nWHAT YOU'LL DO\n\n- Call shops\u2026",
     "category": "Web Design",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/phone-sales-partner-for-us-auto-repair-shops-part-time-results-based-1754970",
@@ -9430,7 +9026,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Remote Sales & Business Development Representative (Singapore Market)",
-    "description": "Company Description\n\nCleancraft is a Singapore-based cleaning company that provides professional, tailored cleaning solutions for homes, offices and retail spaces across the island. The company offers a full suite of commercial services, including daily office and retail cleaning, as well…",
+    "description": "Company Description\n\nCleancraft is a Singapore-based cleaning company that provides professional, tailored cleaning solutions for homes, offices and retail spaces across the island. The company offers a full suite of commercial services, including daily office and retail cleaning, as well\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/remote-sales-business-development-representative-singapore-market-1755000",
@@ -9461,7 +9057,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Real Estate Cold Caller / Appointment Setter / ISA",
-    "description": "Join Our Winning Team! \n\nSeeking Experienced Cold Call/Appointment Booking Expert with Flexible Hours\n\nDo you have experience making cold calls with a proven track record in converting leads from phone calls into appointments? Do you thrive in a dynamic and…",
+    "description": "Join Our Winning Team! \n\nSeeking Experienced Cold Call/Appointment Booking Expert with Flexible Hours\n\nDo you have experience making cold calls with a proven track record in converting leads from phone calls into appointments? Do you thrive in a dynamic and\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/real-estate-cold-caller-appointment-setter-isa-1609479",
@@ -9491,8 +9087,8 @@ export const jobs: Job[] =
     "pay": "avg $450-$600+ / per month"
   },
   {
-    "title": "HIRING: part-TIME ISA (Inside Sales Agent) – REAL ESTATE TEAM",
-    "description": "HIRING: Part-TIME ISA (Inside Sales Agent) – REAL ESTATE TEAM \n\nWe are looking for a serious, hungry, EXPERIENCED ISA to join our growing real estate team. If you are a beginner please do not apply. \n\nThis is NOT for beginners.…",
+    "title": "HIRING: part-TIME ISA (Inside Sales Agent) \u2013 REAL ESTATE TEAM",
+    "description": "HIRING: Part-TIME ISA (Inside Sales Agent) \u2013 REAL ESTATE TEAM \n\nWe are looking for a serious, hungry, EXPERIENCED ISA to join our growing real estate team. If you are a beginner please do not apply. \n\nThis is NOT for beginners.\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-part-time-isa-inside-sales-agent-real-estate-team-1651857",
@@ -9523,7 +9119,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Sales & Operations Virtual Assistant (Cleaning Business)",
-    "description": "Who are we?\n\nWe are P&N Cleaning Services, a House Cleaning Company based out of Houston TX, USA.\n\nWe coordinate cleaning jobs between our customers and our team of cleaners.\n\nThis company is growing fast and we are seeking our…",
+    "description": "Who are we?\n\nWe are P&N Cleaning Services, a House Cleaning Company based out of Houston TX, USA.\n\nWe coordinate cleaning jobs between our customers and our team of cleaners.\n\nThis company is growing fast and we are seeking our\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-operations-virtual-assistant-cleaning-business-1755679",
@@ -9554,7 +9150,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Chat Supprt VA (no experience needed)",
-    "description": "Full-Time Sales Role (no experience needed) \n\nPayment: Twice a month via Banktransfer. \n\nRealistic salary: 700-1000 USD per month\n\nThis is not a short-term job. We are looking for long-term Employee.\n\nYou will work directly with the leadership team to improve…",
+    "description": "Full-Time Sales Role (no experience needed) \n\nPayment: Twice a month via Banktransfer. \n\nRealistic salary: 700-1000 USD per month\n\nThis is not a short-term job. We are looking for long-term Employee.\n\nYou will work directly with the leadership team to improve\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/chat-supprt-va-no-experience-needed-1755656",
@@ -9585,7 +9181,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Catholic Marketing & Content Specialist",
-    "description": "Join Our Team as a Marketing & Content Specialist!\n\nAre you a creative marketing professional who longs to build compelling, multi-channel growth campaigns while remaining fully grounded in the Catholic vision of the human person?\n\nThe CURA Centre For Flourishing…",
+    "description": "Join Our Team as a Marketing & Content Specialist!\n\nAre you a creative marketing professional who longs to build compelling, multi-channel growth campaigns while remaining fully grounded in the Catholic vision of the human person?\n\nThe CURA Centre For Flourishing\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/catholic-marketing-content-specialist-1754762",
@@ -9616,7 +9212,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Amazon Brand Store Designer (Storefront & A+ Content)",
-    "description": "Job type: Project-based first, with ongoing work for the right person\n\nPay: $7-10 per hour, or a fixed price per project. Please include your rate in your reply.\n\nAbout the role\n\nWe sell travel cpap devices and accessories on Amazon…",
+    "description": "Job type: Project-based first, with ongoing work for the right person\n\nPay: $7-10 per hour, or a fixed price per project. Please include your rate in your reply.\n\nAbout the role\n\nWe sell travel cpap devices and accessories on Amazon\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/amazon-brand-store-designer-storefront-a-content-1755663",
@@ -9647,7 +9243,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Creative Video Editor, Content Strategist & Social Media Assistant | YouTube, TikTok, Instagram, Facebook & Pinterest",
-    "description": "Position: Remote | Part-Time | Long-Term Opportunity\n\nAbout the Opportunity\n\nI’m a US-based entrepreneur building a fashion brand while also growing my personal presence as a lifestyle content creator.\n\nI’m looking for a talented, creative, and proactive individual who can…",
+    "description": "Position: Remote | Part-Time | Long-Term Opportunity\n\nAbout the Opportunity\n\nI\u2019m a US-based entrepreneur building a fashion brand while also growing my personal presence as a lifestyle content creator.\n\nI\u2019m looking for a talented, creative, and proactive individual who can\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/creative-video-editor-content-strategist-social-media-assistant-youtube-tiktok-instagram-facebook-pinterest-1754802",
@@ -9678,7 +9274,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Open to US-based creators, including Filipinos currently residing in the US!",
-    "description": "✨ Looking to turn your content into cash? 💰\n\nI’m working with Pollen—a platform that connects creators directly with paid brand collabs! We’re on the hunt for everyday creators who love making authentic, high-energy content (think product reviews, unboxings, tutorials,…",
+    "description": "\u2728 Looking to turn your content into cash? \ud83d\udcb0\n\nI\u2019m working with Pollen\u2014a platform that connects creators directly with paid brand collabs! We\u2019re on the hunt for everyday creators who love making authentic, high-energy content (think product reviews, unboxings, tutorials,\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/open-to-us-based-creators-including-filipinos-currently-residing-in-the-us-1754810",
@@ -9709,7 +9305,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Experienced Sales Telephone Representative hours 9AM-8PM EST $5-$6 +Commissions",
-    "description": "THIS IS NOT A CALL CENTER ROLE.\n\nREQUIREMENTS FOR THIS\n\nSales experience is required as this is a Sales Role.\n\nMust have your own back-up power source in the event of power outages\n\nMust have your own source of high…",
+    "description": "THIS IS NOT A CALL CENTER ROLE.\n\nREQUIREMENTS FOR THIS\n\nSales experience is required as this is a Sales Role.\n\nMust have your own back-up power source in the event of power outages\n\nMust have your own source of high\u2026",
     "category": "Sales",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-sales-telephone-representative-hours-9am-8pm-est-5-6-commissions-1694011",
@@ -9740,7 +9336,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Content creator (instagram / Tiktok)",
-    "description": "I have a tiktok and instagram page for tourist attractions in London. I need someone who can create engaging videos about the tourist attractions that I will provide.  To apply for this role create a cool video of the London…",
+    "description": "I have a tiktok and instagram page for tourist attractions in London. I need someone who can create engaging videos about the tourist attractions that I will provide.  To apply for this role create a cool video of the London\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/content-creator-instagram-tiktok-1755669",
@@ -9770,39 +9366,8 @@ export const jobs: Job[] =
     "pay": "$5 / hour"
   },
   {
-    "title": "Content creator (instagram / Tiktok)",
-    "description": "I am looking for someone who can create high quality reels / tiktoks based of the content ideas I provide,",
-    "category": "Social Media",
-    "date": "2026-10-25",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/content-creator-instagram-tiktok-1755549",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$5 / hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/content-creator-instagram-tiktok-1755549",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$5 / hour"
-  },
-  {
     "title": "Freelance Carousel Designer",
-    "description": "HIRING!!\n\nWe’re looking for a creative Freelance Carousel Designer to create engaging, story-driven carousel posts for our clients.\n\nYou’ll be working from provided scripts, story arcs, content ideas, and creative references, and your job will be to turn those into…",
+    "description": "HIRING!!\n\nWe\u2019re looking for a creative Freelance Carousel Designer to create engaging, story-driven carousel posts for our clients.\n\nYou\u2019ll be working from provided scripts, story arcs, content ideas, and creative references, and your job will be to turn those into\u2026",
     "category": "Content",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/freelance-carousel-designer-1755024",
@@ -9833,7 +9398,7 @@ export const jobs: Job[] =
   },
   {
     "title": "We're hiring an Edit Lead for our client's content studio",
-    "description": "We're hiring an Edit Lead for our client's content studio. And no, it's not a typical editing job.\n\nwe make short-form videos for founders and financial advisors in singapore. our freelance editors are good. what we need is someone who…",
+    "description": "We're hiring an Edit Lead for our client's content studio. And no, it's not a typical editing job.\n\nwe make short-form videos for founders and financial advisors in singapore. our freelance editors are good. what we need is someone who\u2026",
     "category": "Content",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/we-re-hiring-an-edit-lead-for-our-client-s-content-studio-1755027",
@@ -9863,8 +9428,8 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Job Title: Expert Video Editor (Descript Specialist) – Explainer Videos & Shorts",
-    "description": "We work closely with high-level business professionals—such as lawyers, insurance agents, and industry experts—to help them build strong personal brands and massive online followings through video content.\n\nWe are looking for an expert-level Video Editor to take raw, virtually recorded…",
+    "title": "Job Title: Expert Video Editor (Descript Specialist) \u2013 Explainer Videos & Shorts",
+    "description": "We work closely with high-level business professionals\u2014such as lawyers, insurance agents, and industry experts\u2014to help them build strong personal brands and massive online followings through video content.\n\nWe are looking for an expert-level Video Editor to take raw, virtually recorded\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/job-title-expert-video-editor-descript-specialist-explainer-videos-shorts-1755096",
@@ -9895,7 +9460,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Go High Level CRM, follow up VA",
-    "description": "???? GoHighLevel CRM & Automation VA (Medical Spa)\n\nPart-Time | 10 hrs/week | Long-Term Opportunity\n\nWe are a physician-led Medical Spa in the U.S. looking for an experienced GoHighLevel (GHL) expert to build and manage our CRM, automations, and funnels.…",
+    "description": "???? GoHighLevel CRM & Automation VA (Medical Spa)\n\nPart-Time | 10 hrs/week | Long-Term Opportunity\n\nWe are a physician-led Medical Spa in the U.S. looking for an experienced GoHighLevel (GHL) expert to build and manage our CRM, automations, and funnels.\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/go-high-level-crm-follow-up-va-1582026",
@@ -9926,7 +9491,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Website, Funnel, CRM, Coding, Automation, and Membership TECH GURU ROCKSTAR",
-    "description": "Hello, brilliant soul!\n\nI'm Kama Newbry, RN and Nurse Coach, founder of Synergy Rising and host of the Dancing With Dementia™ & Caregivers Rising™ Podcast. I'm building real resources and a real community for young, young-at-heart, and atypical caregivers... and…",
+    "description": "Hello, brilliant soul!\n\nI'm Kama Newbry, RN and Nurse Coach, founder of Synergy Rising and host of the Dancing With Dementia\u2122 & Caregivers Rising\u2122 Podcast. I'm building real resources and a real community for young, young-at-heart, and atypical caregivers... and\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/website-funnel-crm-coding-automation-and-membership-tech-guru-rockstar-1755639",
@@ -9957,7 +9522,7 @@ export const jobs: Job[] =
   },
   {
     "title": "GoHighLevel Funnel Designer & Digital Marketing",
-    "description": "Pay: US$8–12/hour, depending on experience\n\nHours: Initially 10 hours per week\n\nType: Part-time, with long-term potential\n\nAbout Us\n\nI am launching Full Shoot Analysis, an online photography education and coaching business targeting aspiring and developing professional photographers, primarily in the…",
+    "description": "Pay: US$8\u201312/hour, depending on experience\n\nHours: Initially 10 hours per week\n\nType: Part-time, with long-term potential\n\nAbout Us\n\nI am launching Full Shoot Analysis, an online photography education and coaching business targeting aspiring and developing professional photographers, primarily in the\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-funnel-designer-digital-marketing-1754688",
@@ -9988,7 +9553,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Marketing VA",
-    "description": "About Us\n\nWe’re a U.S.-based marketing company that builds done-for-you marketing systems and websites for small businesses. We’re growing and need a resourceful, tech-savvy VA who moves fast and figures things out.\n\nYour First Project: Launch Social Media for a…",
+    "description": "About Us\n\nWe\u2019re a U.S.-based marketing company that builds done-for-you marketing systems and websites for small businesses. We\u2019re growing and need a resourceful, tech-savvy VA who moves fast and figures things out.\n\nYour First Project: Launch Social Media for a\u2026",
     "category": "Web Design",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketing-va-1754728",
@@ -10019,7 +9584,7 @@ export const jobs: Job[] =
   },
   {
     "title": "GoHighLevel Funnel & Automation Specialist",
-    "description": "# NOW ACCEPTING APPLICATIONS: GoHighLevel Funnel & Automation Specialist\n\n**Position:** GoHighLevel Funnel & Automation Specialist\n\n**Job Type:** Remote | Part-Time / Project-Based Opportunity\n\n**Compensation:** To Be Discussed During Interview\n\n**Hiring Status:** Accepting Applications for an Upcoming Opportunity\n\n### About the…",
+    "description": "# NOW ACCEPTING APPLICATIONS: GoHighLevel Funnel & Automation Specialist\n\n**Position:** GoHighLevel Funnel & Automation Specialist\n\n**Job Type:** Remote | Part-Time / Project-Based Opportunity\n\n**Compensation:** To Be Discussed During Interview\n\n**Hiring Status:** Accepting Applications for an Upcoming Opportunity\n\n### About the\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-funnel-automation-specialist-1755657",
@@ -10050,7 +9615,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Shopify E-commerce Operations Specialist & Email Marketing VA | Fashion Brand",
-    "description": "Position: Remote | Part-Time | Long-Term Opportunity\n\nAbout the Opportunity\n\nI’m the founder of a growing fashion brand currently undergoing a rebranding and redevelopment phase in preparation for a future relaunch.\n\nMy Shopify store is already established but is currently…",
+    "description": "Position: Remote | Part-Time | Long-Term Opportunity\n\nAbout the Opportunity\n\nI\u2019m the founder of a growing fashion brand currently undergoing a rebranding and redevelopment phase in preparation for a future relaunch.\n\nMy Shopify store is already established but is currently\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/shopify-e-commerce-operations-specialist-email-marketing-va-fashion-brand-1754835",
@@ -10080,8 +9645,8 @@ export const jobs: Job[] =
     "pay": "N/A"
   },
   {
-    "title": "Experienced GoHighLevel Website Developer & Facebook Ads Lead Generation Specialist – Large Group Travel",
-    "description": "Job Title: Experienced GoHighLevel Website Developer & Facebook Ads Lead Generation Specialist – Large Group Travel\n\nCompany: Mikey Adventures Travel by Cruise Planners\n\nWebsite: www.CharterCruises.com\n\nPosition: Remote / Freelance Contractor\n\nProject: Website Improvements, GoHighLevel Automation & Facebook Advertising\n\nFacebook Advertising…",
+    "title": "Experienced GoHighLevel Website Developer & Facebook Ads Lead Generation Specialist \u2013 Large Group Travel",
+    "description": "Job Title: Experienced GoHighLevel Website Developer & Facebook Ads Lead Generation Specialist \u2013 Large Group Travel\n\nCompany: Mikey Adventures Travel by Cruise Planners\n\nWebsite: www.CharterCruises.com\n\nPosition: Remote / Freelance Contractor\n\nProject: Website Improvements, GoHighLevel Automation & Facebook Advertising\n\nFacebook Advertising\u2026",
     "category": "Automation",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-gohighlevel-website-developer-facebook-ads-lead-generation-specialist-large-group-travel-1755689",
@@ -10112,7 +9677,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital marketing virtual assistant",
-    "description": "We're Hiring: Digital Marketing Virtual Assistant (Remote – Philippines)\n\nLocation: Philippines – Fully Remote\n\nHours: Part-time, 20 hours per week initially\n\nSalary: £300-400 per month, depending on experience\n\nOpportunity: Potential to progress to full-time\n\nAbout the Role\n\nWe are looking…",
+    "description": "We're Hiring: Digital Marketing Virtual Assistant (Remote \u2013 Philippines)\n\nLocation: Philippines \u2013 Fully Remote\n\nHours: Part-time, 20 hours per week initially\n\nSalary: \u00a3300-400 per month, depending on experience\n\nOpportunity: Potential to progress to full-time\n\nAbout the Role\n\nWe are looking\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketing-virtual-assistant-1755658",
@@ -10142,8 +9707,8 @@ export const jobs: Job[] =
     "pay": "400"
   },
   {
-    "title": "Meta Ads Media Buyer – Kitchen & Bath Remodeling Lead Gen (Full Funnel)",
-    "description": "Sharp AI Solutions is a US lead generation agency that runs Meta ads for kitchen and bathroom remodeling contractors. I need a media buyer who can own the entire Meta ads process from start to finish, with one goal above…",
+    "title": "Meta Ads Media Buyer \u2013 Kitchen & Bath Remodeling Lead Gen (Full Funnel)",
+    "description": "Sharp AI Solutions is a US lead generation agency that runs Meta ads for kitchen and bathroom remodeling contractors. I need a media buyer who can own the entire Meta ads process from start to finish, with one goal above\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/meta-ads-media-buyer-kitchen-bath-remodeling-lead-gen-full-funnel-1754767",
@@ -10173,8 +9738,8 @@ export const jobs: Job[] =
     "pay": "$800 - $1,200/month"
   },
   {
-    "title": "Hiring: Developer with AI Experience — 3-Month Contract",
-    "description": "We’re looking for a skilled developer with hands-on AI experience to build tools and automate business processes.\n\nPay & Duration\n\n$2,000–$4,000 per month, depending on experience.\n\n3-month contract.\n\nRequirements\n\nStrong programming and problem-solving skills.\n\nExperience building practical AI tools, integrations,…",
+    "title": "Hiring: Developer with AI Experience \u2014 3-Month Contract",
+    "description": "We\u2019re looking for a skilled developer with hands-on AI experience to build tools and automate business processes.\n\nPay & Duration\n\n$2,000\u2013$4,000 per month, depending on experience.\n\n3-month contract.\n\nRequirements\n\nStrong programming and problem-solving skills.\n\nExperience building practical AI tools, integrations,\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-developer-with-ai-experience-3-month-contract-1755664",
@@ -10205,7 +9770,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Career, Outreach & Business Operations Assistant",
-    "description": "# Virtual Executive Assistant — Career, Outreach & Business Operations\n\n## Position Overview\n\nI am looking for a highly organized, resourceful, AI-savvy Virtual Executive Assistant to help manage my job search, professional networking, follow-ups, calendar, personal priorities, and business-related scheduling.…",
+    "description": "# Virtual Executive Assistant \u2014 Career, Outreach & Business Operations\n\n## Position Overview\n\nI am looking for a highly organized, resourceful, AI-savvy Virtual Executive Assistant to help manage my job search, professional networking, follow-ups, calendar, personal priorities, and business-related scheduling.\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/career-outreach-business-operations-assistant-1754675",
@@ -10236,7 +9801,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI UGC & Video Ad Creator (Meta Ads)",
-    "description": "We're a small Software company for service businesses. We run paid ads on Meta (Facebook/Instagram), and we need someone to make a steady stream of ad creative using AI tools that we will provide. \n\n  \n\nWHAT YOU'LL DO:\n\n- Create AI…",
+    "description": "We're a small Software company for service businesses. We run paid ads on Meta (Facebook/Instagram), and we need someone to make a steady stream of ad creative using AI tools that we will provide. \n\n  \n\nWHAT YOU'LL DO:\n\n- Create AI\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-ugc-video-ad-creator-meta-ads-1754828",
@@ -10267,7 +9832,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Meta Ads Media Buyer for Kitchen and Bath Remodelers",
-    "description": "Agen Growth - Media Buyer Position\n\nWe're looking for a media buyer who can turn a remodeler's ad budget into booked in-person estimates, and show us the numbers to prove it.\n\nYou'll own Meta campaigns for our kitchen, bath, and…",
+    "description": "Agen Growth - Media Buyer Position\n\nWe're looking for a media buyer who can turn a remodeler's ad budget into booked in-person estimates, and show us the numbers to prove it.\n\nYou'll own Meta campaigns for our kitchen, bath, and\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/meta-ads-media-buyer-for-kitchen-and-bath-remodelers-1754940",
@@ -10297,8 +9862,8 @@ export const jobs: Job[] =
     "pay": "$200/month per client account"
   },
   {
-    "title": "EXPERIENCED EDITOR — LONG-TERM FREELANCE (SHORT TERM budget is $1,000+ USD/// LONG TERM CAN BE MUCH MORE)",
-    "description": "PLEASE READ ALL REQUIREMENTS BEFORE APPLYING\n\nWe're looking for one experienced, dependable editor who wants to grow into a larger creative production role over the next 1–2 years, ideally much longer.\n\nThis position starts with straightforward audio editing, but that's…",
+    "title": "EXPERIENCED EDITOR \u2014 LONG-TERM FREELANCE (SHORT TERM budget is $1,000+ USD/// LONG TERM CAN BE MUCH MORE)",
+    "description": "PLEASE READ ALL REQUIREMENTS BEFORE APPLYING\n\nWe're looking for one experienced, dependable editor who wants to grow into a larger creative production role over the next 1\u20132 years, ideally much longer.\n\nThis position starts with straightforward audio editing, but that's\u2026",
     "category": "Content",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-editor-long-term-freelance-short-term-budget-is-1-000-usd-long-term-can-be-much-more-1754960",
@@ -10329,7 +9894,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Web Designer",
-    "description": "HIRING!\n\nWebsite Designer – Easy-to-Manage Motorcycle YouTube Website (Wix, Squarespace, AI Builder)\n\nProject Budget: $250–$400 USD, fixed price\n\nProject Type: Initial website build, with potential ongoing work\n\nLocation: Philippines preferred\n\nAbout the Project\n\nWe are launching Throttle & Win, a…",
+    "description": "HIRING!\n\nWebsite Designer \u2013 Easy-to-Manage Motorcycle YouTube Website (Wix, Squarespace, AI Builder)\n\nProject Budget: $250\u2013$400 USD, fixed price\n\nProject Type: Initial website build, with potential ongoing work\n\nLocation: Philippines preferred\n\nAbout the Project\n\nWe are launching Throttle & Win, a\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/web-designer-1754964",
@@ -10360,7 +9925,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Meta Ads AI Video Editor",
-    "description": "We're a supplement brand looking for a video editor to make AI UGC ads, AI-animated ads and VSLs for meta ads.\n\nWhat you'll do\n\nEdit short-form ads and long-form VSLs from written scripts\n\nGenerate realistic B-roll in Higgsfield to support…",
+    "description": "We're a supplement brand looking for a video editor to make AI UGC ads, AI-animated ads and VSLs for meta ads.\n\nWhat you'll do\n\nEdit short-form ads and long-form VSLs from written scripts\n\nGenerate realistic B-roll in Higgsfield to support\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/meta-ads-ai-video-editor-1755672",
@@ -10391,7 +9956,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Direct Response Static Ad Designer for DTC Jewelry Brand (Long-Term)",
-    "description": "About Us:\n\nKINSHIP is a growing DTC brand selling personalized men's jewelry in the US. Our products are built around the emotional connection between fathers and their children.\n\nWe're scaling through Meta (Facebook & Instagram) and constantly testing new creative…",
+    "description": "About Us:\n\nKINSHIP is a growing DTC brand selling personalized men's jewelry in the US. Our products are built around the emotional connection between fathers and their children.\n\nWe're scaling through Meta (Facebook & Instagram) and constantly testing new creative\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/direct-response-static-ad-designer-for-dtc-jewelry-brand-long-term-1755041",
@@ -10421,8 +9986,8 @@ export const jobs: Job[] =
     "pay": "$450 - $600/month"
   },
   {
-    "title": "AI Agent Developer – E-commerce Creative Strategist (Code Code & Openclaw)",
-    "description": "We are looking for an experienced AI developer to build an advanced AI Creative Strategist for our growing 8-figure e-commerce brand.\n\nThe ideal candidate should have strong experience with Code Code, Openclaw, AI agents, automation and API integrations.\n\nKey Responsibilities:…",
+    "title": "AI Agent Developer \u2013 E-commerce Creative Strategist (Code Code & Openclaw)",
+    "description": "We are looking for an experienced AI developer to build an advanced AI Creative Strategist for our growing 8-figure e-commerce brand.\n\nThe ideal candidate should have strong experience with Code Code, Openclaw, AI agents, automation and API integrations.\n\nKey Responsibilities:\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-agent-developer-e-commerce-creative-strategist-code-code-openclaw-1755051",
@@ -10453,7 +10018,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media Content Specialist",
-    "description": "About the Role:\n\nWe are looking for an efficient, detail-oriented Remote Social Media Content specialist to create clean, modern social media static images, carousels, and promotional assets for established service brands.\n\nThis is a 100% production-focused, task-based role:\n\n• NO…",
+    "description": "About the Role:\n\nWe are looking for an efficient, detail-oriented Remote Social Media Content specialist to create clean, modern social media static images, carousels, and promotional assets for established service brands.\n\nThis is a 100% production-focused, task-based role:\n\n\u2022 NO\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-specialist-1755071",
@@ -10467,7 +10032,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "₱14,000 – ₱20,000 PHP",
+      "compensation": "\u20b114,000 \u2013 \u20b120,000 PHP",
       "deadline": "",
       "application": ""
     },
@@ -10480,11 +10045,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "₱14,000 – ₱20,000 PHP"
+    "pay": "\u20b114,000 \u2013 \u20b120,000 PHP"
   },
   {
     "title": "Instagram DM Outreach Assistant (Part Time, ~40 min/day, 7 days)",
-    "description": "Type: Part Time\n\nTitle: Instagram DM Outreach Assistant (Part Time, ~40 min/day, 7 days)\n\nPay: $20/week, paid weekly via Wise or PayPal\n\nHours: ~40 minutes a day, 7 days a week. Flexible timing.\n\nAbout us:\n\nReal Audio is a music…",
+    "description": "Type: Part Time\n\nTitle: Instagram DM Outreach Assistant (Part Time, ~40 min/day, 7 days)\n\nPay: $20/week, paid weekly via Wise or PayPal\n\nHours: ~40 minutes a day, 7 days a week. Flexible timing.\n\nAbout us:\n\nReal Audio is a music\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/instagram-dm-outreach-assistant-part-time-40-min-day-7-days-1754899",
@@ -10515,7 +10080,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Influencer Outreach & Affiliate Partnership Specialist +",
-    "description": "**Job Type:** Remote | Part-Time / Full-Time\n\n**Salary:** $4 USD per hour \n\n**Performance Bonus:** $5 USD for every successfully activated affiliate/partner\n\n**Opportunity:** Long-term position with growth potential\n\n## About the Role\n\nWe're looking for an experienced **Influencer Outreach & Affiliate…",
+    "description": "**Job Type:** Remote | Part-Time / Full-Time\n\n**Salary:** $4 USD per hour \n\n**Performance Bonus:** $5 USD for every successfully activated affiliate/partner\n\n**Opportunity:** Long-term position with growth potential\n\n## About the Role\n\nWe're looking for an experienced **Influencer Outreach & Affiliate\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/influencer-outreach-affiliate-partnership-specialist-1755680",
@@ -10546,7 +10111,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Luxury Golf Travel Agency Virtual Assistant and Marketing",
-    "description": "We are a global golf television production brand and boutique luxury travel agency. We host premier 72-player international golf tournaments (starting with our priority event in Vietnam), curated tours, and bespoke independent travel packages.\n\nThe founder is on camera, on…",
+    "description": "We are a global golf television production brand and boutique luxury travel agency. We host premier 72-player international golf tournaments (starting with our priority event in Vietnam), curated tours, and bespoke independent travel packages.\n\nThe founder is on camera, on\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/luxury-golf-travel-agency-virtual-assistant-and-marketing-1749915",
@@ -10577,7 +10142,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Marketing Expert",
-    "description": "Hiring: Creative Social Media & Digital Marketing Specialist — looking for a talented, creative, and ambitious digital marketing professional to help grow an established international travel membership business.\n\nLong-Term Remote Position\n\nWe operate in multiple countries and need someone who…",
+    "description": "Hiring: Creative Social Media & Digital Marketing Specialist \u2014 looking for a talented, creative, and ambitious digital marketing professional to help grow an established international travel membership business.\n\nLong-Term Remote Position\n\nWe operate in multiple countries and need someone who\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketing-expert-1755683",
@@ -10608,7 +10173,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Camera Review Analyst",
-    "description": "Camera Review Analyst\n\nU.S. Eastern Time  |  Full-Time  |  Reports to Head of Operations\n\nAbout GoDoug\n\nGoDoug is an Operational Awareness platform that helps multi-location operators see what's really happening inside their retail stores. We have a team of AI-assisted…",
+    "description": "Camera Review Analyst\n\nU.S. Eastern Time  |  Full-Time  |  Reports to Head of Operations\n\nAbout GoDoug\n\nGoDoug is an Operational Awareness platform that helps multi-location operators see what's really happening inside their retail stores. We have a team of AI-assisted\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/camera-review-analyst-1755097",
@@ -10639,7 +10204,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Facebook Campaign Launcher | FB assets",
-    "description": "Hello !\n\nWe are looking for an experienced and highly detail-oriented Facebook Ads Campaign Launcher to manage campaign setup, launches, quality checks, and taking care of Facebook assets and deep understanding of facebook structure.\n\nThis is not a beginner role.…",
+    "description": "Hello !\n\nWe are looking for an experienced and highly detail-oriented Facebook Ads Campaign Launcher to manage campaign setup, launches, quality checks, and taking care of Facebook assets and deep understanding of facebook structure.\n\nThis is not a beginner role.\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/facebook-campaign-launcher-fb-assets-1755685",
@@ -10669,8 +10234,8 @@ export const jobs: Job[] =
     "pay": "4-5"
   },
   {
-    "title": "B2B Sales Associate — AI Voice Agents",
-    "description": "Apply here:  ---------- \n\nAre you comfortable calling a business owner who has never heard of you and earning their attention in the first 30 seconds?\n\nLTMG is looking for a strong outbound salesperson to introduce small businesses to AI voice…",
+    "title": "B2B Sales Associate \u2014 AI Voice Agents",
+    "description": "Apply here:  ---------- \n\nAre you comfortable calling a business owner who has never heard of you and earning their attention in the first 30 seconds?\n\nLTMG is looking for a strong outbound salesperson to introduce small businesses to AI voice\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/b2b-sales-associate-ai-voice-agents-1740277",
@@ -10700,8 +10265,8 @@ export const jobs: Job[] =
     "pay": "$1300-$5200/MO"
   },
   {
-    "title": "Sales Associate (B2B) — Voice AI",
-    "description": "Remote | Full-Time | Outbound Sales\n\nApply here:  ---------- \n\nLTMG is hiring a B2B Sales Associate to sell AI voice agents to small businesses.\n\nYour primary responsibility is outbound cold calling. You’ll speak directly with business owners, learn how they…",
+    "title": "Sales Associate (B2B) \u2014 Voice AI",
+    "description": "Remote | Full-Time | Outbound Sales\n\nApply here:  ---------- \n\nLTMG is hiring a B2B Sales Associate to sell AI voice agents to small businesses.\n\nYour primary responsibility is outbound cold calling. You\u2019ll speak directly with business owners, learn how they\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-associate-b2b-voice-ai-1740275",
@@ -10732,7 +10297,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Marketing Generalist For Marketing Agency in Singapore (SGD800 - 1,200)",
-    "description": "Content, Creative & Operations Support — for a Growing Singapore-based Digital Agency\n\nIn plain terms: a hands-on, do-a-bit-of-everything marketer — copywriting-led, with design, video, and light ops support — who helps a lean agency run and grow.\n\nFull-Time • Remote…",
+    "description": "Content, Creative & Operations Support \u2014 for a Growing Singapore-based Digital Agency\n\nIn plain terms: a hands-on, do-a-bit-of-everything marketer \u2014 copywriting-led, with design, video, and light ops support \u2014 who helps a lean agency run and grow.\n\nFull-Time \u2022 Remote\u2026",
     "category": "Marketing",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketing-generalist-for-marketing-agency-in-singapore-sgd800-1-200-1677983",
@@ -10763,7 +10328,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Marketing Specialist (Social Media & GHL)",
-    "description": "We are a U.S.-based AI automation and marketing agency helping businesses increase revenue, improve operations, and scale through marketing, technology, and AI-powered solutions.\n\nWe are expanding our marketing department and looking for a skilled, reliable, and results-driven Marketing Specialist to…",
+    "description": "We are a U.S.-based AI automation and marketing agency helping businesses increase revenue, improve operations, and scale through marketing, technology, and AI-powered solutions.\n\nWe are expanding our marketing department and looking for a skilled, reliable, and results-driven Marketing Specialist to\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-specialist-social-media-ghl-1704607",
@@ -10794,7 +10359,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Top Sales Appointment Settler (message my customers on whatapps) +Social Media ( all) content creator/repurpose content",
-    "description": "Content Repurposing & Growth Specialist (Full-Time)\n\nYour exact role\n\n1) message my clients/customers on whatapps - be like a sales person. every deal closed is 1% commission. U Have to reply them like a human, fast within 1 minute. Each…",
+    "description": "Content Repurposing & Growth Specialist (Full-Time)\n\nYour exact role\n\n1) message my clients/customers on whatapps - be like a sales person. every deal closed is 1% commission. U Have to reply them like a human, fast within 1 minute. Each\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/top-sales-appointment-settler-message-my-customers-on-whatapps-social-media-all-content-creator-repurpose-content-1702919",
@@ -10825,7 +10390,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI Video Editor / Short Film Maker for AI Film Studio (Work From Home)",
-    "description": "START HERE: JOIN OUR DISCORD COMMUNITY\n\nBefore anything else, join our free Discord community: https://discord.gg/56Q6r3VKm8\n\nThis is the #1 step, and it matters more than your resume. Our team, our paid gig announcements, our free training, and our daily work…",
+    "description": "START HERE: JOIN OUR DISCORD COMMUNITY\n\nBefore anything else, join our free Discord community: https://discord.gg/56Q6r3VKm8\n\nThis is the #1 step, and it matters more than your resume. Our team, our paid gig announcements, our free training, and our daily work\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-video-editor-short-film-maker-for-ai-film-studio-work-from-home-1754864",
@@ -10839,7 +10404,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "₱800-950/hour",
+      "compensation": "\u20b1800-950/hour",
       "deadline": "",
       "application": ""
     },
@@ -10852,11 +10417,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "₱800-950/hour"
+    "pay": "\u20b1800-950/hour"
   },
   {
     "title": "Paid Studio Intern: AI, Media, and Web Internship for Aspiring Builders (Work From Home)",
-    "description": "START HERE: JOIN OUR DISCORD COMMUNITY\n\nBefore anything else, join our free Discord community: https://discord.gg/56Q6r3VKm8\n\nThis is the #1 step, and it matters more than your resume. Our team, our paid gig announcements, our free training, and our daily work…",
+    "description": "START HERE: JOIN OUR DISCORD COMMUNITY\n\nBefore anything else, join our free Discord community: https://discord.gg/56Q6r3VKm8\n\nThis is the #1 step, and it matters more than your resume. Our team, our paid gig announcements, our free training, and our daily work\u2026",
     "category": "AI",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/paid-studio-intern-ai-media-and-web-internship-for-aspiring-builders-work-from-home-1754859",
@@ -10870,7 +10435,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "₱475/hour plus performance bonuses",
+      "compensation": "\u20b1475/hour plus performance bonuses",
       "deadline": "",
       "application": ""
     },
@@ -10883,11 +10448,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "₱475/hour plus performance bonuses"
+    "pay": "\u20b1475/hour plus performance bonuses"
   },
   {
     "title": "Social Media Manager and Partnerships Outreach Specialist (Work From Home)",
-    "description": "START HERE: JOIN OUR DISCORD COMMUNITY\n\nBefore anything else, join our free Discord community: https://discord.gg/56Q6r3VKm8\n\nThis is the #1 step, and it matters more than your resume. Our team, our paid gig announcements, our free training, and our daily work…",
+    "description": "START HERE: JOIN OUR DISCORD COMMUNITY\n\nBefore anything else, join our free Discord community: https://discord.gg/56Q6r3VKm8\n\nThis is the #1 step, and it matters more than your resume. Our team, our paid gig announcements, our free training, and our daily work\u2026",
     "category": "Social Media",
     "date": "2026-10-25",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-manager-and-partnerships-outreach-specialist-work-from-home-1754854",
@@ -10901,7 +10466,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "₱650/hour",
+      "compensation": "\u20b1650/hour",
       "deadline": "",
       "application": ""
     },
@@ -10914,11 +10479,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "₱650/hour"
+    "pay": "\u20b1650/hour"
   },
   {
     "title": "Rental Booking Host",
-    "description": "CAR RENTAL OPERATIONS, INVOICING & GHL ASSISTANT\n\nRemote | Full-Time | Long-Term Opportunity\n\nWork Days: Thursday–Monday\n\nDays Off: Tuesday & Wednesday\n\nSchedule: 9:00 AM–6:00 PM U.S. Central Time\n\nStarting Pay: $300 USD/month — approximately ₱18,800 PHP/month\n\nPHP equivalent will vary…",
+    "description": "CAR RENTAL OPERATIONS, INVOICING & GHL ASSISTANT\n\nRemote | Full-Time | Long-Term Opportunity\n\nWork Days: Thursday\u2013Monday\n\nDays Off: Tuesday & Wednesday\n\nSchedule: 9:00 AM\u20136:00 PM U.S. Central Time\n\nStarting Pay: $300 USD/month \u2014 approximately \u20b118,800 PHP/month\n\nPHP equivalent will vary\u2026",
     "category": "Automation",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/rental-booking-host-1548094",
@@ -10949,7 +10514,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Tech-Savvy Virtual Assistant: GoHighLevel, AI Automation & Customer Service (Part-Time, Growth Opportunity)",
-    "description": "About Us\n\nI’m an entrepreneur who owns and operates multiple businesses, including a car rental company for rideshare and delivery drivers, group homes and day programs for adults with disabilities, an Amazon FBA business, and more, with new ventures in…",
+    "description": "About Us\n\nI\u2019m an entrepreneur who owns and operates multiple businesses, including a car rental company for rideshare and delivery drivers, group homes and day programs for adults with disabilities, an Amazon FBA business, and more, with new ventures in\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/tech-savvy-virtual-assistant-gohighlevel-ai-automation-customer-service-part-time-growth-opportunity-1755133",
@@ -10980,7 +10545,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Virtual Assistant & Project Manager: AI Chat Automation (ManyChat), Project Management & Claude AI",
-    "description": "About Us\n\nI’m an entrepreneur who owns and operates multiple businesses, including a car rental company for rideshare and delivery drivers, residential homes for adults with disabilities, an Amazon FBA business, and more, with new ventures in development. My companies…",
+    "description": "About Us\n\nI\u2019m an entrepreneur who owns and operates multiple businesses, including a car rental company for rideshare and delivery drivers, residential homes for adults with disabilities, an Amazon FBA business, and more, with new ventures in development. My companies\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/virtual-assistant-project-manager-ai-chat-automation-manychat-project-management-claude-ai-1755487",
@@ -11011,7 +10576,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Part-Time Outbound Sales & Lead Generation VA (B2B + B2C)",
-    "description": "# Part-Time Outbound Sales & Lead Generation VA (B2B + B2C)\n\n**Company:** Art & See — Premium Handmade Oil Paintings  \n\n**Location:** Philippines (Remote)  \n\n**Schedule:** Part-time, flexible hours  \n\n**Compensation:** Fixed monthly rate + 5% sales commission\n\n### About the Role\n\nWe're…",
+    "description": "# Part-Time Outbound Sales & Lead Generation VA (B2B + B2C)\n\n**Company:** Art & See \u2014 Premium Handmade Oil Paintings  \n\n**Location:** Philippines (Remote)  \n\n**Schedule:** Part-time, flexible hours  \n\n**Compensation:** Fixed monthly rate + 5% sales commission\n\n### About the Role\n\nWe're\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-outbound-sales-lead-generation-va-b2b-b2c-1754813",
@@ -11042,7 +10607,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Remote Sales Closer (US Clients, Warm Booked Calls, High Commission) - Betancourt AI Studio",
-    "description": "About us\n\nBetancourt AI Studio is a Betancourt Group company based in West Palm Beach, Florida. The Betancourt Group team builds next-generation websites with built-in SEO and AI chat, AI receptionists, custom apps and automations for US local businesses.\n\nThe…",
+    "description": "About us\n\nBetancourt AI Studio is a Betancourt Group company based in West Palm Beach, Florida. The Betancourt Group team builds next-generation websites with built-in SEO and AI chat, AI receptionists, custom apps and automations for US local businesses.\n\nThe\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/remote-sales-closer-us-clients-warm-booked-calls-high-commission-betancourt-ai-studio-1755141",
@@ -11073,7 +10638,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Full-Time AI Automation Developer | n8n, AI Agents, Python/JavaScript, GitHub",
-    "description": "FULL-TIME AI AUTOMATION & FULL-STACK DEVELOPER\n\nn8n | AI Agents | OpenClaw | Hermes | Claude Code | Codex | Grok | GitHub\n\nWe are hiring a dedicated developer to work directly with the founder and build, deploy, maintain, and…",
+    "description": "FULL-TIME AI AUTOMATION & FULL-STACK DEVELOPER\n\nn8n | AI Agents | OpenClaw | Hermes | Claude Code | Codex | Grok | GitHub\n\nWe are hiring a dedicated developer to work directly with the founder and build, deploy, maintain, and\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-ai-automation-developer-n8n-ai-agents-python-javascript-github-1733794",
@@ -11104,7 +10669,7 @@ export const jobs: Job[] =
   },
   {
     "title": "B2B SaaS Growth & Market Research Specialist",
-    "description": "B2B SaaS Growth, Market Research & Sales Specialist\n\nJob Type: Remote | Part-Time Initially | Potential Long-Term Role\n\nAbout the Company\n\nWe are establishing an AI-powered B2B SaaS company focused on developing scalable software solutions that solve real business problems.…",
+    "description": "B2B SaaS Growth, Market Research & Sales Specialist\n\nJob Type: Remote | Part-Time Initially | Potential Long-Term Role\n\nAbout the Company\n\nWe are establishing an AI-powered B2B SaaS company focused on developing scalable software solutions that solve real business problems.\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/b2b-saas-growth-market-research-specialist-1755526",
@@ -11135,7 +10700,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior AI Automation Engineer / Solutions Architect",
-    "description": "**Senior AI Automation Engineer / Solutions Architect | Part Time or Project Based |\n\nWe are an established US based digital marketing agency, is seeking a highly experienced AI Automation Engineer to identify, design, and implement sophisticated AI solutions that…",
+    "description": "**Senior AI Automation Engineer / Solutions Architect | Part Time or Project Based |\n\nWe are an established US based digital marketing agency, is seeking a highly experienced AI Automation Engineer to identify, design, and implement sophisticated AI solutions that\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-ai-automation-engineer-solutions-architect-1755531",
@@ -11166,7 +10731,7 @@ export const jobs: Job[] =
   },
   {
     "title": "SEO Expert",
-    "description": "THIS IS A FULL TIME ROLE.\n\nWe are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them. \n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve…",
+    "description": "THIS IS A FULL TIME ROLE.\n\nWe are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them. \n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/seo-expert-1743672",
@@ -11197,7 +10762,7 @@ export const jobs: Job[] =
   },
   {
     "title": "SEO Technical Developer - FULL TIME",
-    "description": "We are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them. THIS IS A FULL TIME ROLE.\n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve…",
+    "description": "We are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them. THIS IS A FULL TIME ROLE.\n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/seo-technical-developer-full-time-1733325",
@@ -11228,7 +10793,7 @@ export const jobs: Job[] =
   },
   {
     "title": "SEO Engineer",
-    "description": "We are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them. THIS IS A FULL TIME ROLE.\n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve…",
+    "description": "We are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them. THIS IS A FULL TIME ROLE.\n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/seo-engineer-1733324",
@@ -11259,7 +10824,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior SEO Developer",
-    "description": "We are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them.\n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve crawlability, performance, and keyword rankings. If…",
+    "description": "We are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them.\n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve crawlability, performance, and keyword rankings. If\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-seo-developer-1728294",
@@ -11290,7 +10855,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Technical SEO Developer",
-    "description": "We are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them.\n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve crawlability, performance, and keyword rankings. If…",
+    "description": "We are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them.\n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve crawlability, performance, and keyword rankings. If\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/technical-seo-developer-1728292",
@@ -11320,39 +10885,8 @@ export const jobs: Job[] =
     "pay": "SGD $1500 to $2,000 excluding bonuses"
   },
   {
-    "title": "SEO Expert",
-    "description": "We are looking for a hands-on Technical SEO Developer who can implement SEO changes directly, not just recommend them.\n\nThis role is for someone comfortable working inside CMS files, templates, and codebases to improve crawlability, performance, and keyword rankings. If…",
-    "category": "Marketing",
-    "date": "2026-10-24",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/seo-expert-1728290",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "SGD $1500 to $2,000 excluding bonuses",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/seo-expert-1728290",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "SGD $1500 to $2,000 excluding bonuses"
-  },
-  {
     "title": "Remote Virtual Assistant - Sales (Cold Calling)",
-    "description": "We are looking for a motivated and experienced remote cold caller to help grow our cleaning business. Your main responsibility will be making outbound calls to potential customers, introducing our cleaning services, and generating new leads.\n\nWe need someone who…",
+    "description": "We are looking for a motivated and experienced remote cold caller to help grow our cleaning business. Your main responsibility will be making outbound calls to potential customers, introducing our cleaning services, and generating new leads.\n\nWe need someone who\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/remote-virtual-assistant-sales-cold-calling-1755343",
@@ -11383,7 +10917,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Outbound Cold Caller - Canadian Telecom B2C Sales Agent",
-    "description": "We’re Hiring – Remote Sales Agents\n\nJoin our remote sales team and represent a leading Canadian telecom provider.\n\nWhat You’ll Do:\n\n- Call prospective customers and offer Internet, TV, Home Services, and Mobility plans\n\n- Close deals, follow up with…",
+    "description": "We\u2019re Hiring \u2013 Remote Sales Agents\n\nJoin our remote sales team and represent a leading Canadian telecom provider.\n\nWhat You\u2019ll Do:\n\n- Call prospective customers and offer Internet, TV, Home Services, and Mobility plans\n\n- Close deals, follow up with\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/outbound-cold-caller-canadian-telecom-b2c-sales-agent-1652531",
@@ -11414,7 +10948,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Automation Project Manager & Implementer",
-    "description": "About NexusCai\n\nNexusCai is an AI infrastructure company based in Alberta, Canada. We set up Voice AI agents, CRM systems and automations for real-world service businesses: construction, cranes, waste management, home services, dental clinics, med spas and more. Our clients…",
+    "description": "About NexusCai\n\nNexusCai is an AI infrastructure company based in Alberta, Canada. We set up Voice AI agents, CRM systems and automations for real-world service businesses: construction, cranes, waste management, home services, dental clinics, med spas and more. Our clients\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/automation-project-manager-implementer-1755193",
@@ -11445,7 +10979,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI YouTube Automation Specialist & Channel Manager (Faceless Channels)",
-    "description": "AI YouTube Automation Specialist & Channel Manager (Faceless YouTube Channels)\n\nJob Type: Part-Time (Potential Full-Time Position)  \n\nLocation: Remote – Philippines  \n\nSalary: Negotiable Based on Experience  \n\nEmployment: Long-Term Opportunity\n\nAbout the Role\n\nWe are looking for a talented, creative, and resourceful…",
+    "description": "AI YouTube Automation Specialist & Channel Manager (Faceless YouTube Channels)\n\nJob Type: Part-Time (Potential Full-Time Position)  \n\nLocation: Remote \u2013 Philippines  \n\nSalary: Negotiable Based on Experience  \n\nEmployment: Long-Term Opportunity\n\nAbout the Role\n\nWe are looking for a talented, creative, and resourceful\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-youtube-automation-specialist-channel-manager-faceless-channels-1755434",
@@ -11475,8 +11009,8 @@ export const jobs: Job[] =
     "pay": "$4/hr"
   },
   {
-    "title": "Sales Development Representative (SDR) – Autoglass Services (Php30K/month + Unlimited Commission)",
-    "description": "APPLY USING THE FORM ONLY\n\nWe are seeking a results-driven Sales Development Representative (SDR) to support our client's growing autoglass and windshield repair business. This role is designed for a sales professional with a proven track record of selling over…",
+    "title": "Sales Development Representative (SDR) \u2013 Autoglass Services (Php30K/month + Unlimited Commission)",
+    "description": "APPLY USING THE FORM ONLY\n\nWe are seeking a results-driven Sales Development Representative (SDR) to support our client's growing autoglass and windshield repair business. This role is designed for a sales professional with a proven track record of selling over\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-development-representative-sdr-autoglass-services-php30k-month-unlimited-commission-1726424",
@@ -11507,7 +11041,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Content Producer & Video Editor",
-    "description": "SkillFit Sports is looking for a talented, creative, and self-motivated Content Producer to take ownership of our social media content.\n\nWe’re looking for someone who can do more than edit videos. You should be able to independently develop engaging ideas,…",
+    "description": "SkillFit Sports is looking for a talented, creative, and self-motivated Content Producer to take ownership of our social media content.\n\nWe\u2019re looking for someone who can do more than edit videos. You should be able to independently develop engaging ideas,\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/content-producer-video-editor-1755428",
@@ -11521,7 +11055,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "$4/hour // ₱230 per hour",
+      "compensation": "$4/hour // \u20b1230 per hour",
       "deadline": "",
       "application": ""
     },
@@ -11534,11 +11068,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
-    "pay": "$4/hour // ₱230 per hour"
+    "pay": "$4/hour // \u20b1230 per hour"
   },
   {
     "title": "VA Real Estate Lead Generation Automation | GoHighLevel (GHL) CRM EXPERIENCE REQUIRED",
-    "description": "**Opportunity: Immediate Start | Part-Time Task with Long-Term Full Time Hourly Potential**\n\nWe are seeking an experienced GoHighLevel (GHL) Virtual Assistant to manage, troubleshoot, and optimize our existing CRM systems, lead-generation processes, and automated outreach campaigns.\n\nOur GHL systems are…",
+    "description": "**Opportunity: Immediate Start | Part-Time Task with Long-Term Full Time Hourly Potential**\n\nWe are seeking an experienced GoHighLevel (GHL) Virtual Assistant to manage, troubleshoot, and optimize our existing CRM systems, lead-generation processes, and automated outreach campaigns.\n\nOur GHL systems are\u2026",
     "category": "Automation",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/va-real-estate-lead-generation-automation-gohighlevel-ghl-crm-experience-required-1751169",
@@ -11569,7 +11103,7 @@ export const jobs: Job[] =
   },
   {
     "title": "YouTube Manager (Urgent Hiring)",
-    "description": "About the Role\n\nWe're looking for a hands-on YouTube Manager / Social Media Manager to lead our social media team and oversee 15 YouTube channels, along with their Facebook and Instagram accounts. You'll keep the team organized, accountable, and following…",
+    "description": "About the Role\n\nWe're looking for a hands-on YouTube Manager / Social Media Manager to lead our social media team and oversee 15 YouTube channels, along with their Facebook and Instagram accounts. You'll keep the team organized, accountable, and following\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/youtube-manager-urgent-hiring-1755372",
@@ -11600,7 +11134,7 @@ export const jobs: Job[] =
   },
   {
     "title": "VIDEO PODCAST EDITOR (DESCRIPT)",
-    "description": "REMOTE VIDEO PODCAST EDITOR (DESCRIPT)\n\nFreelance | Philippines-Based | 2-4 Episodes per Month\n\nWe are a Singapore-based medical and wellness brand looking for an experienced video editor for an ongoing interview podcast.\n\nEach episode is roughly 60-90 minutes of conversation…",
+    "description": "REMOTE VIDEO PODCAST EDITOR (DESCRIPT)\n\nFreelance | Philippines-Based | 2-4 Episodes per Month\n\nWe are a Singapore-based medical and wellness brand looking for an experienced video editor for an ongoing interview podcast.\n\nEach episode is roughly 60-90 minutes of conversation\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-podcast-editor-descript-1755426",
@@ -11631,7 +11165,7 @@ export const jobs: Job[] =
   },
   {
     "title": "CREATIVE AI VIDEO EDITOR | E-COMMERCE ADS | FULL-TIME",
-    "description": "CREATIVE AI VIDEO EDITOR | E-COMMERCE ADS | FULL-TIME\n\nBrand: Women’s Jewelry\n\nPay: $2,000/month base + performance bonuses, up to $4,000/month total\n\nCommitment: 40 hours per week, exclusive to our brand\n\nTHE ROLE\n\nWe’re looking for a creative, versatile video…",
+    "description": "CREATIVE AI VIDEO EDITOR | E-COMMERCE ADS | FULL-TIME\n\nBrand: Women\u2019s Jewelry\n\nPay: $2,000/month base + performance bonuses, up to $4,000/month total\n\nCommitment: 40 hours per week, exclusive to our brand\n\nTHE ROLE\n\nWe\u2019re looking for a creative, versatile video\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/creative-ai-video-editor-e-commerce-ads-full-time-1755427",
@@ -11661,8 +11195,8 @@ export const jobs: Job[] =
     "pay": "$2,000/month base + performance bonuses"
   },
   {
-    "title": "Creative Brand & Growth Manager – E-Commerce (Full-Time)",
-    "description": "Who We Are\n\nWe are an established, profitable e-commerce business specialising in funny, novelty and unique gifts.\n\nWe sell internationally through Amazon, Shopify, Etsy and TikTok Shop, and have ambitious plans to become one of the leading brands in our…",
+    "title": "Creative Brand & Growth Manager \u2013 E-Commerce (Full-Time)",
+    "description": "Who We Are\n\nWe are an established, profitable e-commerce business specialising in funny, novelty and unique gifts.\n\nWe sell internationally through Amazon, Shopify, Etsy and TikTok Shop, and have ambitious plans to become one of the leading brands in our\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/creative-brand-growth-manager-e-commerce-full-time-1755306",
@@ -11693,7 +11227,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Ads Specialist",
-    "description": "ABOUT SHOP MARKETING PROS:\n\nWe are a marketing agency based in the United States with a stateside and international team of over 50 professionals. Shop Marketing Pros is a very well-respected and rapidly growing Digital Marketing Company in the Automotive…",
+    "description": "ABOUT SHOP MARKETING PROS:\n\nWe are a marketing agency based in the United States with a stateside and international team of over 50 professionals. Shop Marketing Pros is a very well-respected and rapidly growing Digital Marketing Company in the Automotive\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-ads-specialist-1665989",
@@ -11724,7 +11258,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Remote Patient Intake & Appointment Setter (Call Center / Sales)",
-    "description": "Full-Time | Work From Home | Shifts Available 24/7\n\n*Only candidates who followed the instructions will be considered.\n\nAbout the Role\n\nWe're hiring call center agents for a US-based healthcare client. You'll speak with prospective patients over the phone, answer…",
+    "description": "Full-Time | Work From Home | Shifts Available 24/7\n\n*Only candidates who followed the instructions will be considered.\n\nAbout the Role\n\nWe're hiring call center agents for a US-based healthcare client. You'll speak with prospective patients over the phone, answer\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/remote-patient-intake-appointment-setter-call-center-sales-1741173",
@@ -11755,7 +11289,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media Assistant",
-    "description": "Job Title: Social Media Assistant (Content Calendar & Publishing)\n\nCompany: Slimeatory\n\nLocation:  Remote \n\nJob Type: Full-time / Part-time\n\nRate: $3-$4/hr\n\nAbout Slimeatory:\n\nWelcome to Slimeatory! We are a colorful, fast-paced brand dedicated to bringing the best slime products, and entertaining…",
+    "description": "Job Title: Social Media Assistant (Content Calendar & Publishing)\n\nCompany: Slimeatory\n\nLocation:  Remote \n\nJob Type: Full-time / Part-time\n\nRate: $3-$4/hr\n\nAbout Slimeatory:\n\nWelcome to Slimeatory! We are a colorful, fast-paced brand dedicated to bringing the best slime products, and entertaining\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-assistant-1755336",
@@ -11786,7 +11320,7 @@ export const jobs: Job[] =
   },
   {
     "title": "YouTube Manager / Social Media Manager (Urgent Hiring)",
-    "description": "About the Role\n\nWe're looking for a hands-on YouTube Manager / Social Media Manager to lead our social media team and oversee 15 YouTube channels, along with their Facebook and Instagram accounts. You'll keep the team organized, accountable, and following…",
+    "description": "About the Role\n\nWe're looking for a hands-on YouTube Manager / Social Media Manager to lead our social media team and oversee 15 YouTube channels, along with their Facebook and Instagram accounts. You'll keep the team organized, accountable, and following\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/youtube-manager-social-media-manager-urgent-hiring-1755372",
@@ -11817,7 +11351,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Admin - Virtual Assistant",
-    "description": "Hi! I'm Lori, and I run a marketing agency that runs Meta ads for high-ticket businesses. We're growing fast, and I need someone reliable in my corner to help me keep everything running smoothly.\n\nHere's what I'd need your help…",
+    "description": "Hi! I'm Lori, and I run a marketing agency that runs Meta ads for high-ticket businesses. We're growing fast, and I need someone reliable in my corner to help me keep everything running smoothly.\n\nHere's what I'd need your help\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/admin-virtual-assistant-1755350",
@@ -11848,7 +11382,7 @@ export const jobs: Job[] =
   },
   {
     "title": "FB Ads Manager",
-    "description": "Please read this entire ad.\n\nStrategic Mortgage, LLC is a U.S.-based mortgage brokerage looking for an experienced specialist to set up, connect, and manage our paid social media advertising and GoHighLevel marketing systems.\n\nOur initial focus is Facebook and Instagram…",
+    "description": "Please read this entire ad.\n\nStrategic Mortgage, LLC is a U.S.-based mortgage brokerage looking for an experienced specialist to set up, connect, and manage our paid social media advertising and GoHighLevel marketing systems.\n\nOur initial focus is Facebook and Instagram\u2026",
     "category": "Automation",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/fb-ads-manager-1755406",
@@ -11879,7 +11413,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Facebook Media Buyer | Meta Ads | eCommerce Growth",
-    "description": "Monthly Budget: $2500-$3800/month USD\n\nEmployment Type: Full-Time\n\nWork Arrangement: Remote\n\nSchedule: Performance-focused\n\nAbout the Role\n\nWM Brands is looking for an experienced, results-driven Facebook Media Buyer to manage and scale Meta advertising campaigns across our eCommerce brands, including QBounce.\n\nWe…",
+    "description": "Monthly Budget: $2500-$3800/month USD\n\nEmployment Type: Full-Time\n\nWork Arrangement: Remote\n\nSchedule: Performance-focused\n\nAbout the Role\n\nWM Brands is looking for an experienced, results-driven Facebook Media Buyer to manage and scale Meta advertising campaigns across our eCommerce brands, including QBounce.\n\nWe\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/facebook-media-buyer-meta-ads-ecommerce-growth-1755346",
@@ -11909,70 +11443,8 @@ export const jobs: Job[] =
     "pay": "$2500-$3800/month"
   },
   {
-    "title": "Facebook Media Buyer | Meta Ads | eCommerce Growth",
-    "description": "Monthly Budget: $2500-$3800/month USD\n\nEmployment Type: Full-Time\n\nWork Arrangement: Remote\n\nSchedule: Performance-focused\n\nAbout the Role\n\nWM Brands is looking for an experienced, results-driven Facebook Media Buyer to manage and scale Meta advertising campaigns across our eCommerce brands, including QBounce.\n\nWe…",
-    "category": "Marketing",
-    "date": "2026-10-24",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/facebook-media-buyer-meta-ads-ecommerce-growth-1755347",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$2500-$3800/month",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/facebook-media-buyer-meta-ads-ecommerce-growth-1755347",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$2500-$3800/month"
-  },
-  {
-    "title": "Facebook Media Buyer | Meta Ads | eCommerce Growth",
-    "description": "Monthly Budget: $2500-$3800/month USD\n\nEmployment Type: Full-Time\n\nWork Arrangement: Remote\n\nSchedule: Performance-focused\n\nAbout the Role\n\nWM Brands is looking for an experienced, results-driven Facebook Media Buyer to manage and scale Meta advertising campaigns across our eCommerce brands, including QBounce.\n\nWe…",
-    "category": "Marketing",
-    "date": "2026-10-24",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/facebook-media-buyer-meta-ads-ecommerce-growth-1755348",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$2500-$3800/month",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/facebook-media-buyer-meta-ads-ecommerce-growth-1755348",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$2500-$3800/month"
-  },
-  {
     "title": "Customer Support VA + Future Sales Role",
-    "description": "Customer Support VA (Phone + Chat), Future Sales Role\n\nPay: $110 USD/week, paid weekly, with raises as you grow into sales\n\nSchedule: Full time, Monday to Friday, 7:30am to 5:30pm Toronto time, 1-hour break\n\nRemote | Excellent spoken English required…",
+    "description": "Customer Support VA (Phone + Chat), Future Sales Role\n\nPay: $110 USD/week, paid weekly, with raises as you grow into sales\n\nSchedule: Full time, Monday to Friday, 7:30am to 5:30pm Toronto time, 1-hour break\n\nRemote | Excellent spoken English required\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/customer-support-va-future-sales-role-1755352",
@@ -12003,7 +11475,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Medical Sales Conversion Specialist / Sales Expert",
-    "description": "We are looking for a confident, results-driven Medical Clinic Sales Expert who can turn patient inquiries into scheduled appointments and help prospective patients take the next step toward their health, wellness, and aesthetic goals.\n\nThe ideal candidate has excellent communication…",
+    "description": "We are looking for a confident, results-driven Medical Clinic Sales Expert who can turn patient inquiries into scheduled appointments and help prospective patients take the next step toward their health, wellness, and aesthetic goals.\n\nThe ideal candidate has excellent communication\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/medical-sales-conversion-specialist-sales-expert-1755357",
@@ -12034,7 +11506,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Land Pricing Analyst",
-    "description": "Summary\n\nWe're a high-volume land flipping business looking for a sharp Land Pricing Analyst to join our team.\n\nYou'll be analyzing and pricing vacant land properties (mostly rural/desert parcels) using comparable sales and our established criteria.\n\nThe work is process-driven…",
+    "description": "Summary\n\nWe're a high-volume land flipping business looking for a sharp Land Pricing Analyst to join our team.\n\nYou'll be analyzing and pricing vacant land properties (mostly rural/desert parcels) using comparable sales and our established criteria.\n\nThe work is process-driven\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/land-pricing-analyst-1743245",
@@ -12065,7 +11537,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Land Appraisal Analyst",
-    "description": "Summary\n\nWe're a high-volume land flipping business looking for a sharp Land Appraisal Analyst to join our team.\n\nYou'll be analyzing and pricing vacant land properties (mostly rural/desert parcels) using comparable sales and our established criteria.\n\nThe work is process-driven…",
+    "description": "Summary\n\nWe're a high-volume land flipping business looking for a sharp Land Appraisal Analyst to join our team.\n\nYou'll be analyzing and pricing vacant land properties (mostly rural/desert parcels) using comparable sales and our established criteria.\n\nThe work is process-driven\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/land-appraisal-analyst-1743282",
@@ -12096,7 +11568,7 @@ export const jobs: Job[] =
   },
   {
     "title": "HIGH-VOLUME OUTBOUND SALES CLOSER",
-    "description": "READ BEFORE APPLYING\n\nDigital Marketing Masters is looking for a proven phone salesperson who can turn cold calls into paying customers.\n\nThis is a direct-closing role, not an appointment-setting job. You will contact business owners already running Google Ads and…",
+    "description": "READ BEFORE APPLYING\n\nDigital Marketing Masters is looking for a proven phone salesperson who can turn cold calls into paying customers.\n\nThis is a direct-closing role, not an appointment-setting job. You will contact business owners already running Google Ads and\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/high-volume-outbound-sales-closer-1755380",
@@ -12126,8 +11598,8 @@ export const jobs: Job[] =
     "pay": "500"
   },
   {
-    "title": "Hiring: Remote Appointment Setters — Philippines",
-    "description": "U.S. Gold & Silver Company | Paid Training | Base Pay + Performance Incentives\n\nParkview Capital Group, based in Scottsdale, Arizona, is hiring two Philippines-based appointment setters to speak with U.S. prospects interested in gold and silver.\n\nWe’re looking for…",
+    "title": "Hiring: Remote Appointment Setters \u2014 Philippines",
+    "description": "U.S. Gold & Silver Company | Paid Training | Base Pay + Performance Incentives\n\nParkview Capital Group, based in Scottsdale, Arizona, is hiring two Philippines-based appointment setters to speak with U.S. prospects interested in gold and silver.\n\nWe\u2019re looking for\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-remote-appointment-setters-philippines-1755401",
@@ -12158,7 +11630,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Part-Time B2B Email Outreach & Lead Generation Specialist (Instantly.ai)",
-    "description": "Job Type: Part-Time | Remote  \n\nHours: Approximately 6 hours per week to start  \n\nSchedule: Flexible, with daily weekday inbox monitoring  \n\nOpportunity: Long-term, with potential for additional hours\n\nAbout the Opportunity\n\nWe are a growing U.S.-based technology company serving businesses in…",
+    "description": "Job Type: Part-Time | Remote  \n\nHours: Approximately 6 hours per week to start  \n\nSchedule: Flexible, with daily weekday inbox monitoring  \n\nOpportunity: Long-term, with potential for additional hours\n\nAbout the Opportunity\n\nWe are a growing U.S.-based technology company serving businesses in\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-b2b-email-outreach-lead-generation-specialist-instantly-ai-1755407",
@@ -12172,7 +11644,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "$4–$7 USD per hour",
+      "compensation": "$4\u2013$7 USD per hour",
       "deadline": "",
       "application": ""
     },
@@ -12185,11 +11657,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "$4–$7 USD per hour"
+    "pay": "$4\u2013$7 USD per hour"
   },
   {
     "title": "High Ticket Coaching Dm Setter (fitness)",
-    "description": "Remote Appointment Setter for Women’s Fitness Coaching Company\n\nEmpowher Coaching is hiring 2 driven, high-energy appointment setters to join our growing team.\n\nWe’re not looking for someone who just wants a job.\n\nWe’re looking for someone hungry, coachable, proactive, and…",
+    "description": "Remote Appointment Setter for Women\u2019s Fitness Coaching Company\n\nEmpowher Coaching is hiring 2 driven, high-energy appointment setters to join our growing team.\n\nWe\u2019re not looking for someone who just wants a job.\n\nWe\u2019re looking for someone hungry, coachable, proactive, and\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/high-ticket-coaching-dm-setter-fitness-1649832",
@@ -12220,7 +11692,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media & Nonprofit Content Specialist",
-    "description": "Social Media & Nonprofit Content Specialist\n\nWe're seeking a creative, detail-oriented Social Media & Nonprofit Content Specialist to support our Instagram presence, digital storytelling, fundraising campaigns, and community engagement.\n\nYou'll work alongside our marketing lead to develop content that highlights…",
+    "description": "Social Media & Nonprofit Content Specialist\n\nWe're seeking a creative, detail-oriented Social Media & Nonprofit Content Specialist to support our Instagram presence, digital storytelling, fundraising campaigns, and community engagement.\n\nYou'll work alongside our marketing lead to develop content that highlights\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-nonprofit-content-specialist-1755337",
@@ -12251,7 +11723,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Part-time Capcut / TikTok / Trybe UGC Editor with potential for more",
-    "description": "You will be making TikTok videos using Capcup or the video editing software of your choice.  The editing process is fairly simple and straightforward.  Anyone who is proficient in video editing should have no problem with the basic tasks such…",
+    "description": "You will be making TikTok videos using Capcup or the video editing software of your choice.  The editing process is fairly simple and straightforward.  Anyone who is proficient in video editing should have no problem with the basic tasks such\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-capcut-tiktok-trybe-ugc-editor-with-potential-for-more-1755349",
@@ -12282,7 +11754,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Ecommerce Assistant VA",
-    "description": "We’re looking for a highly proactive and results-driven E-commerce Assistant VA to manage our in-house brands end-to-end and drive sustainable growth. The ideal candidate has deep experience with Amazon Seller Central (or similar marketplaces), understands the nuances of advanced PPC…",
+    "description": "We\u2019re looking for a highly proactive and results-driven E-commerce Assistant VA to manage our in-house brands end-to-end and drive sustainable growth. The ideal candidate has deep experience with Amazon Seller Central (or similar marketplaces), understands the nuances of advanced PPC\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ecommerce-assistant-va-1693645",
@@ -12313,7 +11785,7 @@ export const jobs: Job[] =
   },
   {
     "title": "SEO/PPC/Facebook Ads Account Manager",
-    "description": "SEO/PPC/Facebook Ads Account Manager - Graveyard Shift (M-F) at Kristyl Media\n\nCalling all digital marketing wizards!\n\nKristyl Media, a leading marketing agency located in Washington State, USA, is seeking a talented and results-oriented SEO/PPC/Facebook Ads Account Manager to join our…",
+    "description": "SEO/PPC/Facebook Ads Account Manager - Graveyard Shift (M-F) at Kristyl Media\n\nCalling all digital marketing wizards!\n\nKristyl Media, a leading marketing agency located in Washington State, USA, is seeking a talented and results-oriented SEO/PPC/Facebook Ads Account Manager to join our\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/seo-ppc-facebook-ads-account-manager-1114096",
@@ -12344,7 +11816,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Video Editor/Content Producer/VA",
-    "description": "Video Editor / content producer for a new ecommerce brand and personal brand (part-time, ongoing)\n\nWe are launching Spyr (@getspyr), a new ecommerce supplements business, alongside a personal brand (@raphaelhodes) on Instagram that documents the build and my life as…",
+    "description": "Video Editor / content producer for a new ecommerce brand and personal brand (part-time, ongoing)\n\nWe are launching Spyr (@getspyr), a new ecommerce supplements business, alongside a personal brand (@raphaelhodes) on Instagram that documents the build and my life as\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-content-producer-va-1724498",
@@ -12375,7 +11847,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Executive Assistant",
-    "description": "Virtual Assistant – Sales Operations & Executive Support (Contract, Part-Time)\n\nCommitment: 20 hours per week\n\nCompensation: $250 USD per month\n\nType: Independent contractor, fully remote\n\nAbout the Role\n\nWe’re looking for a detail-oriented, reliable Virtual Assistant to support our sales…",
+    "description": "Virtual Assistant \u2013 Sales Operations & Executive Support (Contract, Part-Time)\n\nCommitment: 20 hours per week\n\nCompensation: $250 USD per month\n\nType: Independent contractor, fully remote\n\nAbout the Role\n\nWe\u2019re looking for a detail-oriented, reliable Virtual Assistant to support our sales\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/executive-assistant-1755370",
@@ -12405,8 +11877,8 @@ export const jobs: Job[] =
     "pay": "$250 Per Month"
   },
   {
-    "title": "Meta & Google Ads Specialist — Shopify / Philippine Market",
-    "description": "Hello! \n\nUSA Express (usaexpress.ph) sells curated U.S. products to customers in the Philippines exclusively. We’re looking for someone who can help us reach the right buyers and turn interest into website visits, inquiries, and most importantly....sales!\n\nOur Shopify store and…",
+    "title": "Meta & Google Ads Specialist \u2014 Shopify / Philippine Market",
+    "description": "Hello! \n\nUSA Express (usaexpress.ph) sells curated U.S. products to customers in the Philippines exclusively. We\u2019re looking for someone who can help us reach the right buyers and turn interest into website visits, inquiries, and most importantly....sales!\n\nOur Shopify store and\u2026",
     "category": "Web Design",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/meta-google-ads-specialist-shopify-philippine-market-1755374",
@@ -12436,8 +11908,8 @@ export const jobs: Job[] =
     "pay": "5000 PHP Paid Weekly"
   },
   {
-    "title": "Experienced Social Media & Live Event Marketer — Sydney Hotshots",
-    "description": "Experienced Social Media & Live Event Marketer — Sydney Hotshots\n\nLocation: Remote, Philippines  \n\nHours: Agreed before starting, with availability during Sydney business hours\n\nPay and bonuses\n\n- First two weeks: AUD $2.50 per hour during the paid trial.\n\n- After…",
+    "title": "Experienced Social Media & Live Event Marketer \u2014 Sydney Hotshots",
+    "description": "Experienced Social Media & Live Event Marketer \u2014 Sydney Hotshots\n\nLocation: Remote, Philippines  \n\nHours: Agreed before starting, with availability during Sydney business hours\n\nPay and bonuses\n\n- First two weeks: AUD $2.50 per hour during the paid trial.\n\n- After\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-social-media-live-event-marketer-sydney-hotshots-1755385",
@@ -12468,7 +11940,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Short-Form Video Editor + Content VA (US Law Firm, Full-Time)",
-    "description": "I'm a US-based attorney with a growing social media presence and a podcast. I need an editor with real taste: someone who can watch raw footage and know which 30 seconds will stop a scroll.\n\nAPPLY THROUGH ONLINEJOBS ONLY. Contacting…",
+    "description": "I'm a US-based attorney with a growing social media presence and a podcast. I need an editor with real taste: someone who can watch raw footage and know which 30 seconds will stop a scroll.\n\nAPPLY THROUGH ONLINEJOBS ONLY. Contacting\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/short-form-video-editor-content-va-us-law-firm-full-time-1755395",
@@ -12499,7 +11971,7 @@ export const jobs: Job[] =
   },
   {
     "title": "E-commerce Product Research & Meta Ads Specialist",
-    "description": "We are looking for someone to join our e-commerce team and help us find and test new products.\n\nYour main responsibility will be researching potential winning products using Meta Ad Library, TikTok and competitor research, then creating the product page…",
+    "description": "We are looking for someone to join our e-commerce team and help us find and test new products.\n\nYour main responsibility will be researching potential winning products using Meta Ad Library, TikTok and competitor research, then creating the product page\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/e-commerce-product-research-meta-ads-specialist-1739715",
@@ -12529,8 +12001,8 @@ export const jobs: Job[] =
     "pay": "$480"
   },
   {
-    "title": "Short-Form Video Editor (Reels/TikTok + Meta Ads) – Marketing Agency",
-    "description": "Can you make someone stop scrolling in under 2 seconds? Keep reading.\n\nWe're EO Marketing, a US-based digital marketing agency running paid ads and organic social for 20+ clients, mostly local businesses and real estate agents. We shoot a LOT…",
+    "title": "Short-Form Video Editor (Reels/TikTok + Meta Ads) \u2013 Marketing Agency",
+    "description": "Can you make someone stop scrolling in under 2 seconds? Keep reading.\n\nWe're EO Marketing, a US-based digital marketing agency running paid ads and organic social for 20+ clients, mostly local businesses and real estate agents. We shoot a LOT\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/short-form-video-editor-reels-tiktok-meta-ads-marketing-agency-1755185",
@@ -12561,7 +12033,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Video Editor (Freelance, Part-Time or Full-Time, Remote)",
-    "description": "JST Studio is a Hong Kong content production company working with F&B and hospitality brands: bars, restaurants and hotel groups. We shoot and edit the content our clients post across Instagram, Xiaohongshu, YouTube and their wider marketing.\n\nWe're growing our…",
+    "description": "JST Studio is a Hong Kong content production company working with F&B and hospitality brands: bars, restaurants and hotel groups. We shoot and edit the content our clients post across Instagram, Xiaohongshu, YouTube and their wider marketing.\n\nWe're growing our\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-freelance-part-time-or-full-time-remote-1752348",
@@ -12592,7 +12064,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Operations Manager Part-Time",
-    "description": "Operations Manager – PT Global\n\nRole overview\n\nPT Global is seeking an organized, proactive, and accountable Operations Manager to oversee day-to-day administrative and social media operations. The successful candidate will supervise the administration and social media teams, ensure that standard…",
+    "description": "Operations Manager \u2013 PT Global\n\nRole overview\n\nPT Global is seeking an organized, proactive, and accountable Operations Manager to oversee day-to-day administrative and social media operations. The successful candidate will supervise the administration and social media teams, ensure that standard\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/operations-manager-part-time-1733581",
@@ -12623,7 +12095,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Executive Assistant & Social Media Strategist (Part-Time)",
-    "description": "About the Role This role supports a public speaker's day-to-day operations and their public-facing social media presence. Both halves of the role matter and we need someone genuinely capable in both:\n\nAdministrative/Operations Support — the heavier, day-to-day part of this…",
+    "description": "About the Role This role supports a public speaker's day-to-day operations and their public-facing social media presence. Both halves of the role matter and we need someone genuinely capable in both:\n\nAdministrative/Operations Support \u2014 the heavier, day-to-day part of this\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/executive-assistant-social-media-strategist-part-time-1733569",
@@ -12653,8 +12125,8 @@ export const jobs: Job[] =
     "pay": "5$"
   },
   {
-    "title": "Appointment Setter / Cold Caller — Web Design Agency (Churches & Small Business)",
-    "description": "Assure Studios is a premium web design agency serving churches and small businesses across the US. We're hiring a focused, reliable appointment setter to run outbound cold calls and book qualified discovery appointments with decision-makers\n\n.\n\nWhat you'll do\n\nMake…",
+    "title": "Appointment Setter / Cold Caller \u2014 Web Design Agency (Churches & Small Business)",
+    "description": "Assure Studios is a premium web design agency serving churches and small businesses across the US. We're hiring a focused, reliable appointment setter to run outbound cold calls and book qualified discovery appointments with decision-makers\n\n.\n\nWhat you'll do\n\nMake\u2026",
     "category": "Web Design",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-cold-caller-web-design-agency-churches-small-business-1679840",
@@ -12685,7 +12157,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI and Marketing Lead",
-    "description": "AI Marketing Lead:\n\nCompany: ISAK Global Ventures (IGV)\n\nDepartment: Brand Powerhouse\n\nEngagement type: Independent contractor, full-time\n\nLocation: Fully remote. Core hours 8:00 AM to 4:00 PM Chicago time\n\nPay: USD 1,200 per month, plus collection-based bonuses\n\nAbout the Role:\n\nLove…",
+    "description": "AI Marketing Lead:\n\nCompany: ISAK Global Ventures (IGV)\n\nDepartment: Brand Powerhouse\n\nEngagement type: Independent contractor, full-time\n\nLocation: Fully remote. Core hours 8:00 AM to 4:00 PM Chicago time\n\nPay: USD 1,200 per month, plus collection-based bonuses\n\nAbout the Role:\n\nLove\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-and-marketing-lead-1755215",
@@ -12716,7 +12188,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI Automation Developer (Claude Code)",
-    "description": "We're looking for an experienced AI Automation Developer who builds real software with Claude Code, to help us build and run the AI infrastructure behind our performance marketing agency.\n\nWe already run a team of AI agents in Slack, our…",
+    "description": "We're looking for an experienced AI Automation Developer who builds real software with Claude Code, to help us build and run the AI infrastructure behind our performance marketing agency.\n\nWe already run a team of AI agents in Slack, our\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-automation-developer-claude-code-1755223",
@@ -12747,7 +12219,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Sales & Customer Service Specialist (AI-Savvy) - 1026",
-    "description": "Important: Please read the entire job ad. Applications that don't follow the instructions will be automatically disqualified.\n\nRemote (UK business hours) | Front Row Furniture\n\nFull-time | 40-45 hours per week\n\nSalary: Competitive, based on skills and experience | TBD…",
+    "description": "Important: Please read the entire job ad. Applications that don't follow the instructions will be automatically disqualified.\n\nRemote (UK business hours) | Front Row Furniture\n\nFull-time | 40-45 hours per week\n\nSalary: Competitive, based on skills and experience | TBD\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-customer-service-specialist-ai-savvy-1026-1755243",
@@ -12778,7 +12250,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Project Management",
-    "description": "Plumbify helps residential plumbing companies generate qualified inbound calls and booked jobs through Google Ads, Local Services Ads, and Meta advertising.\n\nWe are growing fast and looking for a sharp, reliable operator who can own client onboarding, communication, systems, and…",
+    "description": "Plumbify helps residential plumbing companies generate qualified inbound calls and booked jobs through Google Ads, Local Services Ads, and Meta advertising.\n\nWe are growing fast and looking for a sharp, reliable operator who can own client onboarding, communication, systems, and\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/project-management-1755256",
@@ -12808,8 +12280,8 @@ export const jobs: Job[] =
     "pay": "$1000/month - $1500/month"
   },
   {
-    "title": "FULL-STACK / AI AUTOMATION DEVELOPER — CREATOR PLATFORM (18+ INDUSTRY)",
-    "description": "ABOUT THE PROJECT\n\nWe are developing a new web-based creator platform for the legal adult-content industry (18+ only).\n\nBecause of the nature of the platform, applicants must be 18 years of age or older and comfortable developing technology for a…",
+    "title": "FULL-STACK / AI AUTOMATION DEVELOPER \u2014 CREATOR PLATFORM (18+ INDUSTRY)",
+    "description": "ABOUT THE PROJECT\n\nWe are developing a new web-based creator platform for the legal adult-content industry (18+ only).\n\nBecause of the nature of the platform, applicants must be 18 years of age or older and comfortable developing technology for a\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-stack-ai-automation-developer-creator-platform-18-industry-1755264",
@@ -12839,8 +12311,8 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "GoHighLevel Specialist — AI Agents, Automations & Client Fulfillment",
-    "description": "We’re hiring an experienced GoHighLevel specialist to help us launch and manage AI receptionist and automation systems for service businesses.\n\nThis position starts part-time at approximately 20 hours per week. Our intention is to grow it into a full-time role…",
+    "title": "GoHighLevel Specialist \u2014 AI Agents, Automations & Client Fulfillment",
+    "description": "We\u2019re hiring an experienced GoHighLevel specialist to help us launch and manage AI receptionist and automation systems for service businesses.\n\nThis position starts part-time at approximately 20 hours per week. Our intention is to grow it into a full-time role\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-specialist-ai-agents-automations-client-fulfillment-1755291",
@@ -12870,8 +12342,8 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Marketing Technology Manager – CRM & Automation",
-    "description": "We're looking for a hands-on Marketing Operations & Technology Manager to own and improve the systems, websites, CRM, data, integrations, automation, and digital platforms supporting our marketing and patient acquisition efforts.\n\nWhat You’ll Do\n\nManage and improve websites, landing pages,…",
+    "title": "Marketing Technology Manager \u2013 CRM & Automation",
+    "description": "We're looking for a hands-on Marketing Operations & Technology Manager to own and improve the systems, websites, CRM, data, integrations, automation, and digital platforms supporting our marketing and patient acquisition efforts.\n\nWhat You\u2019ll Do\n\nManage and improve websites, landing pages,\u2026",
     "category": "Automation",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-technology-manager-crm-automation-1735369",
@@ -12902,7 +12374,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Remote Marketing Specialist (Email Marketing + Social Media Support) | Work From",
-    "description": "JOB TITLE: Marketing Specialist | Work From Home | Email Automation & CRM\n\nJOB OVERVIEW\n\nPosition: Marketing Specialist (Full-Time)\n\nIndustry: US Mortgage & Financial Services\n\nWork Setup: Permanent Work From Home (Philippines)\n\nSchedule: Monday to Friday | 12:30 AM –…",
+    "description": "JOB TITLE: Marketing Specialist | Work From Home | Email Automation & CRM\n\nJOB OVERVIEW\n\nPosition: Marketing Specialist (Full-Time)\n\nIndustry: US Mortgage & Financial Services\n\nWork Setup: Permanent Work From Home (Philippines)\n\nSchedule: Monday to Friday | 12:30 AM \u2013\u2026",
     "category": "Automation",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/remote-marketing-specialist-email-marketing-social-media-support-work-from-1689282",
@@ -12933,7 +12405,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Creative Social Media & Content VA",
-    "description": "Job Purpose\n\nHouse of Hair Hostess is an established, premium hair salon based in Solihull, near Birmingham in the United Kingdom.\n\nWe specialise in expert hair colour transformations, including Grey Blending, Colour Correction, Balayage and beautiful, personalised colour services.\n\nWe…",
+    "description": "Job Purpose\n\nHouse of Hair Hostess is an established, premium hair salon based in Solihull, near Birmingham in the United Kingdom.\n\nWe specialise in expert hair colour transformations, including Grey Blending, Colour Correction, Balayage and beautiful, personalised colour services.\n\nWe\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/creative-social-media-content-va-1755361",
@@ -12964,7 +12436,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Python Developer",
-    "description": "Python Developer – FMCSA Data Automation, APIs & Zoho CRM\n\nCompany: Risk Assist Plus (U.S.-Based Insurance Company)\n\nJob Type: Project-Based / Remote\n\nLocation: Philippines\n\nCompensation: Fixed-price project, negotiable based on experience\n\nPaid Technical Test: Yes\n\nAbout the Project\n\nWe are…",
+    "description": "Python Developer \u2013 FMCSA Data Automation, APIs & Zoho CRM\n\nCompany: Risk Assist Plus (U.S.-Based Insurance Company)\n\nJob Type: Project-Based / Remote\n\nLocation: Philippines\n\nCompensation: Fixed-price project, negotiable based on experience\n\nPaid Technical Test: Yes\n\nAbout the Project\n\nWe are\u2026",
     "category": "Automation",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/python-developer-1755382",
@@ -12995,7 +12467,7 @@ export const jobs: Job[] =
   },
   {
     "title": "GoHighLevel Operations Virtual Assistant",
-    "description": "### Hiring: GoHighLevel CRM & Automation Specialist\n\n**Company:** Seven Circles LLC  \n\n**Pay:** $6 USD/hour  \n\n**Schedule:** 20 hours/week initially  \n\n**Location:** Remote — Philippines or Pakistan\n\nWe are seeking an experienced GoHighLevel specialist to independently build and manage CRM systems for our…",
+    "description": "### Hiring: GoHighLevel CRM & Automation Specialist\n\n**Company:** Seven Circles LLC  \n\n**Pay:** $6 USD/hour  \n\n**Schedule:** 20 hours/week initially  \n\n**Location:** Remote \u2014 Philippines or Pakistan\n\nWe are seeking an experienced GoHighLevel specialist to independently build and manage CRM systems for our\u2026",
     "category": "Automation",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-operations-virtual-assistant-1754278",
@@ -13026,7 +12498,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Shopify E-Commerce & Digital Marketing Specialist",
-    "description": "About Making Scents Co.\n\nMaking Scents Co. (MSC) is a fragrance and lifestyle e-commerce business seeking a proactive, tech-savvy virtual assistant to help improve its Shopify store, streamline business operations, and support brand growth through digital marketing and social media.…",
+    "description": "About Making Scents Co.\n\nMaking Scents Co. (MSC) is a fragrance and lifestyle e-commerce business seeking a proactive, tech-savvy virtual assistant to help improve its Shopify store, streamline business operations, and support brand growth through digital marketing and social media.\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/shopify-e-commerce-digital-marketing-specialist-1753614",
@@ -13056,8 +12528,8 @@ export const jobs: Job[] =
     "pay": "Negotiable"
   },
   {
-    "title": "Full-Time Video Editor — Short & Long-Form Product Content (AI Tools Experience Required)",
-    "description": "I'm a US-based business owner looking for a full-time, long-term video editor to produce both short-form ads and long-form content for a physical product. This is a permanent position, not a project. If you're looking for something temporary or juggling…",
+    "title": "Full-Time Video Editor \u2014 Short & Long-Form Product Content (AI Tools Experience Required)",
+    "description": "I'm a US-based business owner looking for a full-time, long-term video editor to produce both short-form ads and long-form content for a physical product. This is a permanent position, not a project. If you're looking for something temporary or juggling\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-video-editor-short-long-form-product-content-ai-tools-experience-required-1727496",
@@ -13087,8 +12559,8 @@ export const jobs: Job[] =
     "pay": "$3 a Hour"
   },
   {
-    "title": "Video Editor for Ecommerce Brand — Q4/Black Friday (Hiring Multiple)",
-    "description": "I am an ecommerce brand owner hiring MULTIPLE video editors based in the Philippines for Q4 — we are scaling up ad production for Black Friday and Cyber Monday. This is a remote role working directly with me, and I…",
+    "title": "Video Editor for Ecommerce Brand \u2014 Q4/Black Friday (Hiring Multiple)",
+    "description": "I am an ecommerce brand owner hiring MULTIPLE video editors based in the Philippines for Q4 \u2014 we are scaling up ad production for Black Friday and Cyber Monday. This is a remote role working directly with me, and I\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-for-ecommerce-brand-q4-black-friday-hiring-multiple-1755341",
@@ -13119,7 +12591,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Sales Role (no experience needed)",
-    "description": "Full-Time Sales Role (no experience needed) \n\nPayment: Twice a month via Banktransfer. \n\nRealistic salary: 700-1000 USD per month\n\nThis is not a short-term job. We are looking for long-term Employee.\n\nYou will work directly with the leadership team to improve…",
+    "description": "Full-Time Sales Role (no experience needed) \n\nPayment: Twice a month via Banktransfer. \n\nRealistic salary: 700-1000 USD per month\n\nThis is not a short-term job. We are looking for long-term Employee.\n\nYou will work directly with the leadership team to improve\u2026",
     "category": "Sales",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-role-no-experience-needed-1755344",
@@ -13150,7 +12622,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Marketing & Growth Expert",
-    "description": "### Meta Ads | GoHighLevel | Lead Generation | Google Ads | Content & Sales\n\nWe are looking for an **exceptionally tech-savvy, results-driven Digital Marketing & Growth Expert** to join our growing healthcare and wellness business.\n\nThis is **not just…",
+    "description": "### Meta Ads | GoHighLevel | Lead Generation | Google Ads | Content & Sales\n\nWe are looking for an **exceptionally tech-savvy, results-driven Digital Marketing & Growth Expert** to join our growing healthcare and wellness business.\n\nThis is **not just\u2026",
     "category": "Automation",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketing-growth-expert-1755354",
@@ -13181,7 +12653,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Hiring: 2 Social Media Virtual Assistants (Remote)",
-    "description": "Seeking TWO experienced, reliable, organized, and detail-oriented Virtual Assistants to support two growing brands.\n\nThese are TWO SEPARATE positions. Applicants should indicate which position they are applying for.\n\nPOSITION 1: Canva, Social Media & Community Virtual Assistant\n\nResponsibilities:\n\nCreate short-form…",
+    "description": "Seeking TWO experienced, reliable, organized, and detail-oriented Virtual Assistants to support two growing brands.\n\nThese are TWO SEPARATE positions. Applicants should indicate which position they are applying for.\n\nPOSITION 1: Canva, Social Media & Community Virtual Assistant\n\nResponsibilities:\n\nCreate short-form\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-2-social-media-virtual-assistants-remote-1755359",
@@ -13211,8 +12683,8 @@ export const jobs: Job[] =
     "pay": "$3/hour"
   },
   {
-    "title": "Search Atlas Pro Specialist – SEO / AEO / GEO (Remote)",
-    "description": "Kristyl Media is a results-driven marketing agency based in Vancouver, Washington (www.kristylmedia.com). We help local businesses grow with tailored strategies focused on SEO, AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization).\n\nWe currently manage 6 clients and use Search…",
+    "title": "Search Atlas Pro Specialist \u2013 SEO / AEO / GEO (Remote)",
+    "description": "Kristyl Media is a results-driven marketing agency based in Vancouver, Washington (www.kristylmedia.com). We help local businesses grow with tailored strategies focused on SEO, AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization).\n\nWe currently manage 6 clients and use Search\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/search-atlas-pro-specialist-seo-aeo-geo-remote-1755362",
@@ -13243,7 +12715,7 @@ export const jobs: Job[] =
   },
   {
     "title": "GoHighLevel, AI & Marketing Automation Specialist",
-    "description": "Full-Time | Remote | GHL, AI Agents, Sales Funnels & Business Automation\n\nAbout the Role\n\nWe are looking for a highly skilled, full-time **GoHighLevel, AI & Marketing Automation Specialist** to take ownership of our marketing technology, sales funnels, CRM integrations,…",
+    "description": "Full-Time | Remote | GHL, AI Agents, Sales Funnels & Business Automation\n\nAbout the Role\n\nWe are looking for a highly skilled, full-time **GoHighLevel, AI & Marketing Automation Specialist** to take ownership of our marketing technology, sales funnels, CRM integrations,\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-ai-marketing-automation-specialist-1755363",
@@ -13274,7 +12746,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Full-Stack Software Developer (Python / React / AI Integration)",
-    "description": "Hiring: Full-Stack Software Developer (Python / React / AI Integration)\n\nRemote — Philippines Preferred\n\nCompany: Titan Roofing USA\n\nEmployment Type: Initial paid project with potential for long-term employment\n\nExperience: Mid-Level to Senior (3–5+ years preferred)\n\nCompensation: Negotiable based on experience…",
+    "description": "Hiring: Full-Stack Software Developer (Python / React / AI Integration)\n\nRemote \u2014 Philippines Preferred\n\nCompany: Titan Roofing USA\n\nEmployment Type: Initial paid project with potential for long-term employment\n\nExperience: Mid-Level to Senior (3\u20135+ years preferred)\n\nCompensation: Negotiable based on experience\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-stack-software-developer-python-react-ai-integration-1755375",
@@ -13304,39 +12776,8 @@ export const jobs: Job[] =
     "pay": "Negotiable"
   },
   {
-    "title": "Social Media Assistant",
-    "description": "About the Role\n\nWe are looking for a highly organized, creative, and proactive Social Media Assistant to support the day-to-day execution and growth of our social media presence across Instagram, Facebook, TikTok, YouTube, and LinkedIn.\n\nThis role is primarily focused…",
-    "category": "Social Media",
-    "date": "2026-10-24",
-    "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-assistant-1755376",
-    "newsletter": "",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": true,
-    "sourceDetails": {
-      "summary": "onlinejobs.ph search",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Remote",
-      "compensation": "$5",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph/jobseekers/job/social-media-assistant-1755376",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": "$5"
-  },
-  {
     "title": "Customer Support Specialist (Shopify + Gorgias) - Aussie Dog Brand",
-    "description": "Love dogs? Love solving problems and making someone's day? Keep reading.\n\nWe're an Aussie based ecommerce business specialising in dog products: toys, treats, supplements, beds and dog gear, all designed in-house.\n\nWe're family-run, and in just four years we've grown…",
+    "description": "Love dogs? Love solving problems and making someone's day? Keep reading.\n\nWe're an Aussie based ecommerce business specialising in dog products: toys, treats, supplements, beds and dog gear, all designed in-house.\n\nWe're family-run, and in just four years we've grown\u2026",
     "category": "Marketing",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/customer-support-specialist-shopify-gorgias-aussie-dog-brand-1755377",
@@ -13367,7 +12808,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Video Editor for UK & Ireland History Documentary Youtube Channel (Archive Footage Supplied, Ongoing)",
-    "description": "I'm launching a faceless YouTube documentary channel about lost and forgotten infrastructure in the UK and Ireland: closed railways, abandoned tunnels, drowned valleys, colliery lines and how things were built.\n\nI'm looking for an editor to cut a first batch…",
+    "description": "I'm launching a faceless YouTube documentary channel about lost and forgotten infrastructure in the UK and Ireland: closed railways, abandoned tunnels, drowned valleys, colliery lines and how things were built.\n\nI'm looking for an editor to cut a first batch\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-for-uk-ireland-history-documentary-youtube-channel-archive-footage-supplied-ongoing-1755383",
@@ -13397,8 +12838,8 @@ export const jobs: Job[] =
     "pay": "$50/video"
   },
   {
-    "title": "3D Animator — Architectural / Construction Training Videos",
-    "description": "Hiring: 3D Technical Animator / AI Video Creator — Long-Term Opportunity\n\nCompany: RoofReady Academy / Titan Roofing USA\n\nLocation: Remote — Philippines\n\nJob Type: Freelance / Part-Time, with opportunity for long-term work\n\nCompensation: Negotiable based on experience and quality\n\nAbout…",
+    "title": "3D Animator \u2014 Architectural / Construction Training Videos",
+    "description": "Hiring: 3D Technical Animator / AI Video Creator \u2014 Long-Term Opportunity\n\nCompany: RoofReady Academy / Titan Roofing USA\n\nLocation: Remote \u2014 Philippines\n\nJob Type: Freelance / Part-Time, with opportunity for long-term work\n\nCompensation: Negotiable based on experience and quality\n\nAbout\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/3d-animator-architectural-construction-training-videos-1755384",
@@ -13429,7 +12870,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Direct Response AI Video Editor - Meta ads",
-    "description": "We're looking for a highly creative, hungry, and experienced Direct Response AI Video Editor to join our team full-time and produce high-performing Facebook & Instagram ads for our fast-growing DTC eCommerce brand.\n\nThis is NOT a basic video editing role.…",
+    "description": "We're looking for a highly creative, hungry, and experienced Direct Response AI Video Editor to join our team full-time and produce high-performing Facebook & Instagram ads for our fast-growing DTC eCommerce brand.\n\nThis is NOT a basic video editing role.\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/direct-response-ai-video-editor-meta-ads-1755386",
@@ -13460,7 +12901,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Graphic Designer (Digital, Print & Claude AI Experience)",
-    "description": "About Us:\n\nAt Mesa Wave Marketing, we are a full-service e-commerce growth engine. We specialize in driving exponential sales growth and global market expansion for premium direct-to-consumer (DTC) brands through tailored advertising, email/SMS marketing, and business development strategies. We pride…",
+    "description": "About Us:\n\nAt Mesa Wave Marketing, we are a full-service e-commerce growth engine. We specialize in driving exponential sales growth and global market expansion for premium direct-to-consumer (DTC) brands through tailored advertising, email/SMS marketing, and business development strategies. We pride\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/graphic-designer-digital-print-claude-ai-experience-1665529",
@@ -13490,8 +12931,8 @@ export const jobs: Job[] =
     "pay": "$8-10 USD/hr"
   },
   {
-    "title": "Part-Time Technical Project Manager — AI Software Development",
-    "description": "Hiring: Part-Time Technical Project Manager — AI Software Development\n\nCompany: RoofReady AI / Titan Roofing USA\n\nLocation: Remote — Philippines\n\nSchedule: 10–15 hours per week initially\n\nCompensation: $8–$12 USD per hour, depending on experience\n\nOpportunity: Long-term\n\nAbout the Project\n\nWe…",
+    "title": "Part-Time Technical Project Manager \u2014 AI Software Development",
+    "description": "Hiring: Part-Time Technical Project Manager \u2014 AI Software Development\n\nCompany: RoofReady AI / Titan Roofing USA\n\nLocation: Remote \u2014 Philippines\n\nSchedule: 10\u201315 hours per week initially\n\nCompensation: $8\u2013$12 USD per hour, depending on experience\n\nOpportunity: Long-term\n\nAbout the Project\n\nWe\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-technical-project-manager-ai-software-development-1755397",
@@ -13521,8 +12962,8 @@ export const jobs: Job[] =
     "pay": "$4-$7/hr"
   },
   {
-    "title": "Graphic Designer — Remote | $8–12/hour",
-    "description": "About Us:\n\nMesa Wave Marketing is a US-based digital marketing agency specializing in e-commerce growth, paid advertising, email marketing, and website development.\n\nWe're looking for a creative Graphic Designer with a strong design eye, excellent attention to detail, and the…",
+    "title": "Graphic Designer \u2014 Remote | $8\u201312/hour",
+    "description": "About Us:\n\nMesa Wave Marketing is a US-based digital marketing agency specializing in e-commerce growth, paid advertising, email marketing, and website development.\n\nWe're looking for a creative Graphic Designer with a strong design eye, excellent attention to detail, and the\u2026",
     "category": "Web Design",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/graphic-designer-remote-8-12-hour-1755399",
@@ -13553,7 +12994,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Looking for an AI-Savvy Personal / Executive Assistant",
-    "description": "**Looking for an AI-Savvy Personal / Executive Assistant**\n\nLooking for someone who's extremely organized, proactive, and tech-savvy to help manage my day-to-day tasks, scheduling, and projects.\n\nIdeally someone who:\n\n- Is great at organizing schedules, calendars, tasks, and digital files…",
+    "description": "**Looking for an AI-Savvy Personal / Executive Assistant**\n\nLooking for someone who's extremely organized, proactive, and tech-savvy to help manage my day-to-day tasks, scheduling, and projects.\n\nIdeally someone who:\n\n- Is great at organizing schedules, calendars, tasks, and digital files\u2026",
     "category": "AI",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/looking-for-an-ai-savvy-personal-executive-assistant-1755411",
@@ -13583,8 +13024,8 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "YouTube Scriptwriter — Mysteries & Unexplained Events",
-    "description": "I’m looking for a strong, independent writer to create engaging YouTube scripts about strange sightings, unexplained events, and unusual encounters.\n\nFor examples of the writing quality I’m looking for—simple language, conversational delivery, and storytelling that’s extremely easy to follow—see:\n\n•…",
+    "title": "YouTube Scriptwriter \u2014 Mysteries & Unexplained Events",
+    "description": "I\u2019m looking for a strong, independent writer to create engaging YouTube scripts about strange sightings, unexplained events, and unusual encounters.\n\nFor examples of the writing quality I\u2019m looking for\u2014simple language, conversational delivery, and storytelling that\u2019s extremely easy to follow\u2014see:\n\n\u2022\u2026",
     "category": "Social Media",
     "date": "2026-10-24",
     "source": "https://www.onlinejobs.ph/jobseekers/job/youtube-scriptwriter-mysteries-unexplained-events-1755416",
@@ -13614,7 +13055,7 @@ export const jobs: Job[] =
     "pay": "$100 USD per script, including research"
   },
   {
-    "title": "Jewish Insider — remote freelance reporters",
+    "title": "Jewish Insider \u2014 remote freelance reporters",
     "description": "Jewish Insider needs remote freelance reporters",
     "category": "Writers",
     "date": "2026-10-23",
@@ -13645,7 +13086,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Chicago Public Schools — a part-time temporary social science curriculum writer",
+    "title": "Chicago Public Schools \u2014 a part-time temporary social science curriculum writer",
     "description": "Chicago Public Schools needs a part-time temporary social science curriculum writer ($16-$40/hour, 20-30 hours/week)",
     "category": "Writers",
     "date": "2026-10-23",
@@ -13676,7 +13117,7 @@ export const jobs: Job[] =
     "pay": "$16-$40/hour"
   },
   {
-    "title": "The Tarbell Center for AI Journalism — a one-year fellowship for journalists and subject matter experts",
+    "title": "The Tarbell Center for AI Journalism \u2014 a one-year fellowship for journalists and subject matter experts",
     "description": "The Tarbell Center for AI Journalism needs a one-year fellowship for journalists and subject matter experts ($75-$135k/year)",
     "category": "Writers",
     "date": "2026-10-23",
@@ -13707,7 +13148,7 @@ export const jobs: Job[] =
     "pay": "$75-$135k/year"
   },
   {
-    "title": "Jack Porter, Inc. — a remote creative writer",
+    "title": "Jack Porter, Inc. \u2014 a remote creative writer",
     "description": "Jack Porter, Inc. needs a remote creative writer",
     "category": "Writers",
     "date": "2026-10-23",
@@ -13738,7 +13179,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "The New York Times — a fellow for AI initiatives",
+    "title": "The New York Times \u2014 a fellow for AI initiatives",
     "description": "The New York Times needs a fellow for AI initiatives",
     "category": "AI",
     "date": "2026-10-23",
@@ -13769,7 +13210,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Nichole Greene — a developmental editor for a fantasy/romantasy",
+    "title": "Nichole Greene \u2014 a developmental editor for a fantasy/romantasy",
     "description": "Nichole Greene needs a developmental editor for a fantasy/romantasy",
     "category": "Writers",
     "date": "2026-10-23",
@@ -13800,7 +13241,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Canada's National Observer — ambitious reporting",
+    "title": "Canada's National Observer \u2014 ambitious reporting",
     "description": "Canada's National Observer needs ambitious reporting ($0.75/word)",
     "category": "Writers",
     "date": "2026-10-23",
@@ -13831,7 +13272,7 @@ export const jobs: Job[] =
     "pay": "$0.75/word"
   },
   {
-    "title": "GreenRoots — a freelance communications consultant",
+    "title": "GreenRoots \u2014 a freelance communications consultant",
     "description": "GreenRoots needs a freelance communications consultant ($35-$40/hour)",
     "category": "Marketing",
     "date": "2026-10-23",
@@ -13862,7 +13303,7 @@ export const jobs: Job[] =
     "pay": "$35-$40/hour"
   },
   {
-    "title": "PaperStreet — a remote part-time law firm content writer",
+    "title": "PaperStreet \u2014 a remote part-time law firm content writer",
     "description": "PaperStreet needs a remote part-time law firm content writer (20 hours/week)",
     "category": "Writers",
     "date": "2026-10-23",
@@ -13893,7 +13334,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "News Media Help Desk — a remote full-time technology and journalism reporter",
+    "title": "News Media Help Desk \u2014 a remote full-time technology and journalism reporter",
     "description": "News Media Help Desk needs a remote full-time technology and journalism reporter",
     "category": "Writers",
     "date": "2026-10-23",
@@ -13924,7 +13365,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Apparata Media — a contract newsletter writer for Monday-Friday AI newsletter",
+    "title": "Apparata Media \u2014 a contract newsletter writer for Monday-Friday AI newsletter",
     "description": "Apparata Media needs a contract newsletter writer for Monday-Friday AI newsletter",
     "category": "Marketing",
     "date": "2026-10-23",
@@ -13955,7 +13396,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Antica Productions — a freelance scriptwriter for a video essay series",
+    "title": "Antica Productions \u2014 a freelance scriptwriter for a video essay series",
     "description": "Antica Productions needs a freelance scriptwriter for a video essay series on investing and financial decision-making",
     "category": "Video",
     "date": "2026-10-23",
@@ -13986,7 +13427,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "The Foodservice Equipment Distributors Association — a freelance writer",
+    "title": "The Foodservice Equipment Distributors Association \u2014 a freelance writer",
     "description": "The Foodservice Equipment Distributors Association needs a freelance writer",
     "category": "Writers",
     "date": "2026-10-23",
@@ -14017,7 +13458,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "The Honest Company — a part-time contract SEO/GEO content writer",
+    "title": "The Honest Company \u2014 a part-time contract SEO/GEO content writer",
     "description": "The Honest Company needs a part-time contract SEO/GEO content writer (2-month contract, $74-$83/hour)",
     "category": "Marketing",
     "date": "2026-10-23",
@@ -14048,7 +13489,7 @@ export const jobs: Job[] =
     "pay": "$74-$83/hour"
   },
   {
-    "title": "Kitsch — a remote part-time copywriter",
+    "title": "Kitsch \u2014 a remote part-time copywriter",
     "description": "Kitsch needs a remote part-time copywriter ($75/hour)",
     "category": "Writers",
     "date": "2026-10-23",
@@ -14079,7 +13520,7 @@ export const jobs: Job[] =
     "pay": "$75/hour"
   },
   {
-    "title": "Zeta Charter Schools — a remote elementary school literacy curriculum writer consultant",
+    "title": "Zeta Charter Schools \u2014 a remote elementary school literacy curriculum writer consultant",
     "description": "Zeta Charter Schools needs a remote elementary school literacy curriculum writer consultant ($15k-$25k)",
     "category": "Writers",
     "date": "2026-10-23",
@@ -14110,7 +13551,7 @@ export const jobs: Job[] =
     "pay": "$15k-$25k"
   },
   {
-    "title": "Noble Gold Investments — a remote marketing writer",
+    "title": "Noble Gold Investments \u2014 a remote marketing writer",
     "description": "Noble Gold Investments needs a remote marketing writer ($40-$50/hour, 20-30 hours/week)",
     "category": "Writers",
     "date": "2026-10-23",
@@ -14141,7 +13582,7 @@ export const jobs: Job[] =
     "pay": "$40-$50/hour"
   },
   {
-    "title": "The Friends of the Stone Church — a contract grant writer",
+    "title": "The Friends of the Stone Church \u2014 a contract grant writer",
     "description": "The Friends of the Stone Church needs a contract grant writer",
     "category": "Grants",
     "date": "2026-10-23",
@@ -14172,7 +13613,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Johns Hopkins Magazine — pitches for 800-1,000 word stories",
+    "title": "Johns Hopkins Magazine \u2014 pitches for 800-1,000 word stories",
     "description": "Johns Hopkins Magazine needs pitches for 800-1,000 word stories",
     "category": "Writers",
     "date": "2026-10-23",
@@ -14203,7 +13644,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Kansas City Business Journal — a full-time real estate and development reporter",
+    "title": "Kansas City Business Journal \u2014 a full-time real estate and development reporter",
     "description": "Kansas City Business Journal needs a full-time real estate and development reporter",
     "category": "Writers",
     "date": "2026-10-23",
@@ -14234,7 +13675,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Apparata Media — a contract newsletter writer for AI newsletter",
+    "title": "Apparata Media \u2014 a contract newsletter writer for AI newsletter",
     "description": "Apparata Media is recruiting a contract newsletter writer for a Monday-Friday AI newsletter",
     "category": "Marketing",
     "date": "2026-10-23",
@@ -14265,69 +13706,7 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Canada's National Observer — ambitious reporting",
-    "description": "Canada's National Observer needs ambitious reporting ($0.75/word)",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://www.linkedin.com/posts/colinschultz_attention-freelance-journalists-canas-share-7518344176661397505-4_BE/",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$0.75/word",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/posts/colinschultz_attention-freelance-journalists-canas-share-7518344176661397505-4_BE/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$0.75/word"
-  },
-  {
-    "title": "Jack Porter, Inc. — a remote creative writer",
-    "description": "Jack Porter, Inc. needs a remote creative writer",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://www.linkedin.com/jobs/view/4473868111",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "US",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/jobs/view/4473868111",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "The Tarbell Center for AI Journalism — a one-year fellowship for journalists",
+    "title": "The Tarbell Center for AI Journalism \u2014 a one-year fellowship for journalists",
     "description": "The Tarbell Center for AI Journalism offers a one-year fellowship for journalists and subject matter experts ($75-$135k/year)",
     "category": "Grants",
     "date": "2026-10-23",
@@ -14358,503 +13737,7 @@ export const jobs: Job[] =
     "pay": "$75-$135k/year"
   },
   {
-    "title": "Antica Productions — a freelance scriptwriter for a video essay series",
-    "description": "Antica Productions needs a freelance scriptwriter for a video essay series on investing and financial decision-making",
-    "category": "Video",
-    "date": "2026-10-23",
-    "source": "https://www.linkedin.com/posts/antica-productions-is-looking-for-a-freelance",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/posts/antica-productions-is-looking-for-a-freelance",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "Noble Gold Investments — a remote marketing writer",
-    "description": "Noble Gold Investments needs a remote marketing writer ($40-$50/hour, 20-30 hours/week)",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://www.indeed.com/viewjob?cmp=Noble-Gold-Investments-In-Southern-California",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$40-$50/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.indeed.com/viewjob?cmp=Noble-Gold-Investments-In-Southern-California",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$40-$50/hour"
-  },
-  {
-    "title": "Chicago Public Schools — a part-time temporary social science curriculum writer",
-    "description": "Chicago Public Schools needs a part-time temporary social science curriculum writer ($16-$40/hour, 20-30 hours/week)",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://cpsk12il.taleo.net/careersection/3/jobdetail.ftl",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$16-$40/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://cpsk12il.taleo.net/careersection/3/jobdetail.ftl",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "$16-$40/hour"
-  },
-  {
-    "title": "The Foodservice Equipment Distributors Association — a freelance writer",
-    "description": "The Foodservice Equipment Distributors Association needs a freelance writer",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://www.journalismjobs.com/1694136-freelance-writer-foodservice-equipment-distributors-association-feda",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.journalismjobs.com/1694136-freelance-writer-foodservice-equipment-distributors-association-feda",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "Jewish Insider — remote freelance reporters",
-    "description": "Jewish Insider needs remote freelance reporters",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://jewishinsider.com/jobs/freelance-writers/",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://jewishinsider.com/jobs/freelance-writers/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "Johns Hopkins Magazine — pitches for 800-1,000 word stories",
-    "description": "Johns Hopkins Magazine needs pitches for 800-1,000 word stories",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://www.linkedin.com/posts/aleyna-rentz",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/posts/aleyna-rentz",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "The Friends of the Stone Church — a contract grant writer",
-    "description": "The Friends of the Stone Church needs a contract grant writer",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://friendsofthestonechurch.org/wp-content/uploads/2026/10/fosc-grant-writer-advertisement-with-links-2.pdf",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://friendsofthestonechurch.org/wp-content/uploads/2026/10/fosc-grant-writer-advertisement-with-links-2.pdf",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "Zeta Charter Schools — a remote elementary school literacy curriculum writer consultant",
-    "description": "Zeta Charter Schools needs a remote elementary school literacy curriculum writer consultant ($15k-$25k)",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://zetaschools.org/careers/",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "US",
-      "compensation": "$15k-$25k",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://zetaschools.org/careers/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$15k-$25k"
-  },
-  {
-    "title": "Kitsch — a remote part-time copywriter",
-    "description": "Kitsch needs a remote part-time copywriter ($75/hour)",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://kitsch.applytojob.com/apply/wK96aa4x1w/Copywriter",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$75/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://kitsch.applytojob.com/apply/wK96aa4x1w/Copywriter",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "$75/hour"
-  },
-  {
-    "title": "The Honest Company — a part-time contract SEO/GEO content writer",
-    "description": "The Honest Company needs a part-time contract SEO/GEO content writer (2-month contract, $74-$83/hour)",
-    "category": "Marketing",
-    "date": "2026-10-23",
-    "source": "https://job-boards.greenhouse.io/phxproduction/jobs/8289972",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "$74-$83/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://job-boards.greenhouse.io/phxproduction/jobs/8289972",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": "$74-$83/hour"
-  },
-  {
-    "title": "GreenRoots — a freelance communications consultant",
-    "description": "GreenRoots needs a freelance communications consultant ($35-$40/hour)",
-    "category": "Marketing",
-    "date": "2026-10-23",
-    "source": "https://www.idealist.org/en/nonprofit-job/87db713c009240dd91c1903698760548",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "Chelsea, MA",
-      "compensation": "$35-$40/hour",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.idealist.org/en/nonprofit-job/87db713c009240dd91c1903698760548",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": "$35-$40/hour"
-  },
-  {
-    "title": "The New York Times — a fellow for AI initiatives",
-    "description": "The New York Times needs a fellow for AI initiatives",
-    "category": "Other",
-    "date": "2026-10-23",
-    "source": "https://www.linkedin.com/jobs/view/4481594363/",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "NYC",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/jobs/view/4481594363/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Fellowship",
-    "pay": ""
-  },
-  {
-    "title": "Kansas City Business Journal — a full-time real estate and development reporter",
-    "description": "Kansas City Business Journal needs a full-time real estate and development reporter",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://www.journalismjobs.com/1694169-real-estate-and-development-reporter-kansas-city-business-journal",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.journalismjobs.com/1694169-real-estate-and-development-reporter-kansas-city-business-journal",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": ""
-  },
-  {
-    "title": "Nichole Greene — a developmental editor for a fantasy/romantasy",
-    "description": "Nichole Greene needs a developmental editor for a fantasy/romantasy",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://www.threads.com/share/E_Yl09KnK/",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Threads",
-      "url": "https://www.threads.com/share/E_Yl09KnK/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Freelance",
-    "pay": ""
-  },
-  {
-    "title": "PaperStreet — a remote part-time law firm content writer",
-    "description": "PaperStreet needs a remote part-time law firm content writer (20 hours/week)",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://www.paperstreet.com/blog/freelance-legal-web-content-writer-pt/",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://www.paperstreet.com/blog/freelance-legal-web-content-writer-pt/",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Part-time",
-    "pay": ""
-  },
-  {
-    "title": "News Media Help Desk — a remote full-time technology and journalism reporter",
-    "description": "News Media Help Desk needs a remote full-time technology and journalism reporter",
-    "category": "Writers",
-    "date": "2026-10-23",
-    "source": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL",
-    "newsletter": "https://www.findfreelanceopportunities.com/p/test-kitchen-products-work-with-t-pain-and-edit-travel-photos",
-    "newsletterSubject": "",
-    "sourceTitle": "",
-    "sourceStatus": "Active",
-    "verified": false,
-    "sourceDetails": {
-      "summary": "Freelance Opportunities! issue 2026-10-23",
-      "responsibilities": [],
-      "requirements": [],
-      "location": "",
-      "compensation": "",
-      "deadline": "",
-      "application": ""
-    },
-    "media": [],
-    "embed": {
-      "supported": false,
-      "platform": "Web page",
-      "url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL",
-      "embedUrl": ""
-    },
-    "sourceNotes": "Synced from the Notion headless database at build time.",
-    "type": "Full-time",
-    "pay": ""
-  },
-  {
-    "title": "The Times — a data and insight apprentice",
+    "title": "The Times \u2014 a data and insight apprentice",
     "description": "The Times is looking for a data and insight apprentice in London",
     "category": "Other",
     "date": "2026-10-23",
@@ -14885,8 +13768,8 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Leicester Gazette — a remote freelance features writer",
-    "description": "Leicester Gazette is looking for a remote freelance features writer at £150 per article",
+    "title": "Leicester Gazette \u2014 a remote freelance features writer",
+    "description": "Leicester Gazette is looking for a remote freelance features writer at \u00a3150 per article",
     "category": "Writers",
     "date": "2026-10-23",
     "source": "https://www.journoresources.org.uk/job/freelance-features-writer/",
@@ -14917,7 +13800,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Outbound Phone Caller / Appointment Setter for US Web Design Studio (Work From Home)",
-    "description": "START HERE: JOIN OUR DISCORD COMMUNITY\n\nBefore anything else, join our free Discord community: https://discord.gg/56Q6r3VKm8\n\nThis is the #1 step, and it matters more than your resume. Our team, our paid gig announcements, our free training, and our daily work…",
+    "description": "START HERE: JOIN OUR DISCORD COMMUNITY\n\nBefore anything else, join our free Discord community: https://discord.gg/56Q6r3VKm8\n\nThis is the #1 step, and it matters more than your resume. Our team, our paid gig announcements, our free training, and our daily work\u2026",
     "category": "Web Design",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/outbound-phone-caller-appointment-setter-for-us-web-design-studio-work-from-home-1754852",
@@ -14931,7 +13814,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "₱600/hour",
+      "compensation": "\u20b1600/hour",
       "deadline": "",
       "application": ""
     },
@@ -14944,11 +13827,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Part-time",
-    "pay": "₱600/hour"
+    "pay": "\u20b1600/hour"
   },
   {
-    "title": "3D Motion Designer & Creative Storyteller – 5-Post Athletic Launch Campaign (Padel)",
-    "description": "We are launching PADLBOX, a UK-based high-performance padel gear and accessories brand. \n\nWe construct elevated court essentials, preparation gear, and recovery kits for dedicated padel players.   \n\nWe are NOT looking for generic social media templates, Canva graphics, or loud \"infomercial\"…",
+    "title": "3D Motion Designer & Creative Storyteller \u2013 5-Post Athletic Launch Campaign (Padel)",
+    "description": "We are launching PADLBOX, a UK-based high-performance padel gear and accessories brand. \n\nWe construct elevated court essentials, preparation gear, and recovery kits for dedicated padel players.   \n\nWe are NOT looking for generic social media templates, Canva graphics, or loud \"infomercial\"\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/3d-motion-designer-creative-storyteller-5-post-athletic-launch-campaign-padel-1754787",
@@ -14978,8 +13861,8 @@ export const jobs: Job[] =
     "pay": "250"
   },
   {
-    "title": "Virtual Executive Assistant – Real Estate Leasing, AI Content Creation & Meta Ads Funnel Manager",
-    "description": "Virtual Executive Assistant – Real Estate Leasing, AI Content Creation & Meta Ads Funnel Manager\n\nPosition Overview\n\nWe are looking for a highly organized, proactive Virtual Executive Assistant to support day to day leasing operations for two luxury residential communities,…",
+    "title": "Virtual Executive Assistant \u2013 Real Estate Leasing, AI Content Creation & Meta Ads Funnel Manager",
+    "description": "Virtual Executive Assistant \u2013 Real Estate Leasing, AI Content Creation & Meta Ads Funnel Manager\n\nPosition Overview\n\nWe are looking for a highly organized, proactive Virtual Executive Assistant to support day to day leasing operations for two luxury residential communities,\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/virtual-executive-assistant-real-estate-leasing-ai-content-creation-meta-ads-funnel-manager-1725766",
@@ -15010,7 +13893,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Lead Specialist / Virtual Assistant (Remote)",
-    "description": "We’re hiring a confident, conversational, and highly organized Lead Specialist / Virtual Assistant to join our remote team on a long-term basis.\n\nYour primary role is to support lead follow-up, appointment setting, administrative tasks, and event coordination so the business…",
+    "description": "We\u2019re hiring a confident, conversational, and highly organized Lead Specialist / Virtual Assistant to join our remote team on a long-term basis.\n\nYour primary role is to support lead follow-up, appointment setting, administrative tasks, and event coordination so the business\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/lead-specialist-virtual-assistant-remote-1567995",
@@ -15041,7 +13924,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Product Marketing & Business Analyst",
-    "description": "# Product Marketing & Business Analyst\n\nWe are a U.S.-based consumer products company looking for a highly intelligent, analytical, and motivated individual to help us identify new product opportunities, research competitors, analyze markets, and support business growth.\n\nIMPORTANT: We are…",
+    "description": "# Product Marketing & Business Analyst\n\nWe are a U.S.-based consumer products company looking for a highly intelligent, analytical, and motivated individual to help us identify new product opportunities, research competitors, analyze markets, and support business growth.\n\nIMPORTANT: We are\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/product-marketing-business-analyst-1754749",
@@ -15072,7 +13955,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Google Analytics & Meta Specialist",
-    "description": "Part-Time Marketing Analytics & Ads Specialist\n\nCompany: Gembid\n\nLocation: Remote — Philippines preferred\n\nCompensation: Approximately $500 USD/month to start\n\nHours: Part-time, with potential to grow into a full-time role\n\nStart: As soon as possible\n\nAbout the Role\n\nGembid is looking…",
+    "description": "Part-Time Marketing Analytics & Ads Specialist\n\nCompany: Gembid\n\nLocation: Remote \u2014 Philippines preferred\n\nCompensation: Approximately $500 USD/month to start\n\nHours: Part-time, with potential to grow into a full-time role\n\nStart: As soon as possible\n\nAbout the Role\n\nGembid is looking\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/google-analytics-meta-specialist-1754751",
@@ -15102,8 +13985,8 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Full-Time Virtual Assistant – Cold Calling & Sales",
-    "description": "You must speak fluent English with clear, natural pronunciation and a neutral American accent. Previous experience in sales, cold calling, telemarketing, or appointment setting is required.\n\nResponsibilities:\n\n• Make outbound calls and engage prospects.\n\n• Qualify leads, handle objections, and…",
+    "title": "Full-Time Virtual Assistant \u2013 Cold Calling & Sales",
+    "description": "You must speak fluent English with clear, natural pronunciation and a neutral American accent. Previous experience in sales, cold calling, telemarketing, or appointment setting is required.\n\nResponsibilities:\n\n\u2022 Make outbound calls and engage prospects.\n\n\u2022 Qualify leads, handle objections, and\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-virtual-assistant-cold-calling-sales-1754756",
@@ -15134,7 +14017,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Virtual Assistant & Business Growth Coordinator",
-    "description": "Virtual Assistant & Business Growth Coordinator\n\nRemote | Part-time | 15 hours per week initially | AUD $12–$18 per hour\n\nAbout the Business\n\nI operate two complementary businesses:\n\n* Sports Coaching Business: Based in Sydney, Australia, providing speed, agility, power…",
+    "description": "Virtual Assistant & Business Growth Coordinator\n\nRemote | Part-time | 15 hours per week initially | AUD $12\u2013$18 per hour\n\nAbout the Business\n\nI operate two complementary businesses:\n\n* Sports Coaching Business: Based in Sydney, Australia, providing speed, agility, power\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/virtual-assistant-business-growth-coordinator-1754757",
@@ -15165,7 +14048,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Cold Caller / Appointment Setter - Home Remodeling Leads",
-    "description": "We are looking for a reliable and confident Cold Caller / Appointment Setter to contact homeowners who have shown interest in home remodeling services.\n\nYour main responsibility will be calling leads, having professional conversations, qualifying their remodeling needs, and scheduling…",
+    "description": "We are looking for a reliable and confident Cold Caller / Appointment Setter to contact homeowners who have shown interest in home remodeling services.\n\nYour main responsibility will be calling leads, having professional conversations, qualifying their remodeling needs, and scheduling\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/cold-caller-appointment-setter-home-remodeling-leads-1724007",
@@ -15196,7 +14079,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Sales Coordinator",
-    "description": "We’re a US coaching company looking for a Sales Coordinator who treats every number like it matters, because here it does. Our Sales Manager uses your numbers every morning to coach and route calls, so accuracy is the whole job.…",
+    "description": "We\u2019re a US coaching company looking for a Sales Coordinator who treats every number like it matters, because here it does. Our Sales Manager uses your numbers every morning to coach and route calls, so accuracy is the whole job.\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-coordinator-1754778",
@@ -15227,7 +14110,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Outreach Specialist",
-    "description": "We are seeking a proactive, organized, and results-driven Outreach Specialist to help build relationships with prospective clients, partners, and community contacts. The ideal candidate is an excellent communicator who is comfortable conducting outreach by phone and email, following up consistently,…",
+    "description": "We are seeking a proactive, organized, and results-driven Outreach Specialist to help build relationships with prospective clients, partners, and community contacts. The ideal candidate is an excellent communicator who is comfortable conducting outreach by phone and email, following up consistently,\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/outreach-specialist-1754782",
@@ -15258,7 +14141,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Independent Appointment Setter (Contractor): Australia and New Zealand",
-    "description": "Aivyn Limited (Auckland, New Zealand) books sales meetings for its clients. We supply the prospects and a power dialer platform; you talk and book. The client runs the meeting and closes the sale.\n\n \n\nThe engagement\n\n-Independent contractor, not employment: written…",
+    "description": "Aivyn Limited (Auckland, New Zealand) books sales meetings for its clients. We supply the prospects and a power dialer platform; you talk and book. The client runs the meeting and closes the sale.\n\n \n\nThe engagement\n\n-Independent contractor, not employment: written\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/independent-appointment-setter-contractor-australia-and-new-zealand-1754766",
@@ -15289,7 +14172,7 @@ export const jobs: Job[] =
   },
   {
     "title": "OUTSTANDING Customer Service, Sales & Administrative Virtual Assistant",
-    "description": "Customer Service, Sales & Administrative Virtual Assistant\\\n\n**Company:** AP RollerSkating  \n\n**Website:** www.aprollerskating.com  \n\n**Location:** Remote – Philippines  \n\n**Schedule:** U.S. Eastern Time hours (exact schedule to be determined)  \n\n**Starting Pay:** Approximately $5 USD/hour, depending on experience\n\nWe're Looking for an AMAZING Virtual…",
+    "description": "Customer Service, Sales & Administrative Virtual Assistant\\\n\n**Company:** AP RollerSkating  \n\n**Website:** www.aprollerskating.com  \n\n**Location:** Remote \u2013 Philippines  \n\n**Schedule:** U.S. Eastern Time hours (exact schedule to be determined)  \n\n**Starting Pay:** Approximately $5 USD/hour, depending on experience\n\nWe're Looking for an AMAZING Virtual\u2026",
     "category": "Web Design",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/outstanding-customer-service-sales-administrative-virtual-assistant-1754812",
@@ -15320,7 +14203,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Cold Outreach Specialist",
-    "description": "Cold Email & LinkedIn Outreach Specialist | Case Influx\n\nABOUT US\n\nCase Influx (CaseInflux.com) generates personal injury case leads, with a focus on motor vehicle accidents. We sell those leads to law firms on a pay-per-lead basis. Firms only pay…",
+    "description": "Cold Email & LinkedIn Outreach Specialist | Case Influx\n\nABOUT US\n\nCase Influx (CaseInflux.com) generates personal injury case leads, with a focus on motor vehicle accidents. We sell those leads to law firms on a pay-per-lead basis. Firms only pay\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/cold-outreach-specialist-1754825",
@@ -15351,7 +14234,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Sales Development Representative (Outbound)",
-    "description": "You have no fear making outbound calls and know how to get very busy people to pay attention when you call. You’ve done outbound appointment setting, sales or have proven productivity in roles where you’ve been able to create agreement…",
+    "description": "You have no fear making outbound calls and know how to get very busy people to pay attention when you call. You\u2019ve done outbound appointment setting, sales or have proven productivity in roles where you\u2019ve been able to create agreement\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-development-representative-outbound-1754839",
@@ -15381,8 +14264,8 @@ export const jobs: Job[] =
     "pay": "AUD 1150 On-target earnings"
   },
   {
-    "title": "Virtual Assistant – Linktree Creator & Social Media Research",
-    "description": "Job Type: Part-Time / Long-Term\n\nExperience: Entry-Level\n\nPay: Competitive, based on experience\n\nJob Description:\n\nWe're looking for a reliable virtual assistant to help us create customized Linktree pages for different content creators.\n\nThis is a very simple, repetitive job, and…",
+    "title": "Virtual Assistant \u2013 Linktree Creator & Social Media Research",
+    "description": "Job Type: Part-Time / Long-Term\n\nExperience: Entry-Level\n\nPay: Competitive, based on experience\n\nJob Description:\n\nWe're looking for a reliable virtual assistant to help us create customized Linktree pages for different content creators.\n\nThis is a very simple, repetitive job, and\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/virtual-assistant-linktree-creator-social-media-research-1754793",
@@ -15413,7 +14296,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Influencer Marketing Manager for a Streetwear Brand",
-    "description": "Yalla Apparel is an Arab American streetwear brand. Our PEACE collection grossed over $100,000, and the brand has been featured on Al Jazeera and in Grazia Magazine. We grew through organic TikTok and Instagram content and limited drops. Our next…",
+    "description": "Yalla Apparel is an Arab American streetwear brand. Our PEACE collection grossed over $100,000, and the brand has been featured on Al Jazeera and in Grazia Magazine. We grew through organic TikTok and Instagram content and limited drops. Our next\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/influencer-marketing-manager-for-a-streetwear-brand-1747582",
@@ -15444,7 +14327,7 @@ export const jobs: Job[] =
   },
   {
     "title": "HIRING: Creator Outreach & UGC Coordinator",
-    "description": "About Us\n\nWe're a fast-growing ecommerce fashion brand that works with UGC creators to make short-form video content for our ads. We're looking for someone with a good eye who can protect our brand look and keep our creators happy…",
+    "description": "About Us\n\nWe're a fast-growing ecommerce fashion brand that works with UGC creators to make short-form video content for our ads. We're looking for someone with a good eye who can protect our brand look and keep our creators happy\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-creator-outreach-ugc-coordinator-1754796",
@@ -15475,7 +14358,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Full-Time Short-Form Video Editor Tiktok & Instagram Reels",
-    "description": "TIKTOKSHOP VIDEO ( MUST HAVE PRIOR EXPERIENCE ) \n\nI’m looking for a reliable, creative video editor to join my team full-time and edit engaging short-form videos for TikTok and Instagram Reels.\n\nI’m looking for someone who understands how to make…",
+    "description": "TIKTOKSHOP VIDEO ( MUST HAVE PRIOR EXPERIENCE ) \n\nI\u2019m looking for a reliable, creative video editor to join my team full-time and edit engaging short-form videos for TikTok and Instagram Reels.\n\nI\u2019m looking for someone who understands how to make\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-short-form-video-editor-tiktok-instagram-reels-1754805",
@@ -15505,8 +14388,8 @@ export const jobs: Job[] =
     "pay": "$800.00"
   },
   {
-    "title": "Local SEO Content Writer – Service Area Pages (Pest Control / Home Services)",
-    "description": "We are a multi-state pest control company (FL, GA, AL) looking for an experienced writer to create city service-area pages that rank locally and convert visitors into calls. The initial scope is a 10-page batch, with ongoing work across 50+…",
+    "title": "Local SEO Content Writer \u2013 Service Area Pages (Pest Control / Home Services)",
+    "description": "We are a multi-state pest control company (FL, GA, AL) looking for an experienced writer to create city service-area pages that rank locally and convert visitors into calls. The initial scope is a 10-page batch, with ongoing work across 50+\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/local-seo-content-writer-service-area-pages-pest-control-home-services-1745847",
@@ -15537,7 +14420,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Meta Ads & Social Media Specialist",
-    "description": "Part-Time | Long-Term Opportunity | European Health & Wellness Business\n\nThe House of Beauty is an award-winning premium health, beauty and wellness clinic based in Reykjavík, Iceland.\n\nWe are looking for an experienced Meta Ads & Social Media Specialist who…",
+    "description": "Part-Time | Long-Term Opportunity | European Health & Wellness Business\n\nThe House of Beauty is an award-winning premium health, beauty and wellness clinic based in Reykjav\u00edk, Iceland.\n\nWe are looking for an experienced Meta Ads & Social Media Specialist who\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/meta-ads-social-media-specialist-1754811",
@@ -15568,7 +14451,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Online Sales Agent",
-    "description": "We’re looking for a friendly, motivated person who’s great at talking to people, building genuine connections to consistently close sales. You don’t need to sound overly “salesy”, what matters most is being able to hold natural conversations, get to know…",
+    "description": "We\u2019re looking for a friendly, motivated person who\u2019s great at talking to people, building genuine connections to consistently close sales. You don\u2019t need to sound overly \u201csalesy\u201d, what matters most is being able to hold natural conversations, get to know\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/online-sales-agent-1754816",
@@ -15599,7 +14482,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media Content & Growth Strategist | Brand Creative + Video Editing | Consumer App",
-    "description": "SOCIAL MEDIA CONTENT & GROWTH STRATEGIST\n\nBrand Strategy | Graphic Design | Video Editing | Organic Growth\n\nRemote | Freelance | Long-Term Opportunity\n\nABOUT THE WAY IN\n\nThe Way In is an emerging consumer app designed to make meaningful self-connection…",
+    "description": "SOCIAL MEDIA CONTENT & GROWTH STRATEGIST\n\nBrand Strategy | Graphic Design | Video Editing | Organic Growth\n\nRemote | Freelance | Long-Term Opportunity\n\nABOUT THE WAY IN\n\nThe Way In is an emerging consumer app designed to make meaningful self-connection\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-growth-strategist-brand-creative-video-editing-consumer-app-1754831",
@@ -15630,7 +14513,7 @@ export const jobs: Job[] =
   },
   {
     "title": "E-commerce & TikTok Shop Outreach Virtual Assistant",
-    "description": "# We’re Hiring: E\\-commerce & TikTok Shop Outreach Virtual Assistant (Full\\-Time)\n\n**Position:** Full\\-Time Virtual Assistant\n\n**Industry:** E\\-commerce, TikTok Shop & Influencer Marketing\n\n**Location:** Remote\n\n**Working Hours:** Must be available to work European business hours (CET/CEST)\n\n### About the Role\n\nWe’re…",
+    "description": "# We\u2019re Hiring: E\\-commerce & TikTok Shop Outreach Virtual Assistant (Full\\-Time)\n\n**Position:** Full\\-Time Virtual Assistant\n\n**Industry:** E\\-commerce, TikTok Shop & Influencer Marketing\n\n**Location:** Remote\n\n**Working Hours:** Must be available to work European business hours (CET/CEST)\n\n### About the Role\n\nWe\u2019re\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/e-commerce-tiktok-shop-outreach-virtual-assistant-1754837",
@@ -15660,8 +14543,8 @@ export const jobs: Job[] =
     "pay": "$3-$7 per hour"
   },
   {
-    "title": "YouTube Growth Strategist — Titles, Thumbnails, Analytics & A/B Testing",
-    "description": "LOCATION: Remote — Philippines\n\nTYPE: Part time, long term\n\nHOURS: Approximately 15 hours per week\n\nPAY: $5 USD per hour, plus monthly performance bonuses of up to $75. Bonus criteria will be agreed before work begins.\n\nABOUT THE ROLE\n\nI’m…",
+    "title": "YouTube Growth Strategist \u2014 Titles, Thumbnails, Analytics & A/B Testing",
+    "description": "LOCATION: Remote \u2014 Philippines\n\nTYPE: Part time, long term\n\nHOURS: Approximately 15 hours per week\n\nPAY: $5 USD per hour, plus monthly performance bonuses of up to $75. Bonus criteria will be agreed before work begins.\n\nABOUT THE ROLE\n\nI\u2019m\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/youtube-growth-strategist-titles-thumbnails-analytics-a-b-testing-1747976",
@@ -15692,7 +14575,7 @@ export const jobs: Job[] =
   },
   {
     "title": "VIDEO EDITOR FOR PODCAST + VIRAL SOCIAL MEDIA CONTENT",
-    "description": "VIDEO EDITOR FOR PODCAST + VIRAL SOCIAL MEDIA CONTENT\n\n???? PAY\n\n$100 USD per completed project\n\nThis is NOT an hourly position.\n\nWe pay based on completed deliverables, not the number of hours it takes.\n\nIf you're efficient, organized, and…",
+    "description": "VIDEO EDITOR FOR PODCAST + VIRAL SOCIAL MEDIA CONTENT\n\n???? PAY\n\n$100 USD per completed project\n\nThis is NOT an hourly position.\n\nWe pay based on completed deliverables, not the number of hours it takes.\n\nIf you're efficient, organized, and\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-for-podcast-viral-social-media-content-1683751",
@@ -15723,7 +14606,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Podcast & Social Media Video Editor (Reels + Viral Clips)",
-    "description": "Pay:\n\n$5 per hour\n\nAbout the Job\n\nWe are looking for a creative and reliable video editor to help edit a growing podcast and social media content.\n\nYou will be editing 2–3 podcast episodes per week and creating short viral…",
+    "description": "Pay:\n\n$5 per hour\n\nAbout the Job\n\nWe are looking for a creative and reliable video editor to help edit a growing podcast and social media content.\n\nYou will be editing 2\u20133 podcast episodes per week and creating short viral\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/podcast-social-media-video-editor-reels-viral-clips-1604097",
@@ -15753,8 +14636,8 @@ export const jobs: Job[] =
     "pay": "$5 USD per hour"
   },
   {
-    "title": "🚨 HIRING VIDEO CLIPPERS - GET PAID FOR VIEWS! 🚨",
-    "description": "💰 EARN $800+ PER 1 MILLION VIEWS!\n\nWe’re looking for motivated content creators to join our clipping team and earn money posting viral short-form content!\n\n🎬 WHAT YOU’LL DO:\n\n* Create dedicated clipping accounts on TikTok, Instagram Reels & YouTube…",
+    "title": "\ud83d\udea8 HIRING VIDEO CLIPPERS - GET PAID FOR VIEWS! \ud83d\udea8",
+    "description": "\ud83d\udcb0 EARN $800+ PER 1 MILLION VIEWS!\n\nWe\u2019re looking for motivated content creators to join our clipping team and earn money posting viral short-form content!\n\n\ud83c\udfac WHAT YOU\u2019LL DO:\n\n* Create dedicated clipping accounts on TikTok, Instagram Reels & YouTube\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/hiring-video-clippers-get-paid-for-views-1456890",
@@ -15784,8 +14667,8 @@ export const jobs: Job[] =
     "pay": "$400-$8000+"
   },
   {
-    "title": "Sales Closer — Warm Leads, US Digital Marketing Agency (GoHighLevel)",
-    "description": "ABOUT US\n\nMaverick Creative Group is a California digital marketing agency. We build complete growth systems for American small businesses — websites, funnels, CRM automation, paid advertising, AI phone and chat assistants, and video and podcast production. Our clients are…",
+    "title": "Sales Closer \u2014 Warm Leads, US Digital Marketing Agency (GoHighLevel)",
+    "description": "ABOUT US\n\nMaverick Creative Group is a California digital marketing agency. We build complete growth systems for American small businesses \u2014 websites, funnels, CRM automation, paid advertising, AI phone and chat assistants, and video and podcast production. Our clients are\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-closer-warm-leads-us-digital-marketing-agency-gohighlevel-1738174",
@@ -15816,7 +14699,7 @@ export const jobs: Job[] =
   },
   {
     "title": "MULTIMEDIA CREATIVE - GRAPHIC DESIGNER / VIDEO EDITOR / WEB DESIGNER",
-    "description": "Role Overview\n\nWe are a US-based creative services company looking for a Multimedia Creative to join our team full-time. This role is for a versatile, detail-oriented creative who can produce clean, engaging graphics, videos, and web assets for US-based brands…",
+    "description": "Role Overview\n\nWe are a US-based creative services company looking for a Multimedia Creative to join our team full-time. This role is for a versatile, detail-oriented creative who can produce clean, engaging graphics, videos, and web assets for US-based brands\u2026",
     "category": "Web Design",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/multimedia-creative-graphic-designer-video-editor-web-designer-1752904",
@@ -15847,7 +14730,7 @@ export const jobs: Job[] =
   },
   {
     "title": "JOB TITLE: SEO SPECIALIST with FRONT-END WEB DEVELOPER (WORDPRESS)",
-    "description": "**Work Setup:** Work From Home (Remote)  \n\n**Employment Type:** Full-Time\n\n## Job Overview\n\nWe are looking for a highly skilled and versatile **SEO Specialist with Front-End Web Development Experience **\n\n Hands-on experience in Search Engine Optimization (SEO), front-end web development, and…",
+    "description": "**Work Setup:** Work From Home (Remote)  \n\n**Employment Type:** Full-Time\n\n## Job Overview\n\nWe are looking for a highly skilled and versatile **SEO Specialist with Front-End Web Development Experience **\n\n Hands-on experience in Search Engine Optimization (SEO), front-end web development, and\u2026",
     "category": "Web Design",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/job-title-seo-specialist-with-front-end-web-developer-wordpress-1754720",
@@ -15878,7 +14761,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Executive Assistant with Project Management & Social Media Support",
-    "description": "About the Role\n\nWe're a growing web design and digital marketing agency looking for a reliable, organized Executive Assistant to support our operations lead with admin work, project management, and day-to-day follow-ups.\n\nYou'll help keep projects moving: turning emails into…",
+    "description": "About the Role\n\nWe're a growing web design and digital marketing agency looking for a reliable, organized Executive Assistant to support our operations lead with admin work, project management, and day-to-day follow-ups.\n\nYou'll help keep projects moving: turning emails into\u2026",
     "category": "Web Design",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/executive-assistant-with-project-management-social-media-support-1754823",
@@ -15909,7 +14792,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Marketing Coordinator",
-    "description": "Company: Rentercasa\n\nPosition: Marketing Coordinator\n\nEmployment Type: Full-Time\n\nSchedule: Monday–Friday, aligned with U.S. Eastern Time\n\nCompensation: ₱40,000–₱50,000 PHP per month, based on experience and qualifications\n\nIndustry: Property Management | Co-Living | Residential Real Estate\n\nPOSITION SUMMARY\n\nRentercasa is seeking a…",
+    "description": "Company: Rentercasa\n\nPosition: Marketing Coordinator\n\nEmployment Type: Full-Time\n\nSchedule: Monday\u2013Friday, aligned with U.S. Eastern Time\n\nCompensation: \u20b140,000\u2013\u20b150,000 PHP per month, based on experience and qualifications\n\nIndustry: Property Management | Co-Living | Residential Real Estate\n\nPOSITION SUMMARY\n\nRentercasa is seeking a\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-coordinator-1754661",
@@ -15923,7 +14806,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "₱40,000–₱50,000 PHP per month",
+      "compensation": "\u20b140,000\u2013\u20b150,000 PHP per month",
       "deadline": "",
       "application": ""
     },
@@ -15936,11 +14819,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
-    "pay": "₱40,000–₱50,000 PHP per month"
+    "pay": "\u20b140,000\u2013\u20b150,000 PHP per month"
   },
   {
-    "title": "☀️ GoHighLevel Expert & API Integration Specialist – Solar/Roofing CRM",
-    "description": "Senior GoHighLevel (GHL) Systems Architect & API Developer\n\nSolar, Roofing & CRM Automation | Remote | $8.50/hour\n\nAbout the Role\n\nWe are looking for an experienced **GoHighLevel (GHL) Systems Architect and API Developer to build and optimize a comprehensive CRM…",
+    "title": "\u2600\ufe0f GoHighLevel Expert & API Integration Specialist \u2013 Solar/Roofing CRM",
+    "description": "Senior GoHighLevel (GHL) Systems Architect & API Developer\n\nSolar, Roofing & CRM Automation | Remote | $8.50/hour\n\nAbout the Role\n\nWe are looking for an experienced **GoHighLevel (GHL) Systems Architect and API Developer to build and optimize a comprehensive CRM\u2026",
     "category": "Automation",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-expert-api-integration-specialist-solar-roofing-crm-1754669",
@@ -15971,7 +14854,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI Automation Workflow Specialist",
-    "description": "About Us: Welcome to Slimeatory!\n\nAt Slimeatory, we are all about fun, creativity, and of course—SLIME! We are a massively popular and fast-growing brand that combines highly engaging social media content with a thriving e-commerce store. We love bringing joy…",
+    "description": "About Us: Welcome to Slimeatory!\n\nAt Slimeatory, we are all about fun, creativity, and of course\u2014SLIME! We are a massively popular and fast-growing brand that combines highly engaging social media content with a thriving e-commerce store. We love bringing joy\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-automation-workflow-specialist-1754673",
@@ -16001,8 +14884,8 @@ export const jobs: Job[] =
     "pay": "480/month"
   },
   {
-    "title": "GoHighLevel Specialist – Websites, Workflows & Automations (Part-Time)",
-    "description": "I'm looking for an experienced, highly reliable GoHighLevel Specialist to help build, customize, deploy, and maintain websites, landing pages, snapshots, workflows, and automation systems for our digital marketing agency.\n\nThis is a part-time, flexible, as-needed position working directly with me,…",
+    "title": "GoHighLevel Specialist \u2013 Websites, Workflows & Automations (Part-Time)",
+    "description": "I'm looking for an experienced, highly reliable GoHighLevel Specialist to help build, customize, deploy, and maintain websites, landing pages, snapshots, workflows, and automation systems for our digital marketing agency.\n\nThis is a part-time, flexible, as-needed position working directly with me,\u2026",
     "category": "Automation",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-specialist-websites-workflows-automations-part-time-1754684",
@@ -16033,7 +14916,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media Growth Expert",
-    "description": "About the role\n\nWe're hiring a Social Media Growth Strategist to turn It's About Time into a show with an audience that matches its guest list. You will own subscriber and follower growth on YouTube, TikTok and Instagram, and the…",
+    "description": "About the role\n\nWe're hiring a Social Media Growth Strategist to turn It's About Time into a show with an audience that matches its guest list. You will own subscriber and follower growth on YouTube, TikTok and Instagram, and the\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-growth-expert-1754690",
@@ -16064,7 +14947,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Youtube Automation Expert",
-    "description": "Looking for a YouTube automation expert who can take any successful channel, break it down piece by piece, and rebuild the formula from scratch. Not someone who \"knows YouTube.\" Someone who has actually built channels that grew and got monetized,…",
+    "description": "Looking for a YouTube automation expert who can take any successful channel, break it down piece by piece, and rebuild the formula from scratch. Not someone who \"knows YouTube.\" Someone who has actually built channels that grew and got monetized,\u2026",
     "category": "Automation",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/youtube-automation-expert-1754702",
@@ -16095,7 +14978,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Python / PostgreSQL Engineer - Build a Complete Automation System",
-    "description": "We are a small property business hiring an experienced engineer to build a complete Python/PostgreSQL automation system from the ground up.\n\nThis is a clean build of the full system. You will own delivery from requirements and architecture through implementation,…",
+    "description": "We are a small property business hiring an experienced engineer to build a complete Python/PostgreSQL automation system from the ground up.\n\nThis is a clean build of the full system. You will own delivery from requirements and architecture through implementation,\u2026",
     "category": "Automation",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/python-postgresql-engineer-build-a-complete-automation-system-1754743",
@@ -16126,7 +15009,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Catering & Partnerships Coordinator",
-    "description": "Snoice is seeking a full-time Catering Operations & Partnerships Coordinator to help lead and grow our catering division.\n\nThis role serves as the primary owner of catering inquiries, client communication, event coordination, school partnerships, sales tracking, project management, and operational…",
+    "description": "Snoice is seeking a full-time Catering Operations & Partnerships Coordinator to help lead and grow our catering division.\n\nThis role serves as the primary owner of catering inquiries, client communication, event coordination, school partnerships, sales tracking, project management, and operational\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/catering-partnerships-coordinator-1746031",
@@ -16157,7 +15040,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Expert Job Application Specialist",
-    "description": "Schedule: Full-time (Daily reporting required)\n\nLocation: Remote (MUST be available to work at least 4 hours Central Time Zone Monday-Friday)\n\nStart Date: ASAP\n\nJob Overview:\n\nAre you a detail-oriented virtual assistant with exceptional organizational and writing skills? We’re seeking a…",
+    "description": "Schedule: Full-time (Daily reporting required)\n\nLocation: Remote (MUST be available to work at least 4 hours Central Time Zone Monday-Friday)\n\nStart Date: ASAP\n\nJob Overview:\n\nAre you a detail-oriented virtual assistant with exceptional organizational and writing skills? We\u2019re seeking a\u2026",
     "category": "Content",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/expert-job-application-specialist-1730530",
@@ -16188,7 +15071,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Shopify, Klaviyo & Marketing Automation Specialist",
-    "description": "Part-Time | Long-Term Opportunity | European Health & Wellness Business\n\nThe House of Beauty is an award-winning premium health, beauty and wellness clinic based in Reykjavík, Iceland.\n\nWe are looking for a highly organised, technically confident Shopify, Klaviyo & Marketing…",
+    "description": "Part-Time | Long-Term Opportunity | European Health & Wellness Business\n\nThe House of Beauty is an award-winning premium health, beauty and wellness clinic based in Reykjav\u00edk, Iceland.\n\nWe are looking for a highly organised, technically confident Shopify, Klaviyo & Marketing\u2026",
     "category": "Automation",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/shopify-klaviyo-marketing-automation-specialist-1754818",
@@ -16218,8 +15101,8 @@ export const jobs: Job[] =
     "pay": "$6/hour"
   },
   {
-    "title": "B2B Sales Executive / Account Executive — U.S. Digital Marketing Agency",
-    "description": "Company: Southwind Marketing\n\nLocation: Remote — Philippines\n\nPosition: Part-Time, Long-Term Opportunity\n\nSchedule: 25 hours per week, Monday–Friday, during U.S. Central Time business hours\n\nCompensation: $6–$8 USD/hour plus performance-based sales commissions\n\nGrowth: Opportunity to transition to full-time based on sales performance…",
+    "title": "B2B Sales Executive / Account Executive \u2014 U.S. Digital Marketing Agency",
+    "description": "Company: Southwind Marketing\n\nLocation: Remote \u2014 Philippines\n\nPosition: Part-Time, Long-Term Opportunity\n\nSchedule: 25 hours per week, Monday\u2013Friday, during U.S. Central Time business hours\n\nCompensation: $6\u2013$8 USD/hour plus performance-based sales commissions\n\nGrowth: Opportunity to transition to full-time based on sales performance\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/b2b-sales-executive-account-executive-u-s-digital-marketing-agency-1754830",
@@ -16250,7 +15133,7 @@ export const jobs: Job[] =
   },
   {
     "title": "E-commerce CS Rep",
-    "description": "PuraU is a fast-growing Australian gut and skin health brand. We're hiring a highly skilled Customer Service Rep to own our customer email inbox.\n\nPLEASE READ BEFORE APPLYING:\n\nThis role is for exceptional English writers only. You must hold a…",
+    "description": "PuraU is a fast-growing Australian gut and skin health brand. We're hiring a highly skilled Customer Service Rep to own our customer email inbox.\n\nPLEASE READ BEFORE APPLYING:\n\nThis role is for exceptional English writers only. You must hold a\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/e-commerce-cs-rep-1754791",
@@ -16281,7 +15164,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Brand & Marketing Strategist for Premium Home Builder",
-    "description": "Can you make a premium builder impossible to ignore, for the right clients? \n\nBuild Prestige Homes is a design and construct builder of premium custom homes based in Brisbane, Australia, and we are looking for an expert Marketing Strategist &…",
+    "description": "Can you make a premium builder impossible to ignore, for the right clients? \n\nBuild Prestige Homes is a design and construct builder of premium custom homes based in Brisbane, Australia, and we are looking for an expert Marketing Strategist &\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/brand-marketing-strategist-for-premium-home-builder-1754800",
@@ -16312,7 +15195,7 @@ export const jobs: Job[] =
   },
   {
     "title": "AI UGC Video Editor",
-    "description": "Blackboard Agency is a UGC and paid social agency in Melbourne. We make ads for wellness, beauty and lifestyle brands on TikTok and Meta, and we're looking for someone who is properly good at Higgsfield and wants to use it…",
+    "description": "Blackboard Agency is a UGC and paid social agency in Melbourne. We make ads for wellness, beauty and lifestyle brands on TikTok and Meta, and we're looking for someone who is properly good at Higgsfield and wants to use it\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/ai-ugc-video-editor-1728200",
@@ -16342,8 +15225,8 @@ export const jobs: Job[] =
     "pay": "10 AUD per hour"
   },
   {
-    "title": "Product Data Researcher – AI + Spreadsheets for #1 App Store App",
-    "description": "We're a fast-growing mobile app that recently hit #1 on the App Store, with over 500,000 downloads. Our app helps people understand what's really in their food, so the accuracy of our product data is everything.\n\nWe're hiring a detail-obsessed…",
+    "title": "Product Data Researcher \u2013 AI + Spreadsheets for #1 App Store App",
+    "description": "We're a fast-growing mobile app that recently hit #1 on the App Store, with over 500,000 downloads. Our app helps people understand what's really in their food, so the accuracy of our product data is everything.\n\nWe're hiring a detail-obsessed\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/product-data-researcher-ai-spreadsheets-for-1-app-store-app-1754803",
@@ -16374,7 +15257,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Experienced Cold Outreach & Lead Generation Specialist for Coaching Business (Part-Time, Potential Full-Time)",
-    "description": "# Experienced Cold Outreach & Lead Generation Specialist for Coaching Business (Part-Time, Potential Full-Time)\n\n**Starting Pay:** $5/hour  \n\n**Schedule:** 5 hours per week  \n\n**Trial Period:** 1 month, paid  \n\n**Opportunity:** Long-term position with potential to grow into full-time\n\n### About Sedona Coach…",
+    "description": "# Experienced Cold Outreach & Lead Generation Specialist for Coaching Business (Part-Time, Potential Full-Time)\n\n**Starting Pay:** $5/hour  \n\n**Schedule:** 5 hours per week  \n\n**Trial Period:** 1 month, paid  \n\n**Opportunity:** Long-term position with potential to grow into full-time\n\n### About Sedona Coach\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-cold-outreach-lead-generation-specialist-for-coaching-business-part-time-potential-full-time-1754804",
@@ -16405,7 +15288,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Part-time AI Automation Engineer (Agents & Integrations)",
-    "description": "Veteran-owned, multi-state pest control company (Florida, Georgia, Alabama) is hiring a part-time AI Automation Engineer to build the agents and integrations that power our operations.\n\nYou will work directly with the CEO and our in-house AI engineer on a 13-silo…",
+    "description": "Veteran-owned, multi-state pest control company (Florida, Georgia, Alabama) is hiring a part-time AI Automation Engineer to build the agents and integrations that power our operations.\n\nYou will work directly with the CEO and our in-house AI engineer on a 13-silo\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/part-time-ai-automation-engineer-agents-integrations-1745955",
@@ -16436,7 +15319,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Native Style Static Graphic Designer",
-    "description": "Hiring: Native-Style Static Ad Designer (Meta Ads)\n\nWe're looking for an experienced native-style static ad designer who knows how to create high-converting Facebook and Instagram ads.\n\nWe're not looking for someone who just makes visually appealing designs. We want someone…",
+    "description": "Hiring: Native-Style Static Ad Designer (Meta Ads)\n\nWe're looking for an experienced native-style static ad designer who knows how to create high-converting Facebook and Instagram ads.\n\nWe're not looking for someone who just makes visually appealing designs. We want someone\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/native-style-static-graphic-designer-1754806",
@@ -16466,8 +15349,8 @@ export const jobs: Job[] =
     "pay": "$4-$10 per static"
   },
   {
-    "title": "Business Development & Referral Marketing Coordinator — U.S. Law Firm",
-    "description": "# Business Development & Referral Marketing Coordinator — U.S. Law Firm\n\nEmail resumes and responses to questions below to darlene@powerinprotection.com\n\n**Job Type:** Part-Time (15–20 hours per week), with potential to grow  \n\n**Location:** Remote — Philippines  \n\n**Schedule:** Flexible, with some overlap…",
+    "title": "Business Development & Referral Marketing Coordinator \u2014 U.S. Law Firm",
+    "description": "# Business Development & Referral Marketing Coordinator \u2014 U.S. Law Firm\n\nEmail resumes and responses to questions below to darlene@powerinprotection.com\n\n**Job Type:** Part-Time (15\u201320 hours per week), with potential to grow  \n\n**Location:** Remote \u2014 Philippines  \n\n**Schedule:** Flexible, with some overlap\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/business-development-referral-marketing-coordinator-u-s-law-firm-1754809",
@@ -16498,7 +15381,7 @@ export const jobs: Job[] =
   },
   {
     "title": "FULL-TIME Medical Admin / Receptionist, MUST HAVE KNOWLEDGE IN WORKERS COMPENSATION (WC) AND NO-FAULT (NF)",
-    "description": "JOB OVERVIEW:\n\nWe are a fast-paced U.S. orthopedic practice looking for a sharp, proactive remote Medical Admin / Receptionist. You will work directly with the doctor, handling complex unique AD HOC tasks,  Workers' Compensation (WC) and No-Fault (NF) cases while…",
+    "description": "JOB OVERVIEW:\n\nWe are a fast-paced U.S. orthopedic practice looking for a sharp, proactive remote Medical Admin / Receptionist. You will work directly with the doctor, handling complex unique AD HOC tasks,  Workers' Compensation (WC) and No-Fault (NF) cases while\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-time-medical-admin-receptionist-must-have-knowledge-in-workers-compensation-wc-and-no-fault-nf-1754819",
@@ -16528,8 +15411,8 @@ export const jobs: Job[] =
     "pay": "$1000 - $1120"
   },
   {
-    "title": "GoHighLevel Specialist – Websites, Workflow Automation, and Support",
-    "description": "JOB TITLE: GoHighLevel Specialist – Hourly / Flexible Hours\n\nABOUT THE ROLE\n\nWe're a small digital marketing agency looking for a skilled, reliable, and organized GHL specialist to assist with website development, automations, and technical implementation. You'll be working directly…",
+    "title": "GoHighLevel Specialist \u2013 Websites, Workflow Automation, and Support",
+    "description": "JOB TITLE: GoHighLevel Specialist \u2013 Hourly / Flexible Hours\n\nABOUT THE ROLE\n\nWe're a small digital marketing agency looking for a skilled, reliable, and organized GHL specialist to assist with website development, automations, and technical implementation. You'll be working directly\u2026",
     "category": "Automation",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/gohighlevel-specialist-websites-workflow-automation-and-support-1754820",
@@ -16560,7 +15443,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Lead Graphic Designer",
-    "description": "Starbond is looking for an experienced Lead Graphic Designer to drive our creative direction, strengthen our brand standards, and improve the quality and efficiency of our design output.\n\nThis is a hands-on leadership role for someone who combines advanced design…",
+    "description": "Starbond is looking for an experienced Lead Graphic Designer to drive our creative direction, strengthen our brand standards, and improve the quality and efficiency of our design output.\n\nThis is a hands-on leadership role for someone who combines advanced design\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/lead-graphic-designer-1733838",
@@ -16591,7 +15474,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior Graphic Designer (AI + Photoshop, E-commerce Product Images)",
-    "description": "Coverland is a fast-growing company, and our team is growing with it. We offer open opportunities to grow your role and skills, and we are looking for long-term partners who want to grow with us. Apply now!\n\nWe are looking…",
+    "description": "Coverland is a fast-growing company, and our team is growing with it. We offer open opportunities to grow your role and skills, and we are looking for long-term partners who want to grow with us. Apply now!\n\nWe are looking\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-graphic-designer-ai-photoshop-e-commerce-product-images-1754833",
@@ -16621,8 +15504,8 @@ export const jobs: Job[] =
     "pay": "$8-$9 USD/hr, based on experience"
   },
   {
-    "title": "Remote Content Creator + Video & Photo Editor for Dog Grooming Brand (Earthwise Grooming – Austin, TX)",
-    "description": "About Us\n\nWe're a natural pet store and dog grooming salon in Austin, Texas. We want social media that people actually look forward to: funny and clever, not product photos.\n\nThe Role\n\nYou'll write, plan, and edit short-form videos for…",
+    "title": "Remote Content Creator + Video & Photo Editor for Dog Grooming Brand (Earthwise Grooming \u2013 Austin, TX)",
+    "description": "About Us\n\nWe're a natural pet store and dog grooming salon in Austin, Texas. We want social media that people actually look forward to: funny and clever, not product photos.\n\nThe Role\n\nYou'll write, plan, and edit short-form videos for\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/remote-content-creator-video-photo-editor-for-dog-grooming-brand-earthwise-grooming-austin-tx-1664343",
@@ -16653,7 +15536,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Full Stack Developer (AI-First, Fast Shipper, US Hours Overlap)",
-    "description": "About us\n\nWe’re a fast-growing US company running multiple businesses across e-commerce, media and services, and we build for clients too. We build web apps, internal tools, dashboards, automations and customer-facing products, and we ship fast.\n\nThe role\n\nYou’ll build…",
+    "description": "About us\n\nWe\u2019re a fast-growing US company running multiple businesses across e-commerce, media and services, and we build for clients too. We build web apps, internal tools, dashboards, automations and customer-facing products, and we ship fast.\n\nThe role\n\nYou\u2019ll build\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/full-stack-developer-ai-first-fast-shipper-us-hours-overlap-1754836",
@@ -16684,7 +15567,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Supply Chain Analyst",
-    "description": "About the Role\n\nWe are a jewellery and accessories brand with a growing e-commerce and retail presence. We’re looking for a Supply Chain Analyst to keep our product in stock and moving. You will own the flow of inventory from…",
+    "description": "About the Role\n\nWe are a jewellery and accessories brand with a growing e-commerce and retail presence. We\u2019re looking for a Supply Chain Analyst to keep our product in stock and moving. You will own the flow of inventory from\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/supply-chain-analyst-1754841",
@@ -16715,7 +15598,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Outbound Sales Representative (Journey Tracker)",
-    "description": "ABOUT US\n\nActon Academy is a network of learner-driven microschools where children take ownership of their own learning. Journey Tracker is our platform for running a learner-driven school.\n\nTHE ROLE\n\nYou will help us take Journey Tracker to microschools all…",
+    "description": "ABOUT US\n\nActon Academy is a network of learner-driven microschools where children take ownership of their own learning. Journey Tracker is our platform for running a learner-driven school.\n\nTHE ROLE\n\nYou will help us take Journey Tracker to microschools all\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/outbound-sales-representative-journey-tracker-1754843",
@@ -16746,7 +15629,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Marketing VA (GHL + Automation | Full-Time | Long-Term Growth)",
-    "description": "We are a fast-growing U.S.-based marketing and consulting company serving financial professionals nationwide.\n\nWe are looking for a smart, systems-oriented Marketing Operations Specialist who understands how marketing infrastructure actually works.\n\nThis is not a content posting job.\n\nThis is a…",
+    "description": "We are a fast-growing U.S.-based marketing and consulting company serving financial professionals nationwide.\n\nWe are looking for a smart, systems-oriented Marketing Operations Specialist who understands how marketing infrastructure actually works.\n\nThis is not a content posting job.\n\nThis is a\u2026",
     "category": "Automation",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-va-ghl-automation-full-time-long-term-growth-1592577",
@@ -16777,7 +15660,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media Content Specialist | Canva + Video Editing + Content Management",
-    "description": "About the Role:\n\nWe manage two related brands based in Dayton, Ohio:\n\nThe Rosko Group, a Keller Williams real estate team serving Greater Dayton and Northern Cincinnati\n\nDownsizing Roadmap, an education brand with a podcast and resources that help people…",
+    "description": "About the Role:\n\nWe manage two related brands based in Dayton, Ohio:\n\nThe Rosko Group, a Keller Williams real estate team serving Greater Dayton and Northern Cincinnati\n\nDownsizing Roadmap, an education brand with a podcast and resources that help people\u2026",
     "category": "Social Media",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-specialist-canva-video-editing-content-management-1746982",
@@ -16791,7 +15674,7 @@ export const jobs: Job[] =
       "responsibilities": [],
       "requirements": [],
       "location": "Remote",
-      "compensation": "8–10/hour part-time | 11–12/hour full-ti",
+      "compensation": "8\u201310/hour part-time | 11\u201312/hour full-ti",
       "deadline": "",
       "application": ""
     },
@@ -16804,11 +15687,11 @@ export const jobs: Job[] =
     },
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
-    "pay": "8–10/hour part-time | 11–12/hour full-ti"
+    "pay": "8\u201310/hour part-time | 11\u201312/hour full-ti"
   },
   {
     "title": "Business Operations Assistant",
-    "description": "Brand & Operations Assistant\n\nSparkJump International is a children's craft kit brand selling FSC-certified wooden build-and-paint kits through Shopify, Etsy, wholesale, and physical retail. We're a small, fast-moving business run by a founder who values initiative over instruction-following.\n\nWe're looking…",
+    "description": "Brand & Operations Assistant\n\nSparkJump International is a children's craft kit brand selling FSC-certified wooden build-and-paint kits through Shopify, Etsy, wholesale, and physical retail. We're a small, fast-moving business run by a founder who values initiative over instruction-following.\n\nWe're looking\u2026",
     "category": "Marketing",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/business-operations-assistant-1668788",
@@ -16839,7 +15722,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Facebook Autopilot Sales Closer for US Local Businesses ($100 Monthly Base + Commission)",
-    "description": "START YOUR APPLICATION WITH THE WORD \"Delavan\". If you don't, I won't read it.\n\nWho I am\n\nI'm Ian Flynn. I run IRF LLC, a small AI automation agency in Delavan, Wisconsin, USA. I build the systems myself. My own…",
+    "description": "START YOUR APPLICATION WITH THE WORD \"Delavan\". If you don't, I won't read it.\n\nWho I am\n\nI'm Ian Flynn. I run IRF LLC, a small AI automation agency in Delavan, Wisconsin, USA. I build the systems myself. My own\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/facebook-autopilot-sales-closer-for-us-local-businesses-100-monthly-base-commission-1689683",
@@ -16870,7 +15753,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Sales Closer for US AI Automation and GoHighLevel Agency ($100 Monthly Base + Commission)",
-    "description": "START YOUR APPLICATION WITH THE WORD \"Delavan\". If you don't, I won't read it.\n\nWho I am\n\nI'm Ian Flynn. I run IRF LLC, a small AI automation and marketing agency in Delavan, Wisconsin, USA. I build the systems myself.…",
+    "description": "START YOUR APPLICATION WITH THE WORD \"Delavan\". If you don't, I won't read it.\n\nWho I am\n\nI'm Ian Flynn. I run IRF LLC, a small AI automation and marketing agency in Delavan, Wisconsin, USA. I build the systems myself.\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/sales-closer-for-us-ai-automation-and-gohighlevel-agency-100-monthly-base-commission-1689682",
@@ -16901,7 +15784,7 @@ export const jobs: Job[] =
   },
   {
     "title": "High Ticket Closer: AI Receptionists and AI Employee Systems for US Service Businesses ($100 Monthly Base + Commission)",
-    "description": "START YOUR APPLICATION WITH THE WORD \"Delavan\". If you don't, I won't read it.\n\nWho I am\n\nI'm Ian Flynn. I run IRF LLC, a small AI automation agency in Delavan, Wisconsin, USA. I build the systems myself. My own…",
+    "description": "START YOUR APPLICATION WITH THE WORD \"Delavan\". If you don't, I won't read it.\n\nWho I am\n\nI'm Ian Flynn. I run IRF LLC, a small AI automation agency in Delavan, Wisconsin, USA. I build the systems myself. My own\u2026",
     "category": "AI",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/high-ticket-closer-ai-receptionists-and-ai-employee-systems-for-us-service-businesses-100-monthly-base-commission-1668085",
@@ -16932,7 +15815,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Personal Assistant:",
-    "description": "Personal Assistant: Client Relations & Sales (Remote, Full-Time, Philippines)\n\nI run a small media agency, and the business runs on repeat clients. I'm looking for a personal assistant to help me look after client relationships and grow sales.\n\nThe right…",
+    "description": "Personal Assistant: Client Relations & Sales (Remote, Full-Time, Philippines)\n\nI run a small media agency, and the business runs on repeat clients. I'm looking for a personal assistant to help me look after client relationships and grow sales.\n\nThe right\u2026",
     "category": "Sales",
     "date": "2026-10-23",
     "source": "https://www.onlinejobs.ph/jobseekers/job/personal-assistant-1753558",
@@ -16963,7 +15846,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Senior Product and Graphic Designer",
-    "description": "We're looking for a senior designer to own both our product experience and our brand. You'll design the software our customers use every day and the marketing that brings them in. This is a hands-on role for someone who can…",
+    "description": "We're looking for a senior designer to own both our product experience and our brand. You'll design the software our customers use every day and the marketing that brings them in. This is a hands-on role for someone who can\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/senior-product-and-graphic-designer-1754300",
@@ -16993,8 +15876,8 @@ export const jobs: Job[] =
     "pay": "$6"
   },
   {
-    "title": "Logo & Brand Identity Designer — Freelance / Project-Based",
-    "description": "Hello! I run a small U.S.-based agency offering websites, SEO, and business automations to local service businesses. I’m looking to build a working relationship with a freelance logo and brand identity designer so I can offer branding design as an…",
+    "title": "Logo & Brand Identity Designer \u2014 Freelance / Project-Based",
+    "description": "Hello! I run a small U.S.-based agency offering websites, SEO, and business automations to local service businesses. I\u2019m looking to build a working relationship with a freelance logo and brand identity designer so I can offer branding design as an\u2026",
     "category": "Automation",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/logo-brand-identity-designer-freelance-project-based-1754315",
@@ -17025,7 +15908,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Web Designer & Developer (Elementor)",
-    "description": "About MSE Environmental\n\nMSE Environmental is a national environmental testing and consulting company specializing in mold testing, asbestos inspections, lead testing, water analysis, and environmental compliance services.\n\nOur team works with property owners, contractors, facility managers, and insurance professionals to…",
+    "description": "About MSE Environmental\n\nMSE Environmental is a national environmental testing and consulting company specializing in mold testing, asbestos inspections, lead testing, water analysis, and environmental compliance services.\n\nOur team works with property owners, contractors, facility managers, and insurance professionals to\u2026",
     "category": "Web Design",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/web-designer-developer-elementor-1754471",
@@ -17056,7 +15939,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Brand & Web Designer with Motion Design Skills",
-    "description": "Hold Media Agency is looking for a multidisciplinary designer to bring Mystica—a stationery and keepsake brand celebrating life’s meaningful moments—to life.\n\nWe’re looking for someone who can develop a cohesive identity and carry it through packaging, a website, digital advertising…",
+    "description": "Hold Media Agency is looking for a multidisciplinary designer to bring Mystica\u2014a stationery and keepsake brand celebrating life\u2019s meaningful moments\u2014to life.\n\nWe\u2019re looking for someone who can develop a cohesive identity and carry it through packaging, a website, digital advertising\u2026",
     "category": "Web Design",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/brand-web-designer-with-motion-design-skills-1754506",
@@ -17086,8 +15969,8 @@ export const jobs: Job[] =
     "pay": ""
   },
   {
-    "title": "Marketing & Web Designer — Pitch Decks, Brochures & Website Updates",
-    "description": "Job description\n\nNDITIVE is a Canadian technology company developing sensing, embedded systems, and AI solutions for industrial applications. We are looking for a versatile designer to create professional marketing materials and maintain the visual quality of our website.\n\nYou will…",
+    "title": "Marketing & Web Designer \u2014 Pitch Decks, Brochures & Website Updates",
+    "description": "Job description\n\nNDITIVE is a Canadian technology company developing sensing, embedded systems, and AI solutions for industrial applications. We are looking for a versatile designer to create professional marketing materials and maintain the visual quality of our website.\n\nYou will\u2026",
     "category": "AI",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-web-designer-pitch-decks-brochures-website-updates-1754533",
@@ -17118,7 +16001,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Social Media & Content Marketing Specialist for Fast-Growing Property Investment Business",
-    "description": "How to apply — mandatory requirements\n\n- A 2–3 minute recent Loom video is required for every applicant — no exceptions. Introduce yourself and walk through why you're a fit. Applications without a Loom video will NOT be considered.\n\nJob…",
+    "description": "How to apply \u2014 mandatory requirements\n\n- A 2\u20133 minute recent Loom video is required for every applicant \u2014 no exceptions. Introduce yourself and walk through why you're a fit. Applications without a Loom video will NOT be considered.\n\nJob\u2026",
     "category": "Social Media",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/social-media-content-marketing-specialist-for-fast-growing-property-investment-business-1715275",
@@ -17149,7 +16032,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Real Estate Marketing & Growth Virtual Assistant",
-    "description": "Now Hiring: Real Estate Marketing & Growth Virtual Assistant\n\nRemote Position | Work Directly With a Top-Producing Real Estate Agent\n\nWe're looking for a proactive, creative, and highly organized Virtual Assistant to help grow a successful real estate business.\n\nThis…",
+    "description": "Now Hiring: Real Estate Marketing & Growth Virtual Assistant\n\nRemote Position | Work Directly With a Top-Producing Real Estate Agent\n\nWe're looking for a proactive, creative, and highly organized Virtual Assistant to help grow a successful real estate business.\n\nThis\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/real-estate-marketing-growth-virtual-assistant-1749093",
@@ -17180,7 +16063,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Influencer Marketing Execution VA",
-    "description": "Eliot Management LLC\n\nRemote | Full-Time | Must be available 8:00 AM–4:00 PM PST\n\nAbout Eliot Management LLC\n\nEliot Management LLC is an influencer marketing and talent management company that helps brands build meaningful relationships with creators and execute high-impact…",
+    "description": "Eliot Management LLC\n\nRemote | Full-Time | Must be available 8:00 AM\u20134:00 PM PST\n\nAbout Eliot Management LLC\n\nEliot Management LLC is an influencer marketing and talent management company that helps brands build meaningful relationships with creators and execute high-impact\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/influencer-marketing-execution-va-1754153",
@@ -17210,8 +16093,8 @@ export const jobs: Job[] =
     "pay": "4.50"
   },
   {
-    "title": "Video Editor — Dental & Orthodontic Marketing (Part-Time or Per Video)",
-    "description": "We are looking for a Video Editor to turn client shoot footage into everything from paid social ads to website videos and organic social content. We work with dental and orthodontic practices across the US. A big part of this…",
+    "title": "Video Editor \u2014 Dental & Orthodontic Marketing (Part-Time or Per Video)",
+    "description": "We are looking for a Video Editor to turn client shoot footage into everything from paid social ads to website videos and organic social content. We work with dental and orthodontic practices across the US. A big part of this\u2026",
     "category": "Web Design",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/video-editor-dental-orthodontic-marketing-part-time-or-per-video-1741280",
@@ -17242,7 +16125,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Digital Marketing Specialist | SEO, Google, Social Media & Lead Generation | Remote",
-    "description": "Digital Marketing Specialist | SEO, Google, Social Media & Lead Generation | Remote\n\nWe are looking for an experienced Digital Marketing Specialist to improve online visibility, website traffic, inquiries, leads, and sales across multiple businesses.\n\nThe initial focus will be…",
+    "description": "Digital Marketing Specialist | SEO, Google, Social Media & Lead Generation | Remote\n\nWe are looking for an experienced Digital Marketing Specialist to improve online visibility, website traffic, inquiries, leads, and sales across multiple businesses.\n\nThe initial focus will be\u2026",
     "category": "Web Design",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/digital-marketing-specialist-seo-google-social-media-lead-generation-remote-1754174",
@@ -17273,7 +16156,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Experienced Facebook Group Growth & Community Manager | Travel Industry",
-    "description": "Experienced Facebook Group Growth & Community Manager | Travel Industry\n\nCompany: Mikey Adventures Travel by Cruise Planners\n\nLocation: Philippines (Remote)\n\nJob Type: Part-Time Independent Contractor\n\nExperience Level: Advanced / Experienced Professionals Only\n\nAbout Our Company\n\nWe are a U.S.-based travel…",
+    "description": "Experienced Facebook Group Growth & Community Manager | Travel Industry\n\nCompany: Mikey Adventures Travel by Cruise Planners\n\nLocation: Philippines (Remote)\n\nJob Type: Part-Time Independent Contractor\n\nExperience Level: Advanced / Experienced Professionals Only\n\nAbout Our Company\n\nWe are a U.S.-based travel\u2026",
     "category": "Social Media",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/experienced-facebook-group-growth-community-manager-travel-industry-1754175",
@@ -17304,7 +16187,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Marketing & Account Manager",
-    "description": "Company: Staff Connect Australia (SCA)\n\nWork Setup: Full-Time | Remote (Work From Home)\n\nSchedule: 40 hours per week\n\nReporting To: Head of Marketing\n\nAbout the Role\n\nStaff Connect Australia is looking for an experienced Marketing & Account Manager to support…",
+    "description": "Company: Staff Connect Australia (SCA)\n\nWork Setup: Full-Time | Remote (Work From Home)\n\nSchedule: 40 hours per week\n\nReporting To: Head of Marketing\n\nAbout the Role\n\nStaff Connect Australia is looking for an experienced Marketing & Account Manager to support\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/marketing-account-manager-1750179",
@@ -17335,7 +16218,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Executive Assistant / Social Media Manager (LinkedIn)",
-    "description": "We're looking for a reliable Executive Assistant to manage the social media presence of a business owner, with a heavy focus on LinkedIn.\n\nWhat you'll do:\n\n— Reply to and engage with hundreds of LinkedIn comments per day across 3…",
+    "description": "We're looking for a reliable Executive Assistant to manage the social media presence of a business owner, with a heavy focus on LinkedIn.\n\nWhat you'll do:\n\n\u2014 Reply to and engage with hundreds of LinkedIn comments per day across 3\u2026",
     "category": "Social Media",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/executive-assistant-social-media-manager-linkedin-1753657",
@@ -17366,7 +16249,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Business Development & Outreach Assistant- Part time",
-    "description": "JOB OVERVIEW\n\nLooking for a reliable, organized assistant to support lead research, outreach, email follow-up, and pipeline tracking.\n\nThis is a remote role. You will work under a manager and follow approved templates, scripts, and reporting procedures.\n\nWhat You Will…",
+    "description": "JOB OVERVIEW\n\nLooking for a reliable, organized assistant to support lead research, outreach, email follow-up, and pipeline tracking.\n\nThis is a remote role. You will work under a manager and follow approved templates, scripts, and reporting procedures.\n\nWhat You Will\u2026",
     "category": "Sales",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/business-development-outreach-assistant-part-time-1728154",
@@ -17397,7 +16280,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Paid Ads Specialist (WFH /Remote)",
-    "description": "Trident Digital | Singapore\n\nFull-time | Remote Setup/Work from Home\n\nSalary: SGD 1,500 monthly (with performance bonus)\n\nWorking Hours: 9AM - 6PM (SGT)\n\nAbout the role\n\nTrident Digital is one of the fastest growing marketing agencies for financial advisors and…",
+    "description": "Trident Digital | Singapore\n\nFull-time | Remote Setup/Work from Home\n\nSalary: SGD 1,500 monthly (with performance bonus)\n\nWorking Hours: 9AM - 6PM (SGT)\n\nAbout the role\n\nTrident Digital is one of the fastest growing marketing agencies for financial advisors and\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/paid-ads-specialist-wfh-remote-1712382",
@@ -17428,7 +16311,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Event Designer",
-    "description": "About Innovate Marketing Group\n\nInnovate Marketing Group is an experiential marketing and events agency creating meaningful brand experiences that bring people together. From corporate events and conferences to experiential activations, VIP experiences, and multi-city programs, our team manages the details…",
+    "description": "About Innovate Marketing Group\n\nInnovate Marketing Group is an experiential marketing and events agency creating meaningful brand experiences that bring people together. From corporate events and conferences to experiential activations, VIP experiences, and multi-city programs, our team manages the details\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/event-designer-1754217",
@@ -17458,8 +16341,8 @@ export const jobs: Job[] =
     "pay": "$7-$9/hour"
   },
   {
-    "title": "Cold Caller / Appointment Setter – Outbound Sales & Lead Generation",
-    "description": "Cold Caller / Appointment Setter – Outbound Sales & Lead Generation\n\nRemote | Part-Time to Start | U.S. Eastern Time (EST)\n\nAre you an experienced Cold Caller, Telemarketer, or Appointment Setter with strong English communication skills and the confidence to…",
+    "title": "Cold Caller / Appointment Setter \u2013 Outbound Sales & Lead Generation",
+    "description": "Cold Caller / Appointment Setter \u2013 Outbound Sales & Lead Generation\n\nRemote | Part-Time to Start | U.S. Eastern Time (EST)\n\nAre you an experienced Cold Caller, Telemarketer, or Appointment Setter with strong English communication skills and the confidence to\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/cold-caller-appointment-setter-outbound-sales-lead-generation-1740673",
@@ -17490,7 +16373,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Business Development Associate (WFH / Remote)",
-    "description": "Trident Digital | Singapore\n\nFull-time | Remote (Work from Home) | Performance-based\n\nSalary: SGD 300 base + performance bonus (total est. SGD 500–1,000 with commissions)\n\nAbout the role\n\nTrident Digital is one of the fastest growing marketing agencies for financial…",
+    "description": "Trident Digital | Singapore\n\nFull-time | Remote (Work from Home) | Performance-based\n\nSalary: SGD 300 base + performance bonus (total est. SGD 500\u20131,000 with commissions)\n\nAbout the role\n\nTrident Digital is one of the fastest growing marketing agencies for financial\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/business-development-associate-wfh-remote-1717803",
@@ -17521,7 +16404,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Real Estate Acquisition & Sales Specialist (Remote)",
-    "description": "We are a growing U.S.-based real estate investment company looking for a **highly skilled Real Estate Acquisition Specialist / Closer** to join our team long-term.\n\nThis is **not primarily a cold-calling position**. Our marketing and lead-generation team identifies homeowners who…",
+    "description": "We are a growing U.S.-based real estate investment company looking for a **highly skilled Real Estate Acquisition Specialist / Closer** to join our team long-term.\n\nThis is **not primarily a cold-calling position**. Our marketing and lead-generation team identifies homeowners who\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/real-estate-acquisition-sales-specialist-remote-1754207",
@@ -17552,7 +16435,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Outbound Cold Caller/Appointment Setter",
-    "description": "Hiring Remote Appointment Setters – Cold Calling \n\nWe’re looking for motivated Appointment Setters to call cold leads, qualify prospects, and book appointments for our sales team. Limited slots available – we move fast!\n\nRole Expectations\n\n1. Call outbound and inbound…",
+    "description": "Hiring Remote Appointment Setters \u2013 Cold Calling \n\nWe\u2019re looking for motivated Appointment Setters to call cold leads, qualify prospects, and book appointments for our sales team. Limited slots available \u2013 we move fast!\n\nRole Expectations\n\n1. Call outbound and inbound\u2026",
     "category": "Sales",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/outbound-cold-caller-appointment-setter-1754208",
@@ -17583,7 +16466,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Appointment Setter/Outbound Cold Caller",
-    "description": "We’re Hiring: Remote Appointment Setters (Cold Calling) – Fast Hiring \n\nAre you confident on the phone, great with communication, and ready to join a stable, supportive team?\n\nOur company is growing fast, and we’re looking for Appointment Setters who can…",
+    "description": "We\u2019re Hiring: Remote Appointment Setters (Cold Calling) \u2013 Fast Hiring \n\nAre you confident on the phone, great with communication, and ready to join a stable, supportive team?\n\nOur company is growing fast, and we\u2019re looking for Appointment Setters who can\u2026",
     "category": "Sales",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-outbound-cold-caller-1754210",
@@ -17614,7 +16497,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Remote Sales Representative",
-    "description": "FAQ: https://ishortn.ink/HaullaFAQ\n\nAbout Haulla\n\nHaulla, a smart waste collection service by Ecube Labs, operates in major U.S. markets including Dallas, Houston, Austin, Denver, and Chicago — with plans for further expansion across North America. We help small and mid-sized businesses…",
+    "description": "FAQ: https://ishortn.ink/HaullaFAQ\n\nAbout Haulla\n\nHaulla, a smart waste collection service by Ecube Labs, operates in major U.S. markets including Dallas, Houston, Austin, Denver, and Chicago \u2014 with plans for further expansion across North America. We help small and mid-sized businesses\u2026",
     "category": "Sales",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/remote-sales-representative-1734624",
@@ -17645,7 +16528,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Events Administrator",
-    "description": "About Innovate Marketing Group\n\nInnovate Marketing Group is an experiential marketing and events agency creating meaningful brand experiences that bring people together. From corporate events and conferences to experiential activations, VIP experiences, and multi-city programs, our team manages the details…",
+    "description": "About Innovate Marketing Group\n\nInnovate Marketing Group is an experiential marketing and events agency creating meaningful brand experiences that bring people together. From corporate events and conferences to experiential activations, VIP experiences, and multi-city programs, our team manages the details\u2026",
     "category": "Marketing",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/events-administrator-1754214",
@@ -17676,7 +16559,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Australian Construction Recruitment & Business Development Specialist",
-    "description": "About the Role\n\nWe are an Australian trades and labour hire company looking for an experienced Filipino professional to join our growing team.\n\nThis is an all-rounder position involving recruitment, cold calling, business development, client communication and administration.\n\nWe're looking…",
+    "description": "About the Role\n\nWe are an Australian trades and labour hire company looking for an experienced Filipino professional to join our growing team.\n\nThis is an all-rounder position involving recruitment, cold calling, business development, client communication and administration.\n\nWe're looking\u2026",
     "category": "Sales",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/australian-construction-recruitment-business-development-specialist-1754216",
@@ -17707,7 +16590,7 @@ export const jobs: Job[] =
   },
   {
     "title": "Outbound Caller (WFH) start Nov 2",
-    "description": "Job position: Business Development Representative \n\nLead Generation & Prospecting\n\nResearch and identify potential clients through various channels (online platforms, networking, etc.).\n\nInitiate contact with prospects via cold calls, emails, and social media outreach. Client Engagement: Present and promote products or…",
+    "description": "Job position: Business Development Representative \n\nLead Generation & Prospecting\n\nResearch and identify potential clients through various channels (online platforms, networking, etc.).\n\nInitiate contact with prospects via cold calls, emails, and social media outreach. Client Engagement: Present and promote products or\u2026",
     "category": "Social Media",
     "date": "2026-10-22",
     "source": "https://www.onlinejobs.ph/jobseekers/job/outbound-caller-wfh-start-nov-2-1749432",
@@ -17735,8 +16618,3667 @@ export const jobs: Job[] =
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Full-time",
     "pay": "PHP 20,000 + commission"
+  },
+  {
+    "title": "Appointment setter/ phone sales position",
+    "description": "We're a pet grooming business in Austin, TX looking for a reliable remote worker to follow up with incoming leads and book grooming appointments.\n\nWhat you'll do:\n\nCall and text new leads quickly (speed to lead!)\n\nBook grooming appointments\n\nUpdate\u2026",
+    "category": "Sales",
+    "date": "2026-10-22",
+    "source": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-phone-sales-position-1726609",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "onlinejobs.ph search",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$4/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "OnlineJobs.ph",
+      "url": "https://www.onlinejobs.ph/jobseekers/job/appointment-setter-phone-sales-position-1726609",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$4/hour"
+  },
+  {
+    "title": "Female Real Estate Transaction Coordinator VA",
+    "description": "We\u2019re looking for a reliable and organized Real Estate Administrative VA to support day-to-day operations for a growing real estate business. You will help with administrative tasks, offers, listings, transaction paperwork, follow-ups, and light social media support while keeping communication\u2026",
+    "category": "Social Media",
+    "date": "2026-10-22",
+    "source": "https://www.onlinejobs.ph/jobseekers/job/female-real-estate-transaction-coordinator-va-1648079",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "onlinejobs.ph search",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$4/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "OnlineJobs.ph",
+      "url": "https://www.onlinejobs.ph/jobseekers/job/female-real-estate-transaction-coordinator-va-1648079",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$4/hour"
+  },
+  {
+    "title": "Real Estate Transaction Coordinator",
+    "description": "We\u2019re looking for a reliable and organized Real Estate Administrative VA to support day-to-day operations for a growing real estate business. You will help with administrative tasks, offers, listings, transaction paperwork, follow-ups, and light social media support while keeping communication\u2026",
+    "category": "Social Media",
+    "date": "2026-10-22",
+    "source": "https://www.onlinejobs.ph/jobseekers/job/real-estate-transaction-coordinator-1648078",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "onlinejobs.ph search",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$4/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "OnlineJobs.ph",
+      "url": "https://www.onlinejobs.ph/jobseekers/job/real-estate-transaction-coordinator-1648078",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$4/hour"
+  },
+  {
+    "title": "Ecommerce Growth & Marketplace Manager (Shopify + Amazon) - Part time",
+    "description": "Ecommerce Growth & Marketplace Manager (Shopify + Amazon) - Part time\n\nWe are a fast-growing ecommerce brand in the coffee/kitchen space looking for a hands-on Ecommerce Growth & Marketplace Manager to help scale our Shopify and Amazon sales.\n\nThis is\u2026",
+    "category": "Marketing",
+    "date": "2026-10-22",
+    "source": "https://www.onlinejobs.ph/jobseekers/job/ecommerce-growth-marketplace-manager-shopify-amazon-part-time-1726721",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "onlinejobs.ph search",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "200",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "OnlineJobs.ph",
+      "url": "https://www.onlinejobs.ph/jobseekers/job/ecommerce-growth-marketplace-manager-shopify-amazon-part-time-1726721",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "200"
+  },
+  {
+    "title": "Direct Response Copywriter",
+    "description": "About the Role\n\nThis is not a traditional content writing position. We are looking for someone who understands direct response marketing, consumer psychology, and the art of selling through words.\n\nYou will be responsible for developing compelling copy for email\u2026",
+    "category": "Marketing",
+    "date": "2026-10-22",
+    "source": "https://www.onlinejobs.ph/jobseekers/job/direct-response-copywriter-1754191",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "onlinejobs.ph search",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "3-10",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "OnlineJobs.ph",
+      "url": "https://www.onlinejobs.ph/jobseekers/job/direct-response-copywriter-1754191",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "3-10"
+  },
+  {
+    "title": "Content & Marketing Assistant \u2013 YouTube, Instagram, Shorts (Part-time, grows to Full-time)",
+    "description": "Schedule: Flexible, with 2\u20133 hours overlap with Brisbane time (AEST, UTC+10)\n\nAbout us\n\nI'm Enoch, founder of a growing couch restoration and resale business in Brisbane, Australia. We buy second-hand couches, restore them and resell them, and we're documenting the\u2026",
+    "category": "Social Media",
+    "date": "2026-10-22",
+    "source": "https://www.onlinejobs.ph/jobseekers/job/content-marketing-assistant-youtube-instagram-shorts-part-time-grows-to-full-time-1754195",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "onlinejobs.ph search",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "350/month",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "OnlineJobs.ph",
+      "url": "https://www.onlinejobs.ph/jobseekers/job/content-marketing-assistant-youtube-instagram-shorts-part-time-grows-to-full-time-1754195",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "350/month"
+  },
+  {
+    "title": "Content Strategist (WFH / Remote)",
+    "description": "Full-time | Remote Setup/Work from Home\n\nWorking hours: 9am to 6pm SGT\n\nSalary: SGD 1,000\n\nAbout the role\n\nTrident Digital is one of the fastest growing marketing agencies for financial advisors and real estate leaders in Singapore. Our clients are\u2026",
+    "category": "Marketing",
+    "date": "2026-10-22",
+    "source": "https://www.onlinejobs.ph/jobseekers/job/content-strategist-wfh-remote-1717775",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "onlinejobs.ph search",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "SGD 1,000",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "OnlineJobs.ph",
+      "url": "https://www.onlinejobs.ph/jobseekers/job/content-strategist-wfh-remote-1717775",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "SGD 1,000"
+  },
+  {
+    "title": "High Skill Setter - Clear English - HIRING ASAP",
+    "description": "We are looking for experienced, high-performing appointment setters to join our growing U.S.-based AI company, Ctyd.\n\nWe help businesses increase their visibility on AI platforms like ChatGPT, Gemini, and Perplexity.\n\nWe want confident, motivated salespeople with excellent English who can\u2026",
+    "category": "AI",
+    "date": "2026-10-22",
+    "source": "https://www.onlinejobs.ph/jobseekers/job/high-skill-setter-clear-english-hiring-asap-1754224",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "onlinejobs.ph search",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$1500-2500+/ MONTH",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "OnlineJobs.ph",
+      "url": "https://www.onlinejobs.ph/jobseekers/job/high-skill-setter-clear-english-hiring-asap-1754224",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$1500-2500+/ MONTH"
+  },
+  {
+    "title": "Direct Response Copywriter (WFH / Remote)",
+    "description": "Full-time | Remote Setup/Work from Home\n\nWorking Hours: 9AM - 6PM (SGT)\n\nSalary: SGD 1,000+ monthly (with performance bonuses)\n\nAbout the role\n\nTrident Digital is one of the fastest growing marketing agencies for financial advisors and real estate leaders in\u2026",
+    "category": "Marketing",
+    "date": "2026-10-22",
+    "source": "https://www.onlinejobs.ph/jobseekers/job/direct-response-copywriter-wfh-remote-1717774",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": true,
+    "sourceDetails": {
+      "summary": "onlinejobs.ph search",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "SGD 1,000+ monthly (with performance bon",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "OnlineJobs.ph",
+      "url": "https://www.onlinejobs.ph/jobseekers/job/direct-response-copywriter-wfh-remote-1717774",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "SGD 1,000+ monthly (with performance bon"
+  },
+  {
+    "title": "VTCS Gaming Mice Brand \u2014 Press Release & Blog Article Writer",
+    "description": "We need to hire someone who is good at writing blog content, which will be published as a press release on official website and social media channel. The content is about the VTCS technology for gaming mice.",
+    "category": "Content",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board \u2014 AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$32\u2013$40 per output (fixed)",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$32\u2013$40 per output (fixed)"
+  },
+  {
+    "title": "GoHighLevel & Automation Agency \u2014 Project Manager",
+    "description": "We are a GoHighLevel-focused agency specializing in CRM implementation, workflow automation, and AI solutions. We help businesses streamline their operations, automate processes, and build systems that improve efficiency and drive growth. Looking for an experienced, organized project manager.",
+    "category": "Automation",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board \u2014 AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$10.5/hr\u2013$20/hr",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$10.5/hr\u2013$20/hr"
+  },
+  {
+    "title": "Educational Math Game Studio \u2014 Game & App Developer / Project Lead",
+    "description": "We are seeking an experienced, creative Game Developer and Project Lead with a passion for math to help bring an educational math game from concept to completion within 12 weeks. The ideal freelancer will have hands-on experience in game development, app development, and UI/UX.",
+    "category": "Developers",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board \u2014 AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$8/hr\u2013$12/hr",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$8/hr\u2013$12/hr"
+  },
+  {
+    "title": "Streetwear Brand \u2014 Head of Product & Trend Strategy",
+    "description": "We are a seven-figure streetwear brand for Gen Z and Gen Alpha, built on baggy denim, thermals, and hoodies. We are repositioning from an alt/emo label into a Gen Z brand with dark roots, expanding into blanks, gym wear, and lighter graphics. Looking for a Head of Product & Trend Strategy.",
+    "category": "Marketing",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board \u2014 AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$800\u2013$1,600/month (fixed)",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$800\u2013$1,600/month (fixed)"
+  },
+  {
+    "title": "Showit Client \u2014 Website Launch & Fixes (Web Designer/Developer)",
+    "description": "Showit troubleshooting, domain, and security: I have a Showit website that is mostly built, but it is not displaying as expected and needs troubleshooting before launch. Please review the existing site, identify and correct display issues across desktop and mobile, connect it to the domain, and handle Google visibility and Moxie integration.",
+    "category": "Web Design",
+    "date": "2026-11-06",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board \u2014 AI category",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote / Worldwide",
+      "compensation": "$80\u2013$240 one-time (fixed)",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$80\u2013$240 one-time (fixed)"
+  },
+  {
+    "title": "North Carolina Public Radio \u2014 temporary digital reporter ($32-$37/hour)",
+    "description": "North Carolina Public Radio (Durham) needs a temporary digital reporter ($32-$37/hour)",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Durham",
+      "compensation": "$32-$37/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$32-$37/hour"
+  },
+  {
+    "title": "The Los Angeles Reporting Collective Fellowship \u2014 year-long training program ($600 stipend, 12 workshops)",
+    "description": "The Los Angeles Reporting Collective Fellowship is a year-long training program ($600 stipend, 12 workshops)",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$600",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Fellowship",
+    "pay": "$600"
+  },
+  {
+    "title": "Kirkus Media \u2014 freelance book reviewer",
+    "description": "Kirkus Media (NYC) needs a freelance book reviewer",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "NYC",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Inland Valley Publishing Co \u2014 freelance reporter",
+    "description": "Inland Valley Publishing Co (Livermore, CA) needs a freelance reporter",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Livermore, CA",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Video Game Town \u2014 open to pitches on culture",
+    "description": "Video Game Town is open to pitches on culture",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "ETFguide \u2014 freelance digital network host",
+    "description": "ETFguide (San Diego, CA) needs a freelance digital network host",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "San Diego, CA",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Matador Network \u2014 offering an individual press trip to Virginia to journalists based on the East Coast and Midwest",
+    "description": "Matador Network is offering an individual press trip to Virginia to journalists based on the East Coast and Midwest",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Matador Network \u2014 offering an individual press trip to Duluth, Minnesota to experienced Midwestern writers",
+    "description": "Matador Network is offering an individual press trip to Duluth, Minnesota to experienced Midwestern writers",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Lancaster Farming \u2014 full-time journalist ($45k-$53k/year)",
+    "description": "Lancaster Farming (Ephrata, PA) needs a full-time journalist ($45k-$53k/year)",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Ephrata, PA",
+      "compensation": "$45k-$53k/year",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$45k-$53k/year"
+  },
+  {
+    "title": "Cosmopolitan \u2014 full-time love and identity editor",
+    "description": "Cosmopolitan (NYC) needs a full-time love and identity editor",
+    "category": "Journalists",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "NYC",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "YARI Designs \u2014 remote freelance editorial writer for Voices of YARI, a new interview series. The founder will conduct the interviews and share transcripts, notes, and published examples. The writer will turn that material into 1,400-1,600-word articles without AI. Interested writers can email Nadine Heimann at nadine@yaridesigns.com with one interview-based article they're proud of and their usual flat fee. (paid trial with recurring assignments)",
+    "description": "YARI Designs needs a remote freelance editorial writer for Voices of YARI, a new interview series. The founder will conduct the interviews and share transcripts, notes, and published examples. The writer will turn that material into 1,400-1,600-word articles without AI. Interested writers can email Nadine Heimann at nadine@yaridesigns.com with one interview-based article they're proud of and their usual flat fee. (paid trial with recurring assignments)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Wallace House Center for Journalists Knight-Wallace Fellowships \u2014 open to US and international journalists. Journalists will stay in Ann Arbor for 8 months to work on individual journalism projects, participate in workshops and private seminars, and make a $85k stipend",
+    "description": "The Wallace House Center for Journalists Knight-Wallace Fellowships are open to US and international journalists. Journalists will stay in Ann Arbor for 8 months to work on individual journalism projects, participate in workshops and private seminars, and make a $85k stipend",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$85k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Fellowship",
+    "pay": "$85k"
+  },
+  {
+    "title": "The Great Lakes Local News Fellowship for US journalists reporting in the Midwest \u2014 also open now",
+    "description": "The Great Lakes Local News Fellowship for US journalists reporting in the Midwest is also open now",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Fellowship",
+    "pay": ""
+  },
+  {
+    "title": "PACT \u2014 remote contract grant writer ($70/hour)",
+    "description": "PACT (US) needs a remote contract grant writer ($70/hour)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "$70/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": "$70/hour"
+  },
+  {
+    "title": "Epidemic Sound \u2014 freelance copywriter through the end of 2026",
+    "description": "Epidemic Sound needs a freelance copywriter through the end of 2026",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The Vermont Country Store \u2014 part-time copywriter ($30/hour)",
+    "description": "The Vermont Country Store needs a part-time copywriter ($30/hour)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$30/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$30/hour"
+  },
+  {
+    "title": "Aha Media \u2014 freelance healthcare content writers",
+    "description": "Aha Media needs freelance healthcare content writers",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Sunflower \u2014 remote writer who is a US-licensed MD psychiatrist",
+    "description": "Sunflower needs a remote writer who is a US-licensed MD psychiatrist",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Justin Portela \u2014 remote narrative nonfiction writer ($1.5k-$6k/month)",
+    "description": "Justin Portela needs a remote narrative nonfiction writer ($1.5k-$6k/month)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$1.5k-$6k/month",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$1.5k-$6k/month"
+  },
+  {
+    "title": "Gloom \u2014 remote freelance head story writer ($1k-$2k/month)",
+    "description": "Gloom needs a remote freelance head story writer ($1k-$2k/month)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$1k-$2k/month",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$1k-$2k/month"
+  },
+  {
+    "title": "Inkitt \u2014 remote freelance romance and romantasy ghostwriter ($20-$35/hour)",
+    "description": "Inkitt (US) needs a remote freelance romance and romantasy ghostwriter ($20-$35/hour)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "$20-$35/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$20-$35/hour"
+  },
+  {
+    "title": "The Game Theorists \u2014 remote writer",
+    "description": "The Game Theorists (Los Angeles) needs a remote writer",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Los Angeles",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Winona \u2014 remote full-time growth copywriter",
+    "description": "Winona (US/Canada) needs a remote full-time growth copywriter",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US/Canada",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Exponent Ventures \u2014 remote part-time copywriter/website manager",
+    "description": "Exponent Ventures (US) needs a remote part-time copywriter/website manager",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Mediaite \u2014 remote temporary senior editor (6-month position, $5k-$7k/month)",
+    "description": "Mediaite needs a remote temporary senior editor (6-month position, $5k-$7k/month)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$5k-$7k/month",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$5k-$7k/month"
+  },
+  {
+    "title": "Haystack News \u2014 remote part-time weekend news editor (20-30 hours/week, EST hours)",
+    "description": "Haystack News (US) needs a remote part-time weekend news editor (20-30 hours/week, EST hours)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Haystack News \u2014 remote weekend news curator and engagement editor (30 hours/week)",
+    "description": "Haystack News (Fort Lauderdale, FL) needs a remote weekend news curator and engagement editor (30 hours/week)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Fort Lauderdale, FL",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Kettle \u2014 full-time copy production editor ($75k-$100k/year)",
+    "description": "Kettle (US) needs a full-time copy production editor ($75k-$100k/year)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "$75k-$100k/year",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$75k-$100k/year"
+  },
+  {
+    "title": "Garden & Gun \u2014 full-time senior editor for travel coverage",
+    "description": "Garden & Gun (South Carolina) needs a full-time senior editor for travel coverage",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "South Carolina",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "The Chelsea Magazine Company \u2014 remote full-time editor for The English Garden",
+    "description": "The Chelsea Magazine Company (UK) needs a remote full-time editor for The English Garden",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "UK",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Creative Circle \u2014 remote freelance content strategist (6 weeks total, 25-30 hours/week, $35-$40/hour)",
+    "description": "Creative Circle needs a remote freelance content strategist (6 weeks total, 25-30 hours/week, $35-$40/hour)",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$35-$40/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$35-$40/hour"
+  },
+  {
+    "title": "Benjam\u00edn Cordero \u2014 remote YouTube strategist",
+    "description": "Benjam\u00edn Cordero needs a remote YouTube strategist",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "OLIVER \u2014 senior strategist who speaks English and Spanish for a pet food brand",
+    "description": "OLIVER (Barcelona) needs a senior strategist who speaks English and Spanish for a pet food brand",
+    "category": "Writers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Barcelona",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "ASPCA \u2014 remote part-time temporary adoptions marketing specialist ($30-$35/hour)",
+    "description": "ASPCA (El Reno, OK) needs a remote part-time temporary adoptions marketing specialist ($30-$35/hour)",
+    "category": "Marketing",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "El Reno, OK",
+      "compensation": "$30-$35/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$30-$35/hour"
+  },
+  {
+    "title": "Legacy Farmer \u2014 remote temporary contract marketing coordinator ($25-$30/hour)",
+    "description": "Legacy Farmer (US) needs a remote temporary contract marketing coordinator ($25-$30/hour)",
+    "category": "Marketing",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "$25-$30/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$25-$30/hour"
+  },
+  {
+    "title": "Good Signals \u2014 freelance digital ad specialist for paid ad campaigns",
+    "description": "Good Signals needs a freelance digital ad specialist for paid ad campaigns",
+    "category": "Marketing",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Lisa Baker \u2014 freelance lifestyle PRs",
+    "description": "Lisa Baker needs freelance lifestyle PRs",
+    "category": "Marketing",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Connecticut Network for Children and Youth \u2014 part-time development and partnerships coordinator (20-25 hours/week)",
+    "description": "Connecticut Network for Children and Youth (Connecticut) needs a part-time development and partnerships coordinator (20-25 hours/week)",
+    "category": "Marketing",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Connecticut",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Hailstone Communications \u2014 remote part-time director of new labor client growth and marketing",
+    "description": "Hailstone Communications (US) needs a remote part-time director of new labor client growth and marketing",
+    "category": "Marketing",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Fullpath by Cox Automotive \u2014 temporary marketing content manager",
+    "description": "Fullpath by Cox Automotive (Israel) needs a temporary marketing content manager",
+    "category": "Marketing",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Israel",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Teal \u2014 remote full-time growth and brand lead ($160k-$220k/year)",
+    "description": "Teal (US) needs a remote full-time growth and brand lead ($160k-$220k/year)",
+    "category": "Marketing",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "$160k-$220k/year",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": "$160k-$220k/year"
+  },
+  {
+    "title": "Wooster Games \u2014 remote contract social media specialist",
+    "description": "Wooster Games needs a remote contract social media specialist",
+    "category": "Social Media",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Dunelm \u2014 social media assistant (6-month contract)",
+    "description": "Dunelm (UK) needs a social media assistant (6-month contract)",
+    "category": "Social Media",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "UK",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Cactus \u2014 part-time freelance social content creator",
+    "description": "Cactus needs a part-time freelance social content creator",
+    "category": "Social Media",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "Restore the Delta \u2014 part-time social media specialist ($23-$25/hour)",
+    "description": "Restore the Delta (Stockton, CA) needs a part-time social media specialist ($23-$25/hour)",
+    "category": "Social Media",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Stockton, CA",
+      "compensation": "$23-$25/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$23-$25/hour"
+  },
+  {
+    "title": "Patients for Affordable Drugs \u2014 part-time social media and content associate ($25-$35/hour)",
+    "description": "Patients for Affordable Drugs (Washington, D.C.) needs a part-time social media and content associate ($25-$35/hour)",
+    "category": "Social Media",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Washington, D.C.",
+      "compensation": "$25-$35/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$25-$35/hour"
+  },
+  {
+    "title": "Hued Creative Studio \u2014 part-time social media manager ($900-$1.2k/month)",
+    "description": "Hued Creative Studio (Georgia) needs a part-time social media manager ($900-$1.2k/month)",
+    "category": "Social Media",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Georgia",
+      "compensation": "$900-$1.2k/month",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$900-$1.2k/month"
+  },
+  {
+    "title": "Her Campus Media \u2014 remote sorority college student content creator ($20/hour)",
+    "description": "Her Campus Media needs a remote sorority college student content creator ($20/hour)",
+    "category": "Social Media",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$20/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$20/hour"
+  },
+  {
+    "title": "Citi Bank \u2014 Instagram and YouTube creators to promote its Platinum Savings Account ($500-$2.5k)",
+    "description": "Citi Bank needs Instagram and YouTube creators to promote its Platinum Savings Account ($500-$2.5k)",
+    "category": "Social Media",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$500-$2.5k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$500-$2.5k"
+  },
+  {
+    "title": "The Pok\u00e9mon Center \u2014 TikTok and Instagram creators to promote Pok\u00e9mon ($500-$5k)",
+    "description": "The Pok\u00e9mon Center needs TikTok and Instagram creators to promote Pok\u00e9mon ($500-$5k)",
+    "category": "Social Media",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$500-$5k",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$500-$5k"
+  },
+  {
+    "title": "Coffee Moth Games \u2014 part-time remote 3D character artist and animator ($15/hour)",
+    "description": "Coffee Moth Games needs a part-time remote 3D character artist and animator ($15/hour)",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$15/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$15/hour"
+  },
+  {
+    "title": "Within \u2014 remote freelance pitch deck designer",
+    "description": "Within (US) needs a remote freelance pitch deck designer",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "BookWhale \u2014 freelance 2D artist for 5 furniture props (no AI)",
+    "description": "BookWhale needs a freelance 2D artist for 5 furniture props (no AI)",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Marco Di Nunzio \u2014 remote contract lead game artist/art director",
+    "description": "Marco Di Nunzio needs a remote contract lead game artist/art director",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "ClearSky Logic \u2014 freelance Webflow designer",
+    "description": "ClearSky Logic needs a freelance Webflow designer",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Colin and Samir \u2014 part-time graphic designer",
+    "description": "Colin and Samir (Los Angeles) needs a part-time graphic designer",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Los Angeles",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": ""
+  },
+  {
+    "title": "National Black Worker Center \u2014 remote brand and visual communications consultant",
+    "description": "National Black Worker Center (US) needs a remote brand and visual communications consultant",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Frix \u2014 freelance UI/UX product designer for its AI legal assistant, Donna (may become full-time)",
+    "description": "Frix needs a freelance UI/UX product designer for its AI legal assistant, Donna (may become full-time)",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Karima Creative \u2014 Squarespace designer ($25/hour)",
+    "description": "Karima Creative needs a Squarespace designer ($25/hour)",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$25/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$25/hour"
+  },
+  {
+    "title": "NO IDLES \u2014 freelance designers for AI and SaaS client projects",
+    "description": "NO IDLES (UK/EU) needs freelance designers for AI and SaaS client projects",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "UK/EU",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Little Big Adventure \u2014 freelance game/combat designer and a level designer",
+    "description": "Little Big Adventure needs a freelance game/combat designer and a level designer",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "New Delhi Review of Books \u2014 freelance designer for illustrations, typography, and layouts",
+    "description": "New Delhi Review of Books (India) needs a freelance designer for illustrations, typography, and layouts",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "India",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Fawkes \u2014 contract remote game designer",
+    "description": "Fawkes needs a contract remote game designer",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Content Minds \u2014 German-speaking remote thumbnail designer (\u20ac1,200/month)",
+    "description": "Content Minds needs a German-speaking remote thumbnail designer (\u20ac1,200/month)",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "\u20ac1,200",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "\u20ac1,200"
+  },
+  {
+    "title": "North Zerotwo \u2014 remote freelance YouTube thumbnail designer ($100-$500)",
+    "description": "North Zerotwo needs a remote freelance YouTube thumbnail designer ($100-$500)",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$100-$500",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$100-$500"
+  },
+  {
+    "title": "Mike and Matty \u2014 remote YouTube thumbnail designer",
+    "description": "Mike and Matty needs a remote YouTube thumbnail designer",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Theorist Media \u2014 full-time remote thumbnail designer",
+    "description": "Theorist Media needs a full-time remote thumbnail designer",
+    "category": "Designers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Kayla Jones \u2014 freelance video editor for short-form TikToks/Reels",
+    "description": "Kayla Jones needs a freelance video editor for short-form TikToks/Reels",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Will Harlow \u2014 remote freelance YouTube video editor ($200-$1k/job)",
+    "description": "Will Harlow (UK) needs a remote freelance YouTube video editor ($200-$1k/job)",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "UK",
+      "compensation": "$200-$1k/job",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$200-$1k/job"
+  },
+  {
+    "title": "Richard Docwra \u2014 part-time or freelance business and content coordinator (\u00a320/hour, 6 hours/week)",
+    "description": "Richard Docwra (East Sussex) needs a part-time or freelance business and content coordinator (\u00a320/hour, 6 hours/week)",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "East Sussex",
+      "compensation": "\u00a320",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "\u00a320"
+  },
+  {
+    "title": "Beat Media Group \u2014 social content producer for a FA Women's National League game on November 8",
+    "description": "Beat Media Group needs a social content producer for a FA Women's National League game on November 8",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Annapolis Real Estate \u2014 video editor for vertical Instagram videos ($50-$750)",
+    "description": "Annapolis Real Estate needs a video editor for vertical Instagram videos ($50-$750)",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$50-$750",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$50-$750"
+  },
+  {
+    "title": "Unspeakable \u2014 remote freelance compilations video editor and scriptwriter ($150-$400/job)",
+    "description": "Unspeakable needs a remote freelance compilations video editor and scriptwriter ($150-$400/job)",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$150-$400/job",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$150-$400/job"
+  },
+  {
+    "title": "Dominica News Online \u2014 freelance camera operators",
+    "description": "Dominica News Online (Dominica) needs freelance camera operators",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Dominica",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Risen Studio \u2014 freelance videographer",
+    "description": "Risen Studio (London) needs a freelance videographer",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "London",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Tranquility \u2014 freelance tech videographer and editor for an AI startup",
+    "description": "Tranquility (San Francisco) needs a freelance tech videographer and editor for an AI startup",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "San Francisco",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Jerry's Takes \u2014 video editor for talking head TV essays and reviews",
+    "description": "Jerry's Takes (North America) needs a video editor for talking head TV essays and reviews",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "North America",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Matchday Tennis \u2014 remote YouTube video editor ($250)",
+    "description": "Matchday Tennis needs a remote YouTube video editor ($250)",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$250",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$250"
+  },
+  {
+    "title": "College Football with Sam \u2014 remote producer/editor ($20/hour)",
+    "description": "College Football with Sam needs a remote producer/editor ($20/hour)",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$20/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$20/hour"
+  },
+  {
+    "title": "WHYY \u2014 full-time podcast video producer",
+    "description": "WHYY (Philadelphia, PA) needs a full-time podcast video producer",
+    "category": "Video",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Philadelphia, PA",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "EA Sports \u2014 full-time audio artist",
+    "description": "EA Sports (Canada) needs a full-time audio artist",
+    "category": "Audio",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Canada",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Forever Audio \u2014 full-time audio campaign manager",
+    "description": "Forever Audio (NYC/LA) needs a full-time audio campaign manager",
+    "category": "Audio",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "NYC/LA",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "RadioInsight \u2014 full-time radio host/multimedia content creator",
+    "description": "RadioInsight (El Paso, TX) needs a full-time radio host/multimedia content creator",
+    "category": "Audio",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "El Paso, TX",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Moneyweb \u2014 radio manager",
+    "description": "Moneyweb (South Africa) needs a radio manager",
+    "category": "Audio",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "South Africa",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "The California Department of Human Resources \u2014 audio-visual technician specialist ($34.69-$43.54/hour)",
+    "description": "The California Department of Human Resources needs an audio-visual technician specialist ($34.69-$43.54/hour)",
+    "category": "Audio",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "$34.69-$43.54/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$34.69-$43.54/hour"
+  },
+  {
+    "title": "Koda Tech \u2014 freelance test engineer/QA automation engineer",
+    "description": "Koda Tech needs a freelance test engineer/QA automation engineer",
+    "category": "Developers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Tori Stark \u2014 freelance full-stack developer to build the backend of a marketplace",
+    "description": "Tori Stark needs a freelance full-stack developer to build the backend of a marketplace",
+    "category": "Developers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Minute Cryptic \u2014 freelance developer to own community and mobile",
+    "description": "Minute Cryptic needs a freelance developer to own community and mobile",
+    "category": "Developers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Kake \u2014 remote senior full stack Node/React engineer",
+    "description": "Kake needs a remote senior full stack Node/React engineer",
+    "category": "Developers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Openlane \u2014 remote full-time software engineer",
+    "description": "Openlane needs a remote full-time software engineer",
+    "category": "Developers",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Full-time",
+    "pay": ""
+  },
+  {
+    "title": "Roonga, Inc. \u2014 freelance remote nonprofit engagement manager ($32/hour)",
+    "description": "Roonga, Inc. (US) needs a freelance remote nonprofit engagement manager ($32/hour)",
+    "category": "Other",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "US",
+      "compensation": "$32/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$32/hour"
+  },
+  {
+    "title": "King William Association \u2014 part-time bookkeeper ($20-$25/hour)",
+    "description": "King William Association (San Antonio, TX) needs a part-time bookkeeper ($20-$25/hour)",
+    "category": "Other",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "San Antonio, TX",
+      "compensation": "$20-$25/hour",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$20-$25/hour"
+  },
+  {
+    "title": "House of Zemi \u2014 freelancers for future projects",
+    "description": "House of Zemi (Australia) needs freelancers for future projects",
+    "category": "Other",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Australia",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "distillery \u2014 freelance writers, designers, art directors, and motion graphics artists",
+    "description": "distillery needs freelance writers, designers, art directors, and motion graphics artists",
+    "category": "Other",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Tomorrow Recruitment \u2014 remote freelance digital creatives (6-week project, must be on the West Coast of the USA)",
+    "description": "Tomorrow Recruitment needs remote freelance digital creatives (6-week project, must be on the West Coast of the USA)",
+    "category": "Other",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Stymic \u2014 freelance web and app developers, AI engineers, UI/UX designers, copywriters, paid ad and social media specialists, etc.",
+    "description": "Stymic needs freelance web and app developers, AI engineers, UI/UX designers, copywriters, paid ad and social media specialists, etc.",
+    "category": "Other",
+    "date": "",
+    "source": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletter": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "",
+      "compensation": "",
+      "deadline": "",
+      "application": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://www.findfreelanceopportunities.com/p/november-6-2026-freelance-opportunities",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": ""
+  },
+  {
+    "title": "Western Home Journal \u2014 writers (Jackson WY / Boise & McCall ID)",
+    "description": "Laurenz is looking for writers in/near or familiar with Jackson, Wyoming or Boise and McCall, Idaho. Rates start at $0.50/word. Send pitches to laurenz@westernhomejournal.com.",
+    "category": "Writers",
+    "date": "2026-11-06",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN newsletter issue 287, November 6, 2026 (free preview)",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Jackson, WY / Boise & McCall, ID",
+      "compensation": "$0.50+ per word",
+      "deadline": "",
+      "application": "Send pitches to laurenz@westernhomejournal.com"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$0.50+ per word"
+  },
+  {
+    "title": "PROVOKED Magazine \u2014 bold voicey writers (women 50+)",
+    "description": "PROVOKED Magazine is looking for bold, voicey writers with something provocative to say about being a woman 50+. They want fresh, unapologetic ideas that challenge stereotypes and elevate the conversation \u2014 covering messy personal storytelling, cultural takes, wellness, intimacy, humor, money, reinvention, and life's complicated in-betweens. Articles should be 800-1,000 words with a sharp thesis, strong voice, and a clear provocation. Compensation is $300-$400 per article, paid upon acceptance and publication. Submit your pitch along with a short bio and writing samples via the form on their pitch page.",
+    "category": "Writers",
+    "date": "2026-11-06",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN newsletter issue 287, November 6, 2026 (free preview)",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$300-$400 per article",
+      "deadline": "",
+      "application": "Submit pitch via the form on their pitch page"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$300-$400 per article"
+  },
+  {
+    "title": "Business Insider \u2014 freelance pitches (Paige)",
+    "description": "Paige shared a fresh call out for freelance pitches. Topics: Americans/US residents who have purchased property abroad; People who have home renovations/upgrades they regret or were really worth it; People who have changed their appearance to look younger/different while job hunting; People who have moved across countries to be close to aging parents; People who moved for a job or were paid to move; Unconventional living situations (in-laws, tiny home, buying a house with friends). Submit your pitch via the pitch form.",
+    "category": "Journalists",
+    "date": "2026-11-06",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN newsletter issue 287, November 6, 2026 (free preview)",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$240+",
+      "deadline": "",
+      "application": "Submit your pitch via the pitch form"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$240+"
+  },
+  {
+    "title": "Business Insider \u2014 lifestyle pitches (Stephanie)",
+    "description": "Stephanie reupped her ongoing pitch call for lifestyle stories at Business Insider. Looking for: unconventional living arrangements, unique relationship pieces, unique career moves/things you've done to get or keep a job, travel listicles, moving essays with interesting twists, and restaurant comparisons. Rates start at $240 for about 600 words. Submit your pitch through the pitch form.",
+    "category": "Journalists",
+    "date": "2026-11-06",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN newsletter issue 287, November 6, 2026 (free preview)",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$240+ for ~600 words",
+      "deadline": "",
+      "application": "Submit your pitch through the pitch form"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-287-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$240+ for ~600 words"
+  },
+  {
+    "title": "Economic Hardship Reporting Project \u2014 grants for journalists covering economic inequality",
+    "description": "The Economic Hardship Reporting Project is a nonpartisan, nonprofit organization that produces journalism on economic inequality in America. They offer grants to freelance journalists covering economic inequality, especially economic precarity during election season, transgender rights and economic inequality in America, and working class labor stories in Chicago and Southern California. Grant amounts: news stories ($750-$1,500), narrative features and personal essays ($0.40-$1.25/word capped at $1,500), investigative reports ($0.70-$1.25/word capped at $1,700), short documentaries (up to $5,000), nonfiction comics ($500-$2,500), photo essays ($500/day capped at five days), audio projects ($800-$4,000). Writers from underrepresented backgrounds especially encouraged. Submit your pitch through the pitch portal.",
+    "category": "Journalists",
+    "date": "2026-11-03",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN Pro 186 (Nov 3, 2026) \u2014 free preview only; full issue behind premium",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$500-$5,000 (grants vary by format)",
+      "deadline": "",
+      "application": "Submit pitch through the EHRP pitch portal"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Grant",
+    "pay": "$500-$5,000 (grants vary by format)"
+  },
+  {
+    "title": "Psyche \u2014 Deep Dives pitches (psychology)",
+    "description": "Pamela is looking for pitches for Deep Dives for psyche.co. They are looking for psychologists, researchers, academics and journalists to pitch into a new section, Deep Dives, on debates, new ideas, and cutting edge topics in psychology. They pay academics and professionals about $750 USD and working journalists doing reported essays $2,000. Send pitches to pamela.weintraub@aeon.co.",
+    "category": "Journalists",
+    "date": "2026-11-03",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN Pro 186 (Nov 3, 2026) \u2014 free preview only; full issue behind premium",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$750-$2,000",
+      "deadline": "",
+      "application": "Send pitches to pamela.weintraub@aeon.co"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$750-$2,000"
+  },
+  {
+    "title": "MIT Technology Review \u2014 Automation theme features ($1-$2/word)",
+    "description": "MIT Technology Review is seeking pitches for an upcoming issue themed Automation. They're looking for feature-length stories \u2014 narrative features, sharp reported essays, and essential profiles. Pitch deadline is November 13; article drafts due early February. Rates range from $1 to $2 per word depending on experience, story, and publication route. See the pitch guide; send pitches to pitch-news@technologyreview.com.",
+    "category": "Writers",
+    "date": "2026-11-03",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN Pro 186 (Nov 3, 2026) \u2014 free preview only; full issue behind premium",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Remote",
+      "compensation": "$1-$2 per word",
+      "deadline": "2026-11-13",
+      "application": "Send pitches to pitch-news@technologyreview.com (deadline Nov 13)"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$1-$2 per word"
+  },
+  {
+    "title": "Fab Daily (The Sun) \u2014 personal confessional stories by/about women (up to \u00a3400)",
+    "description": "Commissioning editor Lara Olszowska is looking for personal, confessional stories by women or about women for Fab Daily, the women's lifestyle section of The Sun. Primarily UK-based stories for print (US/AUS for online if strong). Current interests: relationship tension between a mother (50-70) who wanted her daughter to have kids and childfree daughter (25-40) who vowed never to have children (UK print only); housewives recovered from cocaine addiction; women of any age who suffered a scam; real-life stories on women's health, love and sex, beauty, or parenting. Also authors with unique life experience promoting a book. Rate up to \u00a3400 for 1,000-1,400 words. Include links to previous published work, your location, and LinkedIn/social proof. Send pitches to lara.olszowska@news.co.uk.",
+    "category": "Writers",
+    "date": "2026-11-03",
+    "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletter": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "TWJN Pro 186 (Nov 3, 2026) \u2014 free preview only; full issue behind premium",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "UK (print); US/AUS considered online",
+      "compensation": "Up to \u00a3400 for 1,000-1,400 words",
+      "deadline": "",
+      "application": "Send pitches to lara.olszowska@news.co.uk"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "",
+      "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-186-pitch-calls-writing-opportunities-creative-jobs",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "Up to \u00a3400 for 1,000-1,400 words"
   }
 ];
+;
 export const coverageNotes = [
   { subject: "120 Ways to Get Paid as a Creative", date: "2026-09-17", source: "https://www.findfreelanceopportunities.com/p/120-ways-to-get-paid-as-a-creative-7295" },
   { subject: "Get Paid to Write Speculative Fiction, Promote a Newsletter Company, Design American Brandy Merch", date: "2026-09-10", source: "https://www.findfreelanceopportunities.com/p/get-paid-to-write-speculative-fiction-promote-a-newsletter-company-design-american-brandy-merch-41d2" },
