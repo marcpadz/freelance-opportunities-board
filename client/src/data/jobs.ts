@@ -20276,6 +20276,37 @@ export const jobs: Job[] = [
     "sourceNotes": "Synced from the Notion headless database at build time.",
     "type": "Freelance",
     "pay": "Up to \u00a3400 for 1,000-1,400 words"
+  },
+  {
+    "title": "Neurodiversity-Affirming Camp — Freelance Social Media Creator & Content Strategist",
+    "description": "We provide specialized, evidence-informed support designed to celebrate and empower neurodivergent children and youth. As we prepare for Summer Camp 2027, we are looking for a thoughtful, creative social media freelancer to help build connection, trust, and excitement across our Facebook and Instagram communities. Role: manage end-to-end content creation from January 2027 through July 2027 (approx. 7 months); develop weekly high-value posts (carousels, static graphics, short-form video/reels concepts) for Facebook and Instagram; accessible strengths-based captions for neurodivergent individuals (visual schedules, predictable routines, sensory considerations, friendship building); cohesive visual design matching brand palette and accessibility standards (clear typography, high-contrast visuals, alt text, descriptive audio/captions); monthly content calendar reviews with leadership. Ideal: proven portfolio in organic social media growth and community engagement on Instagram and Facebook; familiarity with neurodiversity-affirming practices, strengths-based language, or special education/ABA/BCBA/therapy/sensory-friendly content; proficiency in Canva or Adobe Creative Cloud and social scheduling software; reliable self-starter with organizational and copywriting skills.",
+    "category": "Social Media",
+    "date": "2026-11-10",
+    "source": "https://dashboard.freeeup.com/job-requests/fdetails/81748",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "Freelance social media content creator/content strategist for a neurodiversity-affirming summer camp (Jan 2027–Jul 2027), Facebook & Instagram weekly content, $56-$80 per output fixed price, worldwide. Required: portfolio of organic social growth/engagement (Instagram/Facebook), proficiency in Canva/Adobe Creative Cloud and social scheduling software, copywriting and organizational skills; familiarity with neurodiversity-affirming/strengths-based language preferred. Company: provider of specialized, evidence-informed support for neurodivergent children and youth (Summer Camp 2027).",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Worldwide (Incl. USA, CA, UK, AUS)",
+      "compensation": "$56-$80 (Per Output)",
+      "deadline": "",
+      "application": "Apply via FreeUp dashboard (Request this project): https://dashboard.freeeup.com/job-board/"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-requests/fdetails/81748",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$56-$80 (Per Output)"
   }
 ];
 ;
