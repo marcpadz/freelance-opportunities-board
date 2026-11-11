@@ -20308,6 +20308,99 @@ export const jobs: Job[] = [
     "type": "Freelance",
     "pay": "$56-$80 (Per Output)"
   }
+  {
+      "title": "Floodlight \u2014 climate/plastics investigations pitches ($2/word)",
+      "description": "Floodlight is an independent, nonpartisan newsroom that investigates corporations and political interests stalling climate action. They are looking for pitches of 1,000\u20132,000-word investigations into the plastics industry, including plastic-related pollution, public health effects, industry influence and political lobbying, misinformation campaigns, and greenwashing. Pays $2 per word for the published version. Pitches must have a clear accountability angle; stories highlighting environmental injustices to vulnerable communities will be prioritized. Aiming to publish in January.",
+      "category": "Journalists",
+      "date": "2026-11-10",
+      "source": "https://floodlightnews.org/",
+      "newsletter": "",
+      "newsletterSubject": "",
+      "sourceTitle": "",
+      "sourceStatus": "Active",
+      "verified": false,
+      "sourceDetails": {
+          "summary": "TWJN Pro 187 (Nov 10, 2026)",
+          "responsibilities": [],
+          "requirements": [],
+          "location": "Remote (worldwide)",
+          "compensation": "$2 per word",
+          "deadline": "ASAP \u2014 aiming to publish Jan 2027",
+          "application": "Submit pitch via their Google Form (linked from the full pitch call on Floodlight's site)"
+      },
+      "media": [],
+      "embed": {
+          "supported": false,
+          "platform": "Other",
+          "url": "https://floodlightnews.org/",
+          "embedUrl": ""
+      },
+      "sourceNotes": "Synced from the Notion headless database at build time.",
+      "type": "Freelance",
+      "pay": "$2 per word"
+  }
+  {
+      "title": "Oregon Humanities \u2014 Spring 2027 'Trust' essays & pitches ($750-$1,500)",
+      "description": "Oregon Humanities magazine is seeking nonfiction essays and pitches from Oregon residents for their Spring 2027 issue on the theme of \"Trust.\" They're looking for pieces that explore truth, reliability, faith, confidence, and related questions \u2014 including how trust is gained and lost, why trust in institutions is declining, and how it can be rebuilt. Open to personal essays, journalism, criticism, and excerpts from forthcoming or recently published books. Pieces generally run 1,500\u20134,000 words. All contributors are paid between $750 and $1,500 depending on length and complexity.",
+      "category": "Writers",
+      "date": "2026-11-10",
+      "source": "https://oregonhumanities.org/",
+      "newsletter": "",
+      "newsletterSubject": "",
+      "sourceTitle": "",
+      "sourceStatus": "Active",
+      "verified": false,
+      "sourceDetails": {
+          "summary": "TWJN Pro 187 (Nov 10, 2026)",
+          "responsibilities": [],
+          "requirements": [],
+          "location": "Oregon (residents)",
+          "compensation": "$750 \u2013 $1,500 (per piece)",
+          "deadline": "Dec 8, 2026 (proposal or draft)",
+          "application": "Email one proposal or draft to editors@oregonhumanities.org, including your full name and place of residence"
+      },
+      "media": [],
+      "embed": {
+          "supported": false,
+          "platform": "Other",
+          "url": "https://oregonhumanities.org/",
+          "embedUrl": ""
+      },
+      "sourceNotes": "Synced from the Notion headless database at build time.",
+      "type": "Freelance",
+      "pay": "$750 \u2013 $1,500 (per piece)"
+  }
+  {
+      "title": "Works in Progress \u2014 business & finance features (2,000\u20136,000 words)",
+      "description": "Works in Progress is expanding into coverage of business and finance, and they're looking for freelance authors for extended feature-length pieces of 2,000\u20136,000 words. They're after pieces on the most interesting companies, brilliant financial models, or telling pieces of business history \u2014 think the geography of an industry, new kinds of businesses, or unsung but vital pieces of hardware. Pieces should cover something you haven't seen everywhere else, advance an argument with strong evidence, and be relevant to a broad group of intelligent readers. No traditional PR pitches. They pay competitive rates and will eventually be hiring full-time employees on this beat.",
+      "category": "Writers",
+      "date": "2026-11-10",
+      "source": "https://worksinprogress.co/",
+      "newsletter": "",
+      "newsletterSubject": "",
+      "sourceTitle": "",
+      "sourceStatus": "Active",
+      "verified": false,
+      "sourceDetails": {
+          "summary": "TWJN Pro 187 (Nov 10, 2026)",
+          "responsibilities": [],
+          "requirements": [],
+          "location": "Remote (worldwide)",
+          "compensation": "Competitive rates",
+          "deadline": "",
+          "application": "Send pitches to wip-pitches@stripe.com and mike@worksinprogress.co"
+      },
+      "media": [],
+      "embed": {
+          "supported": false,
+          "platform": "Other",
+          "url": "https://worksinprogress.co/",
+          "embedUrl": ""
+      },
+      "sourceNotes": "Synced from the Notion headless database at build time.",
+      "type": "Freelance",
+      "pay": "Competitive rates"
+  }
 ];
 ;
 export const coverageNotes = [
