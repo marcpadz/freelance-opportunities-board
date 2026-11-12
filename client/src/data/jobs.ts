@@ -20400,7 +20400,164 @@ export const jobs: Job[] = [
       "sourceNotes": "Synced from the Notion headless database at build time.",
       "type": "Freelance",
       "pay": "Competitive rates"
+  },
+[
+  {
+    "title": "Canada-US Cross-Border Tax Firm — Client Engagement Specialist (Discovery Calls)",
+    "description": "Part-time Client Engagement Specialist to hold discovery calls with prospective clients of a Canada-US cross-border tax firm (currently ~4–6 calls/week, more in tax season). Run 30-minute video discovery calls using a question bank (learn each person's situation — citizenship, moves between countries, income, accounts, property, businesses, trusts, filing history — and capture every detail); build trust and explain how the firm works (no tax advice or fee quotes); after each call the tax team reviews an AI-drafted scoping memo and you send the proposal + engagement letter through Karbon within 2 business days; follow up on open proposals, hand new clients to onboarding, keep the sales pipeline up to date. ~2–3 hrs/day (10–15 hrs/week), long term, starting Jan/Feb 2027; calls in set blocks during Pacific Time business hours; 90-day training period.",
+    "category": "Sales",
+    "date": "2026-11-07",
+    "source": "https://dashboard.freeeup.com/job-requests/fdetails/81764",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job request 81764 (submitted Nov 3, 2026). Small fully remote Canada-US cross-border tax firm using Karbon and AI-assisted tools. Requirements: experience with tax/accounting/financial services clients; warm, clear, confident on video calls; organized, detail-oriented; excellent written and spoken English. Huge asset: Enrolled Agent (EA) or CPA designation (or working toward one) and US expat / Canada-US cross-border tax experience (FBAR, Streamlined filing, departure returns, PFICs, foreign corporations/trusts). No agencies. Hourly; long term (>3 months); during client business hours.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "U.S.A, CA., UK, AUS (remote)",
+      "compensation": "$15/hr–$40/hr (flexible desired budget; hourly + performance bonus on clients signed)",
+      "deadline": "",
+      "application": "Apply via FreeUp — click 'Request this project' on https://dashboard.freeeup.com/job-requests/fdetails/81764"
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-requests/fdetails/81764",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$15/hr–$40/hr (flexible desired budget; hourly + performance bonus on clients signed)"
+  },
+  {
+    "title": "MBA Admissions Consulting Firm — Marketing & Content Coordinator",
+    "description": "A boutique MBA admissions consulting firm is hiring a hands-on Marketing & Content Coordinator to support marketing campaigns, content, and day-to-day operations. Work directly with the Founder & CEO. Duties: build/test/schedule email campaigns in ActiveCampaign; create promotional graphics; manage marketing calendar in ClickUp; publish content across LinkedIn, YouTube, Instagram (+ occasional TikTok); design social graphics and thumbnails; repurpose blogs into social content; manage lead capture forms, email tagging and automations with ActiveCampaign, Zapier, Paperform; troubleshoot workflows; support weekly live events; collect marketing performance data and prepare weekly reports. Requirements: 2–4 yrs marketing coordination/digital marketing/marketing ops, excellent English, independent execution, hands-on email marketing/automation/social publishing, polished design skills, AI-tool proficiency with critical evaluation. Tools: ClickUp, ActiveCampaign, Zapier, Paperform, Google Analytics, Canva. Remote worldwide; ~10 hrs/wk (flex to 15); consistent Mon–Fri hours; availability for weekly live events.",
+    "category": "Marketing",
+    "date": "2026-11-12",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board listing, 2026-11-12. Boutique MBA admissions consulting firm (weekly live events, email campaigns, educational content, social media, digital advertising). $15–$20/hr depending on experience; fully remote. Applications without both résumé and work samples will not be considered.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Worldwide (Incl. USA, CA, UK, AUS) — remote",
+      "compensation": "$15–$20/hr (approx. 10 hrs/wk, up to 15)",
+      "deadline": "",
+      "application": "Submit résumé (required), portfolio/work samples (required), a brief introduction, and a problem-solving example via the FreeUp project request (https://dashboard.freeeup.com/job-board/). Shortlisted candidates may get a paid practical assessment."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Part-time",
+    "pay": "$15–$20/hr (approx. 10 hrs/wk, up to 15)"
+  },
+  {
+    "title": "Global Forum on Women Health (WOMENHEALTH2027) — Conference Outreach Specialist (Lead Generation)",
+    "description": "Freelance Conference Outreach Specialist for the Global Forum on Women Health (WOMENHEALTH2027), scheduled for March 26–27, 2027 in Toronto, Canada. Identify and contact gynecologists, professors, doctors and researchers worldwide; send conference invitations; follow up with interested professionals and encourage them to register as speakers or delegates. Remote, flexible opportunity with payment per successfully confirmed registration.",
+    "category": "Sales",
+    "date": "2026-11-12",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board listing, 2026-11-12. Skills: research, email management, project management. Fixed price $40–$120 per output, flexible schedule.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Worldwide (remote, flexible)",
+      "compensation": "$40–$120 per confirmed registration",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board (https://dashboard.freeeup.com/job-board/). Payment is per successfully confirmed registration."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "$40–$120 per confirmed registration"
+  },
+  {
+    "title": "BRIQUICKS Technologies — International Business Development Partner (USA/UK)",
+    "description": "Long-term international business development partnership to expand Briquicks Technologies (AI automation, software development, digital solutions) into the US and UK. The partner focuses on: identifying opportunities, generating qualified B2B leads, finding businesses that need AI automation/software/digital solutions, LinkedIn/email outreach, connecting with owners/founders/decision-makers, arranging discovery calls, presenting services, negotiating terms, and converting prospects into paying clients. Briquicks handles technical consultation, development and delivery.",
+    "category": "Sales",
+    "date": "2026-11-12",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board listing, 2026-11-12. USA & UK, commission-based long-term strategic partnership. Lead generation focus; fixed price $80–$3,993 per output; flexible.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "USA & UK (U.S.A, CA., UK, AUS)",
+      "compensation": "Commission-based; fixed $80–$3,993 per output",
+      "deadline": "",
+      "application": "Request this project on the FreeUp job board (https://dashboard.freeeup.com/job-board/)."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "Commission-based; fixed $80–$3,993 per output"
+  },
+  {
+    "title": "Australian Amazon Brand — Long-Term Amazon PPC Growth Partner",
+    "description": "Australian company designing and selling innovative premium products on Amazon US is seeking a long-term Amazon PPC Growth Partner who thinks like a business owner. Current business: annual Amazon sales US$460k–600k, monthly ad spend US$5.5k–7k (~50% of sales from advertising), ACOS ~30%; product categories: fireproof document protection, waterproof document protection, travel comfort products. Manage Sponsored Products, Sponsored Brands, Sponsored Brand Video, Sponsored Display; welcome recommendations on listing optimization, images, A+ content, brand store, pricing, coupons, inventory planning, review strategy. 6-month goals: ACOS ~30%→22%, organic sales exceed ad sales, top-5 keyword rankings, scalable PPC system. Preferred working style: weekly KPI dashboard, monthly Zoom strategy meeting. Not for those who focus only on ad spend, rely solely on automation, or use template account management.",
+    "category": "Marketing",
+    "date": "2026-11-12",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board listing, 2026-11-12. All Star Client. Hourly $32/hr–$60+/hr, flexible. Long-term strategic partnership preferred; ideal partner is proactive, data-driven, profitability-focused.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Worldwide (Incl. USA, CA, UK, AUS) — remote",
+      "compensation": "$32/hr–$60+/hr",
+      "deadline": "",
+      "application": "Apply via the FreeUp project request (https://dashboard.freeeup.com/job-board/); be ready to answer: assess current situation, biggest opportunities, approach for first 90 days, realistic expected results, how you measure success, reporting/communication process, and what distinguishes your approach."
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Hourly",
+    "pay": "$32/hr–$60+/hr"
   }
+]
 ];
 ;
 export const coverageNotes = [
