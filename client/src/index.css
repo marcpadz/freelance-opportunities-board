@@ -189,3 +189,30 @@ kbd { display: inline-grid; place-items: center; min-width: 23px; height: 22px; 
   .job-detail-body { margin-top: 28px; }
   .job-detail-primary { width: 100%; }
 }
+
+
+/* Job detail extensions: application and career guidance stay within the reading column. */
+.job-detail-application-content { display: grid; gap: 10px; }
+.job-detail-contact-line { color: var(--ink); }
+.job-detail-contact-line a, .job-detail-disclosure a { color: #24785c; font-weight: 700; text-decoration: underline; text-decoration-color: rgba(36,120,92,.35); text-underline-offset: 3px; }
+.job-detail-contact-line a:hover, .job-detail-disclosure a:hover { color: var(--forest-dark); text-decoration-color: currentColor; }
+.job-detail-label { color: var(--muted); font: 10px var(--mono); letter-spacing: .07em; text-transform: uppercase; }
+.job-detail-application-note { color: var(--muted); font-size: 13px; line-height: 1.6; }
+.job-detail-disclosure { margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.65; }
+.job-detail-disclosure summary { display: inline-flex; align-items: center; min-height: 32px; color: var(--muted); cursor: pointer; font-size: 12px; font-weight: 700; }
+.job-detail-disclosure summary:hover { color: var(--forest); }
+.job-detail-disclosure p { margin-top: 8px !important; color: var(--muted); }
+.job-detail-disclosure a { display: inline-block; margin-top: 7px; }
+.job-detail-career { padding-top: 4px; }
+.job-detail-guidance-note { margin-bottom: 15px !important; color: var(--muted); font-size: 12px; font-style: italic; line-height: 1.55; }
+.job-detail-guidance-list { display: grid; gap: 12px; padding-left: 0 !important; list-style: none; }
+.job-detail-guidance-list li { display: grid; gap: 2px; padding-left: 0; }
+.job-detail-guidance-list li strong { color: var(--ink); font-weight: 700; }
+.job-detail-guidance-list li span { color: var(--ink); }
+.job-detail-overlap-note { margin-top: 16px !important; color: var(--muted); font-size: 13px; line-height: 1.65; }
+.job-detail-va-guidance { margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--line); }
+.job-detail-va-guidance h3 { margin-bottom: 8px; }
+@media (max-width: 760px) {
+  .job-detail-application-note { font-size: 12px; }
+  .job-detail-guidance-list { gap: 14px; }
+}

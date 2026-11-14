@@ -1,0 +1,530 @@
+[
+  {
+    "id": "ai",
+    "label": "AI data, content and workflow",
+    "related": [
+      {
+        "title": "AI Data Evaluator",
+        "reason": "Assesses outputs against rubrics, but may not cover AI content production or workflow implementation."
+      },
+      {
+        "title": "AI Content Specialist",
+        "reason": "Develops and reviews model-assisted content, but may not cover dataset evaluation or automation systems."
+      },
+      {
+        "title": "AI Automation Specialist",
+        "reason": "Builds AI-enabled workflows, but may not cover labeling, evaluation rubrics, or editorial judgment."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Quality assurance reviewer",
+        "skill": "Uses checklists, records edge cases, and escalates inconsistencies—useful for evaluating labeled data or AI outputs."
+      },
+      {
+        "experience": "Content editor",
+        "skill": "Applies style rules, fact-checks drafts, and resolves ambiguity—useful for controlled AI content creation and review."
+      },
+      {
+        "experience": "Operations analyst",
+        "skill": "Maps processes, documents exceptions, and tests repeatable steps—useful for monitored AI-assisted workflows."
+      }
+    ],
+    "caution": "Separate data evaluation, AI content, and AI automation; check technical depth, portfolio evidence, seniority, and domain requirements."
+  },
+  {
+    "id": "audio",
+    "label": "Podcast and audio production",
+    "related": [
+      {
+        "title": "Audio Editor",
+        "reason": "Focuses on cleanup, mixing, and mastering; broader producing or editorial responsibilities may differ."
+      },
+      {
+        "title": "Podcast Producer",
+        "reason": "Coordinates guests, recording, editorial decisions, and release schedules; hands-on editing depth may differ."
+      },
+      {
+        "title": "Radio Producer",
+        "reason": "Plans segments, scripts, and live or recorded output; podcast tools and formats may differ."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Audio editing",
+        "skill": "Noise reduction, cuts, levels, and export discipline can support podcast or radio production, depending on tool proficiency."
+      },
+      {
+        "experience": "Editorial scheduling",
+        "skill": "Deadline control, version tracking, and publishing checks can support reliable episode delivery."
+      },
+      {
+        "experience": "Live event or broadcast coordination",
+        "skill": "Run-of-show planning, cue awareness, and clear handoffs can support recording and release workflows."
+      }
+    ],
+    "caution": "Check reel quality, editing and mixing software, recording experience, seniority, and any format-specific requirements."
+  },
+  {
+    "id": "automation",
+    "label": "No-code and workflow automation",
+    "related": [
+      {
+        "title": "Workflow Automation Specialist",
+        "reason": "Designs repeatable processes and integrations; coding, platform, and governance depth may differ."
+      },
+      {
+        "title": "CRM Administrator",
+        "reason": "Maintains records, permissions, and automations; broader integrations or process redesign may require additional experience."
+      },
+      {
+        "title": "Operations Analyst",
+        "reason": "Maps processes and measures exceptions; implementation and platform administration may be outside the role."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Process coordinator",
+        "skill": "Documents handoffs, approvals, and exceptions, supporting workflow design without proving platform expertise."
+      },
+      {
+        "experience": "CRM or database administrator",
+        "skill": "Maintains fields, permissions, and data quality, supporting reliable automations and troubleshooting."
+      },
+      {
+        "experience": "Operations analyst",
+        "skill": "Maps processes, defines requirements, and tests outcomes, supporting measured automation improvements."
+      }
+    ],
+    "caution": "Check platform experience, integration complexity, data governance, troubleshooting depth, seniority, and portfolio evidence."
+  },
+  {
+    "id": "brand-marketing",
+    "label": "Brand strategy and marketing communications",
+    "related": [
+      {
+        "title": "Marketing Communications Manager",
+        "reason": "Overlaps in campaign messaging and channels, but may emphasize delivery over brand platform or long-term positioning."
+      },
+      {
+        "title": "Head of Content",
+        "reason": "Overlaps in editorial direction and audience messaging, but may focus content governance rather than full brand strategy."
+      },
+      {
+        "title": "PR Manager",
+        "reason": "Overlaps in narratives and stakeholder communications, but may prioritize earned media and press relations."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Brand planning or campaign coordination",
+        "skill": "Transfers audience research, positioning, briefing, and cross-channel message alignment into brand strategy."
+      },
+      {
+        "experience": "Editorial or content leadership",
+        "skill": "Transfers audience-focused storytelling, calendars, and quality standards; it does not replace analytics or channel expertise."
+      },
+      {
+        "experience": "Public relations or media relations",
+        "skill": "Transfers narrative development, stakeholder communication, and reputation awareness; marketing mix responsibilities may still differ."
+      }
+    ],
+    "caution": "Check strategic depth, seniority, portfolio, channel experience, analytics, and domain knowledge; related communications work may not cover the full marketing mix."
+  },
+  {
+    "id": "content-writing",
+    "label": "Copywriting, editing and content writing",
+    "related": [
+      {
+        "title": "Content Writer",
+        "reason": "Produces audience-focused copy, but niche knowledge, channel range, and research expectations may differ."
+      },
+      {
+        "title": "Copywriter",
+        "reason": "Shapes persuasive messages, but conversion goals and campaign collaboration may require additional practice."
+      },
+      {
+        "title": "Editor",
+        "reason": "Improves structure, accuracy, and style, but commissioning, subject expertise, or leadership may differ."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Newsletter production",
+        "skill": "Builds concise messaging, structural editing, audience awareness, and deadline-based publishing habits."
+      },
+      {
+        "experience": "Technical documentation",
+        "skill": "Strengthens accuracy, terminology control, information structure, and careful revision for defined audiences."
+      },
+      {
+        "experience": "Research or reporting",
+        "skill": "Develops source checking, interviewing, synthesis, and clear explanatory writing."
+      }
+    ],
+    "caution": "Check writing samples, editing range, research depth, subject knowledge, seniority, and channel-specific expectations."
+  },
+  {
+    "id": "development",
+    "label": "Software and web development",
+    "related": [
+      {
+        "title": "Front-end Developer",
+        "reason": "Builds browser interfaces through coding, accessibility, testing, and user-focused problem solving."
+      },
+      {
+        "title": "Back-end Developer",
+        "reason": "Builds APIs, databases, and application logic; server-side depth may differ."
+      },
+      {
+        "title": "QA Automation Engineer",
+        "reason": "Designs repeatable tests and scripts; testing specialization may differ from product development."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Technical support troubleshooting",
+        "skill": "Diagnosing issues builds structured debugging, documentation, and communication with technical users."
+      },
+      {
+        "experience": "Data analysis or reporting",
+        "skill": "Cleaning data and explaining findings strengthens logic, validation, and testable requirements."
+      },
+      {
+        "experience": "Process automation or scripting",
+        "skill": "Automating repetitive workflows develops programming practice, error handling, and maintainable solutions."
+      }
+    ],
+    "caution": "Check coding depth, stack experience, testing practice, seniority, portfolio evidence, and domain requirements."
+  },
+  {
+    "id": "finance",
+    "label": "Bookkeeping and financial administration",
+    "related": [
+      {
+        "title": "Bookkeeper",
+        "reason": "Maintains ledgers, reconciliations, and records; software, volume, and accounting scope may differ."
+      },
+      {
+        "title": "Accounts Payable Specialist",
+        "reason": "Processes vendor invoices and payments; broader bookkeeping or month-end duties may require additional experience."
+      },
+      {
+        "title": "Accounts Receivable Specialist",
+        "reason": "Tracks billing, receipts, and follow-up; cash application and collections expectations may differ."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Accounts payable processing",
+        "skill": "Builds invoice checking, coding, approvals, and deadline discipline for routine finance work."
+      },
+      {
+        "experience": "Accounts receivable processing",
+        "skill": "Builds billing, cash application, reconciliation, and follow-up habits."
+      },
+      {
+        "experience": "Payroll or expense administration",
+        "skill": "Strengthens confidential record handling, arithmetic checks, approvals, and consistent documentation."
+      }
+    ],
+    "caution": "Check accounting software, reconciliation depth, compliance knowledge, confidentiality, seniority, and any credential requirements."
+  },
+  {
+    "id": "grants",
+    "label": "Fellowships, grants and creative research",
+    "related": [
+      {
+        "title": "Grant Coordinator",
+        "reason": "Handles applications, deadlines, budgets, and reporting; eligibility and funder rules remain specific."
+      },
+      {
+        "title": "Grant Writer",
+        "reason": "Develops proposals and case statements; successful applications still require funder fit and eligibility."
+      },
+      {
+        "title": "Creative Researcher",
+        "reason": "Frames questions, gathers evidence, and documents methods; subject expertise and outputs may differ."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Research assistant",
+        "skill": "Literature review, interview notes, source tracking, and structured reporting can support creative research."
+      },
+      {
+        "experience": "Programme coordinator",
+        "skill": "Deadline tracking, stakeholder follow-up, and records management can support grant administration."
+      },
+      {
+        "experience": "Proposal writer",
+        "skill": "Builds persuasive narratives, budgets, and submission discipline; grant criteria and eligibility still require checking."
+      }
+    ],
+    "caution": "Grants are opportunities, not employment; check eligibility, discipline, funder requirements, deadlines, and submission rules."
+  },
+  {
+    "id": "journalism",
+    "label": "Journalism and reporting",
+    "related": [
+      {
+        "title": "Reporter",
+        "reason": "Reports news through interviewing, verification, and deadline writing; beat knowledge and editorial standards may differ."
+      },
+      {
+        "title": "Researcher",
+        "reason": "Finds, verifies, and synthesizes evidence; reporting, fieldwork, and publication responsibilities may differ."
+      },
+      {
+        "title": "Editor",
+        "reason": "Shapes accuracy, structure, and standards; commissioning, line editing, or newsroom leadership may require more experience."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Newsletter or publication editor",
+        "skill": "Develops interviewing, fact-checking, copy editing, issue selection, and consistent publishing workflows."
+      },
+      {
+        "experience": "Research assistant",
+        "skill": "Builds source tracking, evidence synthesis, note-taking, and careful documentation."
+      },
+      {
+        "experience": "Content writer",
+        "skill": "Builds concise, audience-aware writing and deadline discipline; independent reporting skills still need evidence."
+      }
+    ],
+    "caution": "Check clips, reporting methods, source verification, beat knowledge, seniority, portfolio evidence, and any credential expectations."
+  },
+  {
+    "id": "operations",
+    "label": "Administrative and Executive Operations",
+    "related": [
+      {
+        "title": "Executive Assistant",
+        "reason": "Coordinates calendars, correspondence, meetings, and sensitive information; executive pace and scope may differ."
+      },
+      {
+        "title": "Office Manager",
+        "reason": "Manages vendors, supplies, facilities, and office routines; people or budget ownership may differ."
+      },
+      {
+        "title": "Operations Coordinator",
+        "reason": "Tracks processes, schedules, records, and requests; process-improvement depth may differ."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Executive support and calendar management",
+        "skill": "Prioritizing requests, coordinating schedules, and preparing meetings can transfer to operational support."
+      },
+      {
+        "experience": "Office administration and vendor coordination",
+        "skill": "Managing supplies, invoices, facilities requests, and service contacts supports organized workflows."
+      },
+      {
+        "experience": "Records, reporting, and process documentation",
+        "skill": "Maintaining accurate records and procedures supports dependable operational control."
+      }
+    ],
+    "caution": "Check systems experience, confidentiality, seniority, process ownership, portfolio evidence, and domain knowledge."
+  },
+  {
+    "id": "sales",
+    "label": "Sales, lead generation and business development",
+    "related": [
+      {
+        "title": "Sales Development Representative",
+        "reason": "Prospects, qualifies leads, and schedules meetings; industry, quota, and tool expectations may differ."
+      },
+      {
+        "title": "Recruiter",
+        "reason": "Sources, screens, and follows up with candidates; recruiting regulations and hiring context differ from selling."
+      },
+      {
+        "title": "Customer Success Specialist",
+        "reason": "Manages relationships, needs, and follow-up; retention and product adoption may differ from new-business ownership."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Retail sales associate",
+        "skill": "Shows needs discovery, product explanation, objection handling, and follow-up habits useful for prospecting."
+      },
+      {
+        "experience": "Recruitment coordinator",
+        "skill": "Demonstrates outreach, screening questions, tracking, and structured follow-up applicable to lead qualification."
+      },
+      {
+        "experience": "Customer support coordinator",
+        "skill": "Transfers account communication, issue triage, and cross-team handoffs when sales includes existing customers."
+      }
+    ],
+    "caution": "Check prospecting evidence, quota ownership, CRM fluency, industry knowledge, seniority, and communication expectations."
+  },
+  {
+    "id": "social-media",
+    "label": "Social media and community content",
+    "related": [
+      {
+        "title": "Social Media Coordinator",
+        "reason": "Plans posts, calendars, and channel updates; strategy, analytics, and platform ownership may differ."
+      },
+      {
+        "title": "Community Manager",
+        "reason": "Engages audiences, moderates conversations, and surfaces feedback; campaign production or escalation scope may differ."
+      },
+      {
+        "title": "Digital Content Producer",
+        "reason": "Creates and publishes platform content; video, design, and performance requirements may differ."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Editorial calendar coordination",
+        "skill": "Shows planning, deadline management, and consistency for scheduled posts and community updates."
+      },
+      {
+        "experience": "Customer support or forum moderation",
+        "skill": "Builds listening, de-escalation, response-writing, and recurring-theme recognition."
+      },
+      {
+        "experience": "Short-form content production",
+        "skill": "Develops platform-aware writing, basic asset coordination, and audience-focused publishing habits."
+      }
+    ],
+    "caution": "Check platform experience, moderation judgment, analytics, portfolio quality, seniority, and crisis-escalation expectations."
+  },
+  {
+    "id": "support",
+    "label": "Customer support and service operations",
+    "related": [
+      {
+        "title": "Customer Success Coordinator",
+        "reason": "Follows up with customers, tracks issues, and supports retention; commercial ownership may differ."
+      },
+      {
+        "title": "Service Desk Analyst",
+        "reason": "Triages requests, documents fixes, and escalates issues; technical troubleshooting depth may differ."
+      },
+      {
+        "title": "Operations Coordinator",
+        "reason": "Manages queues, handoffs, and process records; reporting and workflow ownership may differ."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Retail or hospitality service",
+        "skill": "Clarifying needs, de-escalating concerns, and explaining next steps support structured issue resolution."
+      },
+      {
+        "experience": "Administrative case or queue coordination",
+        "skill": "Prioritizing requests, recording details, and coordinating handoffs support dependable service workflows."
+      },
+      {
+        "experience": "Knowledge-base or documentation work",
+        "skill": "Improves clear instructions, recurring-issue tracking, and consistent responses for customers."
+      }
+    ],
+    "caution": "Check product knowledge, channel experience, tools, seniority, escalation judgment, and domain requirements."
+  },
+  {
+    "id": "video",
+    "label": "Video editing and motion production",
+    "related": [
+      {
+        "title": "Video Editor",
+        "reason": "Cuts, sequences, and finishes footage; motion graphics, storytelling, and delivery requirements may differ."
+      },
+      {
+        "title": "Motion Designer",
+        "reason": "Creates animated graphics and transitions; editing, compositing, and narrative responsibilities may differ."
+      },
+      {
+        "title": "Post-Production Coordinator",
+        "reason": "Tracks assets, reviews, and handoffs; hands-on editing depth may differ."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Social media content production",
+        "skill": "Editing short-form video builds timing, sequencing, captioning, and audience-focused visual storytelling."
+      },
+      {
+        "experience": "Event production or livestream support",
+        "skill": "Run-of-show coordination develops shot planning, cue timing, file handoffs, and calm troubleshooting."
+      },
+      {
+        "experience": "Graphic design or animation",
+        "skill": "Layout and animation work builds typography, composition, keyframe, and visual consistency skills."
+      }
+    ],
+    "caution": "Check portfolio depth, editing and motion software, storytelling range, delivery formats, seniority, and domain knowledge."
+  },
+  {
+    "id": "visual-design",
+    "label": "Graphic, brand and visual design",
+    "related": [
+      {
+        "title": "Graphic Designer",
+        "reason": "Creates layouts and visual assets; branding systems, production volume, and art direction may differ."
+      },
+      {
+        "title": "Brand Designer",
+        "reason": "Develops identity systems and visual language; broader production or campaign execution may differ."
+      },
+      {
+        "title": "Production Designer",
+        "reason": "Adapts approved creative across formats and specifications; conceptual design ownership may differ."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "Editorial production",
+        "skill": "Translates briefs into clear layouts while coordinating feedback, deadlines, and message consistency."
+      },
+      {
+        "experience": "Content design and editorial operations",
+        "skill": "Builds visual hierarchy across formats, adapting tone, accessibility, and specifications for different audiences."
+      },
+      {
+        "experience": "Print or digital production",
+        "skill": "Develops file preparation, version control, specifications, and quality checks across deliverables."
+      }
+    ],
+    "caution": "Check portfolio breadth, typography, software fluency, production accuracy, seniority, and domain knowledge."
+  },
+  {
+    "id": "web-design",
+    "label": "Web and UX interface design",
+    "related": [
+      {
+        "title": "UX Designer",
+        "reason": "Researches needs, structures flows, and validates usability; visual and implementation depth may differ."
+      },
+      {
+        "title": "UI Designer",
+        "reason": "Designs interface layouts and components; research, prototyping, or front-end depth may differ."
+      },
+      {
+        "title": "Front-end Developer",
+        "reason": "Implements browser interfaces; coding, accessibility, and design-system responsibilities may exceed a design-only role."
+      }
+    ],
+    "transferable": [
+      {
+        "experience": "User research or usability testing",
+        "skill": "Builds interview, observation, synthesis, and evidence-based iteration skills for interface decisions."
+      },
+      {
+        "experience": "Content design or information architecture",
+        "skill": "Strengthens hierarchy, navigation, labeling, and clear interface communication."
+      },
+      {
+        "experience": "Front-end prototyping",
+        "skill": "Develops browser-based layout, interaction, and accessibility awareness without proving production engineering depth."
+      }
+    ],
+    "caution": "Check portfolio depth, research practice, prototyping, accessibility, visual craft, coding limits, seniority, and domain knowledge."
+  }
+]

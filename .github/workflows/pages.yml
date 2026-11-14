@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '20 1 * * *'
 
 permissions:
   contents: read
@@ -17,6 +19,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,6 +35,19 @@ jobs:
           version: 10
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
+      - name: Enrich blank Notion fields and refresh website snapshot
+        env:
+          NOTION_API_TOKEN: ${{ secrets.NOTION_API_TOKEN }}
+        run: |
+          if [ -n "${NOTION_API_TOKEN:-}" ]; then
+            node scripts/enrich-notion.mjs
+            node scripts/sync-notion.mjs
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "::error::NOTION_API_TOKEN repository secret is required for automatic Notion sync."
+            exit 1
+          else
+            echo "::warning::NOTION_API_TOKEN repository secret is absent. Deploying the checked-in snapshot; automatic enrichment awaits configuration."
+          fi
       - name: Build static frontend
         env:
           VITE_STATIC_ONLY: "true"
