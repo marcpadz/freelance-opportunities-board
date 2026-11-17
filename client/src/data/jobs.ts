@@ -116594,4 +116594,51 @@ export const coverageNotes = [
   }
 
 
+  {
+    "title": "Direct Response VSL Video Editor — High-Retention Nutra/Info Style",
+    "description": "I need an expert who has mastered a fast-paced editing style with cuts every 1–4 seconds, incorporates macro B-roll footage and 3D medical renderings, and delivers a clean, high-impact visual narrative. I will provide the script, and you will create the video sales letter (VSL). I'll send you a reference so you can see exactly the style I'm looking for. Client is on the FreeUp job board; project is one-time with fixed price. The client is not looking for a PPC ads or private-label brand marketer — this is strictly editing the VSL creative.",
+    "category": "Video",
+    "date": "2026-11-17",
+    "source": "https://dashboard.freeeup.com/job-board/",
+    "newsletter": "",
+    "newsletterSubject": "",
+    "sourceTitle": "",
+    "sourceStatus": "Active",
+    "verified": false,
+    "sourceDetails": {
+      "summary": "FreeUp job board listing, 2026-11-17. Direct-response VSL video editor for a nutraceutical/info-style client. Requires fast-paced editing (cuts every 1–4 seconds), macro B-roll, and 3D medical renderings; client provides script and a style reference. One-time fixed-price project ($8), flexible. All Star Client, no agencies allowed.",
+      "responsibilities": [],
+      "requirements": [],
+      "location": "Worldwide (incl. USA, CA, UK, AUS)",
+      "compensation": "Fixed price $8 (one time); flexible",
+      "deadline": "",
+      "application": "Apply via the 'Request this project' button on the FreeUp job board."
+    },
+    "applicationDetails": {
+      "instructions": "",
+      "email": "",
+      "recipient": "",
+      "url": "",
+      "evidence": "",
+      "source": ""
+    },
+    "careerGuidance": {
+      "similarRoles": "",
+      "transferableSkills": "",
+      "vaGuidance": "",
+      "mode": "",
+      "basis": ""
+    },
+    "media": [],
+    "embed": {
+      "supported": false,
+      "platform": "FreeUp",
+      "url": "https://dashboard.freeeup.com/job-board/",
+      "embedUrl": ""
+    },
+    "sourceNotes": "Synced from the Notion headless database at build time.",
+    "type": "Freelance",
+    "pay": "Fixed price $8 (one time); flexible"
+  }
+
 ];
