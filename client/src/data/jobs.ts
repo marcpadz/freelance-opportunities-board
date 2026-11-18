@@ -113859,7 +113859,515 @@ export const jobs: Job[] = [
     "type": "Hourly",
     "pay": "$5/hr-$15/hr | 3 hrs/wk"
   }
+,
+{
+  "title": "Fuller — Imagination edition pitches ($150-$750)",
+  "description": "Fuller is seeking pitches for their Imagination edition that explore bold, scalable ways to reimagine our world and make it more equal, caring and free. Fuller is a global newsroom producing reporting on issues shaping the lives of women and gender-diverse people. Pay: $150 for vertical videos (under 3 min), $500 for explainer briefs and reported think pieces/analysis, $750 for long-form reported features.",
+  "category": "Journalists",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium. Pitch form required.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "$150-$750",
+    "deadline": "December 1, 2026",
+    "application": "Submit your pitch through the pitch form linked in the newsletter."
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "$150-$750"
+},
+{
+  "title": "Above the Fold — Issue 4 pitches ($150-$500+)",
+  "description": "Above the Fold, a magazine about dumplings and the people who make them, is open for pitches for Issue 4. No set theme but all submissions must connect to dumplings. Looking for reported essays/features, oral histories, photo essays, profiles, maps/charts, research-based essays using dumplings as a vessel for broader stories about culture, community, labor, migration, science, geopolitics. Fees $150-$500+, most around $300.",
+  "category": "Writers",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium. Full call for pitches linked in the newsletter.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "$150-$500+",
+    "deadline": "November 30, 2026",
+    "application": "Send pitches to abovethefolddumpling@gmail.com with subject line: Pitch - Issue 4: [tight summary of the idea]"
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "abovethefolddumpling@gmail.com",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "$150-$500+"
+},
+{
+  "title": "LOOKOUT — Colorado freelancer pool ($250-$650)",
+  "description": "LOOKOUT is expanding its freelancer pool in Colorado for day assignments or longer feature stories. Scoops-driven, heavy focus on civil rights coverage in the region; LGBTQ+ civil rights is the core beat. Strongly prefer local freelancers. Rates: $350 day assignment, $250 for ~800-word stories, $650 for ~1,200-word stories; longer negotiated.",
+  "category": "Journalists",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium. Colorado-based reporters preferred.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "$250-$650",
+    "deadline": "",
+    "application": "Send pitch through the pitch form or email Joseph at joseph@lookoutnews.org"
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "joseph@lookoutnews.org",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "$250-$650"
+},
+{
+  "title": "Moi — Issue 07: HUNGER pitches (~$0.30 AUD/word)",
+  "description": "Moi, a magazine about pleasure, seeks pitches for Issue 07: HUNGER — essays, cultural criticism, reported features, personal stories, interviews, photography, illustration, art, poetry, fiction and recipes exploring hunger in its many forms (eroticism of eating, politics of consumption, appetite/desire, gluttony, comfort food, emotional eating, hunger for love/attention/power/connection). Sliding scale; features $300/1000 words, $150/500 words, $300 photo series (8 photos).",
+  "category": "Writers",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium. Pitch kit and contributor pack linked in the newsletter.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "~$0.30 AUD/word; features $300/1000 words",
+    "deadline": "December 2, 2026",
+    "application": "Send pitches to editorial@moipleasure.com"
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "editorial@moipleasure.com",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "~$0.30 AUD/word; features $300/1000 words"
+},
+{
+  "title": "Business Insider — Costco Finds series takeover ($250+)",
+  "description": "Business Insider is looking for a former Costco employee who still shops at the warehouse to take over the Costco Finds series. Rates start at $250 for 600 words. Send Stephanie a connection invitation on LinkedIn with a note saying how long you worked at the store.",
+  "category": "Journalists",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium. Former Costco employee experience required.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "$250+ for 600 words",
+    "deadline": "",
+    "application": "Send Stephanie a connection invitation on LinkedIn (note: how long you worked at the store)."
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "",
+    "recipient": "Stephanie (Business Insider)",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "$250+ for 600 words"
+},
+{
+  "title": "This Magazine — 60th anniversary issue pitches ($60-$300 CAD)",
+  "description": "This Magazine is turning 60 and is looking for pitches for its anniversary print issue: stories about the state of media in Canada. Open to Canadian residents only. Rates: $150-$300 features, $60-$100 columns, $125 short stories (up to 2,500 words), $60 flash fiction, $50 poems.",
+  "category": "Journalists",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium. Canadian residents only; pitch guide linked.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "Canada",
+    "compensation": "$60-$300 CAD",
+    "deadline": "December 4, 2026",
+    "application": "Send ideas for features, news, arts, opinion stories and fiction to editor@thismagazine.ca"
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "editor@thismagazine.ca",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "$60-$300 CAD"
+},
+{
+  "title": "Midriff Mag — debut issue 'Touch' submissions ($50-$200)",
+  "description": "Midriff is a new print magazine for women in and around midlife, open for submissions to its debut issue on the theme Touch (physical, emotional, relational, political). Spine is personal essay and narrative; also cultural criticism, short fiction, reported features, poetry, photography, artwork. Rates: $50 poetry/short pieces (~500 words), $100 up to 1,200 words or photography/artwork (up to 3 images), $200 longer editorial (~2,000 words). All contributors get a copy.",
+  "category": "Writers",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "$50-$200",
+    "deadline": "November 30, 2026",
+    "application": "Submit a finished piece or pitch through the pitch form linked in the newsletter."
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "$50-$200"
+},
+{
+  "title": "Uppercut — End of Year Letters pitches ($100)",
+  "description": "Games and media site Uppercut opens for 'End of Year Letters' pitches on November 30 — talking to other writers about the games they loved this past year (new releases or titles finally gotten around to). Rate $100 per piece, deadline December 4.",
+  "category": "Writers",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "$100 per piece",
+    "deadline": "December 4, 2026",
+    "application": "Pitches open November 30; see pitch guide linked in the newsletter."
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "$100 per piece"
+},
+{
+  "title": "Channel Kindness — movement/mindfulness mental-health stories ($50)",
+  "description": "Channel Kindness is looking for stories, poetry, and art about how you use movement and mindfulness to support your mental health. Rate $50 USD per accepted piece. Submission guidelines page linked in the newsletter.",
+  "category": "Writers",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "$50 USD per piece",
+    "deadline": "",
+    "application": "Send your pitch via the pitch form linked in the newsletter."
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "$50 USD per piece"
+},
+{
+  "title": "Write or Die — writing-life essays ($100)",
+  "description": "Write or Die's first open call: personal essays about your writing life — the little wins, rejections, near-misses. No submission fee; $100 per accepted essay (750-3,000 words). Deadline December 1.",
+  "category": "Writers",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "$100 per essay",
+    "deadline": "December 1, 2026",
+    "application": "Submit essays through the portal linked in the newsletter."
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "$100 per essay"
+},
+{
+  "title": "The Contrapuntal — Disappearances issue (€50-€200)",
+  "description": "The Contrapuntal calls for submissions for its themed issue on Disappearances: creative non-fiction, analytical essays, narrative writing, and visual work examining disappearance beyond physical absence (erasure, state violence, memory, ecological destruction, AI disinformation, resistance). Commissioning: Reportage (1,500-2,000 words, €200), Visual Essays (12-14 outputs, €200), Analytical Op-Eds (2,500-3,000 words, €100), Artist Features (€50 honorarium). Deadline December 1.",
+  "category": "Writers",
+  "date": "2026-11-16",
+  "source": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+  "newsletter": "",
+  "newsletterSubject": "",
+  "sourceTitle": "",
+  "sourceStatus": "Active",
+  "verified": false,
+  "sourceDetails": {
+    "summary": "TWJN Pro 188 (Nov 16, 2026) — free preview only; full issue behind premium.",
+    "responsibilities": [],
+    "requirements": [],
+    "location": "",
+    "compensation": "€50-€200",
+    "deadline": "December 1, 2026",
+    "application": "Send pitches to submissions.thecontrapuntal@protonmail.com with subject: Pitch — [Category] — [Working Title]"
+  },
+  "applicationDetails": {
+    "instructions": "",
+    "email": "submissions.thecontrapuntal@protonmail.com",
+    "recipient": "",
+    "url": "",
+    "evidence": "",
+    "source": ""
+  },
+  "careerGuidance": {
+    "similarRoles": "",
+    "transferableSkills": "",
+    "vaGuidance": "",
+    "mode": "",
+    "basis": ""
+  },
+  "media": [],
+  "embed": {
+    "supported": false,
+    "platform": "Web page",
+    "url": "https://thewritersjob.beehiiv.com/p/twjn-pro-188-pitch-calls-writing-opportunities-creative-jobs",
+    "embedUrl": ""
+  },
+  "sourceNotes": "Synced from the Notion headless database at build time.",
+  "type": "Freelance",
+  "pay": "€50-€200"
+}
 ];
+
 export const coverageNotes = [
   { subject: "120 Ways to Get Paid as a Creative", date: "2026-09-17", source: "https://www.findfreelanceopportunities.com/p/120-ways-to-get-paid-as-a-creative-7295" },
   { subject: "Get Paid to Write Speculative Fiction, Promote a Newsletter Company, Design American Brandy Merch", date: "2026-09-10", source: "https://www.findfreelanceopportunities.com/p/get-paid-to-write-speculative-fiction-promote-a-newsletter-company-design-american-brandy-merch-41d2" },,
